@@ -1,0 +1,226 @@
+{
+  "global": {
+    "channelNotFound": "¡No se pudo encontrar el canal!",
+    "noBotPermsSend": "¡No tengo permiso para enviar mensajes en ese canal!",
+    "noBotPermsEdit": "¡No tengo permiso para editar ese canal!",
+    "noUserPerms": "¡No tienes permiso para usar este comando!",
+    "nextPage": "Página siguiente",
+    "prevPage": "Página anterior",
+    "streamerNotFound": "¡Este streamer no existe!\n\n<:RoleIcon:1118592777454899302> **Nota:** Puedes encontrar el **nombre de usuario** al final de un enlace de transmisión.\n*Ejemplo: <https://kick.com/username> <=*",
+    "subLeaderboardNotFound": "¡Este streamer no tiene una lista de suscriptores!\n\n<:RoleIcon:1118592777454899302> **Nota:** Puedes encontrar el **nombre de usuario** al final de un enlace de transmisión.\n*Ejemplo: <https://kick.com/username> <=*",
+    "optionStreamer": "El nombre de usuario del streamer que deseas.",
+    "optionChannel": "El canal al que deseas enviar el mensaje.",
+    "optionMessage": "El mensaje que deseas enviar cuando el streamer esté en directo.",
+    "serverOnly": "¡Este comando solo se puede usar en un servidor!",
+    "fetchError": "¡Se produjo un error al obtener la información del streamer! Por favor, inténtalo de nuevo más tarde.",
+    "fetchErrorLeaderboard": "¡Se produjo un error al obtener la clasificación del streamer! Por favor, inténtalo de nuevo más tarde.",
+    "notTracked": "¡Este streamer no está siendo rastreado en este servidor!",
+    "addBot": "Añadir el Bot",
+    "onlyServer": "¡Este comando solo se puede usar en un servidor!",
+    "errorOccurred": "¡Se produjo un error al ejecutar el comando!",
+    "cooldown": "Estás en enfriamiento, por favor espera un segundo.",
+    "alreadyHaveSubRole": "¡Ya tienes el rol de suscriptor!",
+    "reSync": "Resincronizar cuenta Kick",
+    "invalidSync": "¡Ya sea que **{streamer}** ya no es un usuario válido de Kick o **{kickUser}** ya no es un usuario válido de Kick!",
+    "notSubscriber": "¡No eres un suscriptor de {streamer}!",
+    "byAddingRoleError": "¡Mientras intentaba agregar el rol de suscriptor, ocurrió un error!\n*Error: {error}*",
+    "modalInfoText": "Pueden encontrarse en kick.com."
+  },
+  "giftLeaderboard": {
+    "title": "Tabla de clasificación de suscriptores de {streamerId}",
+    "allTime": "De todos los tiempos",
+    "monthly": "Mensual",
+    "weekly": "Semanal",
+    "powerBy": "Proporcionado por www.KickBot.gg • Última actualización: ",
+    "gifts": "regalos",
+    "infoText": "Abre una nueva pestaña y el perfil de expulsión de {username}",
+    "noEntries": "No se encontraron entradas."
+  },
+  "verificationProcess": {
+    "invalidUsername": "¡Necesitas proporcionar un nombre de usuario! Haz clic en **Comprobar Bio** de nuevo e ingresa un nombre de usuario.",
+    "notBio": "No el texto de la biografía, tu **nombre de usuario** de kick.com. Haz clic en **Comprobar Bio** de nuevo e ingresa un nombre de usuario.",
+    "notDiscord": "No tu id de discordia, tu **nombre de usuario** de kick.com. Haz clic en **Comprobar Bio** de nuevo e ingresa un nombre de usuario.",
+    "invalidUser": "¡**{username}** no es un usuario de Kick válido! Haz clic en **Comprobar Bio** de nuevo e ingresa un nombre de usuario válido.",
+    "noBio": "¡**{username}** no tiene una biografía! Haz clic en **Comprobar Bio** de nuevo e ingresa un nombre de usuario válido.",
+    "invalidDiscordId": "¡**{username}** no tiene una id de discordia válida en su biografía! Por favor, realiza el proceso de verificación nuevamente.",
+    "noDiscordId": "¡**{username}** no tiene tu id de discordia en su biografía! Por favor, realiza el proceso de verificación nuevamente.",
+    "finished": "¡Proceso de verificación completado! Presiona el botón nuevamente para reclamar tu rol de suscriptor!"
+  },
+  "verification": {
+    "checkBio": "Comprobar Bio",
+    "intro": "Para verificar tu cuenta de Discord con Kick, sigue los **pasos a continuación**:",
+    "step1": "Ve a https://kick.com/ y haz clic en tu foto de perfil. (Asegúrate de haber iniciado sesión)",
+    "step2": "Haz clic en **Configuración**.",
+    "step3": "Desplázate hacia abajo hasta **Detalles básicos**.",
+    "step4": "En **Biografía**, haz clic en el botón **Editar**.",
+    "step5": "Copia y pega `[KICKBOT.GG:{userId}]` en algún lugar de este campo.",
+    "step6": "Haz clic en **Guardar cambios**.",
+    "step7": "Vuelve a Discord y haz clic en el botón **Comprobar Bio** debajo e ingresa tu nombre de usuario de kick.",
+    "step8": "Si hiciste todo correctamente, deberías recibir un mensaje de éxito del bot.",
+    "step9": "Después del proceso de verificación, puedes eliminar `[KICKBOT.GG:{userId}]` de tu perfil de Kick.",
+    "helpText": "Si tienes alguna pregunta, no dudes en contactar con el soporte del bot en Discord:",
+    "poweredBy": "Desarrollado por www.KickBot.gg"
+  },
+  "addCommand": {
+    "commandData": {
+      "description": "¡Añade un nuevo streamer al bot!"
+    },
+    "alreadyTracked": "¡Este streamer ya está siendo rastreado!",
+    "added": "¡Se ha añadido **{streamer}** al bot!"
+  },
+  "counterCommand": {
+    "commandData": {
+      "description": "añadir / eliminar o actualizar un canal de contador de seguidores para un streamer.",
+      "addDescription": "añadir un canal de contador de seguidores para un streamer.",
+      "editDescription": "editar un canal de contador de seguidores para un streamer.",
+      "removeDescription": "eliminar un canal de contador de seguidores para un streamer.",
+      "listDescription": "enumerar todos los canales de contador de seguidores para este servidor.",
+      "optionChannel": "El canal que debería tener el contador de seguidores.",
+      "optionChannelRemove": "El canal que está adjunto al streamer que deseas eliminar.",
+      "optionName": "El nombre del contador. [Nombre de canal]"
+    },
+    "alreadyCounter": "¡Este canal ya es un contador!",
+    "added": "¡<#{channel}> es ahora un contador para **{streamer}**!",
+    "noMessageEdit": "¡Debes proporcionar un mensaje para editar!",
+    "noCounter": "¡Este canal no es un contador!",
+    "edited": "¡Configuración de <#{channel}> editada correctamente!",
+    "removed": "¡Se ha eliminado <#{channel}> como contador!\n*Agregado por <@{addedById}>.*",
+    "noCounters": "¡No hay contadores en este servidor!"
+  },
+  "editCommand": {
+    "commandData": {
+      "description": "¡Edita la configuración de un streamer!"
+    },
+    "noMessageOrChannel": "¡Debes proporcionar un canal o mensaje para editar!",
+    "edited": "¡Se ha editado correctamente la configuración de **{streamer}**!"
+  },
+  "errorsCommand": {
+    "commandData": {
+      "description": "¡Consulta los últimos 20 errores que ocurrieron en el bot en tu servidor!"
+    },
+    "noErrors": "¡No hay errores que mostrar!",
+    "lastTitle": "Últimos 20 errores que ocurrieron en este servidor.",
+    "cantExplain": "Si no puedes explicarte los errores, por favor únete a nuestro servidor de soporte: https://discord.gg/ZVERh35"
+  },
+  "guideCommand": {
+    "commandData": {
+      "description": "¡Obtén un enlace a la guía web de Kick Bot!"
+    },
+    "infoText": "### Guía del Bot de Discord Kick\n<:wink:1118617302615720138> [Haz clic aquí para acceder a la guía web del bot.](<https://guide.kickbot.gg/> \"Se abre una nueva pestaña con guide.kickbot.gg\")"
+  },
+  "helpCommand": {
+    "commandData": {
+      "description": "¡Obtén ayuda con el bot!"
+    },
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg>) es un bot de Discord que te permite seguir a los streamers de [Kick](<https://kick.com> \"Abre una nueva pestaña con kick.com\") y recibir notificaciones cuando se conectan en directo!",
+    "commands": "Comandos",
+    "notifications": "Notificaciones en Vivo",
+    "counters": "Contador de Seguidores",
+    "subLeaderboard": "Tabla de Líderes de Suscriptores",
+    "subRole": "Rol de Suscriptor",
+    "misc": "Misceláneo",
+    "madeBy": "Creado por [Sean Sattler](<https://sattler.dev> \"Abre una nueva pestaña con sattler.dev\")",
+    "notAffiliated": "*No afiliado con <:Kick_Green:1118592781930221648> [Kick](<https://kick.com> \"Abre una nueva pestaña con kick.com\")*"
+  },
+  "insightsCommand": {
+    "commandData": {
+      "description": "¡Ver las estadísticas del bot!"
+    },
+    "servers": "Servidores",
+    "version": "Versión",
+    "streamers": "streamers",
+    "ramUsage": "Uso de RAM",
+    "liveNotifications": "Configurar notificaciones en vivo",
+    "liveLeaderboards": "Configurar clasificaciones de suscriptores",
+    "leaderboards": "clasificaciones",
+    "setupCounters": "Configurar contadores",
+    "counters": "contadores",
+    "onlineSince": "En línea desde"
+  },
+  "inviteCommand": {
+    "commandData": {
+      "description": "¿Quieres invitar al bot a tu servidor? ¡Usa este comando!"
+    },
+    "inviteText": "<:PlusIcon:1118592778897719347> **[Haz clic aquí para invitar al bot a tu servidor!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=314368&scope=bot%20applications.commands \"Se abre una nueva pestaña con el enlace de invitación\")**"
+  },
+  "leaderboardCommand": {
+    "commandData": {
+      "description": "añadir / eliminar o actualizar una clasificación para un streamer.",
+      "optionStreamerRemove": "El nombre de usuario del streamer que deseas eliminar.",
+      "listDescription": "enumerar todas las clasificaciones para este servidor.",
+      "addDescription": "añadir una clasificación para un streamer.",
+      "removeDescription": "eliminar una clasificación para un streamer.",
+      "editDescription": "editar una clasificación para un streamer.",
+      "optionChannel": "El canal de la clasificación.",
+      "optionStyle": "El estilo de la clasificación.",
+      "style3": "Estilo de clasificación de los 3 mejores.",
+      "style5": "Estilo de clasificación de los 5 mejores.",
+      "style10": "Estilo de clasificación de los 10 mejores."
+    },
+    "alreadyLeaderboard": "¡Este streamer ya tiene una clasificación!",
+    "sendError": "¡Se produjo un error al enviar la clasificación!\n*Error: {error}*",
+    "added": "¡<#{channel}> es ahora un canal de clasificación para **{streamer}**!",
+    "channelOrStyle": "¡Debes proporcionar un canal o estilo para editar!",
+    "noLeaderboard": "¡Este streamer no tiene una clasificación!",
+    "edited": "¡Configuración de <#{channel}> editada correctamente!",
+    "removed": "¡Se ha eliminado la clasificación de **{streamer}**!\n*Agregado por <@{addedById}>.*",
+    "noLeaderboards": "¡No hay clasificaciones en este servidor!"
+  },
+  "linkCommand": {
+    "commandData": {
+      "description": "¡Vincula tu cuenta de Kick.com a tu cuenta de Discord!"
+    },
+    "alreadyLinked": "¡Ya estás vinculado a una cuenta de Kick.com! Usa el botón de abajo para volver a vincularlo."
+  },
+  "listCommand": {
+    "commandData": {
+      "description": "¡Ver todos los streamers que están siendo rastreados por el bot en este servidor!"
+    },
+    "emptyList": "¡No hay streamers configurados en este servidor!"
+  },
+  "removeCommand": {
+    "commandData": {
+      "description": "¡Elimina un streamer del bot!",
+      "optionStreamer": "El nombre de usuario del streamer que deseas eliminar."
+    },
+    "removed": "¡Se ha eliminado a **{streamer}** del bot!\n*Agregado por <@{addedById}>.*"
+  },
+  "subscriberRoleCommand": {
+    "commandData": {
+      "description": "Agregar un rol de suscriptor a un streamer.",
+      "optionStreamer": "El nombre de usuario del streamer al que los suscriptores deberían poder obtener el rol.",
+      "optionRole": "El rol que deseas dar a los suscriptores.",
+      "optionMessage": "Un mensaje si deseas tener un mensaje personalizado."
+    },
+    "embed": {
+      "title": "Rol de suscriptor para ",
+      "description": "Para obtener el rol de suscriptor de **{streamer}**, solo necesitas hacer clic en el botón de abajo con el nombre **Sub Role**."
+    },
+    "added": "¡He enviado el embed del rol de suscriptor a <#{channel}>!\n*Información: Si deseas eliminar la configuración, simplemente elimina el mensaje y el rol, y el bot eliminará automáticamente la configuración en la base de datos.*",
+    "error": "¡Se produjo un error al enviar el embed del rol de suscriptor!\n*Error: {error}*",
+    "button": "Obtener Rol de Suscriptor"
+  },
+  "supportCommand": {
+    "commandData": {
+      "description": "¡Obtén la invitación al soporte!"
+    },
+    "supportText": "<:QuestionMarkicon:1118592784509698149> ¿Necesitas ayuda? ¡Únete al servidor de soporte!\nhttps://discord.gg/ZVERh35"
+  },
+  "variablesCommand": {
+    "commandData": {
+      "description": "¡Obtén una lista de todas las variables que puedes usar en tu mensaje!"
+    },
+    "header": "Variables del Bot de Discord Kick",
+    "streamer": "El nombre de usuario del streamer.",
+    "url": "La URL de transmisión del streamer. (No disponible en los contadores!)",
+    "title": "El título de la transmisión.",
+    "viewers": "El número de espectadores de la transmisión.",
+    "language": "El idioma de la transmisión.",
+    "image": "La miniatura de la transmisión. (No disponible en los contadores!)",
+    "followers": "El número de seguidores del streamer.",
+    "created_at": "La fecha de creación de la transmisión. (No disponible en los contadores!)",
+    "category": "La categoría de la transmisión.",
+    "category_name": "La imagen de la categoría de la transmisión.",
+    "slug": "El slug del streamer."
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "global": {
+    "channelNotFound": "チャンネルが見つかりませんでした！",
+    "noBotPermsSend": "そのチャンネルにメッセージを送信する権限がありません！",
+    "noBotPermsEdit": "そのチャンネルを編集する権限がありません！",
+    "noUserPerms": "このコマンドを使用する権限がありません！",
+    "nextPage": "次のページ",
+    "prevPage": "前のページ",
+    "streamerNotFound": "このストリーマーは存在しません！\n\n<:RoleIcon:1118592777454899302> **Note:** **ユーザー名**は、ストリームリンクの末尾にあります。\n*例: <https://kick.com/username> <=*",
+    "subLeaderboardNotFound": "このストリーマーにはサブリーダーボードがありません！\n\n<:RoleIcon:1118592777454899302> **Note:** **ユーザー名**は、ストリームリンクの末尾にあります。\n*例: <https://kick.com/username> <=*",
+    "optionStreamer": "ストリーマーのユーザー名を入力してください。",
+    "optionChannel": "メッセージを送信するチャンネルを入力してください。",
+    "optionMessage": "ストリーマーが配信を開始した際に送信したいメッセージを入力してください。",
+    "serverOnly": "このコマンドはサーバーでのみ使用できます！",
+    "fetchError": "ストリーマーの取得中にエラーが発生しました！後でもう一度やり直してください。",
+    "fetchErrorLeaderboard": "ストリーマーリーダーボードの取得中にエラーが発生しました！後でもう一度やり直してください。",
+    "notTracked": "このストリーマーはこのサーバーで追跡されていません！",
+    "addBot": "ボットを追加",
+    "onlyServer": "このコマンドはサーバーでのみ使用できます！",
+    "errorOccurred": "コマンドの実行中にエラーが発生しました！",
+    "cooldown": "クールダウン中です。少々お待ちください。",
+    "alreadyHaveSubRole": "すでにサブロールがあります！",
+    "reSync": "Kickアカウントを再同期",
+    "invalidSync": "「{streamer}」はもう有効なKickユーザーではないか、「{kickUser}」はもう有効なKickユーザーではありません！",
+    "notSubscriber": "「{streamer}」のサブスクライバーではありません！",
+    "byAddingRoleError": "サブスクライバーロールを追加しようとした際にエラーが発生しました！\n*エラー: {error}*",
+    "modalInfoText": "kick.comで見つけることができます。"
+  },
+  "giftLeaderboard": {
+    "title": "{streamerId}のサブリーダーボード",
+    "allTime": "全時間",
+    "monthly": "月間",
+    "weekly": "週間",
+    "powerBy": "提供元： www.KickBot.gg • 最終更新：",
+    "gifts": "ギフト",
+    "infoText": "{username}のキックプロファイルを新しいタブで開きます",
+    "noEntries": "エントリーが見つかりませんでした。"
+  },
+  "verificationProcess": {
+    "invalidUsername": "ユーザー名を入力する必要があります！「Bioをチェック」ボタンを再度クリックして有効なユーザー名を入力してください。",
+    "notBio": "バイオテキストではなく、Kick.comの**ユーザー名**です。「Bioをチェック」ボタンを再度クリックして有効なユーザー名を入力してください。",
+    "notDiscord": "あなたのDiscordのIDではなく、Kick.comの**ユーザー名**です。「Bioをチェック」ボタンを再度クリックして有効なユーザー名を入力してください。",
+    "invalidUser": "**{username}**は有効なKickユーザーではありません！「Bioをチェック」ボタンを再度クリックして有効なユーザー名を入力してください。",
+    "noBio": "**{username}**にはバイオがありません！「Bioをチェック」ボタンを再度クリックして有効なユーザー名を入力してください。",
+    "invalidDiscordId": "**{username}**には有効なDiscordのIDがバイオにありません！確認プロセスをもう一度実行してください。",
+    "noDiscordId": "**{username}**のバイオにはあなたのDiscordのIDがありません！確認プロセスをもう一度実行してください。",
+    "finished": "確認プロセスが完了しました！ボタンを再度クリックしてサブスクライバーロールを取得してください！"
+  },
+  "verification": {
+    "checkBio": "Bioをチェック",
+    "intro": "KickとDiscordアカウントを確認するには、以下の**手順**に従ってください：",
+    "step1": "https://kick.com/ にアクセスし、プロフィール画像をクリックします。 (ログインしていることを確認してください)",
+    "step2": "**設定**をクリックします。",
+    "step3": "**基本情報**までスクロールします。",
+    "step4": "**Bio**で**編集**ボタンをクリックします。",
+    "step5": "このフィールドに `[KICKBOT.GG:{userId}]` を貼り付けます。",
+    "step6": "**変更を保存**をクリックします。",
+    "step7": "Discordに戻り、「Bioをチェック」ボタンをクリックしてKickのユーザー名を入力します。",
+    "step8": "すべてを正しく行った場合、ボットから成功メッセージが届くはずです。",
+    "step9": "確認プロセスが完了したら、Kickプロフィールから`[KICKBOT.GG:{userId}]`を削除できます。",
+    "helpText": "質問がある場合は、お気軽に以下のDiscordボットサポートまでお問い合わせください：",
+    "poweredBy": "Powered by www.KickBot.gg"
+  },
+  "addCommand": {
+    "commandData": {
+      "description": "ボットに新しいストリーマーを追加します！"
+    },
+    "alreadyTracked": "このストリーマーは既に追跡されています！",
+    "added": "**{streamer}**さんをボットに追加しました！"
+  },
+  "counterCommand": {
+    "commandData": {
+      "description": "フォローカウンターチャンネルをストリーマーに追加/削除/更新します。",
+      "addDescription": "ストリーマーにフォローカウンターチャンネルを追加します。",
+      "editDescription": "ストリーマーのフォローカウンターチャンネルを編集します。",
+      "removeDescription": "ストリーマーのフォローカウンターチャンネルを削除します。",
+      "listDescription": "このサーバーのすべてのフォローカウンターチャンネルを表示します。",
+      "optionChannel": "フォローカウンターを追加するチャンネル。",
+      "optionChannelRemove": "削除するストリーマーに関連するチャンネル。",
+      "optionName": "カウンターの名前。[チャンネル名]"
+    },
+    "alreadyCounter": "このチャンネルは既にカウンターです！",
+    "added": "<#{channel}> は **{streamer}** のカウンターチャンネルになりました！",
+    "noMessageEdit": "編集するメッセージを提供する必要があります！",
+    "noCounter": "このチャンネルはカウンターではありません！",
+    "edited": "<#{channel}> の設定を正常に編集しました！",
+    "removed": "<#{channel}> はカウンターとして削除されました！\n*<@{addedById}> によって追加されました。*",
+    "noCounters": "このサーバーにはカウンターがありません！"
+  },
+  "editCommand": {
+    "commandData": {
+      "description": "ストリーマーの設定を編集します！"
+    },
+    "noMessageOrChannel": "編集するチャンネルまたはメッセージを指定する必要があります！",
+    "edited": "**{streamer}** の設定を正常に編集しました！"
+  },
+  "errorsCommand": {
+    "commandData": {
+      "description": "サーバー上でボットに発生した過去の20のエラーを表示します！"
+    },
+    "noErrors": "表示するエラーはありません！",
+    "lastTitle": "このサーバーで発生した過去の20のエラー。",
+    "cantExplain": "エラーの内容を理解できない場合は、サポートサーバーにご参加ください：https://discord.gg/ZVERh35"
+  },
+  "guideCommand": {
+    "commandData": {
+      "description": "Kick Botのウェブガイドへのリンクを取得します！"
+    },
+    "infoText": "### Kick Discord Botガイド\n<:wink:1118617302615720138> [ここをクリックしてボットのウェブガイドにアクセスします。](<https://guide.kickbot.gg/> \"guide.kickbot.ggを新しいタブで開きます\")"
+  },
+  "helpCommand": {
+    "commandData": {
+      "description": "ボットのヘルプを取得します！"
+    },
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg>)は、[Kick](<https://kick.com> \"kick.comという新しいタブを開く\")のストリーマーを追跡し、彼らが配信を開始したときに通知を受け取ることができるDiscordボットです！",
+    "commands": "コマンド",
+    "notifications": "生配信通知",
+    "counters": "フォロワーカウンター",
+    "subLeaderboard": "サブスクリプションリーダーボード",
+    "subRole": "サブスクライバーロール",
+    "misc": "その他",
+    "madeBy": "[Sean Sattler](<https://sattler.dev> \"sattler.devという新しいタブを開く\")が作成",
+    "notAffiliated": "*<:Kick_Green:1118592781930221648> [Kick](<https://kick.com> \"kick.comという新しいタブを開く\")とは関係ありません*"
+  },
+  "insightsCommand": {
+    "commandData": {
+      "description": "ボットのインサイトを表示します！"
+    },
+    "servers": "サーバー",
+    "version": "バージョン",
+    "streamers": "ストリーマー",
+    "ramUsage": "RAM使用量",
+    "liveNotifications": "ライブ通知の設定",
+    "liveLeaderboards": "サブリーダーボードの設定\n",
+    "leaderboards": "リーダーボード",
+    "setupCounters": "カウンターの設定",
+    "counters": "カウンター",
+    "onlineSince": "オンラインの開始時刻"
+  },
+  "inviteCommand": {
+    "commandData": {
+      "description": "このボットをあなたのサーバーに招待したいですか？このコマンドを使用してください！"
+    },
+    "inviteText": "<:PlusIcon:1118592778897719347> **[このボットをあなたのサーバーに招待するにはここをクリック！](https://discord.com/api/oauth2/authorize?client_id=${process.env.DISCORD_BOT_ID}&permissions=314368&scope=bot%20applications.commands \"新しいタブで招待リンクが開きます！\")**"
+  },
+  "leaderboardCommand": {
+    "commandData": {
+      "description": "ストリーマーのためのリーダーボードを追加/削除/更新します。",
+      "optionStreamerRemove": "削除するストリーマーのユーザー名。",
+      "listDescription": "このサーバーのすべてのリーダーボードを表示します。",
+      "addDescription": "ストリーマーのリーダーボードを追加します。",
+      "removeDescription": "ストリーマーのリーダーボードを削除します。",
+      "editDescription": "ストリーマーのリーダーボードを編集します。",
+      "optionChannel": "リーダーボードのチャンネル。",
+      "optionStyle": "リーダーボードのスタイル。",
+      "style3": "トップ3のリーダーボードスタイル。",
+      "style5": "トップ5のリーダーボードスタイル。",
+      "style10": "トップ10のリーダーボードスタイル。"
+    },
+    "alreadyLeaderboard": "このストリーマーは既にリーダーボードを持っています！",
+    "sendError": "リーダーボードを送信しようとした際にエラーが発生しました！\n*エラー: {error}*",
+    "added": "<#{channel}> は **{streamer}** のリーダーボードチャンネルになりました！",
+    "channelOrStyle": "編集するチャンネルまたはスタイルを指定する必要があります！",
+    "noLeaderboard": "このストリーマーはリーダーボードを持っていません！",
+    "edited": "<#{channel}> の設定を正常に編集しました！",
+    "removed": "**{streamer}** のリーダーボードを削除しました！\n*<@{addedById}> によって追加されました。*",
+    "noLeaderboards": "このサーバーにはリーダーボードがありません！"
+  },
+  "linkCommand": {
+    "commandData": {
+      "description": "Kick.com アカウントを Discord アカウントにリンクします！"
+    },
+    "alreadyLinked": "既に Kick.com アカウントにリンクされています！下のボタンを使用して再リンクしてください。"
+  },
+  "listCommand": {
+    "commandData": {
+      "description": "このサーバーでボットによって追跡されているすべてのストリーマーを表示します！"
+    },
+    "emptyList": "このサーバーでは設定されたストリーマーはありません！"
+  },
+  "removeCommand": {
+    "commandData": {
+      "description": "ボットからストリーマーを削除します！",
+      "optionStreamer": "削除するストリーマーのユーザー名。"
+    },
+    "removed": "**{streamer}** がボットから削除されました！\n*<@{addedById}> によって追加されました。*"
+  },
+  "subscriberRoleCommand": {
+    "commandData": {
+      "description": "ストリーマーにサブスクライバーロールを追加します。",
+      "optionStreamer": "サブスクライバーがロールを取得できるストリーマーのユーザー名。",
+      "optionRole": "サブスクライバーに付与する役職。",
+      "optionMessage": "カスタムメッセージが必要な場合はメッセージを入力してください。"
+    },
+    "embed": {
+      "title": "ストリーマー {streamer} のサブスクライバーロール",
+      "description": "サブスクライバーロールを取得するには、下記のボタン **Sub Role** をクリックしてください。"
+    },
+    "added": "サブスクライバーロールの埋め込みを <#{channel}> に送信しました！\n*情報: 設定を削除するには、メッセージと役職を削除するだけで、ボットがデータベース内の設定を自動的に削除します。*",
+    "error": "サブスクライバーロールの埋め込みの送信中にエラーが発生しました。\n*エラー: {error}*",
+    "button": "サブスクライバーロールを取得"
+  },
+  "supportCommand": {
+    "commandData": {
+      "description": "サポートへの招待リンクを取得します。"
+    },
+    "supportText": "<:QuestionMarkicon:1118592784509698149> ヘルプが必要ですか？ サポートサーバーに参加してください！\nhttps://discord.gg/ZVERh35"
+  },
+  "variablesCommand": {
+    "commandData": {
+      "description": "メッセージで使用できるすべての変数の一覧を取得します。"
+    },
+    "header": "Kick Discord Bot 変数",
+    "streamer": "ストリーマーのユーザー名。",
+    "url": "ストリーマーのストリームURL（カウンターでは利用できません！）。",
+    "title": "ストリームのタイトル。",
+    "viewers": "ストリームの視聴者数。",
+    "language": "ストリームの言語。",
+    "image": "ストリームのサムネイル（カウンターでは利用できません！）。",
+    "followers": "ストリーマーのフォロワー数。",
+    "created_at": "ストリームの作成日時（カウンターでは利用できません！）。",
+    "category": "ストリームのカテゴリ。",
+    "category_name": "ストリームカテゴリの画像。",
+    "slug": "ストリーマーのスラッグ。"
+  }
+}

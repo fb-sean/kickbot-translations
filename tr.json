@@ -1,0 +1,226 @@
+{
+  "global": {
+    "channelNotFound": "The channel you provided was not found!",
+    "noBotPermsSend": "I do not have permission to send messages in that channel!",
+    "noBotPermsEdit": "I do not have permission to edit that channel!",
+    "noUserPerms": "You do not have permission to use this command!",
+    "nextPage": "Next Page",
+    "prevPage": "Previous Page",
+    "streamerNotFound": "This streamer does not exist!\n\n<:RoleIcon:1118592777454899302> **Note:** You can find the **username** at the end of a stream link.\n*Example: <https://kick.com/username> <=*",
+    "subLeaderboardNotFound": "This streamer does not have a sub leaderboard!\n\n<:RoleIcon:1118592777454899302> **Note:** You can find the **username** at the end of a stream link.\n*Example: <https://kick.com/username> <=*",
+    "optionStreamer": "The username of the streamer you want.",
+    "optionChannel": "The channel you want to send the message to.",
+    "optionMessage": "The message you want to send when the streamer goes live.",
+    "serverOnly": "This command can only be used in a server!",
+    "fetchError": "An error occurred while fetching the streamer! Please try again later.",
+    "fetchErrorLeaderboard": "An error occurred while fetching the streamer leaderboard! Please try again later.",
+    "notTracked": "This streamer is not being tracked in this server!",
+    "addBot": "Add the Bot",
+    "onlyServer": "This command can only be used in a server!",
+    "errorOccurred": "An error occurred while executing the command!",
+    "cooldown": "You are on cooldown please wait a second.",
+    "alreadyHaveSubRole": "You already have the sub role!",
+    "reSync": "Resync Kick Account",
+    "invalidSync": "Either **{streamer}** is no longer a valid kick user or **{kickUser}** is no longer a valid kick user!",
+    "notSubscriber": "You are not a subscriber of {streamer}!",
+    "byAddingRoleError": "While trying to add the subscriber role I got a error!\n*Error: {error}*",
+    "modalInfoText": "Can be found on kick.com."
+  },
+  "giftLeaderboard": {
+    "title": "{streamerId} için Abone Lider Tablosu",
+    "allTime": "Tüm Zamanlar",
+    "monthly": "Aylık",
+    "weekly": "Haftalık",
+    "powerBy": "www.KickBot.gg tarafından desteklenmektedir • Son Güncelleme: ",
+    "gifts": "hediyeler",
+    "infoText": "{username} dan yeni bir sekme ve kick profilini açar",
+    "noEntries": "Hiçbir giriş bulunamadı."
+  },
+  "verificationProcess": {
+    "invalidUsername": "You need to provide a username! Please click **Check Bio** again and enter a username.",
+    "notBio": "Not the bio text, your kick.com **username**. Please click **Check Bio** again and enter a username.",
+    "notDiscord": "Not your discord id, your kick.com **username**. Please click **Check Bio** again and enter a username.",
+    "invalidUser": "**{username}** is not a valid kick user! Please click **Check Bio** again and enter a valid username.",
+    "noBio": "**{username}** does not have a bio! Please click **Check Bio** again and enter a valid username.",
+    "invalidDiscordId": "**{username}** does not have a valid discord id in their bio! Please do the verification process again.",
+    "noDiscordId": "**{username}** does not have your discord id in their bio! Please do the verification process again.",
+    "finished": "Verification process completed! Press the button now again to claim your subscriber role!"
+  },
+  "verification": {
+    "checkBio": "Check Bio",
+    "intro": "To verify your Discord account with Kick, please follow the **steps below**:",
+    "step1": "Go to https://kick.com/ and click on your profile picture. (Make sure you are logged-in)",
+    "step2": "Click on **Settings**.",
+    "step3": "Scroll down to **Basic Details**.",
+    "step4": "At **Bio** click on the **Edit** button.",
+    "step5": "Paste somewhere in this field `[KICKBOT.GG:{userId}]`.",
+    "step6": "Press on **Save Changes**.",
+    "step7": "Go back to Discord and click the **Check Bio** button below and enter your kick username.",
+    "step8": "If you did everything correctly, you should get a success message from the bot.",
+    "step9": "After the verification process you can remove the `[KICKBOT.GG:{userId}]` from your Kick profile.",
+    "helpText": "If you have any questions, feel free to contact the bot support on Discord:",
+    "poweredBy": "Powered by www.KickBot.gg"
+  },
+  "addCommand": {
+    "commandData": {
+      "description": "Add a new streamer to the bot!"
+    },
+    "alreadyTracked": "This streamer is already being tracked!",
+    "added": "**{streamer}** has been added to the bot!"
+  },
+  "counterCommand": {
+    "commandData": {
+      "description": "add / remove or update a follower counter channel for a streamer.",
+      "addDescription": "add a follower counter channel for a streamer.",
+      "editDescription": "edit a follower counter channel for a streamer.",
+      "removeDescription": "remove a follower counter channel for a streamer.",
+      "listDescription": "list all follower counter channels for this server.",
+      "optionChannel": "The channel that should have the follower counter.",
+      "optionChannelRemove": "The channel that is attached to the streamer you want to remove.",
+      "optionName": "The name of the counter. [Channel Name]"
+    },
+    "alreadyCounter": "This channel is already a counter!",
+    "added": "<#{channel}> is now a counter for **{streamer}**!",
+    "noMessageEdit": "You must provide message to edit!",
+    "noCounter": "This channel is not a counter!",
+    "edited": "Successfully edited <#{channel}> configuration!",
+    "removed": "<#{channel}> has been removed as counter!\n*Was added by <@{addedById}>.*",
+    "noCounters": "There are no counters on this server!"
+  },
+  "editCommand": {
+    "commandData": {
+      "description": "Edit a streamer's configuration!"
+    },
+    "noMessageOrChannel": "You must provide a channel or message to edit!",
+    "edited": "Successfully edited **{streamer}** configuration!"
+  },
+  "errorsCommand": {
+    "commandData": {
+      "description": "See the last 20 errors that happened in the bot on your server!"
+    },
+    "noErrors": "There are no errors to show!",
+    "lastTitle": "Last 20 errors that happened in this server.",
+    "cantExplain": "If you cant explain yourself the errors, please join our support server: https://discord.gg/ZVERh35"
+  },
+  "guideCommand": {
+    "commandData": {
+      "description": "Get a link to the web guide of Kick Bot!"
+    },
+    "infoText": "### Kick Discord Bot Guide\n<:wink:1118617302615720138> [Click here to get to the web guide of the bot.](<https://guide.kickbot.gg/> \"Opens a new tab with guide.kickbot.gg\")"
+  },
+  "helpCommand": {
+    "commandData": {
+      "description": "Get help with the bot!"
+    },
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg>) Discord botu, [Kick](<https://kick.com> \"Yeni bir sekmede kick.com'u açar\") yayıncılarının takip edilmesine ve canlı yayına geçtiklerinde bildirim almanıza olanak tanır!",
+    "commands": "Komutlar",
+    "notifications": "Canlı Bildirimler",
+    "counters": "Takipçi Sayacı",
+    "subLeaderboard": "Abone Sıralaması",
+    "subRole": "Abone Rolü",
+    "misc": "Çeşitli",
+    "madeBy": "[Sean Sattler](<https://sattler.dev> \"Yeni bir sekmede sattler.dev'i açar\") tarafından yapılmıştır",
+    "notAffiliated": "*<:Kick_Green:1118592781930221648> [Kick](<https://kick.com> \"Yeni bir sekmede kick.com'u açar\") ile ilgili bir bağlantısı yoktur*"
+  },
+  "insightsCommand": {
+    "commandData": {
+      "description": "See the bot insights!"
+    },
+    "servers": "Servers",
+    "version": "Version",
+    "streamers": "streamers",
+    "ramUsage": "RAM Usage",
+    "liveNotifications": "Setup Live Notifications",
+    "liveLeaderboards": "Setup Sub Leaderboards\n",
+    "leaderboards": "leaderboards",
+    "setupCounters": "Setup Counters",
+    "counters": "counters",
+    "onlineSince": "Online since"
+  },
+  "inviteCommand": {
+    "commandData": {
+      "description": "Want to invite the bot to your server? Use this command!"
+    },
+    "inviteText": "<:PlusIcon:1118592778897719347> **[Click here to invite the bot to your server!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=314368&scope=bot%20applications.commands \"Opens a new tab with the invite link!\")**"
+  },
+  "leaderboardCommand": {
+    "commandData": {
+      "description": "add / remove or update a leaderboard for a streamer.",
+      "optionStreamerRemove": "The username of the streamer you want to remove.",
+      "listDescription": "list all leaderboards for this server.",
+      "addDescription": "add a leaderboard for a streamer.",
+      "removeDescription": "remove a leaderboard for a streamer.",
+      "editDescription": "edit a leaderboard for a streamer.",
+      "optionChannel": "The channel of the leaderboard.",
+      "optionStyle": "The style of the leaderboard.",
+      "style3": "The top 3 leaderboard style.",
+      "style5": "The top 5 leaderboard style.",
+      "style10": "The top 10 leaderboard style."
+    },
+    "alreadyLeaderboard": "This streamer have already a leaderboard!",
+    "sendError": "While trying to send the leaderboard I got a error!\n*Error: {error}*",
+    "added": "<#{channel}> is now a leaderboard channel for **{streamer}**!",
+    "channelOrStyle": "You must provide a channel or style to edit!",
+    "noLeaderboard": "This streamer don't have a leaderboard!",
+    "edited": "Successfully edited <#{channel}> configuration!",
+    "removed": "Removed **{streamer}** leaderboard!\n*Was added by <@{addedById}>.*",
+    "noLeaderboards": "There are no leaderboards on this server!"
+  },
+  "linkCommand": {
+    "commandData": {
+      "description": "Link your Kick.com account to your Discord account!"
+    },
+    "alreadyLinked": "You are already linked to a Kick.com account! Use the button below to relink it."
+  },
+  "listCommand": {
+    "commandData": {
+      "description": "View all streamers being tracked by the bot on this server!"
+    },
+    "emptyList": "There are no setup streamers on this server!"
+  },
+  "removeCommand": {
+    "commandData": {
+      "description": "Remove a streamer from the bot!",
+      "optionStreamer": "The username of the streamer you want to remove."
+    },
+    "removed": "**{streamer}** has been removed from the bot!\n*Was added by <@{addedById}>.*"
+  },
+  "subscriberRoleCommand": {
+    "commandData": {
+      "description": "Add a subscriber role to a streamer.",
+      "optionStreamer": "The username of the streamer where the subscribers should be able to get the role.",
+      "optionRole": "The role you want to give to the subscribers.",
+      "optionMessage": "A message if you want to have a custom message."
+    },
+    "embed": {
+      "title": "Subscriber role for ",
+      "description": "To get the subscriber role of **{streamer}** you just need to click on the button below with the name **Sub Role**."
+    },
+    "added": "I have sent the subscriber role embed to <#{channel}>!\n*Info: If you want to delete the setup, just delete the message and the role and the bot will automatically delete the settings in the database.*",
+    "error": "While trying to send the subscriber role embed I got a error!\n*Error: {error}*",
+    "button": "Get Subscriber Role"
+  },
+  "supportCommand": {
+    "commandData": {
+      "description": "Get the invite to the support!"
+    },
+    "supportText": "<:QuestionMarkicon:1118592784509698149> Need help? Join the support server!\nhttps://discord.gg/ZVERh35"
+  },
+  "variablesCommand": {
+    "commandData": {
+      "description": "Get a list of all variables you can use in your message!"
+    },
+    "header": "Kick Discord Bot Variables",
+    "streamer": "The streamer's username.",
+    "url": "The streamer's stream URL. (Not available at counters!)",
+    "title": "The stream title.",
+    "viewers": " The stream viewer count.",
+    "language": "The stream language.",
+    "image": "The stream thumbnail. (Not available at counters!)",
+    "followers": "The streamer's follower count.",
+    "created_at": "The stream creation date. (Not available at counters!)",
+    "category": "The stream category.",
+    "category_name": "The stream category image.",
+    "slug": "The streamer's slug."
+  }
+}
