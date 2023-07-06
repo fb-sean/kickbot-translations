@@ -24,7 +24,8 @@
     "invalidSync": "Entweder ist **{streamer}** kein gültiger Kick-Benutzer mehr oder **{kickUser}** ist kein gültiger Kick-Benutzer mehr!",
     "notSubscriber": "Du bist kein Abonnent von {streamer}!",
     "byAddingRoleError": "Beim Hinzufügen der Abonnentenrolle ist ein Fehler aufgetreten!\n*Fehler: {error}*",
-    "modalInfoText": "Kann auf kick.com gefunden werden."
+    "modalInfoText": "Kann auf kick.com gefunden werden.",
+    "watch": "Zuschauen"
   },
   "giftLeaderboard": {
     "title": "Abonnenten Rangliste von {streamerId}",

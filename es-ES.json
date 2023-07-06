@@ -24,7 +24,8 @@
     "invalidSync": "¡Ya sea que **{streamer}** ya no es un usuario válido de Kick o **{kickUser}** ya no es un usuario válido de Kick!",
     "notSubscriber": "¡No eres un suscriptor de {streamer}!",
     "byAddingRoleError": "¡Mientras intentaba agregar el rol de suscriptor, ocurrió un error!\n*Error: {error}*",
-    "modalInfoText": "Pueden encontrarse en kick.com."
+    "modalInfoText": "Pueden encontrarse en kick.com.",
+    "watch": "Reloj"
   },
   "giftLeaderboard": {
     "title": "Tabla de clasificación de suscriptores de {streamerId}",

@@ -24,7 +24,8 @@
     "invalidSync": "Either **{streamer}** is no longer a valid kick user or **{kickUser}** is no longer a valid kick user!",
     "notSubscriber": "You are not a subscriber of {streamer}!",
     "byAddingRoleError": "While trying to add the subscriber role I got a error!\n*Error: {error}*",
-    "modalInfoText": "Can be found on kick.com."
+    "modalInfoText": "Can be found on kick.com.",
+    "watch": "Watch"
   },
   "giftLeaderboard": {
     "title": "Subs Leaderboard of {streamerId}",

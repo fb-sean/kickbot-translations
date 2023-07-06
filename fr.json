@@ -11,20 +11,21 @@
     "optionStreamer": "Le nom d'utilisateur du streamer que vous souhaitez.",
     "optionChannel": "Le salon dans lequel vous souhaitez envoyer le message.",
     "optionMessage": "Le message que vous souhaitez envoyer lorsque le streamer est en direct.",
-    "serverOnly": "Cette commande ne peut être utilisée que dans un serveur!",
+    "serverOnly": "Cette commande ne peut être utilisée que dans un serveur !",
     "fetchError": "Une erreur s'est produite lors de la récupération du streamer ! Veuillez réessayer plus tard.",
     "fetchErrorLeaderboard": "Une erreur s'est produite lors de la récupération du classement du streamer ! Veuillez réessayer plus tard.",
-    "notTracked": "Ce streamer n'est pas suivi dans ce serveur!",
+    "notTracked": "Ce streamer n'est pas suivi dans ce serveur !",
     "addBot": "Ajouter le Bot",
-    "onlyServer": "Cette commande ne peut être utilisée que dans un serveur!",
-    "errorOccurred": "Une erreur s'est produite lors de l'exécution de la commande!",
+    "onlyServer": "Cette commande ne peut être utilisée que dans un serveur !",
+    "errorOccurred": "Une erreur s'est produite lors de l'exécution de la commande !",
     "cooldown": "Vous êtes en période de recharge, veuillez attendre une seconde.",
-    "alreadyHaveSubRole": "Vous avez déjà le rôle de souscription!",
+    "alreadyHaveSubRole": "Vous avez déjà le rôle de souscription !",
     "reSync": "Resynchroniser le compte Kick",
     "invalidSync": "Soit **{streamer}** n'est plus un utilisateur Kick valide, soit **{kickUser}** n'est plus un utilisateur Kick valide!",
     "notSubscriber": "Vous n'êtes pas abonné.e à {streamer} !",
     "byAddingRoleError": "Lors de l'ajout du rôle d'abonné.e, une erreur est survenue !\n*Erreur : {error}*",
-    "modalInfoText": "Peut être trouvé sur kick.com."
+    "modalInfoText": "Peut être trouvé sur kick.com.",
+    "watch": "Montre"
   },
   "giftLeaderboard": {
     "title": "Classement des Souscriptions de {streamerId}",
@@ -82,7 +83,7 @@
       "optionName": "Le nom du compteur. [Nom du salon]"
     },
     "alreadyCounter": "Ce salon est déjà un compteur !",
-    "added": "<#{channel}> est maintenant un compteur pour **{streamer}**!",
+    "added": "<#{channel}> est maintenant un compteur pour **{streamer}** !",
     "noMessageEdit": "Vous devez fournir un message à modifier !",
     "noCounter": "Ce salon n'est pas un compteur !",
     "edited": "Configuration de <#{channel}> modifiée avec succès !",
@@ -143,7 +144,7 @@
     "commandData": {
       "description": "Vous voulez inviter le bot sur votre serveur? Utilisez cette commande!"
     },
-    "inviteText": "<:PlusIcon:1118592778897719347> **[Cliquez ici pour inviter le bot sur votre serveur!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=314368&scope=bot%20applications.commands \"Ouvre un nouvel onglet avec le lien d'invitation !\")**"
+    "inviteText": "<:PlusIcon:1118592778897719347> **[Cliquez ici pour inviter le bot sur votre serveur !](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=314368&scope=bot%20applications.commands \"Ouvre un nouvel onglet avec le lien d'invitation !\")**"
   },
   "leaderboardCommand": {
     "commandData": {
@@ -159,33 +160,33 @@
       "style5": "Le style du classement des cinq premiers.",
       "style10": "Le style du classement des dix premiers."
     },
-    "alreadyLeaderboard": "Ce streamer a déjà un classement!",
-    "sendError": "Une erreur s'est produite lors de l'envoi du classement!\n*Erreur: {error}*",
-    "added": "<#{channel}> est maintenant un salon de classement pour **{streamer}**!",
-    "channelOrStyle": "Vous devez fournir un salon ou un style pour modifier!",
-    "noLeaderboard": "Ce streamer n'a pas de classement!",
-    "edited": "Configuration de <#{channel}> modifiée avec succès!",
+    "alreadyLeaderboard": "Ce streamer a déjà un classement !",
+    "sendError": "Une erreur s'est produite lors de l'envoi du classement !\n*Erreur: {error}*",
+    "added": "<#{channel}> est maintenant un salon de classement pour **{streamer}** !",
+    "channelOrStyle": "Vous devez fournir un salon ou un style pour modifier !",
+    "noLeaderboard": "Ce streamer n'a pas de classement !",
+    "edited": "Configuration de <#{channel}> modifiée avec succès !",
     "removed": "Classement de **{streamer}** supprimé!\n*Ajouté par <@{addedById}>.*",
-    "noLeaderboards": "Il n'y a pas de classements sur ce serveur!"
+    "noLeaderboards": "Il n'y a pas de classements sur ce serveur !"
   },
   "linkCommand": {
     "commandData": {
-      "description": "Lier votre compte Kick.com à votre compte Discord!"
+      "description": "Lier votre compte Kick.com à votre compte Discord !"
     },
     "alreadyLinked": "Vous êtes déjà lié à un compte Kick.com! Utilisez le bouton ci-dessous pour le relier à nouveau."
   },
   "listCommand": {
     "commandData": {
-      "description": "Voir tous les streamers suivis par le bot sur ce serveur!"
+      "description": "Voir tous les streamers suivis par le bot sur ce serveur !"
     },
-    "emptyList": "Il n'y a aucune.e streamer configuré sur ce serveur!"
+    "emptyList": "Il n'y a aucune.e streamer configuré sur ce serveur !"
   },
   "removeCommand": {
     "commandData": {
-      "description": "Supprimer une.e streamer du bot!",
+      "description": "Supprimer une.e streamer du bot !",
       "optionStreamer": "Le nom d'utilisateur du streamer que vous souhaitez supprimer."
     },
-    "removed": "**{streamer}** a été supprimé du bot!\n*Ajouté par <@{addedById}>.*"
+    "removed": "**{streamer}** a été supprimé du bot !\n*Ajouté par <@{addedById}>.*"
   },
   "subscriberRoleCommand": {
     "commandData": {
@@ -204,23 +205,23 @@
   },
   "supportCommand": {
     "commandData": {
-      "description": "Obtenir l'invitation pour le support!"
+      "description": "Obtenir l'invitation pour le support !"
     },
-    "supportText": "<:QuestionMarkicon:1118592784509698149> Besoin d'aide? Rejoignez le serveur de support!\nhttps://discord.gg/ZVERh35"
+    "supportText": "<:QuestionMarkicon:1118592784509698149> Besoin d'aide? Rejoignez le serveur de support !\nhttps://discord.gg/ZVERh35"
   },
   "variablesCommand": {
     "commandData": {
-      "description": "Obtenez une liste de toutes les variables que vous pouvez utiliser dans votre message!"
+      "description": "Obtenez une liste de toutes les variables que vous pouvez utiliser dans votre message !"
     },
     "header": "Variables du bot Discord Kick",
     "streamer": "Le nom d'utilisateur du streamer.",
-    "url": "L'URL du stream du streamer. (Non disponible pour les compteurs!)",
+    "url": "L'URL du stream du streamer. (Non disponible pour les compteurs !)",
     "title": "Le titre du stream.",
     "viewers": "Le nombre de spectateurs du stream.",
     "language": "La langue du stream.",
-    "image": "La vignette du stream. (Non disponible pour les compteurs!)",
+    "image": "La vignette du stream. (Non disponible pour les compteurs !)",
     "followers": "Le nombre d'abonné.es du streamer.",
-    "created_at": "La date de création du stream. (Non disponible pour les compteurs!)",
+    "created_at": "La date de création du stream. (Non disponible pour les compteurs !)",
     "category": "La catégorie du stream.",
     "category_name": "L'image de la catégorie du stream.",
     "slug": "L'identifiant du streamer."
