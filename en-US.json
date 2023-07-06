@@ -11,6 +11,7 @@
     "optionStreamer": "The username of the streamer you want.",
     "optionChannel": "The channel you want to send the message to.",
     "optionMessage": "The message you want to send when the streamer goes live.",
+    "optionCleanUp": "Clean up the message after the streamer goes offline. (Deletes old message)",
     "serverOnly": "This command can only be used in a server!",
     "fetchError": "An error occurred while fetching the streamer! Please try again later.",
     "fetchErrorLeaderboard": "An error occurred while fetching the streamer leaderboard! Please try again later.",
@@ -94,7 +95,7 @@
     "commandData": {
       "description": "Edit a streamer's configuration!"
     },
-    "noMessageOrChannel": "You must provide a channel or message to edit!",
+    "noMessageOrChannel": "You must provide a channel, message or the clean-up option to edit!",
     "edited": "Successfully edited **{streamer}** configuration!"
   },
   "errorsCommand": {

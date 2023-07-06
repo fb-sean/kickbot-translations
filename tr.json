@@ -11,6 +11,7 @@
     "optionStreamer": "İstediğiniz yayıncının kullanıcı adı.",
     "optionChannel": "Mesajı göndermek istediğiniz kanal.",
     "optionMessage": "Yayıncı canlı yayına geçtiğinde göndermek istediğiniz mesaj.",
+    "optionCleanUp": "Yayıncı çevrimdışı olduğunda mesajı temizleyin. (Eski mesajı siler)",
     "serverOnly": "Bu komut yalnızca bir sunucuda kullanılabilir!",
     "fetchError": "Yayıncıyı alırken bir hata oluştu! Lütfen daha sonra tekrar deneyin.",
     "fetchErrorLeaderboard": "Yayıncı lider tablosunu alırken bir hata oluştu! Lütfen daha sonra tekrar deneyin.",
@@ -94,7 +95,7 @@
     "commandData": {
       "description": "Bir yayıncının konfigürasyonunu düzenleyin!"
     },
-    "noMessageOrChannel": "Düzenlemek için bir kanal veya mesaj sağlamalısınız!",
+    "noMessageOrChannel": "Düzenlemek için bir kanal, mesaj veya temizleme seçeneği sağlamalısınız!",
     "edited": "**{streamer}** konfigürasyonu başarıyla düzenlendi!"
   },
   "errorsCommand": {

@@ -11,6 +11,7 @@
     "optionStreamer": "Le nom d'utilisateur du streamer que vous souhaitez.",
     "optionChannel": "Le salon dans lequel vous souhaitez envoyer le message.",
     "optionMessage": "Le message que vous souhaitez envoyer lorsque le streamer est en direct.",
+    "optionCleanUp": "Nettoyez le message après que le diffuseur est hors ligne. (Supprime l'ancien message)",
     "serverOnly": "Cette commande ne peut être utilisée que dans un serveur !",
     "fetchError": "Une erreur s'est produite lors de la récupération du streamer ! Veuillez réessayer plus tard.",
     "fetchErrorLeaderboard": "Une erreur s'est produite lors de la récupération du classement du streamer ! Veuillez réessayer plus tard.",
@@ -94,7 +95,7 @@
     "commandData": {
       "description": "Modifier la configuration d'une.e streamer !"
     },
-    "noMessageOrChannel": "Vous devez fournir un salon ou un message à modifier !",
+    "noMessageOrChannel": "Vous devez fournir une chaîne, un message ou l'option de nettoyage pour éditer !",
     "edited": "Configuration de **{streamer}** modifiée avec succès !"
   },
   "errorsCommand": {

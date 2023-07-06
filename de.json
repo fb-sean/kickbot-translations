@@ -11,6 +11,7 @@
     "optionStreamer": "Der Benutzername des Streamers, den du möchtest.",
     "optionChannel": "Der Kanal, in dem du die Nachricht senden möchtest.",
     "optionMessage": "Die Nachricht, die du senden möchtest, wenn der Streamer live geht.",
+    "optionCleanUp": "Räumen Sie die Nachricht auf, nachdem der Streamer offline geht. (Löscht alte Nachricht)",
     "serverOnly": "Dieser Befehl kann nur auf einem Server verwendet werden!",
     "fetchError": "Beim Abrufen des Streamers ist ein Fehler aufgetreten! Bitte versuche es später erneut.",
     "fetchErrorLeaderboard": "Beim Abrufen der Streamer-Rangliste ist ein Fehler aufgetreten! Bitte versuche es später erneut.",
@@ -94,7 +95,7 @@
     "commandData": {
       "description": "Bearbeite die Konfiguration eines Streamers!"
     },
-    "noMessageOrChannel": "Du musst einen Kanal oder eine Nachricht zum Bearbeiten angeben!",
+    "noMessageOrChannel": "Sie müssen einen Kanal, eine Nachricht oder die Aufräumboption angeben, um bearbeiten zu können!",
     "edited": "Konfiguration von **{streamer}** erfolgreich bearbeitet!"
   },
   "errorsCommand": {

@@ -11,6 +11,7 @@
     "optionStreamer": "El nombre de usuario del streamer que deseas.",
     "optionChannel": "El canal al que deseas enviar el mensaje.",
     "optionMessage": "El mensaje que deseas enviar cuando el streamer esté en directo.",
+    "optionCleanUp": "Limpie el mensaje después de que el streamer se desconecte. (Elimina el mensaje antiguo)",
     "serverOnly": "¡Este comando solo se puede usar en un servidor!",
     "fetchError": "¡Se produjo un error al obtener la información del streamer! Por favor, inténtalo de nuevo más tarde.",
     "fetchErrorLeaderboard": "¡Se produjo un error al obtener la clasificación del streamer! Por favor, inténtalo de nuevo más tarde.",
@@ -94,7 +95,7 @@
     "commandData": {
       "description": "¡Edita la configuración de un streamer!"
     },
-    "noMessageOrChannel": "¡Debes proporcionar un canal o mensaje para editar!",
+    "noMessageOrChannel": "¡Debe proporcionar un canal, un mensaje o la opción de limpieza para editar!",
     "edited": "¡Se ha editado correctamente la configuración de **{streamer}**!"
   },
   "errorsCommand": {
