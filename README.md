@@ -1,6 +1,8 @@
 # Rules
 - Don't remove or change placeholders
 - Don't remove or change links
+- Don't remove or change the language key
+- Don't remove or change the path to the translation ("global" as example)
 
 # What are placeholders?
 - {username} is for example a placeholder for a username everything that is inside of {} are placeholders. 

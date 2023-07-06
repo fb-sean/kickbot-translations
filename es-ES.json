@@ -47,6 +47,8 @@
     "finished": "¡Proceso de verificación completado! Presiona el botón nuevamente para reclamar tu rol de suscriptor!"
   },
   "verification": {
+    "infoMobile": "Información para usuarios de móviles",
+    "infoMobileText": "Si eres un usuario de móviles. Por favor, abre https://kick.com en tu navegador y sigue los pasos en el navegador. Actualmente, la aplicación Kick no admite cambios de perfil.",
     "checkBio": "Comprobar Bio",
     "intro": "Para verificar tu cuenta de Discord con Kick, sigue los **pasos a continuación**:",
     "step1": "Ve a https://kick.com/ y haz clic en tu foto de perfil. (Asegúrate de haber iniciado sesión)",

@@ -47,6 +47,8 @@
     "finished": "Processo de verificação concluído! Pressione o botão novamente para reivindicar a função de assinante!"
   },
   "verification": {
+    "infoMobile": "Informações para usuário móvel",
+    "infoMobileText": "Se você é um usuário móvel. Por favor, abra https://kick.com no seu navegador e siga os passos no navegador. O aplicativo Kick atualmente não suporta alterações de perfil.",
     "checkBio": "Verificar Bio",
     "intro": "Para verificar sua conta do Discord com o Kick, siga as **etapas abaixo**:",
     "step1": "Acesse https://kick.com/ e clique em sua foto de perfil. (Certifique-se de estar logado)",

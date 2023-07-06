@@ -47,6 +47,8 @@
     "finished": "Verification process completed! Press the button now again to claim your subscriber role!"
   },
   "verification": {
+    "infoMobile": "Mobile user information",
+    "infoMobileText": "If you are a mobile user. Please open https://kick.com on your browser and do the steps in the Browser. The Kick App currently don't support the profile changes.",
     "checkBio": "Check Bio",
     "intro": "To verify your Discord account with Kick, please follow the **steps below**:",
     "step1": "Go to https://kick.com/ and click on your profile picture. (Make sure you are logged-in)",

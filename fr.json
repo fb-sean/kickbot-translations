@@ -22,17 +22,17 @@
     "alreadyHaveSubRole": "Vous avez déjà le rôle de souscription!",
     "reSync": "Resynchroniser le compte Kick",
     "invalidSync": "Soit **{streamer}** n'est plus un utilisateur Kick valide, soit **{kickUser}** n'est plus un utilisateur Kick valide!",
-    "notSubscriber": "Vous n'êtes pas abonné à {streamer}!",
-    "byAddingRoleError": "Lors de l'ajout du rôle d'abonné, une erreur est survenue !\n*Erreur : {error}*",
+    "notSubscriber": "Vous n'êtes pas abonné.e à {streamer} !",
+    "byAddingRoleError": "Lors de l'ajout du rôle d'abonné.e, une erreur est survenue !\n*Erreur : {error}*",
     "modalInfoText": "Peut être trouvé sur kick.com."
   },
   "giftLeaderboard": {
     "title": "Classement des Souscriptions de {streamerId}",
-    "allTime": "Toutes les times",
+    "allTime": "Tout le temps",
     "monthly": "Mensuel",
     "weekly": "Hebdomadaire",
     "powerBy": "Propulsé par www.KickBot.gg • Dernière mise à jour : ",
-    "gifts": "cadeaux",
+    "gifts": "Cadeaux",
     "infoText": "Ouvre un nouvel onglet et le profil d'expulsion de {username}",
     "noEntries": "Aucune entrée trouvée."
   },
@@ -44,9 +44,11 @@
     "noBio": "**{username}** n'a pas de bio ! Veuillez cliquer à nouveau sur **Vérifier la bio** et saisir un nom d'utilisateur valide.",
     "invalidDiscordId": "**{username}** n'a pas d'identifiant Discord valide dans sa bio ! Veuillez refaire le processus de vérification.",
     "noDiscordId": "**{username}** n'a pas votre identifiant Discord dans sa bio ! Veuillez refaire le processus de vérification.",
-    "finished": "Le processus de vérification est terminé ! Appuyez maintenant sur le bouton pour réclamer votre rôle d'abonné !"
+    "finished": "Le processus de vérification est terminé ! Appuyez maintenant sur le bouton pour réclamer votre rôle d'abonné.e !"
   },
   "verification": {
+    "infoMobile": "Informations sur l'utilisateur mobile",
+    "infoMobileText": "Si vous êtes un utilisateur mobile. Veuillez ouvrir https://kick.com sur votre navigateur et suivez les étapes dans le navigateur. L'application Kick ne prend actuellement pas en charge les modifications de profil.",
     "checkBio": "Vérifier la bio",
     "intro": "Pour vérifier votre compte Discord avec Kick, veuillez suivre les **étapes ci-dessous** :",
     "step1": "Rendez-vous sur https://kick.com/ et cliquez sur votre photo de profil. (Assurez-vous d'être connecté)",
@@ -70,11 +72,11 @@
   },
   "counterCommand": {
     "commandData": {
-      "description": "ajouter / supprimer ou mettre à jour un compteur de followers pour un streamer.",
-      "addDescription": "ajouter un compteur de followers pour un streamer.",
-      "editDescription": "modifier un compteur de followers pour un streamer.",
-      "removeDescription": "supprimer un compteur de followers pour un streamer.",
-      "listDescription": "liste tous les compteurs de followers pour ce serveur.",
+      "description": "Ajouter / supprimer ou mettre à jour un compteur de followers pour une.e streamer.",
+      "addDescription": "Ajouter un compteur de followers pour une.e streamer.",
+      "editDescription": "Modifier un compteur de followers pour une.e streamer.",
+      "removeDescription": "Supprimer un compteur de followers pour une.e streamer.",
+      "listDescription": "Liste tous les compteurs de followers pour ce serveur.",
       "optionChannel": "Le salon qui doit avoir le compteur de followers.",
       "optionChannelRemove": "Le salon qui est lié au streamer que vous souhaitez supprimer.",
       "optionName": "Le nom du compteur. [Nom du salon]"
@@ -89,7 +91,7 @@
   },
   "editCommand": {
     "commandData": {
-      "description": "Modifier la configuration d'un streamer !"
+      "description": "Modifier la configuration d'une.e streamer !"
     },
     "noMessageOrChannel": "Vous devez fournir un salon ou un message à modifier !",
     "edited": "Configuration de **{streamer}** modifiée avec succès !"
@@ -116,8 +118,8 @@
     "commands": "Commandes",
     "notifications": "Notifications en direct",
     "counters": "Compteur de followers",
-    "subLeaderboard": "Classement des abonnés",
-    "subRole": "Rôle d'abonné",
+    "subLeaderboard": "Classement des abonné.es",
+    "subRole": "Rôle d'abonné.e",
     "misc": "Divers",
     "madeBy": "Fait par [Sean Sattler](<https://sattler.dev> \"Ouvre un nouvel onglet avec sattler.dev\")",
     "notAffiliated": "*Non affilié à <:Kick_Green:1118592781930221648> [Kick](<https://kick.com> \"Ouvre un nouvel onglet avec kick.com\")*"
@@ -145,12 +147,12 @@
   },
   "leaderboardCommand": {
     "commandData": {
-      "description": "ajouter / supprimer ou mettre à jour un classement pour un streamer.",
+      "description": "Ajouter / supprimer ou mettre à jour un classement pour une.e streamer.",
       "optionStreamerRemove": "Le nom d'utilisateur du streamer que vous souhaitez supprimer.",
-      "listDescription": "afficher tous les classements pour ce serveur.",
-      "addDescription": "ajouter un classement pour un streamer.",
-      "removeDescription": "supprimer un classement pour un streamer.",
-      "editDescription": "modifier un classement pour un streamer.",
+      "listDescription": "Afficher tous les classements pour ce serveur.",
+      "addDescription": "Ajouter un classement pour une.e streamer.",
+      "removeDescription": "Supprimer un classement pour une.e streamer.",
+      "editDescription": "Modifier un classement pour une.e streamer.",
       "optionChannel": "Le salon du classement.",
       "optionStyle": "Le style du classement.",
       "style3": "Le style du classement des trois premiers.",
@@ -176,28 +178,28 @@
     "commandData": {
       "description": "Voir tous les streamers suivis par le bot sur ce serveur!"
     },
-    "emptyList": "Il n'y a aucun streamer configuré sur ce serveur!"
+    "emptyList": "Il n'y a aucune.e streamer configuré sur ce serveur!"
   },
   "removeCommand": {
     "commandData": {
-      "description": "Supprimer un streamer du bot!",
+      "description": "Supprimer une.e streamer du bot!",
       "optionStreamer": "Le nom d'utilisateur du streamer que vous souhaitez supprimer."
     },
     "removed": "**{streamer}** a été supprimé du bot!\n*Ajouté par <@{addedById}>.*"
   },
   "subscriberRoleCommand": {
     "commandData": {
-      "description": "Ajouter un rôle d'abonné à un streamer.",
-      "optionStreamer": "Le nom d'utilisateur du streamer où les abonnés devraient pouvoir obtenir le rôle.",
-      "optionRole": "Le rôle que vous souhaitez donner aux abonnés.",
+      "description": "Ajouter un rôle d'abonné.e à une.e streamer.",
+      "optionStreamer": "Le nom d'utilisateur du streamer où les abonné.es devraient pouvoir obtenir le rôle.",
+      "optionRole": "Le rôle que vous souhaitez donner aux abonné.es.",
       "optionMessage": "Un message si vous voulez avoir un message personnalisé."
     },
     "embed": {
-      "title": "Rôle d'abonné pour ",
-      "description": "Pour obtenir le rôle d'abonné de **{streamer}**, il vous suffit de cliquer sur le bouton ci-dessous avec le nom **Sub Role**."
+      "title": "Rôle d'abonné.e pour",
+      "description": "Pour obtenir le rôle d'abonné.e de **{streamer}**, il vous suffit de cliquer sur le bouton ci-dessous avec le nom **Sub Role**."
     },
-    "added": "J'ai envoyé l'encart du rôle d'abonné à <#{channel}>!\n*Info : si vous souhaitez supprimer la configuration, il suffit de supprimer le message et le rôle et le bot supprimera automatiquement les paramètres dans la base de données.*",
-    "error": "Une erreur s'est produite lors de l'envoi de l'encart du rôle d'abonné!\n*Erreur : {error}*",
+    "added": "J'ai envoyé l'encart du rôle d'abonné.e à <#{channel}> !\n*Info : si vous souhaitez supprimer la configuration, il suffit de supprimer le message et le rôle et le bot supprimera automatiquement les paramètres dans la base de données.*",
+    "error": "Une erreur s'est produite lors de l'envoi de l'encart du rôle d'abonné.e !\n*Erreur : {error}*",
     "button": "Obtenir le rôle d'abonné.e"
   },
   "supportCommand": {
@@ -217,7 +219,7 @@
     "viewers": "Le nombre de spectateurs du stream.",
     "language": "La langue du stream.",
     "image": "La vignette du stream. (Non disponible pour les compteurs!)",
-    "followers": "Le nombre d'abonnés du streamer.",
+    "followers": "Le nombre d'abonné.es du streamer.",
     "created_at": "La date de création du stream. (Non disponible pour les compteurs!)",
     "category": "La catégorie du stream.",
     "category_name": "L'image de la catégorie du stream.",

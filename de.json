@@ -47,6 +47,8 @@
     "finished": "Der Verifizierungsprozess ist abgeschlossen! Drücke jetzt erneut den Button, um deine Abonnentenrolle zu erhalten!"
   },
   "verification": {
+    "infoMobile": "Informationen für Mobilnutzer",
+    "infoMobileText": "Wenn Sie ein Mobilnutzer sind. Bitte öffnen Sie https://kick.com in Ihrem Browser und führen Sie die Schritte im Browser durch. Die Kick App unterstützt derzeit keine Profiländerungen.",
     "checkBio": "Bio überprüfen",
     "intro": "Um deinen Discord-Account mit Kick zu verifizieren, befolge bitte die **folgenden Schritte**:",
     "step1": "Gehe zu https://kick.com/ und klicke auf dein Profilbild. (Stelle sicher, dass du eingeloggt bist)",
