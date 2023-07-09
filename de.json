@@ -226,5 +226,15 @@
     "category": "Die Stream-Kategorie.",
     "category_name": "Das Bild der Stream-Kategorie.",
     "slug": "Der Slug des Streamers."
+  },
+  "vodCommand": {
+    "commandData": {
+      "name": "VOD Herunterladen"
+    },
+    "invalidContent": "Diese Nachricht enthält keinen gültigen VOD-Link!",
+    "invalidVodLink": "Sie müssen einen gültigen VOD-Link angeben!",
+    "notFound": "Ich kann dieses VOD mit der ID **{id}** nicht finden!",
+    "error": "Beim Herunterladen des VODs ist ein Fehler aufgetreten!\n*Fehler: {error}*",
+    "vodText": "Hier ist das angeforderte VOD."
   }
 }

@@ -226,5 +226,15 @@
     "category": "Yayın kategorisi.",
     "category_name": "Yayın kategorisi resmi.",
     "slug": "Streamer'ın slug'i."
+  },
+  "vodCommand": {
+    "commandData": {
+      "name": "VOD İndir"
+    },
+    "invalidContent": "Bir VOD linki sağlamalısınız!",
+    "invalidVodLink": "Geçerli bir VOD linki sağlamalısınız!",
+    "notFound": "ID **{id}** olan bir VOD bulamadım!",
+    "error": "VOD'u indirmeye çalışırken bir hata aldım!\n*Hata: {error}*",
+    "vodText": "İstediğiniz VOD burada."
   }
 }

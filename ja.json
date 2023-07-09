@@ -226,5 +226,15 @@
     "category": "ストリームのカテゴリ。",
     "category_name": "ストリームカテゴリの画像。",
     "slug": "ストリーマーのスラッグ。"
+  },
+  "vodCommand": {
+    "commandData": {
+      "name": "VODをダウンロード"
+    },
+    "invalidContent": "VODのリンクを提供する必要があります！",
+    "invalidVodLink": "有効なVODリンクを提供する必要があります！",
+    "notFound": "ID **{id}**のVODが見つかりませんでした！",
+    "error": "VODをダウンロードしようとしたときにエラーが発生しました！\n*エラー: {error}*",
+    "vodText": "要求されたVODはこちらです。"
   }
 }

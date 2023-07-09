@@ -226,5 +226,15 @@
     "category": "La catégorie du stream.",
     "category_name": "L'image de la catégorie du stream.",
     "slug": "L'identifiant du streamer."
+  },
+  "vodCommand": {
+    "commandData": {
+      "name": "Télécharger VOD"
+    },
+    "invalidContent": "Vous devez fournir un lien VOD!",
+    "invalidVodLink": "Vous devez fournir un lien VOD valide!",
+    "notFound": "Je n'ai pas pu trouver une VOD avec l'ID **{id}**!",
+    "error": "En essayant de télécharger la VOD, j'ai rencontré une erreur!\n*Erreur: {error}*",
+    "vodText": "Voici la VOD demandée."
   }
 }
