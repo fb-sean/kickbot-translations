@@ -145,7 +145,7 @@
     "commandData": {
       "description": "Botu sunucunuza davet etmek ister misiniz? Bu komutu kullanın!"
     },
-    "inviteText": "<:PlusIcon:1118592778897719347> **[Botu sunucunuza davet etmek için buraya tıklayın!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=314368&scope=bot%20applications.commands \"Davet bağlantısı ile yeni bir sekme açar!\")**"
+    "inviteText": "<:PlusIcon:1118592778897719347> **[Botu sunucunuza davet etmek için buraya tıklayın!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=268749840&scope=bot%20applications.commands \"Davet bağlantısı ile yeni bir sekme açar!\")**"
   },
   "leaderboardCommand": {
     "commandData": {
