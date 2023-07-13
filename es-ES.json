@@ -26,7 +26,8 @@
     "notSubscriber": "¡No eres un suscriptor de {streamer}!",
     "byAddingRoleError": "¡Mientras intentaba agregar el rol de suscriptor, ocurrió un error!\n*Error: {error}*",
     "modalInfoText": "Pueden encontrarse en kick.com.",
-    "watch": "Reloj"
+    "watch": "Reloj",
+    "defaultNotification": "<:O_:1118592785642180698> ¡[[STREAMER]] está transmitiendo en vivo ahora!\n<:LinkIcon:1118592789488349325> Míralo aquí: [[URL]]"
   },
   "giftLeaderboard": {
     "title": "Tabla de clasificación de suscriptores de {streamerId}",

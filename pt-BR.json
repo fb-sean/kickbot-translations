@@ -26,7 +26,8 @@
     "notSubscriber": "Você não é um assinante de {streamer}!",
     "byAddingRoleError": "Ao tentar adicionar a função de assinante, ocorreu um erro!\n*Erro: {error}*",
     "modalInfoText": "Pode ser encontrado em kick.com.",
-    "watch": "Relógio"
+    "watch": "Relógio",
+    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] está ao vivo agora!\n<:LinkIcon:1118592789488349325> Assista aqui: [[URL]]"
   },
   "giftLeaderboard": {
     "title": "Classificação de Subs do {streamerId}",

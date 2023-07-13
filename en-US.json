@@ -26,7 +26,8 @@
     "notSubscriber": "You are not a subscriber of {streamer}!",
     "byAddingRoleError": "While trying to add the subscriber role I got a error!\n*Error: {error}*",
     "modalInfoText": "Can be found on kick.com.",
-    "watch": "Watch"
+    "watch": "Watch",
+    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] is now live!\n<:LinkIcon:1118592789488349325> Watch it here: [[URL]]"
   },
   "giftLeaderboard": {
     "title": "Subs Leaderboard of {streamerId}",

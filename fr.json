@@ -22,11 +22,12 @@
     "cooldown": "Vous êtes en période de recharge, veuillez attendre une seconde.",
     "alreadyHaveSubRole": "Vous avez déjà le rôle de souscription !",
     "reSync": "Resynchroniser le compte Kick",
-    "invalidSync": "Soit **{streamer}** n'est plus un utilisateur Kick valide, soit **{kickUser}** n'est plus un utilisateur Kick valide!",
+    "invalidSync": "Soit **{streamer}** n'est plus un utilisateur Kick valide, soit **{kickUser}** n'est plus un utilisateur Kick valide !",
     "notSubscriber": "Vous n'êtes pas abonné.e à {streamer} !",
     "byAddingRoleError": "Lors de l'ajout du rôle d'abonné.e, une erreur est survenue !\n*Erreur : {error}*",
     "modalInfoText": "Peut être trouvé sur kick.com.",
-    "watch": "Montre"
+    "watch": "Montre",
+    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] est en direct maintenant !\n<:LinkIcon:1118592789488349325> Regardez ici: [[URL]]"
   },
   "giftLeaderboard": {
     "title": "Classement des Souscriptions de {streamerId}",
