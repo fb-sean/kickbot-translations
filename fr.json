@@ -237,5 +237,14 @@
     "notFound": "Je n'ai pas pu trouver une VOD avec l'ID **{id}**!",
     "error": "En essayant de télécharger la VOD, j'ai rencontré une erreur!\n*Erreur: {error}*",
     "vodText": "Voici la VOD demandée."
+  },
+  "clipCommand": {
+    "commandData": {
+      "name": "Télécharger un extrait"
+    },
+    "invalidContent": "Vous devez fournir un lien d'extrait!",
+    "invalidClipLink": "Vous devez fournir un lien d'extrait valide!",
+    "notFound": "Je n'ai pas pu trouver un extrait avec l'ID **{id}**!",
+    "clipFound": "Voici l'extrait demandé."
   }
 }

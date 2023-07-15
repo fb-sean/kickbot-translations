@@ -237,5 +237,14 @@
     "notFound": "ID **{id}** olan bir VOD bulamadım!",
     "error": "VOD'u indirmeye çalışırken bir hata aldım!\n*Hata: {error}*",
     "vodText": "İstediğiniz VOD burada."
+  },
+  "clipCommand": {
+    "commandData": {
+      "name": "Parça İndir"
+    },
+    "invalidContent": "Parça bağlantısı sağlamalısın!",
+    "invalidClipLink": "Geçerli bir parça bağlantısı sağlamalısın!",
+    "notFound": "ID'si **{id}** olan bir parça bulamadım!",
+    "clipFound": "İstenilen parça burada."
   }
 }

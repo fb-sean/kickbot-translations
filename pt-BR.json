@@ -237,5 +237,14 @@
     "notFound": "Não consegui encontrar um VOD com o ID **{id}**!",
     "error": "Ao tentar baixar o VOD, ocorreu um erro!\n*Erro: {error}*",
     "vodText": "Aqui está o VOD solicitado."
+  },
+  "clipCommand": {
+    "commandData": {
+      "name": "Baixar Clipe"
+    },
+    "invalidContent": "Você deve fornecer um link de clipe!",
+    "invalidClipLink": "Você deve fornecer um link de clipe válido!",
+    "notFound": "Não foi possível encontrar um clipe com o ID **{id}**!",
+    "clipFound": "Aqui está o clipe solicitado."
   }
 }

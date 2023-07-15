@@ -237,5 +237,14 @@
     "notFound": "ID **{id}**のVODが見つかりませんでした！",
     "error": "VODをダウンロードしようとしたときにエラーが発生しました！\n*エラー: {error}*",
     "vodText": "要求されたVODはこちらです。"
+  },
+  "clipCommand": {
+    "commandData": {
+      "name": "クリップをダウンロードする"
+    },
+    "invalidContent": "クリップのリンクを指定する必要があります！",
+    "invalidClipLink": "有効なクリップのリンクを指定する必要があります！",
+    "notFound": "ID **{id}**のクリップが見つかりませんでした！",
+    "clipFound": "要求されたクリップです。"
   }
 }
