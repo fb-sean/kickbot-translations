@@ -228,23 +228,12 @@
     "category_name": "La imagen de la categoría de la transmisión.",
     "slug": "El slug del streamer."
   },
-  "vodCommand": {
+  "testCommand": {
     "commandData": {
-      "name": "Descargar VOD"
+      "description": "Prueba tu notificación en vivo.",
+      "optionStreamer": "El nombre de usuario del streamer que quieres probar."
     },
-    "invalidContent": "¡Debes proporcionar un enlace VOD!",
-    "invalidVodLink": "¡Debes proporcionar un enlace VOD válido!",
-    "notFound": "¡No pude encontrar un VOD con el ID **{id}**!",
-    "error": "¡Mientras intentaba descargar el VOD obtuve un error!\n*Error: {error}*",
-    "vodText": "Aquí está el VOD solicitado."
-  },
-  "clipCommand": {
-    "commandData": {
-      "name": "Descargar Clip"
-    },
-    "invalidContent": "¡Debes proporcionar un enlace de clip!",
-    "invalidClipLink": "¡Debes proporcionar un enlace de clip válido!",
-    "notFound": "No pude encontrar un clip con el ID **{id}**!",
-    "clipFound": "Aquí tienes el clip solicitado."
+    "tested": "¡Se ha enviado el mensaje de prueba para **{streamer}**!\nTen en cuenta que el bot siempre utiliza datos de prueba para esto.",
+    "error": "¡Mientras intentaba enviar el mensaje de prueba, ocurrió un error!\n*Error: {error}*"
   }
 }

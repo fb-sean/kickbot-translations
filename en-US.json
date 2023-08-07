@@ -228,23 +228,12 @@
     "category_name": "The stream category image.",
     "slug": "The streamer's slug."
   },
-  "vodCommand": {
+  "testCommand": {
     "commandData": {
-      "name": "Download VOD"
+      "description": "Test your live notification.",
+      "optionStreamer": "The username of the streamer you want to test."
     },
-    "invalidContent": "You must provide a VOD link!",
-    "invalidVodLink": "You must provide a valid VOD link!",
-    "notFound": "I couldn't find a VOD with the ID **{id}**!",
-    "error": "While trying to download the VOD I got a error!\n*Error: {error}*",
-    "vodText": "Here is the requested VOD."
-  },
-  "clipCommand": {
-    "commandData": {
-      "name": "Download Clip"
-    },
-    "invalidContent": "You must provide a clip link!",
-    "invalidClipLink": "You must provide a valid clip link!",
-    "notFound": "I couldn't find a clip with the ID **{id}**!",
-    "clipFound": "Here is the requested clip."
+    "tested": "Test message for **{streamer}** has been sent!\nKeep in mind that the bot always use test data for this.",
+    "error": "While trying to send the test message I got a error!\n*Error: {error}*"
   }
 }

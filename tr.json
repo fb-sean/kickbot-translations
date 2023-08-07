@@ -228,23 +228,12 @@
     "category_name": "Yayın kategorisi resmi.",
     "slug": "Streamer'ın slug'i."
   },
-  "vodCommand": {
+  "testCommand": {
     "commandData": {
-      "name": "VOD İndir"
+      "description": "Canlı bildiriminizi test edin.",
+      "optionStreamer": "Test etmek istediğiniz yayıncının kullanıcı adı."
     },
-    "invalidContent": "Bir VOD linki sağlamalısınız!",
-    "invalidVodLink": "Geçerli bir VOD linki sağlamalısınız!",
-    "notFound": "ID **{id}** olan bir VOD bulamadım!",
-    "error": "VOD'u indirmeye çalışırken bir hata aldım!\n*Hata: {error}*",
-    "vodText": "İstediğiniz VOD burada."
-  },
-  "clipCommand": {
-    "commandData": {
-      "name": "Parça İndir"
-    },
-    "invalidContent": "Parça bağlantısı sağlamalısın!",
-    "invalidClipLink": "Geçerli bir parça bağlantısı sağlamalısın!",
-    "notFound": "ID'si **{id}** olan bir parça bulamadım!",
-    "clipFound": "İstenilen parça burada."
+    "tested": "**{streamer}** için test mesajı gönderildi!\nUnutmayın, bot bunun için her zaman test verilerini kullanır.",
+    "error": "Test mesajını göndermeye çalışırken bir hata aldım!\n*Hata: {error}*"
   }
 }

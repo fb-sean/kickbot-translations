@@ -228,23 +228,12 @@
     "category_name": "ストリームカテゴリの画像。",
     "slug": "ストリーマーのスラッグ。"
   },
-  "vodCommand": {
+  "testCommand": {
     "commandData": {
-      "name": "VODをダウンロード"
+      "description": "ライブ通知をテストします。",
+      "optionStreamer": "テストしたいストリーマーのユーザー名"
     },
-    "invalidContent": "VODのリンクを提供する必要があります！",
-    "invalidVodLink": "有効なVODリンクを提供する必要があります！",
-    "notFound": "ID **{id}**のVODが見つかりませんでした！",
-    "error": "VODをダウンロードしようとしたときにエラーが発生しました！\n*エラー: {error}*",
-    "vodText": "要求されたVODはこちらです。"
-  },
-  "clipCommand": {
-    "commandData": {
-      "name": "クリップをダウンロードする"
-    },
-    "invalidContent": "クリップのリンクを指定する必要があります！",
-    "invalidClipLink": "有効なクリップのリンクを指定する必要があります！",
-    "notFound": "ID **{id}**のクリップが見つかりませんでした！",
-    "clipFound": "要求されたクリップです。"
+    "tested": "テストメッセージが **{streamer}** に送信されました！\nこのテストでは、ボットは常にテストデータを使用します。",
+    "error": "テストメッセージの送信中にエラーが発生しました！\n*エラー：{error}*"
   }
 }
