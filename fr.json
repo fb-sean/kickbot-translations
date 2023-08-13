@@ -226,6 +226,7 @@
     "created_at": "La date de création du stream. (Non disponible pour les compteurs !)",
     "category": "La catégorie du stream.",
     "category_name": "L'image de la catégorie du stream.",
+    "default_message": "Le message par défaut. (Non disponible pour les compteurs !)",
     "slug": "L'identifiant du streamer."
   },
   "testCommand": {

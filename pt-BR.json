@@ -226,6 +226,7 @@
     "created_at": "A data de criação do stream. (Não disponível nos contadores!)",
     "category": "A categoria do stream.",
     "category_name": "A imagem da categoria do stream.",
+    "default_message": "A mensagem padrão do bot. (Não disponível nos contadores!)",
     "slug": "O slug do streamer."
   },
   "testCommand": {

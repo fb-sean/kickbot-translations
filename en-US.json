@@ -226,6 +226,7 @@
     "created_at": "The stream creation date. (Not available at counters!)",
     "category": "The stream category.",
     "category_name": "The stream category image.",
+    "default_message": "The default message. (Not available at counters!)",
     "slug": "The streamer's slug."
   },
   "testCommand": {

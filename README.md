@@ -5,7 +5,7 @@
 - Don't remove or change the path to the translation ("global" as example)
 
 # What are placeholders?
-- {username} is for example a placeholder for a username everything that is inside of {} are placeholders. 
+- {username} is, for example, a placeholder for a username everything that is inside {} are placeholders. 
 
 # Available Locals
 - You can find all locals supported by the bot here https://discord.com/developers/docs/reference#locales
@@ -21,5 +21,7 @@
 2. Change what you need to change.
 3. Create a pull request
 
-# Support
-https://discord.gg/ZVERh35
+# Links
+- Website: https://www.kickbot.gg
+- Support: https://discord.gg/ZVERh35
+- Invite: https://get.kickbot.gg

@@ -226,6 +226,7 @@
     "created_at": "La fecha de creación de la transmisión. (No disponible en los contadores!)",
     "category": "La categoría de la transmisión.",
     "category_name": "La imagen de la categoría de la transmisión.",
+    "default_message": "El mensaje por defecto. (No disponible en los contadores!)",
     "slug": "El slug del streamer."
   },
   "testCommand": {

@@ -226,6 +226,7 @@
     "created_at": "Yayının oluşturulma tarihi. (Sayaçlarda mevcut değildir!)",
     "category": "Yayın kategorisi.",
     "category_name": "Yayın kategorisi resmi.",
+    "default_message": "Varsayılan mesaj. (Sayaçlarda mevcut değildir!)",
     "slug": "Streamer'ın slug'i."
   },
   "testCommand": {

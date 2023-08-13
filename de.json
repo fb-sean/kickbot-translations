@@ -226,6 +226,7 @@
     "created_at": "Das Erstellungsdatum des Streams. (Nicht verfügbar bei Zählern!)",
     "category": "Die Stream-Kategorie.",
     "category_name": "Das Bild der Stream-Kategorie.",
+    "default_message": "Die Standardnachricht vom Bot. (Nicht verfügbar bei Zählern!)",
     "slug": "Der Slug des Streamers."
   },
   "testCommand": {
