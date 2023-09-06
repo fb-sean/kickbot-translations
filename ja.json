@@ -146,7 +146,7 @@
     "commandData": {
       "description": "このボットをあなたのサーバーに招待したいですか？このコマンドを使用してください！"
     },
-    "inviteText": "<:PlusIcon:1118592778897719347> **[このボットをあなたのサーバーに招待するにはここをクリック！](https://discord.com/api/oauth2/authorize?client_id=${process.env.DISCORD_BOT_ID}&permissions=268749840&scope=bot%20applications.commands \"新しいタブで招待リンクが開きます！\")**"
+    "inviteText": "<:PlusIcon:1118592778897719347> **[このボットをあなたのサーバーに招待するにはここをクリック！](https://discord.com/api/oauth2/authorize?client_id=${process.env.DISCORD_BOT_ID}&permissions=275146828816&scope=bot%20applications.commands \"新しいタブで招待リンクが開きます！\")**"
   },
   "leaderboardCommand": {
     "commandData": {
