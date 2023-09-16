@@ -12,6 +12,7 @@
     "optionChannel": "The channel you want to send the message to.",
     "optionMessage": "The message you want to send when the streamer goes live.",
     "optionCleanUp": "Clean up the message after the streamer goes offline. (Deletes old message)",
+    "optionFilters": "Filter out live notifications by title keywords. Separate with commas: keyword1, keyword2",
     "serverOnly": "This command can only be used in a server!",
     "fetchError": "An error occurred while fetching the streamer! Please try again later.",
     "fetchErrorLeaderboard": "An error occurred while fetching the streamer leaderboard! Please try again later.",
@@ -111,13 +112,13 @@
     "commandData": {
       "description": "Get a link to the web guide of Kick Bot!"
     },
-    "infoText": "### Kick Discord Bot Guide\n<:wink:1118617302615720138> [Click here to get to the web guide of the bot.](<https://guide.kickbot.gg/> \"Opens a new tab with guide.kickbot.gg\")"
+    "infoText": "### Kick Discord Bot Guide\n<:wink:1118617302615720138> [Click here to get to the web guide of the bot.](<https://guide.kickbot.gg?utm_source=discord-in-app/> \"Opens a new tab with guide.kickbot.gg\")"
   },
   "helpCommand": {
     "commandData": {
       "description": "Get help with the bot!"
     },
-    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg>) is a Discord bot that allows you to track [Kick](<https://kick.com> \"Opens a new tab with kick.com\") streamers and get notified when they go live!",
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg?utm_source=discord-in-app>) is a Discord bot that allows you to track [Kick](<https://kick.com> \"Opens a new tab with kick.com\") streamers and get notified when they go live!",
     "commands": "Commands",
     "notifications": "Live Notifications",
     "counters": "Follower Counter",
@@ -146,7 +147,7 @@
     "commandData": {
       "description": "Want to invite the bot to your server? Use this command!"
     },
-    "inviteText": "<:PlusIcon:1118592778897719347> **[Click here to invite the bot to your server!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&scope=bot%20applications.commands \"Opens a new tab with the invite link!\")**"
+    "inviteText": "<:PlusIcon:1118592778897719347> **[Click here to invite the bot to your server!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&redirect_uri=https%3A%2F%2Fwww.kickbot.gg%3Futm_source%3Ddiscord-app-invite&response_type=code&scope=bot%20applications.commands%20identify \"Opens a new tab with the invite link!\")**"
   },
   "leaderboardCommand": {
     "commandData": {
@@ -236,5 +237,21 @@
     },
     "tested": "Test message for **{streamer}** has been sent!\nKeep in mind that the bot always use test data for this.",
     "error": "While trying to send the test message I got a error!\n*Error: {error}*"
+  },
+  "ktdCommand": {
+    "commandData": {
+      "description": "Get a Discord user from a Kick user"
+    },
+    "notInOurDatabase": "This Kick user is not in our database!",
+    "notInDiscord": "I can't find a Discord user with this Kick user!",
+    "success": "### Kick to Discord\n- Discord User: {username} (`{id}`)\n- Discord User Avatar: [CLICK](<{avatar}>)"
+  },
+  "dtkCommand": {
+    "commandData": {
+      "description": "Get a Kick user from a Discord user"
+    },
+    "notInOurDatabase": "This Discord user is not in our database!",
+    "notInKick": "I can't find a Kick user with this Discord user!",
+    "success": "### Discord to Kick\n- Kick User: {username} (`{id}`)\n- Kick User Avatar: [CLICK](<{avatar}>)\n- Kick User Biography: \n>>> {bio}"
   }
 }

@@ -12,6 +12,7 @@
     "optionChannel": "El canal al que deseas enviar el mensaje.",
     "optionMessage": "El mensaje que deseas enviar cuando el streamer esté en directo.",
     "optionCleanUp": "Limpie el mensaje después de que el streamer se desconecte. (Elimina el mensaje antiguo)",
+    "optionFilters" : "Filtrar notificaciones en vivo por palabras clave en el título. Separar con comas: palabra clave1,",
     "serverOnly": "¡Este comando solo se puede usar en un servidor!",
     "fetchError": "¡Se produjo un error al obtener la información del streamer! Por favor, inténtalo de nuevo más tarde.",
     "fetchErrorLeaderboard": "¡Se produjo un error al obtener la clasificación del streamer! Por favor, inténtalo de nuevo más tarde.",
@@ -111,13 +112,13 @@
     "commandData": {
       "description": "¡Obtén un enlace a la guía web de Kick Bot!"
     },
-    "infoText": "### Guía del Bot de Discord Kick\n<:wink:1118617302615720138> [Haz clic aquí para acceder a la guía web del bot.](<https://guide.kickbot.gg/> \"Se abre una nueva pestaña con guide.kickbot.gg\")"
+    "infoText": "### Guía del Bot de Discord Kick\n<:wink:1118617302615720138> [Haz clic aquí para acceder a la guía web del bot.](<https://guide.kickbot.gg?utm_source=discord-in-app/> \"Se abre una nueva pestaña con guide.kickbot.gg\")"
   },
   "helpCommand": {
     "commandData": {
       "description": "¡Obtén ayuda con el bot!"
     },
-    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg>) es un bot de Discord que te permite seguir a los streamers de [Kick](<https://kick.com> \"Abre una nueva pestaña con kick.com\") y recibir notificaciones cuando se conectan en directo!",
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg?utm_source=discord-in-app>) es un bot de Discord que te permite seguir a los streamers de [Kick](<https://kick.com> \"Abre una nueva pestaña con kick.com\") y recibir notificaciones cuando se conectan en directo!",
     "commands": "Comandos",
     "notifications": "Notificaciones en Vivo",
     "counters": "Contador de Seguidores",
@@ -146,7 +147,7 @@
     "commandData": {
       "description": "¿Quieres invitar al bot a tu servidor? ¡Usa este comando!"
     },
-    "inviteText": "<:PlusIcon:1118592778897719347> **[Haz clic aquí para invitar al bot a tu servidor!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&scope=bot%20applications.commands \"Se abre una nueva pestaña con el enlace de invitación\")**"
+    "inviteText": "<:PlusIcon:1118592778897719347> **[Haz clic aquí para invitar al bot a tu servidor!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&redirect_uri=https%3A%2F%2Fwww.kickbot.gg%3Futm_source%3Ddiscord-app-invite&response_type=code&scope=bot%20applications.commands%20identify \"Se abre una nueva pestaña con el enlace de invitación\")**"
   },
   "leaderboardCommand": {
     "commandData": {
@@ -236,5 +237,21 @@
     },
     "tested": "¡Se ha enviado el mensaje de prueba para **{streamer}**!\nTen en cuenta que el bot siempre utiliza datos de prueba para esto.",
     "error": "¡Mientras intentaba enviar el mensaje de prueba, ocurrió un error!\n*Error: {error}*"
+  },
+  "ktdCommand": {
+    "commandData": {
+      "description": "Obtener un usuario de Discord a partir de un usuario de Kick"
+    },
+    "notInOurDatabase": "¡Este usuario de Kick no está en nuestra base de datos!",
+    "notInDiscord": "¡No puedo encontrar un usuario de Discord con este usuario de Kick!",
+    "success": "### Kick a Discord\n- Usuario de Discord: {username} (`{id}`)\n- Avatar del usuario de Discord: [CLIC](<{avatar}>)"
+  },
+  "dtkCommand": {
+    "commandData": {
+      "description": "Obtener un usuario Kick de un usuario de Discord"
+    },
+    "notInOurDatabase": "¡Este usuario de Discord no está en nuestra base de datos!",
+    "notInKick": "¡No puedo encontrar un usuario Kick con este usuario de Discord!",
+    "success": "### Discord a Kick\n- Usuario Kick: {username} (`{id}`)\n- Avatar de Usuario Kick: [CLIC](<{avatar}>)\n- Biografía de Usuario Kick: \n>>> {bio}"
   }
 }

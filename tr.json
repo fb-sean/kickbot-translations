@@ -12,6 +12,7 @@
     "optionChannel": "Mesajı göndermek istediğiniz kanal.",
     "optionMessage": "Yayıncı canlı yayına geçtiğinde göndermek istediğiniz mesaj.",
     "optionCleanUp": "Yayıncı çevrimdışı olduğunda mesajı temizleyin. (Eski mesajı siler)",
+    "optionFilters": "Başlık anahtar kelimelerine göre canlı bildirimleri filtreleyin. Virgülle ayrılarak",
     "serverOnly": "Bu komut yalnızca bir sunucuda kullanılabilir!",
     "fetchError": "Yayıncıyı alırken bir hata oluştu! Lütfen daha sonra tekrar deneyin.",
     "fetchErrorLeaderboard": "Yayıncı lider tablosunu alırken bir hata oluştu! Lütfen daha sonra tekrar deneyin.",
@@ -111,13 +112,13 @@
     "commandData": {
       "description": "Kick Bot'un web rehberine bir link alın!"
     },
-    "infoText": "### Kick Discord Bot Rehberi\n<:wink:1118617302615720138> [Botun web rehberine gitmek için buraya tıklayın.](<https://guide.kickbot.gg/> \"guide.kickbot.gg ile yeni bir sekme açar\")"
+    "infoText": "### Kick Discord Bot Rehberi\n<:wink:1118617302615720138> [Botun web rehberine gitmek için buraya tıklayın.](<https://guide.kickbot.gg?utm_source=discord-in-app/> \"guide.kickbot.gg ile yeni bir sekme açar\")"
   },
   "helpCommand": {
     "commandData": {
       "description": "Botla ilgili yardım alın!"
     },
-    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg>) Discord botu, [Kick](<https://kick.com> \"Yeni bir sekmede kick.com'u açar\") yayıncılarını takip etmenizi ve canlı yayına geçtiklerinde bildirim almanızı sağlar!",
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg?utm_source=discord-in-app>) Discord botu, [Kick](<https://kick.com> \"Yeni bir sekmede kick.com'u açar\") yayıncılarını takip etmenizi ve canlı yayına geçtiklerinde bildirim almanızı sağlar!",
     "commands": "Komutlar",
     "notifications": "Canlı Bildirimler",
     "counters": "Takipçi Sayacı",
@@ -146,7 +147,7 @@
     "commandData": {
       "description": "Botu sunucunuza davet etmek ister misiniz? Bu komutu kullanın!"
     },
-    "inviteText": "<:PlusIcon:1118592778897719347> **[Botu sunucunuza davet etmek için buraya tıklayın!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&scope=bot%20applications.commands \"Davet bağlantısı ile yeni bir sekme açar!\")**"
+    "inviteText": "<:PlusIcon:1118592778897719347> **[Botu sunucunuza davet etmek için buraya tıklayın!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&redirect_uri=https%3A%2F%2Fwww.kickbot.gg%3Futm_source%3Ddiscord-app-invite&response_type=code&scope=bot%20applications.commands%20identify \"Davet bağlantısı ile yeni bir sekme açar!\")**"
   },
   "leaderboardCommand": {
     "commandData": {
@@ -236,5 +237,21 @@
     },
     "tested": "**{streamer}** için test mesajı gönderildi!\nUnutmayın, bot bunun için her zaman test verilerini kullanır.",
     "error": "Test mesajını göndermeye çalışırken bir hata aldım!\n*Hata: {error}*"
+  },
+  "ktdCommand": {
+    "commandData": {
+      "description": "Discord kullanıcısını Kick kullanıcısından alın"
+    },
+    "notInOurDatabase": "Bu kick kullanıcısı veritabanımızda yok!",
+    "notInDiscord": "Bu kick kullanıcısıyla ilgili bir discord kullanıcısı bulamıyorum!",
+    "success": "### Kickten Discord\n- Discord Kullanıcısı: {username} (`{id}`)\n- Discord Kullanıcı Avatarı: [TIKLA](<{avatar}>)"
+  },
+  "dtkCommand": {
+    "commandData": {
+      "description": "Discord kullanıcısından bir Kick kullanıcısı alın"
+    },
+    "notInOurDatabase": "Bu Discord kullanıcısı veritabanımızda yok!",
+    "notInKick": "Bu Discord kullanıcısıyla bir Kick kullanıcısı bulamıyorum!",
+    "success": "### Discord'tan Kick'e\n- Kick Kullanıcısı: {username} (`{id}`)\n- Kick Kullanıcısı Avatarı: [TIKLAYIN](<{avatar}>)\n- Kick Kullanıcısı Biyografisi: \n>>> {bio}"
   }
 }

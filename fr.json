@@ -12,6 +12,7 @@
     "optionChannel": "Le salon dans lequel vous souhaitez envoyer le message.",
     "optionMessage": "Le message que vous souhaitez envoyer lorsque le streamer est en direct.",
     "optionCleanUp": "Nettoyez le message après que le diffuseur est hors ligne. (Supprime l'ancien message)",
+    "optionFilters": "Filtrer les notifications en direct par mots-clés du titre. Séparer par des virgules : mot-clé1, ...",
     "serverOnly": "Cette commande ne peut être utilisée que dans un serveur !",
     "fetchError": "Une erreur s'est produite lors de la récupération du streamer ! Veuillez réessayer plus tard.",
     "fetchErrorLeaderboard": "Une erreur s'est produite lors de la récupération du classement du streamer ! Veuillez réessayer plus tard.",
@@ -111,13 +112,13 @@
     "commandData": {
       "description": "Obtenir un lien vers le guide web de Kick Bot !"
     },
-    "infoText": "### Guide du bot Discord Kick\n<:wink:1118617302615720138> [Cliquez ici pour accéder au guide web du bot.](<https://guide.kickbot.gg/> \"Ouvre un nouvel onglet avec guide.kickbot.gg\")"
+    "infoText": "### Guide du bot Discord Kick\n<:wink:1118617302615720138> [Cliquez ici pour accéder au guide web du bot.](<https://guide.kickbot.gg?utm_source=discord-in-app/> \"Ouvre un nouvel onglet avec guide.kickbot.gg\")"
   },
   "helpCommand": {
     "commandData": {
       "description": "Obtenir de l'aide avec le bot !"
     },
-    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg>) est un bot Discord qui vous permet de suivre les streamers [Kick](<https://kick.com> \"Ouvre un nouvel onglet avec kick.com\") et d'être notifié lorsqu'ils diffusent en direct !",
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg?utm_source=discord-in-app>) est un bot Discord qui vous permet de suivre les streamers [Kick](<https://kick.com> \"Ouvre un nouvel onglet avec kick.com\") et d'être notifié lorsqu'ils diffusent en direct !",
     "commands": "Commandes",
     "notifications": "Notifications en direct",
     "counters": "Compteur de followers",
@@ -146,7 +147,7 @@
     "commandData": {
       "description": "Vous voulez inviter le bot sur votre serveur? Utilisez cette commande!"
     },
-    "inviteText": "<:PlusIcon:1118592778897719347> **[Cliquez ici pour inviter le bot sur votre serveur !](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&scope=bot%20applications.commands \"Ouvre un nouvel onglet avec le lien d'invitation !\")**"
+    "inviteText": "<:PlusIcon:1118592778897719347> **[Cliquez ici pour inviter le bot sur votre serveur !](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&redirect_uri=https%3A%2F%2Fwww.kickbot.gg%3Futm_source%3Ddiscord-app-invite&response_type=code&scope=bot%20applications.commands%20identify \"Ouvre un nouvel onglet avec le lien d'invitation !\")**"
   },
   "leaderboardCommand": {
     "commandData": {
@@ -236,5 +237,21 @@
     },
     "tested": "Le message de test pour **{streamer}** a été envoyé !\nN'oubliez pas que le bot utilise toujours des données de test à cette fin.",
     "error": "En essayant d'envoyer le message de test, j'ai rencontré une erreur !\n*Erreur : {error}*"
+  },
+  "ktdCommand": {
+    "commandData": {
+      "description": "Obtenir un utilisateur Discord à partir d'un utilisateur Kick"
+    },
+    "notInOurDatabase": "Cet utilisateur Kick n'est pas dans notre base de données !",
+    "notInDiscord": "Je ne peux pas trouver un utilisateur Discord avec cet utilisateur Kick !",
+    "success": "### Kick vers Discord\n- Utilisateur Discord : {username} (`{id}`)\n- Avatar de l'utilisateur Discord: [CLIQUEZ](<{avatar}>)"
+  },
+  "dtkCommand": {
+    "commandData": {
+      "description": "Obtenir un utilisateur Kick à partir d'un utilisateur Discord"
+    },
+    "notInOurDatabase": "Cet utilisateur Discord n'est pas dans notre base de données!",
+    "notInKick": "Je ne peux pas trouver un utilisateur Kick avec cet utilisateur Discord!",
+    "success": "### Discord to Kick\n- Utilisateur Kick: {username} (`{id}`)\n- Avatar de l'utilisateur Kick: [CLIQUEZ](<{avatar}>)\n- Biographie de l'utilisateur Kick: \n>>> {bio}"
   }
 }

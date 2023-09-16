@@ -12,6 +12,7 @@
     "optionChannel": "Der Kanal, in dem du die Nachricht senden möchtest.",
     "optionMessage": "Die Nachricht, die du senden möchtest, wenn der Streamer live geht.",
     "optionCleanUp": "Räumen Sie die Nachricht auf, nachdem der Streamer offline geht. (Löscht alte Nachricht)",
+    "optionFilters": "Filtern Sie Live-Benachrichtigungen nach Titel-Schlüsselwörtern. Trennen Sie mit Kommas: Stichwort1,",
     "serverOnly": "Dieser Befehl kann nur auf einem Server verwendet werden!",
     "fetchError": "Beim Abrufen des Streamers ist ein Fehler aufgetreten! Bitte versuche es später erneut.",
     "fetchErrorLeaderboard": "Beim Abrufen der Streamer-Rangliste ist ein Fehler aufgetreten! Bitte versuche es später erneut.",
@@ -111,13 +112,13 @@
     "commandData": {
       "description": "Erhalte einen Link zur Web-Anleitung von Kick Bot!"
     },
-    "infoText": "### Kick Discord Bot Guide\n<:wink:1118617302615720138> [Klicke hier, um zur Web-Anleitung des Bots zu gelangen.](<https://guide.kickbot.gg/> \"Öffnet einen neuen Tab mit guide.kickbot.gg\")"
+    "infoText": "### Kick Discord Bot Guide\n<:wink:1118617302615720138> [Klicke hier, um zur Web-Anleitung des Bots zu gelangen.](<https://guide.kickbot.gg?utm_source=discord-in-app/> \"Öffnet einen neuen Tab mit guide.kickbot.gg\")"
   },
   "helpCommand": {
     "commandData": {
       "description": "Erhalte Hilfe mit dem Bot!"
     },
-    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg>) ist ein Discord-Bot, mit dem du [Kick](<https://kick.com> \"Öffnet eine neue Registerkarte mit kick.com\")-Streamer verfolgen und benachrichtigt werden kannst, wenn sie live gehen!",
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg?utm_source=discord-in-app>) ist ein Discord-Bot, mit dem du [Kick](<https://kick.com> \"Öffnet eine neue Registerkarte mit kick.com\")-Streamer verfolgen und benachrichtigt werden kannst, wenn sie live gehen!",
     "commands": "Befehle",
     "notifications": "Live-Benachrichtigungen",
     "counters": "Follower-Zähler",
@@ -146,7 +147,7 @@
     "commandData": {
       "description": "Möchten Sie den Bot zu Ihrem Server einladen? Verwenden Sie diesen Befehl!"
     },
-    "inviteText": "<:PlusIcon:1118592778897719347> **[Klicken Sie hier, um den Bot zu Ihrem Server einzuladen!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&scope=bot%20applications.commands \"Öffnet einen neuen Tab mit dem Einladungslink!\")**"
+    "inviteText": "<:PlusIcon:1118592778897719347> **[Klicken Sie hier, um den Bot zu Ihrem Server einzuladen!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&redirect_uri=https%3A%2F%2Fwww.kickbot.gg%3Futm_source%3Ddiscord-app-invite&response_type=code&scope=bot%20applications.commands%20identify \"Öffnet einen neuen Tab mit dem Einladungslink!\")**"
   },
   "leaderboardCommand": {
     "commandData": {
@@ -236,5 +237,21 @@
     },
     "tested": "Testnachricht für **{streamer}** wurde gesendet!\nBeachte, dass der Bot immer Testdaten dafür verwendet.",
     "error": "Beim Versuch, die Testnachricht zu senden, ist ein Fehler aufgetreten!\n*Fehler: {error}*"
+  },
+  "ktdCommand": {
+    "commandData": {
+      "description": "Holen Sie sich einen Discord-Benutzer von einem Kick-Benutzer"
+    },
+    "notInOurDatabase": "Dieser Kick-Benutzer ist nicht in unserer Datenbank!",
+    "notInDiscord": "Ich kann keinen Discord-Benutzer mit diesem Kick-Benutzer finden!",
+    "success": "### Kick zu Discord\n- Discord-Benutzer: {username} (`{id}`)\n- Discord-Benutzer Avatar: [KLICK](<{avatar}>)"
+  },
+  "dtkCommand": {
+    "commandData": {
+      "description": "Erhalte einen Kick-Benutzer von einem Discord-Benutzer"
+    },
+    "notInOurDatabase": "Dieser Discord-Benutzer ist nicht in unserer Datenbank!",
+    "notInKick": "Ich kann keinen Kick-Benutzer mit diesem Discord-Benutzer finden!",
+    "success": "### Discord zu Kick\n- Kick-Benutzer: {username} (`{id}`)\n- Kick-Benutzer Avatar: [KLICK](<{avatar}>)\n- Kick-Benutzer Biografie: \n>>> {bio}"
   }
 }

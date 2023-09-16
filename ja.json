@@ -12,6 +12,7 @@
     "optionChannel": "メッセージを送信するチャンネルを入力してください。",
     "optionMessage": "ストリーマーが配信を開始した際に送信したいメッセージを入力してください。",
     "optionCleanUp": "ストリーマーがオフラインになった後にメッセージをクリアします。 (古いメッセージを削除)",
+    "optionFilters": "キーワード1, キーワード2でタイトルのキーワードによるライブ通知をフィルタリングしてください。",
     "serverOnly": "このコマンドはサーバーでのみ使用できます！",
     "fetchError": "ストリーマーの取得中にエラーが発生しました！後でもう一度やり直してください。",
     "fetchErrorLeaderboard": "ストリーマーリーダーボードの取得中にエラーが発生しました！後でもう一度やり直してください。",
@@ -111,13 +112,13 @@
     "commandData": {
       "description": "Kick Botのウェブガイドへのリンクを取得します！"
     },
-    "infoText": "### Kick Discord Botガイド\n<:wink:1118617302615720138> [ここをクリックしてボットのウェブガイドにアクセスします。](<https://guide.kickbot.gg/> \"guide.kickbot.ggを新しいタブで開きます\")"
+    "infoText": "### Kick Discord Botガイド\n<:wink:1118617302615720138> [ここをクリックしてボットのウェブガイドにアクセスします。](<https://guide.kickbot.gg?utm_source=discord-in-app/> \"guide.kickbot.ggを新しいタブで開きます\")"
   },
   "helpCommand": {
     "commandData": {
       "description": "ボットのヘルプを取得します！"
     },
-    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg>)は、[Kick](<https://kick.com> \"kick.comという新しいタブを開く\")のストリーマーを追跡し、彼らが配信を開始したときに通知を受け取ることができるDiscordボットです！",
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg?utm_source=discord-in-app>)は、[Kick](<https://kick.com> \"kick.comという新しいタブを開く\")のストリーマーを追跡し、彼らが配信を開始したときに通知を受け取ることができるDiscordボットです！",
     "commands": "コマンド",
     "notifications": "生配信通知",
     "counters": "フォロワーカウンター",
@@ -236,5 +237,21 @@
     },
     "tested": "テストメッセージが **{streamer}** に送信されました！\nこのテストでは、ボットは常にテストデータを使用します。",
     "error": "テストメッセージの送信中にエラーが発生しました！\n*エラー：{error}*"
+  },
+  "ktdCommand": {
+    "commandData": {
+      "description": "キックユーザーからDiscordユーザーを取得する"
+    },
+    "notInOurDatabase": "このキックユーザーは私たちのデータベースにありません！",
+    "notInDiscord": "このキックユーザーに対応するDiscordユーザーが見つかりません！",
+    "success": "### キックからDiscordへ\n- Discordユーザー：{username} (`{id}`)\n- Discordユーザーアバター：[クリック](<{avatar}>)"
+  },
+  "dtkCommand": {
+    "commandData": {
+      "description": "Discord ユーザーから Kick ユーザーを取得"
+    },
+    "notInOurDatabase": "この Discord ユーザーは私たちのデータベースにありません！",
+    "notInKick": "この Discord ユーザーに対応する Kick ユーザーが見つかりません！",
+    "success": "### Discord から Kick へ\n- Kick ユーザー: {username} (`{id}`)\n- Kick ユーザーアバター: [クリック](<{avatar}>)\n- Kick ユーザーバイオグラフィ: \n>>> {bio}"
   }
 }
