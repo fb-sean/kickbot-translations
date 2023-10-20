@@ -28,7 +28,14 @@
     "byAddingRoleError": "Lors de l'ajout du rôle d'abonné.e, une erreur est survenue !\n*Erreur : {error}*",
     "modalInfoText": "Peut être trouvé sur kick.com.",
     "watch": "Montre",
-    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] est en direct maintenant !\n<:LinkIcon:1118592789488349325> Regardez ici: [[URL]]"
+    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] est en direct maintenant !\n<:LinkIcon:1118592789488349325> Regardez ici: [[URL]]",
+    "buyPremium": "Acheter Premium"
+  },
+  "premiumMessages": {
+    "noPremium": "Cette commande est uniquement disponible pour les serveurs premium !",
+    "streamerLimit": "Hé ! Vous avez atteint le nombre maximal de streamers que vous pouvez suivre sur ce serveur. Vous pouvez passer à la version premium ci-dessous !",
+    "counterLimit": "Hé ! Vous avez atteint le nombre maximal de compteurs que vous pouvez suivre sur ce serveur. Vous pouvez passer à la version premium ci-dessous !",
+    "leaderboardLimit": "Hé ! Vous avez atteint le nombre maximal de classements que vous pouvez suivre sur ce serveur. Vous pouvez passer à la version premium ci-dessous !"
   },
   "giftLeaderboard": {
     "title": "Classement des Souscriptions de {streamerId}",
@@ -253,5 +260,10 @@
     "notInOurDatabase": "Cet utilisateur Discord n'est pas dans notre base de données!",
     "notInKick": "Je ne peux pas trouver un utilisateur Kick avec cet utilisateur Discord!",
     "success": "### Discord to Kick\n- Utilisateur Kick: {username} (`{id}`)\n- Avatar de l'utilisateur Kick: [CLIQUEZ](<{avatar}>)\n- Biographie de l'utilisateur Kick: \n>>> {bio}"
+  },
+  "premiumCommand": {
+    "commandData": {
+      "description": "Avec cette commande, vous pouvez vous abonner au plan premium."
+    }
   }
 }

@@ -28,7 +28,14 @@
     "byAddingRoleError": "¡Mientras intentaba agregar el rol de suscriptor, ocurrió un error!\n*Error: {error}*",
     "modalInfoText": "Pueden encontrarse en kick.com.",
     "watch": "Reloj",
-    "defaultNotification": "<:O_:1118592785642180698> ¡[[STREAMER]] está transmitiendo en vivo ahora!\n<:LinkIcon:1118592789488349325> Míralo aquí: [[URL]]"
+    "defaultNotification": "<:O_:1118592785642180698> ¡[[STREAMER]] está transmitiendo en vivo ahora!\n<:LinkIcon:1118592789488349325> Míralo aquí: [[URL]]",
+    "buyPremium": "Comprar Premium"
+  },
+  "premiumMessages": {
+    "noPremium": "¡Este comando solo está disponible para servidores premium!",
+    "streamerLimit": "¡Hey! Has alcanzado el máximo de streamers que puedes seguir en este servidor. ¡Puedes mejorar a premium a continuación!",
+    "counterLimit": "¡Hey! Has alcanzado el máximo de contadores que puedes seguir en este servidor. ¡Puedes mejorar a premium a continuación!",
+    "leaderboardLimit": "¡Hey! Has alcanzado el máximo de clasificaciones que puedes seguir en este servidor. ¡Puedes mejorar a premium a continuación!"
   },
   "giftLeaderboard": {
     "title": "Tabla de clasificación de suscriptores de {streamerId}",
@@ -253,5 +260,10 @@
     "notInOurDatabase": "¡Este usuario de Discord no está en nuestra base de datos!",
     "notInKick": "¡No puedo encontrar un usuario Kick con este usuario de Discord!",
     "success": "### Discord a Kick\n- Usuario Kick: {username} (`{id}`)\n- Avatar de Usuario Kick: [CLIC](<{avatar}>)\n- Biografía de Usuario Kick: \n>>> {bio}"
+  },
+  "premiumCommand": {
+    "commandData": {
+      "description": "Con este comando puedes suscribirte al plan premium."
+    }
   }
 }

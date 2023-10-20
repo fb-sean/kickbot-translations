@@ -28,7 +28,14 @@
     "byAddingRoleError": "サブスクライバーロールを追加しようとした際にエラーが発生しました！\n*エラー: {error}*",
     "modalInfoText": "kick.comで見つけることができます。",
     "watch": "時計",
-    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] が配信を開始しました！\n<:LinkIcon:1118592789488349325> ここで視聴できます: [[URL]]"
+    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] が配信を開始しました！\n<:LinkIcon:1118592789488349325> ここで視聴できます: [[URL]]",
+    "buyPremium": "プレミアムを購入する"
+  },
+  "premiumMessages": {
+    "noPremium": "このコマンドはプレミアムサーバーのみ利用可能です！",
+    "streamerLimit": "おっと！このサーバーで追跡できるストリーマーの最大数に達しました。プレミアムにアップグレードすると、以下のようになります！",
+    "counterLimit": "おっと！このサーバーで追跡できるカウンターの最大数に達しました。プレミアムにアップグレードすると、以下のようになります！",
+    "leaderboardLimit": "おっと！このサーバーで追跡できるリーダーボードの最大数に達しました。プレミアムにアップグレードすると、以下のようになります！"
   },
   "giftLeaderboard": {
     "title": "{streamerId}のサブリーダーボード",
@@ -253,5 +260,10 @@
     "notInOurDatabase": "この Discord ユーザーは私たちのデータベースにありません！",
     "notInKick": "この Discord ユーザーに対応する Kick ユーザーが見つかりません！",
     "success": "### Discord から Kick へ\n- Kick ユーザー: {username} (`{id}`)\n- Kick ユーザーアバター: [クリック](<{avatar}>)\n- Kick ユーザーバイオグラフィ: \n>>> {bio}"
+  },
+  "premiumCommand": {
+    "commandData": {
+      "description": "このコマンドを使用すると、プレミアムプランに申し込むことができます。"
+    }
   }
 }

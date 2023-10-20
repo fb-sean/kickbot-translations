@@ -28,7 +28,14 @@
     "byAddingRoleError": "While trying to add the subscriber role I got a error!\n*Error: {error}*",
     "modalInfoText": "Can be found on kick.com.",
     "watch": "Watch",
-    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] is now live!\n<:LinkIcon:1118592789488349325> Watch it here: [[URL]]"
+    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] is now live!\n<:LinkIcon:1118592789488349325> Watch it here: [[URL]]",
+    "buyPremium": "Buy Premium"
+  },
+  "premiumMessages": {
+    "noPremium": "This command is only available for premium servers!",
+    "streamerLimit": "Hey! You reached the maximum amount of streamers you can track on this server. You can upgrade to premium to below!",
+    "counterLimit": "Hey! You reached the maximum amount of counters you can track on this server. You can upgrade to premium to below!",
+    "leaderboardLimit": "Hey! You reached the maximum amount of leaderboards you can track on this server. You can upgrade to premium to below!"
   },
   "giftLeaderboard": {
     "title": "Subs Leaderboard of {streamerId}",
@@ -253,5 +260,10 @@
     "notInOurDatabase": "This Discord user is not in our database!",
     "notInKick": "I can't find a Kick user with this Discord user!",
     "success": "### Discord to Kick\n- Kick User: {username} (`{id}`)\n- Kick User Avatar: [CLICK](<{avatar}>)\n- Kick User Biography: \n>>> {bio}"
+  },
+  "premiumCommand": {
+    "commandData": {
+      "description": "With this command you can subscribe to the premium plan."
+    }
   }
 }

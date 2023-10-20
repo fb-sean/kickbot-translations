@@ -28,7 +28,14 @@
     "byAddingRoleError": "Abone rolünü eklemeye çalışırken bir hata aldım!\n*Hata: {error}*",
     "modalInfoText": "Kick.com üzerinden bulunabilir.",
     "watch": "İzle",
-    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] şimdi canlı!\n<:LinkIcon:1118592789488349325> Buradan izleyebilirsiniz: [[URL]]"
+    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] şimdi canlı!\n<:LinkIcon:1118592789488349325> Buradan izleyebilirsiniz: [[URL]]",
+    "buyPremium": "Premium Satın Al"
+  },
+  "premiumMessages": {
+    "noPremium": "Bu komut yalnızca premium sunucularda kullanılabilir!",
+    "streamerLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum yayıncı sayısına ulaştınız. Aşağıdaki linkten premiuma yükseltebilirsiniz!",
+    "counterLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum sayaç sayısına ulaştınız. Aşağıdaki linkten premiuma yükseltebilirsiniz!",
+    "leaderboardLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum liderlik tablosu sayısına ulaştınız. Aşağıdaki linkten premiuma yükseltebilirsiniz!"
   },
   "giftLeaderboard": {
     "title": "{streamerId} için Abone Lider Tablosu",
@@ -253,5 +260,10 @@
     "notInOurDatabase": "Bu Discord kullanıcısı veritabanımızda yok!",
     "notInKick": "Bu Discord kullanıcısıyla bir Kick kullanıcısı bulamıyorum!",
     "success": "### Discord'tan Kick'e\n- Kick Kullanıcısı: {username} (`{id}`)\n- Kick Kullanıcısı Avatarı: [TIKLAYIN](<{avatar}>)\n- Kick Kullanıcısı Biyografisi: \n>>> {bio}"
+  },
+  "premiumCommand": {
+    "commandData": {
+      "description": "Bu komut ile premium planına abone olabilirsiniz."
+    }
   }
 }
