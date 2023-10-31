@@ -42,7 +42,7 @@
     "allTime": "Tout le temps",
     "monthly": "Mensuel",
     "weekly": "Hebdomadaire",
-    "powerBy": "Propulsé par www.KickBot.gg • Dernière mise à jour : ",
+    "powerBy": "Propulsé par kick.bot • Dernière mise à jour : ",
     "gifts": "Cadeaux",
     "infoText": "Ouvre un nouvel onglet et le profil d'expulsion de {username}",
     "noEntries": "Aucune entrée trouvée."
@@ -66,13 +66,13 @@
     "step2": "Cliquez sur **Paramètres**.",
     "step3": "Faites défiler jusqu'à **Détails de base**.",
     "step4": "Cliquez sur le bouton **Modifier** à côté de **Bio**.",
-    "step5": "Collez quelque part dans ce champ `[KICKBOT.GG:{userId}]`.",
+    "step5": "Collez quelque part dans ce champ `[KICK.BOT:{userId}]`.",
     "step6": "Cliquez sur **Enregistrer les modifications**.",
     "step7": "Revenez sur Discord et cliquez sur le bouton **Vérifier la bio** ci-dessous et saisissez votre nom d'utilisateur Kick.",
     "step8": "Si vous avez tout fait correctement, vous devriez recevoir un message de succès du bot.",
-    "step9": "Après le processus de vérification, vous pouvez supprimer `[KICKBOT.GG:{userId}]` de votre profil Kick.",
+    "step9": "Après le processus de vérification, vous pouvez supprimer `[KICK.BOT:{userId}]` de votre profil Kick.",
     "helpText": "Si vous avez des questions, n'hésitez pas à contacter le support du bot sur Discord :",
-    "poweredBy": "Propulsé par www.KickBot.gg"
+    "poweredBy": "Propulsé par kick.bot"
   },
   "addCommand": {
     "commandData": {
@@ -119,13 +119,13 @@
     "commandData": {
       "description": "Obtenir un lien vers le guide web de Kick Bot !"
     },
-    "infoText": "### Guide du bot Discord Kick\n<:wink:1118617302615720138> [Cliquez ici pour accéder au guide web du bot.](<https://guide.kickbot.gg?utm_source=discord-in-app/> \"Ouvre un nouvel onglet avec guide.kickbot.gg\")"
+    "infoText": "### Guide du bot Discord Kick\n<:wink:1118617302615720138> [Cliquez ici pour accéder au guide web du bot.](<https://guide.kick.bot?utm_source=discord-in-app/> \"Ouvre un nouvel onglet avec guide.kick.bot\")"
   },
   "helpCommand": {
     "commandData": {
       "description": "Obtenir de l'aide avec le bot !"
     },
-    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg?utm_source=discord-in-app>) est un bot Discord qui vous permet de suivre les streamers [Kick](<https://kick.com> \"Ouvre un nouvel onglet avec kick.com\") et d'être notifié lorsqu'ils diffusent en direct !",
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://kick.bot?utm_source=discord-in-app>) est un bot Discord qui vous permet de suivre les streamers [Kick](<https://kick.com> \"Ouvre un nouvel onglet avec kick.com\") et d'être notifié lorsqu'ils diffusent en direct !",
     "commands": "Commandes",
     "notifications": "Notifications en direct",
     "counters": "Compteur de followers",
@@ -154,7 +154,7 @@
     "commandData": {
       "description": "Vous voulez inviter le bot sur votre serveur? Utilisez cette commande!"
     },
-    "inviteText": "<:PlusIcon:1118592778897719347> **[Cliquez ici pour inviter le bot sur votre serveur !](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&redirect_uri=https%3A%2F%2Fwww.kickbot.gg%3Futm_source%3Ddiscord-app-invite&response_type=code&scope=bot%20applications.commands%20identify \"Ouvre un nouvel onglet avec le lien d'invitation !\")**"
+    "inviteText": "<:PlusIcon:1118592778897719347> **[Cliquez ici pour inviter le bot sur votre serveur !](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&redirect_uri=https%3A%2F%2Fkick.bot%3Futm_source%3Ddiscord-app-invite&response_type=code&scope=bot%20applications.commands%20identify \"Ouvre un nouvel onglet avec le lien d'invitation !\")**"
   },
   "leaderboardCommand": {
     "commandData": {

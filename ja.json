@@ -42,7 +42,7 @@
     "allTime": "全時間",
     "monthly": "月間",
     "weekly": "週間",
-    "powerBy": "提供元： www.KickBot.gg • 最終更新：",
+    "powerBy": "提供元： kick.bot • 最終更新：",
     "gifts": "ギフト",
     "infoText": "{username}のキックプロファイルを新しいタブで開きます",
     "noEntries": "エントリーが見つかりませんでした。"
@@ -66,13 +66,13 @@
     "step2": "**設定**をクリックします。",
     "step3": "**基本情報**までスクロールします。",
     "step4": "**Bio**で**編集**ボタンをクリックします。",
-    "step5": "このフィールドに `[KICKBOT.GG:{userId}]` を貼り付けます。",
+    "step5": "このフィールドに `[KICK.BOT:{userId}]` を貼り付けます。",
     "step6": "**変更を保存**をクリックします。",
     "step7": "Discordに戻り、「Bioをチェック」ボタンをクリックしてKickのユーザー名を入力します。",
     "step8": "すべてを正しく行った場合、ボットから成功メッセージが届くはずです。",
-    "step9": "確認プロセスが完了したら、Kickプロフィールから`[KICKBOT.GG:{userId}]`を削除できます。",
+    "step9": "確認プロセスが完了したら、Kickプロフィールから`[KICK.BOT:{userId}]`を削除できます。",
     "helpText": "質問がある場合は、お気軽に以下のDiscordボットサポートまでお問い合わせください：",
-    "poweredBy": "Powered by www.KickBot.gg"
+    "poweredBy": "Powered by kick.bot"
   },
   "addCommand": {
     "commandData": {
@@ -119,13 +119,13 @@
     "commandData": {
       "description": "Kick Botのウェブガイドへのリンクを取得します！"
     },
-    "infoText": "### Kick Discord Botガイド\n<:wink:1118617302615720138> [ここをクリックしてボットのウェブガイドにアクセスします。](<https://guide.kickbot.gg?utm_source=discord-in-app/> \"guide.kickbot.ggを新しいタブで開きます\")"
+    "infoText": "### Kick Discord Botガイド\n<:wink:1118617302615720138> [ここをクリックしてボットのウェブガイドにアクセスします。](<https://guide.kick.bot?utm_source=discord-in-app/> \"guide.kick.botを新しいタブで開きます\")"
   },
   "helpCommand": {
     "commandData": {
       "description": "ボットのヘルプを取得します！"
     },
-    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg?utm_source=discord-in-app>)は、[Kick](<https://kick.com> \"kick.comという新しいタブを開く\")のストリーマーを追跡し、彼らが配信を開始したときに通知を受け取ることができるDiscordボットです！",
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://kick.bot?utm_source=discord-in-app>)は、[Kick](<https://kick.com> \"kick.comという新しいタブを開く\")のストリーマーを追跡し、彼らが配信を開始したときに通知を受け取ることができるDiscordボットです！",
     "commands": "コマンド",
     "notifications": "生配信通知",
     "counters": "フォロワーカウンター",

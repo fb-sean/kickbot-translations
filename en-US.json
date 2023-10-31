@@ -42,7 +42,7 @@
     "allTime": "All Time",
     "monthly": "Monthly",
     "weekly": "Weekly",
-    "powerBy": "Powered by www.KickBot.gg • Last Update: ",
+    "powerBy": "Powered by kick.bot • Last Update: ",
     "gifts": "gifts",
     "infoText": "Opens a new tab and the kick profile from {username}",
     "noEntries": "No entries found."
@@ -66,13 +66,13 @@
     "step2": "Click on **Settings**.",
     "step3": "Scroll down to **Basic Details**.",
     "step4": "At **Bio** click on the **Edit** button.",
-    "step5": "Paste somewhere in this field `[KICKBOT.GG:{userId}]`.",
+    "step5": "Paste somewhere in this field `[KICK.BOT:{userId}]`.",
     "step6": "Press on **Save Changes**.",
     "step7": "Go back to Discord and click the **Check Bio** button below and enter your kick username.",
     "step8": "If you did everything correctly, you should get a success message from the bot.",
-    "step9": "After the verification process you can remove the `[KICKBOT.GG:{userId}]` from your Kick profile.",
+    "step9": "After the verification process you can remove the `[KICK.BOT:{userId}]` from your Kick profile.",
     "helpText": "If you have any questions, feel free to contact the bot support on Discord:",
-    "poweredBy": "Powered by www.KickBot.gg"
+    "poweredBy": "Powered by kick.bot"
   },
   "addCommand": {
     "commandData": {
@@ -119,13 +119,13 @@
     "commandData": {
       "description": "Get a link to the web guide of Kick Bot!"
     },
-    "infoText": "### Kick Discord Bot Guide\n<:wink:1118617302615720138> [Click here to get to the web guide of the bot.](<https://guide.kickbot.gg?utm_source=discord-in-app/> \"Opens a new tab with guide.kickbot.gg\")"
+    "infoText": "### Kick Discord Bot Guide\n<:wink:1118617302615720138> [Click here to get to the web guide of the bot.](<https://guide.kick.bot?utm_source=discord-in-app/> \"Opens a new tab with guide.kick.bot\")"
   },
   "helpCommand": {
     "commandData": {
       "description": "Get help with the bot!"
     },
-    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg?utm_source=discord-in-app>) is a Discord bot that allows you to track [Kick](<https://kick.com> \"Opens a new tab with kick.com\") streamers and get notified when they go live!",
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://kick.bot?utm_source=discord-in-app>) is a Discord bot that allows you to track [Kick](<https://kick.com> \"Opens a new tab with kick.com\") streamers and get notified when they go live!",
     "commands": "Commands",
     "notifications": "Live Notifications",
     "counters": "Follower Counter",
@@ -154,7 +154,7 @@
     "commandData": {
       "description": "Want to invite the bot to your server? Use this command!"
     },
-    "inviteText": "<:PlusIcon:1118592778897719347> **[Click here to invite the bot to your server!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&redirect_uri=https%3A%2F%2Fwww.kickbot.gg%3Futm_source%3Ddiscord-app-invite&response_type=code&scope=bot%20applications.commands%20identify \"Opens a new tab with the invite link!\")**"
+    "inviteText": "<:PlusIcon:1118592778897719347> **[Click here to invite the bot to your server!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&redirect_uri=https%3A%2F%2Fkick.bot%3Futm_source%3Ddiscord-app-invite&response_type=code&scope=bot%20applications.commands%20identify \"Opens a new tab with the invite link!\")**"
   },
   "leaderboardCommand": {
     "commandData": {

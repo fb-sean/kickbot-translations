@@ -42,7 +42,7 @@
     "allTime": "Tüm Zamanlar",
     "monthly": "Aylık",
     "weekly": "Haftalık",
-    "powerBy": "www.KickBot.gg tarafından desteklenmektedir • Son Güncelleme: ",
+    "powerBy": "kick.bot tarafından desteklenmektedir • Son Güncelleme: ",
     "gifts": "hediyeler",
     "infoText": "{username} dan yeni bir sekme ve kick profilini açar",
     "noEntries": "Hiçbir giriş bulunamadı."
@@ -66,13 +66,13 @@
     "step2": "**Ayarlar**'a tıklayın.",
     "step3": "**Temel Detaylar**'a kadar aşağı kaydırın.",
     "step4": "**Biyografi**'de **Düzenle** butonuna tıklayın.",
-    "step5": "Bu alana bir yerlere `[KICKBOT.GG:{userId}]` yapıştırın.",
+    "step5": "Bu alana bir yerlere `[KICK.BOT:{userId}]` yapıştırın.",
     "step6": "**Değişiklikleri Kaydet**'e basın.",
     "step7": "Discord'a geri dönün ve aşağıdaki **Biyografiyi Kontrol Et** butonuna tıklayın ve Kick kullanıcı adınızı girin.",
     "step8": "Her şeyi doğru yapmışsanız, bottan bir başarı mesajı almalısınız.",
-    "step9": "Doğrulama işleminden sonra `[KICKBOT.GG:{userId}]`'i Kick profilinizden kaldırabilirsiniz.",
+    "step9": "Doğrulama işleminden sonra `[KICK.BOT:{userId}]`'i Kick profilinizden kaldırabilirsiniz.",
     "helpText": "Herhangi bir sorunuz varsa, Discord'daki bot desteği ile iletişime geçmekten çekinmeyin:",
-    "poweredBy": "www.KickBot.gg tarafından sağlanmıştır"
+    "poweredBy": "kick.bot tarafından sağlanmıştır"
   },
   "addCommand": {
     "commandData": {
@@ -119,13 +119,13 @@
     "commandData": {
       "description": "Kick Bot'un web rehberine bir link alın!"
     },
-    "infoText": "### Kick Discord Bot Rehberi\n<:wink:1118617302615720138> [Botun web rehberine gitmek için buraya tıklayın.](<https://guide.kickbot.gg?utm_source=discord-in-app/> \"guide.kickbot.gg ile yeni bir sekme açar\")"
+    "infoText": "### Kick Discord Bot Rehberi\n<:wink:1118617302615720138> [Botun web rehberine gitmek için buraya tıklayın.](<https://guide.kick.bot?utm_source=discord-in-app/> \"guide.kick.bot ile yeni bir sekme açar\")"
   },
   "helpCommand": {
     "commandData": {
       "description": "Botla ilgili yardım alın!"
     },
-    "into": "<:wink:1118617302615720138> [Kick Bot](<https://www.kickbot.gg?utm_source=discord-in-app>) Discord botu, [Kick](<https://kick.com> \"Yeni bir sekmede kick.com'u açar\") yayıncılarını takip etmenizi ve canlı yayına geçtiklerinde bildirim almanızı sağlar!",
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://kick.bot?utm_source=discord-in-app>) Discord botu, [Kick](<https://kick.com> \"Yeni bir sekmede kick.com'u açar\") yayıncılarını takip etmenizi ve canlı yayına geçtiklerinde bildirim almanızı sağlar!",
     "commands": "Komutlar",
     "notifications": "Canlı Bildirimler",
     "counters": "Takipçi Sayacı",
@@ -154,7 +154,7 @@
     "commandData": {
       "description": "Botu sunucunuza davet etmek ister misiniz? Bu komutu kullanın!"
     },
-    "inviteText": "<:PlusIcon:1118592778897719347> **[Botu sunucunuza davet etmek için buraya tıklayın!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&redirect_uri=https%3A%2F%2Fwww.kickbot.gg%3Futm_source%3Ddiscord-app-invite&response_type=code&scope=bot%20applications.commands%20identify \"Davet bağlantısı ile yeni bir sekme açar!\")**"
+    "inviteText": "<:PlusIcon:1118592778897719347> **[Botu sunucunuza davet etmek için buraya tıklayın!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&redirect_uri=https%3A%2F%2Fkick.bot%3Futm_source%3Ddiscord-app-invite&response_type=code&scope=bot%20applications.commands%20identify \"Davet bağlantısı ile yeni bir sekme açar!\")**"
   },
   "leaderboardCommand": {
     "commandData": {
