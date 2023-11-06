@@ -22,6 +22,6 @@
 3. Create a pull request
 
 # Links
-- Website: https://www.kickbot.gg
+- Website: https://kick.bot
 - Support: https://discord.gg/ZVERh35
-- Invite: https://get.kickbot.gg
+- Invite: https://kick.bot/invite
