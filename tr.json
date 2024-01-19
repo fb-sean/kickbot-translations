@@ -29,9 +29,18 @@
     "modalInfoText": "Kick.com üzerinden bulunabilir.",
     "watch": "İzle",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] şimdi canlı!\n<:LinkIcon:1118592789488349325> Buradan izleyebilirsiniz: [[URL]]",
-    "buyPremium": "Premium Satın Al"
+    "why": "Neden?"
+  },
+  "problems": {
+    "missingPermissions": "[Görünüşe göre botun neden \"Eksik İzinler\" ile yanıt verdiğini kendinize soruyorsunuz. Bu konuda daha fazla bilgi için lütfen buraya tıklayın.](https://kick.bot/guide/permissions)"
   },
   "premiumMessages": {
+    "discordPremium": "Discord'da satın alınan premium'u iptal etmek için Discord ayarlarınıza girmeniz gerekir.",
+    "premiumCommandInfo": "Premium satın almak için </premium:1164829878626029639> komutunu kullanın.",
+    "cancelDone": "Premium iptal edildi ve tekrar ücretlendirilmeyeceksiniz. Premium özellikleri {cancel_at} a kadar kullanmaya devam edebilirsiniz.",
+    "onlyOwnerCanCancel": "Sadece primi satın alan kişi iptal edebilir!",
+    "buyPremium": "Premium Satın Al",
+    "hasPremium": "Zaten premium üyeliğiniz var. İptal etmek için aşağıdaki butonu kullanabilirsiniz.",
     "noPremium": "Bu komut yalnızca premium sunucularda kullanılabilir!",
     "streamerLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum yayıncı sayısına ulaştınız. Aşağıdaki linkten premiuma yükseltebilirsiniz!",
     "counterLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum sayaç sayısına ulaştınız. Aşağıdaki linkten premiuma yükseltebilirsiniz!",
@@ -264,6 +273,8 @@
   "premiumCommand": {
     "commandData": {
       "description": "Bu komut ile premium planına abone olabilirsiniz."
-    }
+    },
+    "cancelPremium": "Premiumu İptal Et",
+    "premiumCheckout": "Ödeme sayfasına gitmek için aşağıdaki butona tıklayın. Ödeme yapıldıktan sonra premium sunucunuzda etkinleştirilecektir."
   }
 }

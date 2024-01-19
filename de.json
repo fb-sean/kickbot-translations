@@ -29,9 +29,18 @@
     "modalInfoText": "Kann auf kick.com gefunden werden.",
     "watch": "Zuschauen",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] ist jetzt live!\n<:LinkIcon:1118592789488349325> Schau es hier an: [[URL]]",
-    "buyPremium": "Premium kaufen"
+    "why": "Warum?"
+  },
+  "problems": {
+    "missingPermissions": "[Sie scheinen sich zu fragen, warum der Bot mit \"Missing Permissions\" antwortet. Weitere Informationen dazu finden Sie hier.](https://kick.bot/guide/permissions)"
   },
   "premiumMessages": {
+    "discordPremium": "Um eine auf Discord gekaufte Prämie zu stornieren, müssen Sie in Ihre Discord-Einstellungen gehen.",
+    "premiumCommandInfo": "Um Premium zu kaufen, verwenden Sie den Befehl </premium:1164829878626029639>.",
+    "cancelDone": "Premium wurde gekündigt und wird Ihnen nicht mehr in Rechnung gestellt. Sie können die Premium-Funktionen noch bis zum {cancel_at} nutzen.",
+    "onlyOwnerCanCancel": "Nur die Person, die die Premium gekauft hat, kann sie stornieren!",
+    "buyPremium": "Premium kaufen",
+    "hasPremium": "Sie haben bereits Premium. Sie können die Schaltfläche unten verwenden, um sie zu kündigen.",
     "noPremium": "Dieser Befehl ist nur für Premium-Server verfügbar!",
     "streamerLimit": "Hey! Du hast die maximale Anzahl von Streamern erreicht, die du auf diesem Server verfolgen kannst. Du kannst ein Upgrade auf Premium durchführen, um unten weiterzumachen!",
     "counterLimit": "Hey! Du hast die maximale Anzahl von Zählern erreicht, die du auf diesem Server verfolgen kannst. Du kannst ein Upgrade auf Premium durchführen, um unten weiterzumachen!",
@@ -264,6 +273,8 @@
   "premiumCommand": {
     "commandData": {
       "description": "Mit diesem Befehl kannst du das Premium-Abonnement abonnieren."
-    }
+    },
+    "cancelPremium": "Premium-Abonnement kündigen",
+    "premiumCheckout": "Klicke auf den Button unten, um zur Checkout-Seite zu gelangen. Nach der Zahlung wird das Premium auf deinem Server aktiviert."
   }
 }

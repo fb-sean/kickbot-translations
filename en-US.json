@@ -29,9 +29,18 @@
     "modalInfoText": "Can be found on kick.com.",
     "watch": "Watch",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] is now live!\n<:LinkIcon:1118592789488349325> Watch it here: [[URL]]",
-    "buyPremium": "Buy Premium"
+    "why": "Why?"
+  },
+  "problems": {
+    "missingPermissions": "[Seems like you are asking yourself why the bot response with \"Missing Permissions\". To find more information about this, please click here.](https://kick.bot/guide/permissions)"
   },
   "premiumMessages": {
+    "discordPremium": "To cancel premium bought on Discord, you need to go into your Discord settings.",
+    "premiumCommandInfo": "To buy premium, use the </premium:1164829878626029639> command.",
+    "cancelDone": "Premium has been canceled and you wont get charged again. You can still use the premium features until {cancel_at}.",
+    "onlyOwnerCanCancel": "Only the person who bought the premium can cancel it!",
+    "buyPremium": "Buy Premium",
+    "hasPremium": "You already have premium. You can use the button below to cancel it.",
     "noPremium": "This command is only available for premium servers!",
     "streamerLimit": "Hey! You reached the maximum amount of streamers you can track on this server. You can upgrade to premium to below!",
     "counterLimit": "Hey! You reached the maximum amount of counters you can track on this server. You can upgrade to premium to below!",
@@ -264,6 +273,8 @@
   "premiumCommand": {
     "commandData": {
       "description": "With this command you can subscribe to the premium plan."
-    }
+    },
+    "cancelPremium": "Cancel Premium",
+    "premiumCheckout": "Click on the button below to get to the checkout page. After the payment the premium will be activated on your server."
   }
 }
