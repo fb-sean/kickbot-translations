@@ -35,6 +35,9 @@
     "missingPermissions": "[なぜ \"Missing Permissions \"とボットが応答するのか、自問自答しているようですね。この件に関する詳しい情報は、こちらをクリックしてください](https://kick.bot/guide/permissions)"
   },
   "premiumMessages": {
+    "plans": "プレミアム・プラン：",
+    "monthly": "毎月",
+    "yearly": "年間",
     "discordPremium": "Discordで購入したプレミアムをキャンセルするには、Discordの設定に入る必要があります。",
     "premiumCommandInfo": "プレミアムを購入するには、</premium:1164829878626029639>コマンドを使用します。",
     "cancelDone": "プレミアムはキャンセルされ、再度課金されることはありません。{cancel_at} まではプレミアム機能をご利用いただけます。",

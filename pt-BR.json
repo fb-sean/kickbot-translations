@@ -35,6 +35,9 @@
     "missingPermissions": "[Parece que você está se perguntando por que o bot responde com \"Missing Permissions\" (Permissões ausentes). Para obter mais informações sobre isso, clique aqui.](https://kick.bot/guide/permissions)"
   },
   "premiumMessages": {
+    "plans": "Planos Premium:",
+    "monthly": "Mensal",
+    "yearly": "Anual",
     "discordPremium": "Para cancelar o prêmio comprado no Discord, você precisa acessar as configurações do Discord.",
     "premiumCommandInfo": "Para comprar o prêmio, use o comando </premium:1164829878626029639>.",
     "cancelDone": "O Premium foi cancelado e você não será cobrado novamente. Você ainda pode usar os recursos premium até {cancel_at}.",

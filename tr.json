@@ -35,6 +35,9 @@
     "missingPermissions": "[Görünüşe göre botun neden \"Eksik İzinler\" ile yanıt verdiğini kendinize soruyorsunuz. Bu konuda daha fazla bilgi için lütfen buraya tıklayın.](https://kick.bot/guide/permissions)"
   },
   "premiumMessages": {
+    "plans": "Premium Planlar:",
+    "monthly": "Aylık",
+    "yearly": "Yıllık",
     "discordPremium": "Discord'da satın alınan premium'u iptal etmek için Discord ayarlarınıza girmeniz gerekir.",
     "premiumCommandInfo": "Premium satın almak için </premium:1164829878626029639> komutunu kullanın.",
     "cancelDone": "Premium iptal edildi ve tekrar ücretlendirilmeyeceksiniz. Premium özellikleri {cancel_at} a kadar kullanmaya devam edebilirsiniz.",
