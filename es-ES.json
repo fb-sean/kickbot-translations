@@ -247,6 +247,7 @@
     "category": "La categoría de la transmisión.",
     "category_name": "La imagen de la categoría de la transmisión.",
     "default_message": "El mensaje por defecto. (No disponible en los contadores!)",
+    "streamer_image": "La imagen de perfil del streamer. (No disponible en los contadores!)",
     "slug": "El slug del streamer."
   },
   "testCommand": {

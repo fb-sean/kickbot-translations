@@ -247,6 +247,7 @@
     "category": "Die Stream-Kategorie.",
     "category_name": "Das Bild der Stream-Kategorie.",
     "default_message": "Die Standardnachricht vom Bot. (Nicht verfügbar bei Zählern!)",
+    "streamer_image": "Das Profilbild des Streamers. (Nicht verfügbar bei Zählern!)",
     "slug": "Der Slug des Streamers."
   },
   "testCommand": {

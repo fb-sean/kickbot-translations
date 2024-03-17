@@ -247,6 +247,7 @@
     "category": "The stream category.",
     "category_name": "The stream category image.",
     "default_message": "The default message. (Not available at counters!)",
+    "streamer_image": "The streamer's avatar. (Not available at counters!)",
     "slug": "The streamer's slug."
   },
   "testCommand": {

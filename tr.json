@@ -247,6 +247,7 @@
     "category": "Yayın kategorisi.",
     "category_name": "Yayın kategorisi resmi.",
     "default_message": "Varsayılan mesaj. (Sayaçlarda mevcut değildir!)",
+    "streamer_image": "Streamer'ın avatarı. (Sayaçlarda mevcut değildir!)",
     "slug": "Streamer'ın slug'i."
   },
   "testCommand": {

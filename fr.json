@@ -247,6 +247,7 @@
     "category": "La catégorie du stream.",
     "category_name": "L'image de la catégorie du stream.",
     "default_message": "Le message par défaut. (Non disponible pour les compteurs !)",
+    "streamer_image": "L'image du streamer. (Non disponible pour les compteurs !)",
     "slug": "L'identifiant du streamer."
   },
   "testCommand": {
