@@ -1,0 +1,284 @@
+{
+  "global": {
+    "channelNotFound": "出现错误，我没有从discord获取到频道。",
+    "noBotPermsSend": "我没有权限在那个频道发送消息！",
+    "noBotPermsEdit": "我没有权限编辑那个频道！",
+    "noUserPerms": "你没有权限使用这个命令！",
+    "nextPage": "下一页",
+    "prevPage": "上一页",
+    "streamerNotFound": "这个主播不存在！\n\n<:RoleIcon:1118592777454899302> **注意：** 你可以在直播链接的末尾找到**用户名**。\n*例如：<https://kick.com/username> <=*",
+    "subLeaderboardNotFound": "这个主播没有订阅者排行榜！\n\n<:RoleIcon:1118592777454899302> **注意：** 你可以在直播链接的末尾找到**用户名**。\n*例如：<https://kick.com/username> <=*",
+    "optionStreamer": "你想要的主播的用户名。",
+    "optionChannel": "你想要发送消息的频道。",
+    "optionMessage": "当主播开始直播时，你想要发送的消息。",
+    "optionCleanUp": "在主播下线后清理消息。（删除旧消息）",
+    "optionFilters": "通过标题关键词过滤直播通知。用逗号分隔：keyword1, keyword2",
+    "serverOnly": "这个命令只能在服务器中使用！",
+    "fetchError": "获取主播时发生错误！请稍后再试。",
+    "fetchErrorLeaderboard": "获取主播排行榜时发生错误！请稍后再试。",
+    "notTracked": "这个主播在这个服务器上没有被跟踪！",
+    "addBot": "添加机器人",
+    "onlyServer": "这个命令只能在服务器中使用！",
+    "errorOccurred": "执行命令时发生错误！",
+    "cooldown": "你在冷却中，请稍等一下。",
+    "alreadyHaveSubRole": "你已经有了订阅者角色！",
+    "reSync": "重新同步Kick账户",
+    "invalidSync": "要么**{streamer}**不再是一个有效的kick用户，要么**{kickUser}**不再是一个有效的kick用户！",
+    "notSubscriber": "你不是{streamer}的订阅者！",
+    "byAddingRoleError": "尝试添加订阅者角色时我遇到了一个错误！\n*错误：{error}*",
+    "modalInfoText": "可以在 kick.com 上找到。",
+    "watch": "观看",
+    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] 现在开始直播了！\n<:LinkIcon:1118592789488349325> 在这里观看：[[URL]]",
+    "why": "为什么？"
+  },
+  "problems": {
+    "missingPermissions": "[看起来你在问自己为什么机器人回应了\"缺少权限\"。要了解更多信息，请点击这里。](https://kick.bot/guide/permissions)"
+  },
+  "premiumMessages": {
+    "plans": "高级计划：",
+    "monthly": "每月",
+    "yearly": "每年",
+    "discordPremium": "要取消在Discord上购买的高级版，你需要进入你的Discord设置。",
+    "premiumCommandInfo": "要购买高级版，请使用 </premium:1164829878626029639> 命令。",
+    "cancelDone": "高级版已被取消，你将不会再被收费。你可以继续使用高级功能直到{cancel_at}。",
+    "onlyOwnerCanCancel": "只有购买高级版的人才能取消它！",
+    "buyPremium": "购买高级版",
+    "hasPremium": "你已经有了高级版。你可以使用下面的按钮来取消它。",
+    "noPremium": "这个命令仅适用于高级服务器！",
+    "streamerLimit": "嘿！你已达到你可以在这个服务器上跟踪的主播数量上限。你可以升级到下面的高级版！",
+    "counterLimit": "嘿！你已达到你可以在这个服务器上跟踪的计数器数量上限。你可以升级到下面的高级版！",
+    "leaderboardLimit": "嘿！你已达到你可以在这个服务器上跟踪的排行榜数量上限。你可以升级到下面的高级版！"
+  },
+  "giftLeaderboard": {
+    "title": "{streamerId}的订阅者排行榜",
+    "allTime": "全部时间",
+    "monthly": "每月",
+    "weekly": "每周",
+    "powerBy": "由kick.bot提供 • 最后更新：",
+    "gifts": "礼物",
+    "infoText": "打开一个新标签页并从{username}的kick资料",
+    "noEntries": "没有找到条目。"
+  },
+  "verificationProcess": {
+    "invalidUsername": "你需要提供一个用户名！请再次点击**检查简介**并输入一个用户名。",
+    "notBio": "不是简介文本，你的kick.com **用户名**。请再次点击**检查简介**并输入一个用户名。",
+    "notDiscord": "不是你的discord id，你的kick.com **用户名**。请再次点击**检查简介**并输入一个用户名。",
+    "invalidUser": "**{username}**不是一个有效的kick用户！请再次点击**检查简介**并输入一个有效的用户名。",
+    "noBio": "**{username}**没有简介！请再次点击**检查简介**并输入一个有效的用户名。",
+    "invalidDiscordId": "**{username}**在他们的简介中没有一个有效的discord id！请重新进行验证过程。",
+    "noDiscordId": "**{username}**在他们的简介中没有你的discord id！请重新进行验证过程。",
+    "finished": "验证过程完成！现在再次按下按钮来认领你的订阅者角色！"
+  },
+  "verification": {
+    "infoMobile": "移动用户信息",
+    "infoMobileText": "如果你是移动用户。请在你的浏览器上打开 https://kick.com 并在浏览器中进行步骤。Kick 应用目前不支持资料更改。",
+    "checkBio": "检查简介",
+    "intro": "要将你的Discord账户与Kick验证，请按照**下面的步骤**：",
+    "step1": "去 https://kick.com/ 并点击你的个人资料图片。（确保你已登录）",
+    "step2": "点击**设置**。",
+    "step3": "滚动到**基本详情**。",
+    "step4": "在**简介**点击**编辑**按钮。",
+    "step5": "在这个字段中的某处粘贴`[KICK.BOT:{userId}]`。",
+    "step6": "点击**保存更改**。",
+    "step7": "回到Discord并点击下面的**检查简介**按钮并输入你的kick用户名。",
+    "step8": "如果你做得正确，你应该会从机器人那里收到一条成功消息。",
+    "step9": "验证过程完成后，你可以从你的Kick资料中移除`[KICK.BOT:{userId}]`。",
+    "helpText": "如果你有任何问题，欢迎在Discord上联系机器人支持：",
+    "poweredBy": "由kick.bot提供"
+  },
+  "addCommand": {
+    "commandData": {
+      "description": "向机器人添加一个新的主播！"
+    },
+    "alreadyTracked": "这个主播已经被跟踪了！",
+    "added": "**{streamer}**已经被添加到机器人了！"
+  },
+  "counterCommand": {
+    "commandData": {
+      "description": "为主播添加/移除或更新一个关注者计数器频道。",
+      "addDescription": "为主播添加一个关注者计数器频道。",
+      "editDescription": "编辑一个主播的关注者计数器频道。",
+      "removeDescription": "移除一个主播的关注者计数器频道。",
+      "listDescription": "列出这个服务器上所有的关注者计数器频道。",
+      "optionChannel": "应该有关注者计数器的频道。",
+      "optionChannelRemove": "你想要移除的与主播相关联的频道。",
+      "optionName": "计数器的名称。[频道名称]"
+    },
+    "alreadyCounter": "这个频道已经是一个计数器了！",
+    "added": "<#{channel}> 现在是**{streamer}**的计数器了！",
+    "noMessageEdit": "你必须提供要编辑的消息！",
+    "noCounter": "这个频道不是一个计数器！",
+    "edited": "成功编辑了 <#{channel}> 的配置！",
+    "removed": "<#{channel}> 已经不再是计数器了！\n*是由 <@{addedById}> 添加的。*",
+    "noCounters": "这个服务器上没有计数器！"
+  },
+  "editCommand": {
+    "commandData": {
+      "description": "编辑主播的配置！"
+    },
+    "noMessageOrChannel": "你必须提供一个频道、消息或清理选项来编辑！",
+    "edited": "成功编辑了**{streamer}**的配置！"
+  },
+  "errorsCommand": {
+    "commandData": {
+      "description": "查看在你的服务器上发生的机器人的最后20个错误！"
+    },
+    "noErrors": "没有错误可显示！",
+    "lastTitle": "在这个服务器上发生的最后20个错误。",
+    "cantExplain": "如果你无法解释这些错误，请加入我们的支持服务器：https://discord.gg/ZVERh35"
+  },
+  "guideCommand": {
+    "commandData": {
+      "description": "获取 Kick Bot 的网络指南链接！"
+    },
+    "infoText": "### Kick Discord Bot指南\n <:wink:1118617302615720138> [点击这里获取机器人的网络指南。](<https://guide.kick.bot?utm_source=discord-in-app/> \"打开一个新标签页guide.kick.bot\")"
+  },
+  "helpCommand": {
+    "commandData": {
+      "description": "获取机器人的帮助！"
+    },
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://kick.bot?utm_source=discord-in-app>)是一个Discord机器人，允许你跟踪[Kick](<https://kick.com> \"打开一个新标签页kick.com\")主播并在他们开始直播时得到通知！",
+    "commands": "命令",
+    "notifications": "直播通知",
+    "counters": "关注者计数器",
+    "subLeaderboard": "订阅者排行榜",
+    "subRole": "订阅者角色",
+    "misc": "杂项",
+    "madeBy": "由[Sean Sattler](<https://sattler.dev> \"打开一个新标签页sattler.dev\")制作",
+    "notAffiliated": "*与 <:Kick_Green:1118592781930221648> [Kick](<https://kick.com> \"打开一个新标签页kick.com\")无关*"
+  },
+  "insightsCommand": {
+    "commandData": {
+      "description": "查看机器人的洞察！"
+    },
+    "servers": "服务器",
+    "version": "版本",
+    "streamers": "主播",
+    "ramUsage": "RAM使用",
+    "liveNotifications": "设置直播通知",
+    "liveLeaderboards": "设置订阅者排行榜\n",
+    "leaderboards": "排行榜",
+    "setupCounters": "设置计数器",
+    "counters": "计数器",
+    "onlineSince": "在线自"
+  },
+  "inviteCommand": {
+    "commandData": {
+      "description": "想要邀请机器人到你的服务器？使用这个命令！"
+    },
+    "inviteText": "<:PlusIcon:1118592778897719347> **[点击这里邀请机器人到你的服务器！](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&redirect_uri=https%3A%2F%2Fkick.bot%3Futm_source%3Ddiscord-app-invite&response_type=code&scope=bot%20applications.commands%20identify \"打开一个新标签页邀请链接！\")**"
+  },
+  "leaderboardCommand": {
+    "commandData": {
+      "description": "为主播添加/移除或更新一个排行榜。",
+      "optionStreamerRemove": "你想要移除的主播的用户名。",
+      "listDescription": "列出这个服务器上所有的排行榜。",
+      "addDescription": "为主播添加一个排行榜。",
+      "removeDescription": "移除一个主播的排行榜。",
+      "editDescription": "编辑一个主播的排行榜。",
+      "optionChannel": "排行榜的频道。",
+      "optionStyle": "排行榜的样式。",
+      "style3": "前3名排行榜样式。",
+      "style5": "前5名排行榜样式。",
+      "style10": "前10名排行榜样式。"
+    },
+    "alreadyLeaderboard": "这个主播已经有一个排行榜了！",
+    "sendError": "尝试发送排行榜时我遇到了一个错误！\n*错误：{error}*",
+    "added": "<#{channel}> 现在是**{streamer}**的排行榜频道了！",
+    "channelOrStyle": "你必须提供一个频道或样式来编辑！",
+    "noLeaderboard": "这个主播没有排行榜！",
+    "edited": "成功编辑了 <#{channel}> 的配置！",
+    "removed": "已移除**{streamer}**的排行榜！\n*是由 <@{addedById}> 添加的。*",
+    "noLeaderboards": "这个服务器上没有排行榜！"
+  },
+  "linkCommand": {
+    "commandData": {
+      "description": "将你的 Kick.com 账户与你的Discord账户链接！"
+    },
+    "alreadyLinked": "你已经与一个 Kick.com 账户链接了！使用下面的按钮重新链接它。"
+  },
+  "listCommand": {
+    "commandData": {
+      "description": "查看这个服务器上由机器人跟踪的所有主播！"
+    },
+    "emptyList": "这个服务器上没有设置的主播！"
+  },
+  "removeCommand": {
+    "commandData": {
+      "description": "从机器人中移除一个主播！",
+      "optionStreamer": "你想要移除的主播的用户名。"
+    },
+    "removed": "**{streamer}**已经从机器人中移除了！\n*是由 <@{addedById}> 添加的。*"
+  },
+  "subscriberRoleCommand": {
+    "commandData": {
+      "description": "为主播添加一个订阅者角色。",
+      "optionStreamer": "订阅者应该能够获得角色的主播的用户名。",
+      "optionRole": "你想要给订阅者的角色。",
+      "optionMessage": "如果你想要有一个自定义消息。"
+    },
+    "embed": {
+      "title": "订阅者角色",
+      "description": "要获得**{streamer}**的订阅者角色，你只需要点击下面名为**Sub Role**的按钮。"
+    },
+    "added": "我已经将订阅者角色嵌入发送到了 <#{channel}> ！\n*信息：如果你想要删除设置，只需删除消息和角色，机器人将自动从数据库中删除设置。*",
+    "error": "尝试发送订阅者角色嵌入时我遇到了一个错误！\n*错误：{error}*",
+    "button": "获取订阅者角色"
+  },
+  "supportCommand": {
+    "commandData": {
+      "description": "获取支持邀请！"
+    },
+    "supportText": "<:QuestionMarkicon:1118592784509698149> 需要帮助？加入支持服务器！\nhttps://discord.gg/ZVERh35"
+  },
+  "variablesCommand": {
+    "commandData": {
+      "description": "获取你可以在消息中使用的所有变量的列表！"
+    },
+    "header": "Kick Discord Bot变量",
+    "streamer": "主播的用户名。",
+    "url": "主播的直播URL。（在计数器中不可用！）",
+    "title": "直播标题。",
+    "viewers": "直播观众计数。",
+    "language": "直播语言。",
+    "image": "直播缩略图。（在计数器中不可用！）",
+    "followers": "主播的关注者计数。",
+    "created_at": "直播创建日期。（在计数器中不可用！）",
+    "category": "直播类别。",
+    "category_name": "直播类别图片。",
+    "default_message": "默认消息。（在计数器中不可用！）",
+    "streamer_image": "主播的头像。（在计数器中不可用！）",
+    "slug": "主播的slug。"
+  },
+  "testCommand": {
+    "commandData": {
+      "description": "测试你的直播通知。",
+      "optionStreamer": "你想要测试的主播的用户名。"
+    },
+    "tested": "为**{streamer}**发送的测试消息已发送！请记住，机器人总是使用测试数据进行这个测试。",
+    "error": "尝试发送测试消息时我遇到了一个错误！\n*错误：{error}*"
+  },
+  "ktdCommand": {
+    "commandData": {
+      "description": "从一个Kick用户获取一个Discord用户"
+    },
+    "notInOurDatabase": "这个Kick用户不在我们的数据库中！",
+    "notInDiscord": "我找不到这个Kick用户的Discord用户！",
+    "success": "### Kick到Discord\n- Discord用户：{username}（`{id}`）\n- Discord用户头像：[点击] (<{avatar}>)"
+  },
+  "dtkCommand": {
+    "commandData": {
+      "description": "从一个Discord用户获取一个Kick用户"
+    },
+    "notInOurDatabase": "这个Discord用户不在我们的数据库中！",
+    "notInKick": "我找不到这个Discord用户的Kick用户！",
+    "success": "### Discord到Kick\n- Kick用户：{username}（`{id}`）\n- Kick用户头像：[点击] (<{avatar}>)\n- Kick用户简介：\n>>> {bio}"
+  },
+  "premiumCommand": {
+    "commandData": {
+      "description": "使用这个命令你可以订阅高级计划。"
+    },
+    "cancelPremium": "取消高级版",
+    "premiumCheckout": "点击下面的按钮去结账页面。支付后高级版将在你的服务器上激活。"
+  }
+}
