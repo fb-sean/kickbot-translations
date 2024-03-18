@@ -1,6 +1,6 @@
 {
   "global": {
-    "channelNotFound": "出现错误，我没有从discord获取到频道。",
+    "channelNotFound": "出现错误，我没有从 discord 获取到频道。",
     "noBotPermsSend": "我没有权限在那个频道发送消息！",
     "noBotPermsEdit": "我没有权限编辑那个频道！",
     "noUserPerms": "你没有权限使用这个命令！",
@@ -22,13 +22,13 @@
     "errorOccurred": "执行命令时发生错误！",
     "cooldown": "你在冷却中，请稍等一下。",
     "alreadyHaveSubRole": "你已经有了订阅者角色！",
-    "reSync": "重新同步Kick账户",
-    "invalidSync": "要么**{streamer}**不再是一个有效的kick用户，要么**{kickUser}**不再是一个有效的kick用户！",
+    "reSync": "重新同步 Kick 账户",
+    "invalidSync": "要么**{streamer}**不再是一个有效的 kick 用户，要么**{kickUser}**不再是一个有效的 kick 用户！",
     "notSubscriber": "你不是{streamer}的订阅者！",
     "byAddingRoleError": "尝试添加订阅者角色时我遇到了一个错误！\n*错误：{error}*",
-    "modalInfoText": "可以在kick.com上找到。",
+    "modalInfoText": "可以在 kick.com 上找到。",
     "watch": "观看",
-    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] 现在开始直播了！\n<:LinkIcon:1118592789488349325> 在这里观看：[[URL]]",
+    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] 现在开始直播了！\n<:LinkIcon:1118592789488349325> 在这里观看：<https://kick.com/username>",
     "why": "为什么？"
   },
   "problems": {
@@ -38,7 +38,7 @@
     "plans": "高级计划：",
     "monthly": "每月",
     "yearly": "每年",
-    "discordPremium": "要取消在Discord上购买的高级版，你需要进入你的Discord设置。",
+    "discordPremium": "要取消在 Discord 上购买的高级版，你需要进入你的 Discord 设置。",
     "premiumCommandInfo": "要购买高级版，请使用</premium:1164829878626029639>命令。",
     "cancelDone": "高级版已被取消，你将不会再被收费。你可以继续使用高级功能直到{cancel_at}。",
     "onlyOwnerCanCancel": "只有购买高级版的人才能取消它！",
@@ -54,37 +54,37 @@
     "allTime": "全部时间",
     "monthly": "每月",
     "weekly": "每周",
-    "powerBy": "由kick.bot提供 • 最后更新：",
+    "powerBy": "由 kick.bot 提供 • 最后更新：",
     "gifts": "礼物",
-    "infoText": "打开一个新标签页并从{username}的kick资料",
+    "infoText": "打开一个新标签页并从 {username} 的 kick 资料",
     "noEntries": "没有找到条目。"
   },
   "verificationProcess": {
     "invalidUsername": "你需要提供一个用户名！请再次点击**检查简介**并输入一个用户名。",
-    "notBio": "不是简介文本，你的kick.com **用户名**。请再次点击**检查简介**并输入一个用户名。",
-    "notDiscord": "不是你的discord id，你的kick.com **用户名**。请再次点击**检查简介**并输入一个用户名。",
-    "invalidUser": "**{username}**不是一个有效的kick用户！请再次点击**检查简介**并输入一个有效的用户名。",
+    "notBio": "不是简介文本，你的 kick.com **用户名**。请再次点击**检查简介**并输入一个用户名。",
+    "notDiscord": "不是你的 discord id，你的 kick.com **用户名**。请再次点击**检查简介**并输入一个用户名。",
+    "invalidUser": "**{username}**不是一个有效的 kick 用户！请再次点击**检查简介**并输入一个有效的用户名。",
     "noBio": "**{username}**没有简介！请再次点击**检查简介**并输入一个有效的用户名。",
-    "invalidDiscordId": "**{username}**在他们的简介中没有一个有效的discord id！请重新进行验证过程。",
-    "noDiscordId": "**{username}**在他们的简介中没有你的discord id！请重新进行验证过程。",
+    "invalidDiscordId": "**{username}**在他们的简介中没有一个有效的 discord id！请重新进行验证过程。",
+    "noDiscordId": "**{username}**在他们的简介中没有你的 discord id！请重新进行验证过程。",
     "finished": "验证过程完成！现在再次按下按钮来认领你的订阅者角色！"
   },
   "verification": {
     "infoMobile": "移动用户信息",
-    "infoMobileText": "如果你是移动用户。请在你的浏览器上打开https://kick.com并在浏览器中进行步骤。Kick应用目前不支持资料更改。",
+    "infoMobileText": "如果你是移动用户。请在你的浏览器上打开https://kick.com并在浏览器中进行步骤。Kick 应用目前不支持资料更改。",
     "checkBio": "检查简介",
-    "intro": "要将你的Discord账户与Kick验证，请按照**下面的步骤**：",
+    "intro": "要将你的 Discord 账户与 Kick 验证，请按照**下面的步骤**：",
     "step1": "去https://kick.com/并点击你的个人资料图片。（确保你已登录）",
     "step2": "点击**设置**。",
     "step3": "滚动到**基本详情**。",
     "step4": "在**简介**点击**编辑**按钮。",
     "step5": "在这个字段中的某处粘贴`[KICK.BOT:{userId}]`。",
     "step6": "点击**保存更改**。",
-    "step7": "回到Discord并点击下面的**检查简介**按钮并输入你的kick用户名。",
+    "step7": "回到 Discord 并点击下面的**检查简介**按钮并输入你的 kick 用户名。",
     "step8": "如果你做得正确，你应该会从机器人那里收到一条成功消息。",
-    "step9": "验证过程完成后，你可以从你的Kick资料中移除`[KICK.BOT:{userId}]`。",
-    "helpText": "如果你有任何问题，欢迎在Discord上联系机器人支持：",
-    "poweredBy": "由kick.bot提供"
+    "step9": "验证过程完成后，你可以从你的 Kick 资料中移除`[KICK.BOT:{userId}]`。",
+    "helpText": "如果你有任何问题，欢迎在 Discord 上联系机器人支持：",
+    "poweredBy": "由 kick.bot 提供"
   },
   "addCommand": {
     "commandData": {
@@ -129,23 +129,23 @@
   },
   "guideCommand": {
     "commandData": {
-      "description": "获取Kick Bot的网络指南链接！"
+      "description": "获取 Kick Bot 的网络指南链接！"
     },
-    "infoText": "### Kick Discord Bot指南\n<:wink:1118617302615720138> [点击这里获取机器人的网络指南。](<https://guide.kick.bot?utm_source=discord-in-app/> \"打开一个新标签页guide.kick.bot\")"
+    "infoText": "### Kick Discord Bot指南\n<:wink:1118617302615720138> [点击这里获取机器人的网络指南。](https://guide.kick.bot?utm_source=discord-in-app/ \"打开一个新标签页guide.kick.bot\")"
   },
   "helpCommand": {
     "commandData": {
       "description": "获取机器人的帮助！"
     },
-    "into": "<:wink:1118617302615720138> [Kick Bot](<https://kick.bot?utm_source=discord-in-app>)是一个Discord机器人，允许你跟踪[Kick](<https://kick.com> \"打开一个新标签页kick.com\")主播并在他们开始直播时得到通知！",
+    "into": "<:wink:1118617302615720138> [Kick Bot](https://kick.bot?utm_source=discord-in-app)是一个 Discord 机器人，允许你跟踪 [Kick](https://kick.com/ \"打开一个新标签页kick.com\") 主播并在他们开始直播时得到通知！",
     "commands": "命令",
     "notifications": "直播通知",
     "counters": "关注者计数器",
     "subLeaderboard": "订阅者排行榜",
     "subRole": "订阅者角色",
     "misc": "杂项",
-    "madeBy": "由[Sean Sattler](<https://sattler.dev> \"打开一个新标签页sattler.dev\")制作",
-    "notAffiliated": "*与<:Kick_Green:1118592781930221648> [Kick](<https://kick.com> \"打开一个新标签页kick.com\")无关*"
+    "madeBy": "由[Sean Sattler](https://sattler.dev \"打开一个新标签页sattler.dev\")制作",
+    "notAffiliated": "*与<:Kick_Green:1118592781930221648> [Kick](https://kick.com \"打开一个新标签页kick.com\")无关*"
   },
   "insightsCommand": {
     "commandData": {
@@ -193,9 +193,9 @@
   },
   "linkCommand": {
     "commandData": {
-      "description": "将你的Kick.com账户与你的Discord账户链接！"
+      "description": "将你的 Kick.com 账户与你的 Discord 账户链接！"
     },
-    "alreadyLinked": "你已经与一个Kick.com账户链接了！使用下面的按钮重新链接它。"
+    "alreadyLinked": "你已经与一个 Kick.com 账户链接了！使用下面的按钮重新链接它。"
   },
   "listCommand": {
     "commandData": {
@@ -248,7 +248,7 @@
     "category_name": "直播类别图片。",
     "default_message": "默认消息。（在计数器中不可用！）",
     "streamer_image": "主播的头像。（在计数器中不可用！）",
-    "slug": "主播的slug。"
+    "slug": "主播的 slug。"
   },
   "testCommand": {
     "commandData": {
@@ -260,25 +260,9 @@
   },
   "ktdCommand": {
     "commandData": {
-      "description": "从一个Kick用户获取一个Discord用户"
+      "description": "从一个 Kick 用户获取一个 Discord 用户"
     },
-    "notInOurDatabase": "这个Kick用户不在我们的数据库中！",
-    "notInDiscord": "我找不到这个Kick用户的Discord用户！",
-    "success": "### Kick到Discord\n- Discord用户：{username}（`{id}`）\n- Discord用户头像：[点击](<{avatar}>)"
-  },
-  "dtkCommand": {
-    "commandData": {
-      "description": "从一个Discord用户获取一个Kick用户"
-    },
-    "notInOurDatabase": "这个Discord用户不在我们的数据库中！",
-    "notInKick": "我找不到这个Discord用户的Kick用户！",
-    "success": "### Discord到Kick\n- Kick用户：{username}（`{id}`）\n- Kick用户头像：[点击](<{avatar}>)\n- Kick用户简介：\n>>> {bio}"
-  },
-  "premiumCommand": {
-    "commandData": {
-      "description": "使用这个命令你可以订阅高级计划。"
-    },
-    "cancelPremium": "取消高级版",
-    "premiumCheckout": "点击下面的按钮去结账页面。支付后高级版将在你的服务器上激活。"
+    "notInUse": "这个命令不再使用！",
+    "checkVerification": "检查验证过程命令。"
   }
 }
