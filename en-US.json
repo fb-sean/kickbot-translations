@@ -242,6 +242,7 @@
     "viewers": " The stream viewer count.",
     "language": "The stream language.",
     "image": "The stream thumbnail. (Not available at counters!)",
+    "new_line": "A new line. (Not available at counters!)",
     "followers": "The streamer's follower count.",
     "created_at": "The stream creation date. (Not available at counters!)",
     "category": "The stream category.",

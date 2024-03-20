@@ -242,6 +242,7 @@
     "viewers": "Le nombre de spectateurs du stream.",
     "language": "La langue du stream.",
     "image": "La vignette du stream. (Non disponible pour les compteurs !)",
+    "new_line": "Une nouvelle ligne. (Non disponible aux guichets !)",
     "followers": "Le nombre d'abonné.es du streamer.",
     "created_at": "La date de création du stream. (Non disponible pour les compteurs !)",
     "category": "La catégorie du stream.",

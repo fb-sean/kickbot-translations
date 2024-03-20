@@ -242,6 +242,7 @@
     "viewers": " Yayının izleyici sayısı.",
     "language": "Yayın dili.",
     "image": "Yayının küçük resmi. (Sayaçlarda mevcut değildir!)",
+    "new_line": "Yeni bir seri. (Gişelerde mevcut değil!)",
     "followers": "Streamer'ın takipçi sayısı.",
     "created_at": "Yayının oluşturulma tarihi. (Sayaçlarda mevcut değildir!)",
     "category": "Yayın kategorisi.",

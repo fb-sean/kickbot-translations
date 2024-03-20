@@ -242,6 +242,7 @@
     "viewers": "El número de espectadores de la transmisión.",
     "language": "El idioma de la transmisión.",
     "image": "La miniatura de la transmisión. (No disponible en los contadores!)",
+    "new_line": "Una nueva línea. (¡No disponible en los mostradores!)",
     "followers": "El número de seguidores del streamer.",
     "created_at": "La fecha de creación de la transmisión. (No disponible en los contadores!)",
     "category": "La categoría de la transmisión.",

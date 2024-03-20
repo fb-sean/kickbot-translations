@@ -242,6 +242,7 @@
     "viewers": "O número de espectadores do stream.",
     "language": "O idioma do stream.",
     "image": "A miniatura do stream. (Não disponível nos contadores!)",
+    "new_line": "Uma nova linha. (Não disponível nos balcões!)",
     "followers": "O número de seguidores do streamer.",
     "created_at": "A data de criação do stream. (Não disponível nos contadores!)",
     "category": "A categoria do stream.",
