@@ -215,7 +215,9 @@
       "description": "Ajouter un rôle d'abonné.e à une.e streamer.",
       "optionStreamer": "Le nom d'utilisateur du streamer où les abonné.es devraient pouvoir obtenir le rôle.",
       "optionRole": "Le rôle que vous souhaitez donner aux abonné.es.",
-      "optionMessage": "Un message si vous voulez avoir un message personnalisé."
+      "optionMessage": "Un message si vous voulez avoir un message personnalisé.",
+      "descriptionExpiration": "Définir le délai d'expiration du rôle d'abonné.",
+      "optionTime": "Délai en jours pendant lequel le rôle d'abonné est supprimé après que l'utilisateur s'est désabonné."
     },
     "embed": {
       "title": "Rôle d'abonné.e pour",
@@ -223,7 +225,9 @@
     },
     "added": "J'ai envoyé l'encart du rôle d'abonné.e à <#{channel}> !\n*Info : si vous souhaitez supprimer la configuration, il suffit de supprimer le message et le rôle et le bot supprimera automatiquement les paramètres dans la base de données.*",
     "error": "Une erreur s'est produite lors de l'envoi de l'encart du rôle d'abonné.e !\n*Erreur : {error}*",
-    "button": "Obtenir le rôle d'abonné.e"
+    "button": "Obtenir le rôle d'abonné.e",
+    "noPremiumForExpiration": "Vous devez disposer d'une prime pour définir le délai d'expiration du rôle d'abonné.",
+    "expiration": "Le rôle d'abonné sera désormais supprimé après {heure} jours. (Note : S'ils s'abonnent à nouveau, Kick Bot ne supprimera pas le rôle !)"
   },
   "supportCommand": {
     "commandData": {

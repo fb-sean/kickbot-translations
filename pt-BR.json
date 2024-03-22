@@ -215,7 +215,9 @@
       "description": "Adicione uma função de assinante a um streamer.",
       "optionStreamer": "O nome de usuário do streamer onde os assinantes devem poder obter a função.",
       "optionRole": "A função que você deseja atribuir aos assinantes.",
-      "optionMessage": "Uma mensagem se você quiser ter uma mensagem personalizada."
+      "optionMessage": "Uma mensagem se você quiser ter uma mensagem personalizada.",
+      "descriptionExpiration": "Defina o tempo de expiração da função de assinante.",
+      "optionTime": "O tempo em dias em que a função de assinante é removida depois que o usuário cancela a assinatura."
     },
     "embed": {
       "title": "Função de assinante para ",
@@ -223,7 +225,9 @@
     },
     "added": "Enviei o embed da função de assinante para <#{channel}>!\n*Informação: Se você quiser excluir a configuração, basta excluir a mensagem e a função e o bot excluirá automaticamente as configurações no banco de dados.*",
     "error": "Ao tentar enviar o embed da função de assinante, ocorreu um erro!\n*Erro: {error}*",
-    "button": "Obter Função de Assinante"
+    "button": "Obter Função de Assinante",
+    "noPremiumForExpiration": "Você precisa ter o premium para definir o tempo de expiração da função de assinante.",
+    "expiration": "A função de assinante agora será removida após {time} dias. (Observação: se eles se inscreverem novamente, o Kick Bot não removerá a função!)"
   },
   "supportCommand": {
     "commandData": {

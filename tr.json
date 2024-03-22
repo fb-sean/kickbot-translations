@@ -215,7 +215,9 @@
       "description": "Bir yayıncıya abone rolü ekleyin.",
       "optionStreamer": "Abonelerin rol alabilmeleri gereken yayıncının kullanıcı adı.",
       "optionRole": "Abonelere vermek istediğiniz rol.",
-      "optionMessage": "Özel bir mesajınız varsa."
+      "optionMessage": "Özel bir mesajınız varsa.",
+      "descriptionExpiration": "Abone rolü için sona erme süresini ayarlayın.",
+      "optionTime": "Kullanıcı abonelikten çıktıktan sonra abone rolünün kaldırılacağı gün cinsinden süre."
     },
     "embed": {
       "title": "Abone rolü için ",
@@ -223,7 +225,9 @@
     },
     "added": "Abone rolü embed'ini <#{channel}> kanalına gönderdim!\n*Bilgi: Kurulumu silmek isterseniz, sadece mesajı ve rolü silin ve bot otomatik olarak ayarları veritabanından silecektir.*",
     "error": "Abone rolü embed'ini göndermeye çalışırken bir hata aldım!\n*Hata: {error}*",
-    "button": "Abone Rolünü Al"
+    "button": "Abone Rolünü Al",
+    "noPremiumForExpiration": "Abone rolünün sona erme süresini ayarlamak için premium'a sahip olmanız gerekir.",
+    "expiration": "Abone rolü artık {time} gün sonra kaldırılacaktır. (Not: Tekrar abone olurlarsa, Kick Bot rolü kaldırmayacaktır!)"
   },
   "supportCommand": {
     "commandData": {

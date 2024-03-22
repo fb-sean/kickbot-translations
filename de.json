@@ -215,7 +215,9 @@
       "description": "Fügen Sie einem Streamer eine Abonnentenrolle hinzu.",
       "optionStreamer": "Der Benutzername des Streamers, bei dem die Abonnenten die Rolle erhalten sollen.",
       "optionRole": "Die Rolle, die Sie den Abonnenten geben möchten.",
-      "optionMessage": "Eine Nachricht, wenn Sie eine benutzerdefinierte Nachricht wünschen."
+      "optionMessage": "Eine Nachricht, wenn Sie eine benutzerdefinierte Nachricht wünschen.",
+      "descriptionExpiration": "Legen Sie die Ablaufzeit für die Teilnehmerrolle fest.",
+      "optionTime": "Tage bis zur Entfernung der Abonnentenrolle nach Abmeldung."
     },
     "embed": {
       "title": "Abonnentenrolle für ",
@@ -223,7 +225,9 @@
     },
     "added": "Ich habe das Embed für die Abonnentenrolle an <#{channel}> gesendet!\n*Info: Wenn Sie das Setup löschen möchten, löschen Sie einfach die Nachricht und die Rolle, und der Bot löscht automatisch die Einstellungen in der Datenbank.*",
     "error": "Beim Senden des Embeds für die Abonnentenrolle ist ein Fehler aufgetreten!\n*Fehler: {error}*",
-    "button": "Erhalte Abonnentenrolle"
+    "button": "Erhalte Abonnentenrolle",
+    "noPremiumForExpiration": "Sie müssen Premium haben, um die Ablaufzeit für die Abonnentenrolle festzulegen.",
+    "expiration": "Die Abonnentenrolle wird nun nach {time} Tagen entfernt. (Hinweis: Wenn sie sich erneut anmelden, wird Kick Bot die Rolle nicht entfernen!)"
   },
   "supportCommand": {
     "commandData": {

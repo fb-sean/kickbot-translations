@@ -215,7 +215,9 @@
       "description": "Agregar un rol de suscriptor a un streamer.",
       "optionStreamer": "El nombre de usuario del streamer al que los suscriptores deberían poder obtener el rol.",
       "optionRole": "El rol que deseas dar a los suscriptores.",
-      "optionMessage": "Un mensaje si deseas tener un mensaje personalizado."
+      "optionMessage": "Un mensaje si deseas tener un mensaje personalizado.",
+      "descriptionExpiration": "Establece el tiempo de expiración del rol de suscriptor.",
+      "optionTime": "El tiempo en días en que el rol de suscriptor se elimina después de que el usuario se da de baja."
     },
     "embed": {
       "title": "Rol de suscriptor para ",
@@ -223,7 +225,9 @@
     },
     "added": "¡He enviado el embed del rol de suscriptor a <#{channel}>!\n*Información: Si deseas eliminar la configuración, simplemente elimina el mensaje y el rol, y el bot eliminará automáticamente la configuración en la base de datos.*",
     "error": "¡Se produjo un error al enviar el embed del rol de suscriptor!\n*Error: {error}*",
-    "button": "Obtener Rol de Suscriptor"
+    "button": "Obtener Rol de Suscriptor",
+    "noPremiumForExpiration": "Necesitas tener Premium para establecer el tiempo de expiración del rol de suscriptor.",
+    "expiration": "El rol de suscriptor será eliminado después de {time} días. (Nota: Si se suscriben de nuevo, Kick Bot no eliminará el rol)."
   },
   "supportCommand": {
     "commandData": {

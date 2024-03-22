@@ -215,7 +215,9 @@
       "description": "为主播添加一个订阅者角色。",
       "optionStreamer": "订阅者应该能够获得角色的主播的用户名。",
       "optionRole": "你想要给订阅者的角色。",
-      "optionMessage": "如果你想要有一个自定义消息。"
+      "optionMessage": "如果你想要有一个自定义消息。",
+      "descriptionExpiration": "设置订阅者角色的过期时间。",
+      "optionTime": "用户取消订阅后，订阅者角色被移除的时间（天数）。"
     },
     "embed": {
       "title": "订阅者角色",
@@ -223,7 +225,9 @@
     },
     "added": "我已经将订阅者角色嵌入发送到了 <#{channel}> ！\n*信息：如果你想要删除设置，只需删除消息和角色，机器人将自动从数据库中删除设置。*",
     "error": "尝试发送订阅者角色嵌入时我遇到了一个错误！\n*错误：{error}*",
-    "button": "获取订阅者角色"
+    "button": "获取订阅者角色",
+    "noPremiumForExpiration": "您需要使用高级功能来设置订阅者角色的过期时间。",
+    "expiration": "现在，订阅者角色将在 {time} 天后移除。(注意：如果他们再次订阅，Kick Bot 不会移除角色！）。"
   },
   "supportCommand": {
     "commandData": {

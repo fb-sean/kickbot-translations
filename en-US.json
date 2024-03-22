@@ -215,7 +215,9 @@
       "description": "Add a subscriber role to a streamer.",
       "optionStreamer": "The username of the streamer where the subscribers should be able to get the role.",
       "optionRole": "The role you want to give to the subscribers.",
-      "optionMessage": "A message if you want to have a custom message."
+      "optionMessage": "A message if you want to have a custom message.",
+      "descriptionExpiration": "Set the expiration time for the subscriber role.",
+      "optionTime": "The time in days when the subscriber role get removed after the user unsubscribed."
     },
     "embed": {
       "title": "Subscriber role for ",
@@ -223,7 +225,9 @@
     },
     "added": "I have sent the subscriber role embed to <#{channel}>!\n*Info: If you want to delete the setup, just delete the message and the role and the bot will automatically delete the settings in the database.*",
     "error": "While trying to send the subscriber role embed I got a error!\n*Error: {error}*",
-    "button": "Get Subscriber Role"
+    "button": "Get Subscriber Role",
+    "noPremiumForExpiration": "You need to have premium to set the expiration time for the subscriber role.",
+    "expiration": "The subscriber role will now be removed after {time} days. (Note: If they subscribe again, Kick Bot wont remove the role!)"
   },
   "supportCommand": {
     "commandData": {
