@@ -81,7 +81,7 @@
     "step5": "Bu alana bir yerlere `[KICK.BOT:{userId}]` yapıştırın.",
     "step6": "**Değişiklikleri Kaydet**'e basın.",
     "step7": "Discord'a geri dönün ve aşağıdaki **Biyografiyi Kontrol Et** butonuna tıklayın ve Kick kullanıcı adınızı girin.",
-    "step8": "Her şeyi doğru yapmışsanız, bottan bir başarı mesajı almalısınız.",
+    "step8": "Her şeyi doğru yapmışsanız bottan bir başarı mesajı almalısınız.",
     "step9": "Doğrulama işleminden sonra `[KICK.BOT:{userId}]`'i Kick profilinizden kaldırabilirsiniz.",
     "helpText": "Herhangi bir sorunuz varsa, Discord'daki bot desteği ile iletişime geçmekten çekinmeyin:",
     "poweredBy": "kick.bot tarafından sağlanmıştır"
@@ -220,8 +220,8 @@
       "optionTime": "Kullanıcı abonelikten çıktıktan sonra abone rolünün kaldırılacağı gün cinsinden süre."
     },
     "embed": {
-      "title": "Abone rolü için ",
-      "description": "**{streamer}**'ın abone rolünü almak için sadece aşağıdaki **Abone Rolü** isimli butona tıklamanız yeterli."
+      "title": "Abone rolü için, ",
+      "description": "**{streamer}** adlı yayıncının abone rolünü almak için sadece aşağıdaki **Abone Rolünü Al** isimli butona tıklamanız yeterli."
     },
     "added": "Abone rolü embed'ini <#{channel}> kanalına gönderdim!\n*Bilgi: Kurulumu silmek isterseniz, sadece mesajı ve rolü silin ve bot otomatik olarak ayarları veritabanından silecektir.*",
     "error": "Abone rolü embed'ini göndermeye çalışırken bir hata aldım!\n*Hata: {error}*",
