@@ -12,7 +12,7 @@
     "optionChannel": "Mesajı göndermek istediğiniz kanalı seçin.",
     "optionMessage": "Yayıncı canlı yayına geçtiğinde göndermek istediğiniz mesajı yazın.",
     "optionCleanUp": "Yayıncı çevrim dışı olduğunda mesajı temizleyin. (Eski mesajı siler).",
-    "optionFilters": "Canlı bildirimleri başlıktaki anahtar kelimelere göre filtreleyin. Virgülle ayırın: anahtarkelime1, anahtarkelime2...",
+    "optionFilters": "Anahtar kelimelere göre bildirimleri filtreleyin: anahtarkelime1, anahtarkelime2...",
     "serverOnly": "Bu komut yalnızca bir sunucuda kullanılabilir!",
     "fetchError": "Yayıncıyı alırken bir hata oluştu! Lütfen daha sonra tekrar deneyin.",
     "fetchErrorLeaderboard": "Yayıncı liderlik tablosunu alırken bir hata oluştu! Lütfen daha sonra tekrar deneyin.",
