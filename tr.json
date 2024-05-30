@@ -253,19 +253,19 @@
     "category_name": "Yayın kategorisi resmi.",
     "default_message": "Varsayılan mesaj. (Sayaçlarda mevcut değildir!)",
     "streamer_image": "Yayıncının avatarı. (Sayaçlarda mevcut değildir!)",
-    "slug": "Yayıncının slug'i."
+    "slug": "Yayıncının kullanıcı adresi."
   },
   "testCommand": {
     "commandData": {
       "description": "Canlı bildiriminizi test edin.",
       "optionStreamer": "Test etmek istediğiniz yayıncının kullanıcı adı."
     },
-    "tested": "**{streamer}** adlı yayıncı için test mesajı gönderildi!\nUnutmayın, bot bunun için her zaman test verilerini kullanır.",
+    "tested": "**{streamer}** adlı yayıncı için bir test mesajı gönderdim!\nUnutmayın, bot bunun için her zaman test verilerini kullanır.",
     "error": "Test mesajını göndermeye çalışırken bir hata aldım!\n*Hata: {error}*"
   },
   "ktdCommand": {
     "commandData": {
-      "description": "Discord kullanıcısını Kick kullanıcısından alın"
+      "description": "Discord hesabıyla ilişkili Kick hesabını bulun."
     },
     "notInOurDatabase": "Bu Kick kullanıcısı veri tabanımızda yok!",
     "notInDiscord": "Bu Kick kullanıcısıyla ilgili bir Discord kullanıcısı bulamıyorum!",
@@ -273,10 +273,10 @@
   },
   "dtkCommand": {
     "commandData": {
-      "description": "Discord kullanıcısından bir Kick kullanıcısı alın"
+      "description": "Discord kullanıcısından Kick hesabını bulun."
     },
-    "notInOurDatabase": "Bu Discord kullanıcısı veri tabanımızda yok!",
-    "notInKick": "Bu Discord kullanıcısıyla bir Kick kullanıcısı bulamıyorum!",
+    "notInOurDatabase": "Bu Discord kullanıcısının verileri elimizde yok!",
+    "notInKick": "Bu Discord hesabıyla ilişkili bir Kick hesabı bulunamadı!",
     "success": "### Discord'dan Kick'e\n- Kick Kullanıcısı: {username} (`{id}`)\n- Kick Kullanıcısı Avatarı: [TIKLAYIN](<{avatar}>)\n- Kick Kullanıcısı Biyografisi: \n>>> {bio}"
   },
   "premiumCommand": {
