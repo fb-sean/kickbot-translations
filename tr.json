@@ -14,12 +14,12 @@
     "optionCleanUp": "Yayıncı çevrim dışı olduğunda mesajı temizleyin. (Eski mesajı siler).",
     "optionFilters": "Anahtar kelimelere göre bildirimleri filtreleyin: anahtarkelime1, anahtarkelime2...",
     "serverOnly": "Bu komut yalnızca bir sunucuda kullanılabilir!",
-    "fetchError": "Yayıncıyı alırken bir hata oluştu! Lütfen daha sonra tekrar deneyin.",
+    "fetchError": "Yayıncı bilgilerini getirirken bir hata oluştu! Lütfen daha sonra tekrar deneyin.",
     "fetchErrorLeaderboard": "Yayıncı liderlik tablosunu alırken bir hata oluştu! Lütfen daha sonra tekrar deneyin.",
     "notTracked": "Bu yayıncı, bu sunucuda izlenmiyor!",
     "addBot": "Botu Ekle",
     "onlyServer": "Bu komut yalnızca bir sunucuda kullanılabilir!",
-    "errorOccurred": "Komutu yürütürken bir hata oluştu!",
+    "errorOccurred": "Komutu Çalıştırırken bir hata oluştu!",
     "cooldown": "Bekleme süresindesiniz! Lütfen bir saniye bekleyin.",
     "alreadyHaveSubRole": "Zaten abone rolüne sahipsiniz!",
     "reSync": "Kick Hesabını Yeniden Senkronize Et",
@@ -57,7 +57,7 @@
     "powerBy": "kick.bot tarafından desteklenmektedir • Son Güncelleme: ",
     "gifts": "hediyeler",
     "infoText": "{username} adlı kullanıcının Kick profilini yeni bir sekmede açar.",
-    "noEntries": "Hiçbir giriş bulunamadı."
+    "noEntries": "Hiçbir sonuç bulunamadı."
   },
   "verificationProcess": {
     "invalidUsername": "Bir kullanıcı adı belirtmelisiniz. Lütfen **Biyografiyi Kontrol Et** butonuna tekrar tıklayın ve bir kullanıcı adı girin!",
@@ -114,22 +114,22 @@
   },
   "editCommand": {
     "commandData": {
-      "description": "Bir yayıncının konfigürasyonunu düzenleyin!"
+      "description": "Bir yayıncının ayarlarını düzenleyin!"
     },
     "noMessageOrChannel": "Düzenlemek için bir kanal, mesaj veya temizleme seçeneği seçmelisiniz!",
-    "edited": "**{streamer}** adlı yayıncının konfigürasyonu başarıyla düzenlendi!"
+    "edited": "**{streamer}** adlı yayıncının ayarları başarıyla düzenlendi!"
   },
   "errorsCommand": {
     "commandData": {
-      "description": "Sunucunuzdaki botla ilgili son 20 hatayı görün!"
+      "description": "Botun Son Yaşadığı 20 Sorunu Listeleyin ve İnceleyin."
     },
     "noErrors": "Gösterilecek hata yok!",
-    "lastTitle": "Bu sunucuda gerçekleşen son 20 hata.",
-    "cantExplain": "Hataları kendiniz açıklayamıyorsanız lütfen destek sunucumuza katılın: https://discord.gg/ZVERh35"
+    "lastTitle": "Botun Son Yaşadığı 20 Sorun.",
+    "cantExplain": "Hataları kendiniz anlayamıyorsanız lütfen destek sunucumuza katılın: https://discord.gg/ZVERh35"
   },
   "guideCommand": {
     "commandData": {
-      "description": "Kick Bot'un web rehberine bir link alın!"
+      "description": "Kick Bot'un web rehberine bir göz atın!"
     },
     "infoText": "### Kick Discord Bot Rehberi\n<:wink:1118617302615720138> [Botun web rehberine gitmek için buraya tıklayın.](<https://guide.kick.bot?utm_source=discord-in-app/> \"guide.kick.bot ile yeni bir sekme açar\")"
   },
@@ -160,7 +160,7 @@
     "leaderboards": "lider tabloları",
     "setupCounters": "Sayaçları Ayarlayın",
     "counters": "sayaçlar",
-    "onlineSince": "Beridir çevrimiçi"
+    "onlineSince": "Zamandır çevrimiçi"
   },
   "inviteCommand": {
     "commandData": {
@@ -183,7 +183,7 @@
       "style10": "İlk 10 liderlik tablosu stili."
     },
     "alreadyLeaderboard": "Bu yayıncının zaten bir liderlik tablosu var!",
-    "sendError": "Liderlik tablosunu göndermeye çalışırken bir hata aldım!\n*Hata: {error}*",
+    "sendError": "Liderlik tablosunu göndermeye çalışırken bir hata ile karşılaştım!\n*Hata: {error}*",
     "added": "<#{channel}> adlı kanal artık **{streamer}** adlı yayıncı için bir liderlik tablosu kanalı!",
     "channelOrStyle": "Düzenlemek için bir kanal veya stil belirtmeniz gerekiyor!",
     "noLeaderboard": "Bu yayıncının bir liderlik tablosu yok!",
@@ -245,12 +245,12 @@
     "title": "Yayının başlığı.",
     "viewers": " Yayının izleyici sayısı.",
     "language": "Yayın dili.",
-    "image": "Yayının küçük resmi. (Sayaçlarda mevcut değildir!)",
+    "image": "Yayının kapak resmi. (Sayaçlarda mevcut değildir!)",
     "new_line": "Yeni bir seri. (Gişelerde mevcut değil!)",
     "followers": "Yayıncının takipçi sayısı.",
     "created_at": "Yayının oluşturulma tarihi. (Sayaçlarda mevcut değildir!)",
     "category": "Yayın kategorisi.",
-    "category_name": "Yayın kategorisi resmi.",
+    "category_name": "Yayın kategorisinin resmi.",
     "default_message": "Varsayılan mesaj. (Sayaçlarda mevcut değildir!)",
     "streamer_image": "Yayıncının avatarı. (Sayaçlarda mevcut değildir!)",
     "slug": "Yayıncının kullanıcı adresi."
@@ -277,7 +277,7 @@
     },
     "notInOurDatabase": "Bu Discord kullanıcısının verileri elimizde yok!",
     "notInKick": "Bu Discord hesabıyla ilişkili bir Kick hesabı bulunamadı!",
-    "success": "### Discord'dan Kick'e\n- Kick Kullanıcısı: {username} (`{id}`)\n- Kick Kullanıcısı Avatarı: [TIKLAYIN](<{avatar}>)\n- Kick Kullanıcısı Biyografisi: \n>>> {bio}"
+    "success": "### Discord'dan Kick'e\n- Kick Kullanıcısı: {username} (`{id}`)\n- {username} Kullanıcısının Resmi: [TIKLAYIN](<{avatar}>)\n- {username} Kullanıcısının Biyografisi: \n>>> {bio}"
   },
   "premiumCommand": {
     "commandData": {
