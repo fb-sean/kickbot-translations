@@ -47,7 +47,8 @@
     "noPremium": "这个命令仅适用于高级服务器！",
     "streamerLimit": "嘿！你已达到你可以在这个服务器上跟踪的主播数量上限。你可以升级到下面的高级版！",
     "counterLimit": "嘿！你已达到你可以在这个服务器上跟踪的计数器数量上限。你可以升级到下面的高级版！",
-    "leaderboardLimit": "嘿！你已达到你可以在这个服务器上跟踪的排行榜数量上限。你可以升级到下面的高级版！"
+    "leaderboardLimit": "嘿！你已达到你可以在这个服务器上跟踪的排行榜数量上限。你可以升级到下面的高级版！",
+    "subscriberRolesLimit": "嘿！您已达到本服务器的订阅角色上限。您可以升级到以下高级版本！"
   },
   "giftLeaderboard": {
     "title": "{streamerId}的订阅者排行榜",
@@ -217,7 +218,8 @@
       "optionRole": "你想要给订阅者的角色。",
       "optionMessage": "如果你想要有一个自定义消息。",
       "descriptionExpiration": "设置订阅者角色的过期时间。",
-      "optionTime": "用户取消订阅后，订阅者角色被移除的时间（天数）。"
+      "optionTime": "用户取消订阅后，订阅者角色被移除的时间（天数）。",
+      "descriptionRemove": "删除订阅者角色设置。"
     },
     "embed": {
       "title": "订阅者角色",
@@ -227,7 +229,10 @@
     "error": "尝试发送订阅者角色嵌入时我遇到了一个错误！\n*错误：{error}*",
     "button": "获取订阅者角色",
     "noPremiumForExpiration": "您需要使用高级功能来设置订阅者角色的过期时间。",
-    "expiration": "现在，订阅者角色将在 {time} 天后移除。(注意：如果他们再次订阅，Kick Bot 不会移除角色！）。"
+    "expiration": "现在，订阅者角色将在 {time} 天后移除。(注意：如果他们再次订阅，Kick Bot 不会移除角色！）。",
+    "notFound": "该流媒体没有订阅者角色！",
+    "deleted": "**{streamer}** 的订阅者角色设置已删除！",
+    "alreadySetup": "该流媒体已经设置了订阅者角色！"
   },
   "supportCommand": {
     "commandData": {

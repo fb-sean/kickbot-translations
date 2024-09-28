@@ -12,14 +12,14 @@
     "optionChannel": "Mesajı göndermek istediğiniz kanalı seçin.",
     "optionMessage": "Yayıncı canlı yayına geçtiğinde göndermek istediğiniz mesajı yazın.",
     "optionCleanUp": "Yayıncı çevrim dışı olduğunda mesajı temizleyin. (Eski mesajı siler).",
-    "optionFilters": "Canlı bildirimleri başlıktaki anahtar kelimelere göre filtreleyin. Virgülle ayırın: anahtarkelime1, anahtarkelime2...",
+    "optionFilters": "Anahtar kelimelere göre bildirimleri filtreleyin: anahtarkelime1, anahtarkelime2...",
     "serverOnly": "Bu komut yalnızca bir sunucuda kullanılabilir!",
-    "fetchError": "Yayıncıyı alırken bir hata oluştu! Lütfen daha sonra tekrar deneyin.",
+    "fetchError": "Yayıncı bilgilerini getirirken bir hata oluştu! Lütfen daha sonra tekrar deneyin.",
     "fetchErrorLeaderboard": "Yayıncı liderlik tablosunu alırken bir hata oluştu! Lütfen daha sonra tekrar deneyin.",
     "notTracked": "Bu yayıncı, bu sunucuda izlenmiyor!",
     "addBot": "Botu Ekle",
     "onlyServer": "Bu komut yalnızca bir sunucuda kullanılabilir!",
-    "errorOccurred": "Komutu yürütürken bir hata oluştu!",
+    "errorOccurred": "Komutu Çalıştırırken bir hata oluştu!",
     "cooldown": "Bekleme süresindesiniz! Lütfen bir saniye bekleyin.",
     "alreadyHaveSubRole": "Zaten abone rolüne sahipsiniz!",
     "reSync": "Kick Hesabını Yeniden Senkronize Et",
@@ -47,7 +47,8 @@
     "noPremium": "Bu komut yalnızca Premium sunucularda kullanılabilir!",
     "streamerLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum yayıncı sayısına ulaştınız. Aşağıdaki bağlantıdan Premium'a yükseltebilirsiniz!",
     "counterLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum sayaç sayısına ulaştınız. Aşağıdaki bağlantıdan Premium'a yükseltebilirsiniz!",
-    "leaderboardLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum liderlik tablosu sayısına ulaştınız. Aşağıdaki bağlantıdan Premium'a yükseltebilirsiniz!"
+    "leaderboardLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum liderlik tablosu sayısına ulaştınız. Aşağıdaki bağlantıdan Premium'a yükseltebilirsiniz!",
+    "subscriberRolesLimit": "Hey! Bu sunucudaki maksimum abone rolü miktarına ulaştınız. Aşağıdan premium'a yükseltebilirsiniz!"
   },
   "giftLeaderboard": {
     "title": "{streamerId} yayıncısı için - Abone Liderlik Tablosu",
@@ -57,7 +58,7 @@
     "powerBy": "kick.bot tarafından desteklenmektedir • Son Güncelleme: ",
     "gifts": "hediyeler",
     "infoText": "{username} adlı kullanıcının Kick profilini yeni bir sekmede açar.",
-    "noEntries": "Hiçbir giriş bulunamadı."
+    "noEntries": "Hiçbir sonuç bulunamadı."
   },
   "verificationProcess": {
     "invalidUsername": "Bir kullanıcı adı belirtmelisiniz. Lütfen **Biyografiyi Kontrol Et** butonuna tekrar tıklayın ve bir kullanıcı adı girin!",
@@ -114,22 +115,22 @@
   },
   "editCommand": {
     "commandData": {
-      "description": "Bir yayıncının konfigürasyonunu düzenleyin!"
+      "description": "Bir yayıncının ayarlarını düzenleyin!"
     },
     "noMessageOrChannel": "Düzenlemek için bir kanal, mesaj veya temizleme seçeneği seçmelisiniz!",
-    "edited": "**{streamer}** adlı yayıncının konfigürasyonu başarıyla düzenlendi!"
+    "edited": "**{streamer}** adlı yayıncının ayarları başarıyla düzenlendi!"
   },
   "errorsCommand": {
     "commandData": {
-      "description": "Sunucunuzdaki botla ilgili son 20 hatayı görün!"
+      "description": "Botun Son Yaşadığı 20 Sorunu Listeleyin ve İnceleyin."
     },
     "noErrors": "Gösterilecek hata yok!",
-    "lastTitle": "Bu sunucuda gerçekleşen son 20 hata.",
-    "cantExplain": "Hataları kendiniz açıklayamıyorsanız lütfen destek sunucumuza katılın: https://discord.gg/ZVERh35"
+    "lastTitle": "Botun Son Yaşadığı 20 Sorun.",
+    "cantExplain": "Hataları kendiniz anlayamıyorsanız lütfen destek sunucumuza katılın: https://discord.gg/ZVERh35"
   },
   "guideCommand": {
     "commandData": {
-      "description": "Kick Bot'un web rehberine bir link alın!"
+      "description": "Kick Bot'un web rehberine bir göz atın!"
     },
     "infoText": "### Kick Discord Bot Rehberi\n<:wink:1118617302615720138> [Botun web rehberine gitmek için buraya tıklayın.](<https://guide.kick.bot?utm_source=discord-in-app/> \"guide.kick.bot ile yeni bir sekme açar\")"
   },
@@ -160,7 +161,7 @@
     "leaderboards": "lider tabloları",
     "setupCounters": "Sayaçları Ayarlayın",
     "counters": "sayaçlar",
-    "onlineSince": "Beridir çevrimiçi"
+    "onlineSince": "Zamandır çevrimiçi"
   },
   "inviteCommand": {
     "commandData": {
@@ -183,7 +184,7 @@
       "style10": "İlk 10 liderlik tablosu stili."
     },
     "alreadyLeaderboard": "Bu yayıncının zaten bir liderlik tablosu var!",
-    "sendError": "Liderlik tablosunu göndermeye çalışırken bir hata aldım!\n*Hata: {error}*",
+    "sendError": "Liderlik tablosunu göndermeye çalışırken bir hata ile karşılaştım!\n*Hata: {error}*",
     "added": "<#{channel}> adlı kanal artık **{streamer}** adlı yayıncı için bir liderlik tablosu kanalı!",
     "channelOrStyle": "Düzenlemek için bir kanal veya stil belirtmeniz gerekiyor!",
     "noLeaderboard": "Bu yayıncının bir liderlik tablosu yok!",
@@ -217,7 +218,8 @@
       "optionRole": "Abonelere vermek istediğiniz rolü seçin.",
       "optionMessage": "Otomatik embed mesajı yerine kendiniz bir mesaj yazın.",
       "descriptionExpiration": "Abone rolü için sona erme süresini ayarlayın.",
-      "optionTime": "Kullanıcı abonelikten çıktıktan sonra abone rolünün kaldırılacağı süreyi gün cinsinden girin."
+      "optionTime": "Kullanıcı abonelikten çıktıktan sonra abone rolünün kaldırılacağı süreyi gün cinsinden girin.",
+      "descriptionRemove": "Bir abone rolü kurulumunu kaldırın."
     },
     "embed": {
       "title": "Şu yayıncı için abonelik rolü: ",
@@ -227,7 +229,10 @@
     "error": "Abonelik rolü embed içeriğini göndermeye çalışırken bir hata aldım!\n*Hata: {error}*",
     "button": "Abone Rolünü Al",
     "noPremiumForExpiration": "Abone rolünün sona erme süresini ayarlamak için Premium'a sahip olmanız gerekir.",
-    "expiration": "Abone rolü artık {time} gün sonra kaldırılacaktır. (Not: Tekrar abone olurlarsa Kick Bot rolü kaldırmayacaktır!)"
+    "expiration": "Abone rolü artık {time} gün sonra kaldırılacaktır. (Not: Tekrar abone olurlarsa Kick Bot rolü kaldırmayacaktır!)",
+    "notFound": "Bu yayıncının bir abone rolü yok!",
+    "deleted": "Abone rolü kurulumu **{streamer}** için silindi!",
+    "alreadySetup": "Bu yayıncının zaten bir abone rolü kurulumu var!"
   },
   "supportCommand": {
     "commandData": {
@@ -245,27 +250,27 @@
     "title": "Yayının başlığı.",
     "viewers": " Yayının izleyici sayısı.",
     "language": "Yayın dili.",
-    "image": "Yayının küçük resmi. (Sayaçlarda mevcut değildir!)",
+    "image": "Yayının kapak resmi. (Sayaçlarda mevcut değildir!)",
     "new_line": "Yeni bir seri. (Gişelerde mevcut değil!)",
     "followers": "Yayıncının takipçi sayısı.",
     "created_at": "Yayının oluşturulma tarihi. (Sayaçlarda mevcut değildir!)",
     "category": "Yayın kategorisi.",
-    "category_name": "Yayın kategorisi resmi.",
+    "category_name": "Yayın kategorisinin resmi.",
     "default_message": "Varsayılan mesaj. (Sayaçlarda mevcut değildir!)",
     "streamer_image": "Yayıncının avatarı. (Sayaçlarda mevcut değildir!)",
-    "slug": "Yayıncının slug'i."
+    "slug": "Yayıncının kullanıcı adresi."
   },
   "testCommand": {
     "commandData": {
       "description": "Canlı bildiriminizi test edin.",
       "optionStreamer": "Test etmek istediğiniz yayıncının kullanıcı adı."
     },
-    "tested": "**{streamer}** adlı yayıncı için test mesajı gönderildi!\nUnutmayın, bot bunun için her zaman test verilerini kullanır.",
+    "tested": "**{streamer}** adlı yayıncı için bir test mesajı gönderdim!\nUnutmayın, bot bunun için her zaman test verilerini kullanır.",
     "error": "Test mesajını göndermeye çalışırken bir hata aldım!\n*Hata: {error}*"
   },
   "ktdCommand": {
     "commandData": {
-      "description": "Discord kullanıcısını Kick kullanıcısından alın"
+      "description": "Discord hesabıyla ilişkili Kick hesabını bulun."
     },
     "notInOurDatabase": "Bu Kick kullanıcısı veri tabanımızda yok!",
     "notInDiscord": "Bu Kick kullanıcısıyla ilgili bir Discord kullanıcısı bulamıyorum!",
@@ -273,11 +278,11 @@
   },
   "dtkCommand": {
     "commandData": {
-      "description": "Discord kullanıcısından bir Kick kullanıcısı alın"
+      "description": "Discord kullanıcısından Kick hesabını bulun."
     },
-    "notInOurDatabase": "Bu Discord kullanıcısı veri tabanımızda yok!",
-    "notInKick": "Bu Discord kullanıcısıyla bir Kick kullanıcısı bulamıyorum!",
-    "success": "### Discord'dan Kick'e\n- Kick Kullanıcısı: {username} (`{id}`)\n- Kick Kullanıcısı Avatarı: [TIKLAYIN](<{avatar}>)\n- Kick Kullanıcısı Biyografisi: \n>>> {bio}"
+    "notInOurDatabase": "Bu Discord kullanıcısının verileri elimizde yok!",
+    "notInKick": "Bu Discord hesabıyla ilişkili bir Kick hesabı bulunamadı!",
+    "success": "### Discord'dan Kick'e\n- Kick Kullanıcısı: {username} (`{id}`)\n- {username} Kullanıcısının Resmi: [TIKLAYIN](<{avatar}>)\n- {username} Kullanıcısının Biyografisi: \n>>> {bio}"
   },
   "premiumCommand": {
     "commandData": {

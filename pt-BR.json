@@ -47,7 +47,8 @@
     "noPremium": "Este comando está disponível apenas para servidores premium!",
     "streamerLimit": "Ei! Você atingiu o limite máximo de streamers que pode acompanhar neste servidor. Você pode fazer upgrade para premium abaixo!",
     "counterLimit": "Ei! Você atingiu o limite máximo de contadores que pode acompanhar neste servidor. Você pode fazer upgrade para premium abaixo!",
-    "leaderboardLimit": "Ei! Você atingiu o limite máximo de leaderboards que pode acompanhar neste servidor. Você pode fazer upgrade para premium abaixo!"
+    "leaderboardLimit": "Ei! Você atingiu o limite máximo de leaderboards que pode acompanhar neste servidor. Você pode fazer upgrade para premium abaixo!",
+    "subscriberRolesLimit": "Ei! Você atingiu o número máximo de funções de assinante neste servidor. Você pode fazer o upgrade para premium abaixo!"
   },
   "giftLeaderboard": {
     "title": "Classificação de Subs do {streamerId}",
@@ -217,7 +218,8 @@
       "optionRole": "A função que você deseja atribuir aos assinantes.",
       "optionMessage": "Uma mensagem se você quiser ter uma mensagem personalizada.",
       "descriptionExpiration": "Defina o tempo de expiração da função de assinante.",
-      "optionTime": "O tempo em dias em que a função de assinante é removida depois que o usuário cancela a assinatura."
+      "optionTime": "O tempo em dias em que a função de assinante é removida depois que o usuário cancela a assinatura.",
+      "descriptionRemove": "Remover uma configuração de função de assinante."
     },
     "embed": {
       "title": "Função de assinante para ",
@@ -227,7 +229,10 @@
     "error": "Ao tentar enviar o embed da função de assinante, ocorreu um erro!\n*Erro: {error}*",
     "button": "Obter Função de Assinante",
     "noPremiumForExpiration": "Você precisa ter o premium para definir o tempo de expiração da função de assinante.",
-    "expiration": "A função de assinante agora será removida após {time} dias. (Observação: se eles se inscreverem novamente, o Kick Bot não removerá a função!)"
+    "expiration": "A função de assinante agora será removida após {time} dias. (Observação: se eles se inscreverem novamente, o Kick Bot não removerá a função!)",
+    "notFound": "Este streamer não tem uma função de assinante!",
+    "deleted": "A configuração da função de assinante para **{streamer}** foi excluída!",
+    "alreadySetup": "Esse streamer já tem uma função de assinante configurada!"
   },
   "supportCommand": {
     "commandData": {

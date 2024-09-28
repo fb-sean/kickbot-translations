@@ -12,7 +12,7 @@
     "optionChannel": "El canal al que deseas enviar el mensaje.",
     "optionMessage": "El mensaje que deseas enviar cuando el streamer esté en directo.",
     "optionCleanUp": "Limpie el mensaje después de que el streamer se desconecte. (Elimina el mensaje antiguo)",
-    "optionFilters" : "Filtrar notificaciones en vivo por palabras clave en el título. Separar con comas: palabra clave1,",
+    "optionFilters": "Filtrar notificaciones en vivo por palabras clave en el título. Separar con comas: palabra clave1,",
     "serverOnly": "¡Este comando solo se puede usar en un servidor!",
     "fetchError": "¡Se produjo un error al obtener la información del streamer! Por favor, inténtalo de nuevo más tarde.",
     "fetchErrorLeaderboard": "¡Se produjo un error al obtener la clasificación del streamer! Por favor, inténtalo de nuevo más tarde.",
@@ -47,7 +47,8 @@
     "noPremium": "¡Este comando solo está disponible para servidores premium!",
     "streamerLimit": "¡Hey! Has alcanzado el máximo de streamers que puedes seguir en este servidor. ¡Puedes mejorar a premium a continuación!",
     "counterLimit": "¡Hey! Has alcanzado el máximo de contadores que puedes seguir en este servidor. ¡Puedes mejorar a premium a continuación!",
-    "leaderboardLimit": "¡Hey! Has alcanzado el máximo de clasificaciones que puedes seguir en este servidor. ¡Puedes mejorar a premium a continuación!"
+    "leaderboardLimit": "¡Hey! Has alcanzado el máximo de clasificaciones que puedes seguir en este servidor. ¡Puedes mejorar a premium a continuación!",
+    "subscriberRolesLimit": "¡Hey! Has alcanzado el número máximo de roles de suscriptor en este servidor. ¡Puede actualizar a premium a continuación!"
   },
   "giftLeaderboard": {
     "title": "Tabla de clasificación de suscriptores de {streamerId}",
@@ -217,7 +218,8 @@
       "optionRole": "El rol que deseas dar a los suscriptores.",
       "optionMessage": "Un mensaje si deseas tener un mensaje personalizado.",
       "descriptionExpiration": "Establece el tiempo de expiración del rol de suscriptor.",
-      "optionTime": "El tiempo en días en que el rol de suscriptor se elimina después de que el usuario se da de baja."
+      "optionTime": "El tiempo en días en que el rol de suscriptor se elimina después de que el usuario se da de baja.",
+      "descriptionRemove": "Eliminar una configuración de rol de abonado."
     },
     "embed": {
       "title": "Rol de suscriptor para ",
@@ -227,7 +229,10 @@
     "error": "¡Se produjo un error al enviar el embed del rol de suscriptor!\n*Error: {error}*",
     "button": "Obtener Rol de Suscriptor",
     "noPremiumForExpiration": "Necesitas tener Premium para establecer el tiempo de expiración del rol de suscriptor.",
-    "expiration": "El rol de suscriptor será eliminado después de {time} días. (Nota: Si se suscriben de nuevo, Kick Bot no eliminará el rol)."
+    "expiration": "El rol de suscriptor será eliminado después de {time} días. (Nota: Si se suscriben de nuevo, Kick Bot no eliminará el rol).",
+    "notFound": "¡Este streamer no tiene rol de abonado!",
+    "deleted": "Se ha eliminado la configuración del rol de suscriptor para **{streamer}**.",
+    "alreadySetup": "¡Este streamer ya tiene un rol de abonado configurado!"
   },
   "supportCommand": {
     "commandData": {

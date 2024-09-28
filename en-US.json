@@ -47,7 +47,8 @@
     "noPremium": "This command is only available for premium servers!",
     "streamerLimit": "Hey! You reached the maximum amount of streamers you can track on this server. You can upgrade to premium to below!",
     "counterLimit": "Hey! You reached the maximum amount of counters you can track on this server. You can upgrade to premium to below!",
-    "leaderboardLimit": "Hey! You reached the maximum amount of leaderboards you can track on this server. You can upgrade to premium to below!"
+    "leaderboardLimit": "Hey! You reached the maximum amount of leaderboards you can track on this server. You can upgrade to premium to below!",
+    "subscriberRolesLimit": "Hey! You reached the maximum amount of subscriber roles on this server. You can upgrade to premium to below!"
   },
   "giftLeaderboard": {
     "title": "Subs Leaderboard of {streamerId}",
@@ -217,17 +218,21 @@
       "optionRole": "The role you want to give to the subscribers.",
       "optionMessage": "A message if you want to have a custom message.",
       "descriptionExpiration": "Set the expiration time for the subscriber role.",
-      "optionTime": "The time in days when the subscriber role get removed after the user unsubscribed."
+      "optionTime": "The time in days when the subscriber role get removed after the user unsubscribed.",
+      "descriptionRemove": "Remove a subscriber role setup."
     },
     "embed": {
       "title": "Subscriber role for ",
       "description": "To get the subscriber role of **{streamer}** you just need to click on the button below with the name **Sub Role**."
     },
-    "added": "I have sent the subscriber role embed to <#{channel}>!\n*Info: If you want to delete the setup, just delete the message and the role and the bot will automatically delete the settings in the database.*",
+    "added": "I have sent the subscriber role embed to <#{channel}>!\n*Info: If you want to delete the setup, use </subscriber role remove:1170402380270014584>.*",
     "error": "While trying to send the subscriber role embed I got a error!\n*Error: {error}*",
     "button": "Get Subscriber Role",
     "noPremiumForExpiration": "You need to have premium to set the expiration time for the subscriber role.",
-    "expiration": "The subscriber role will now be removed after {time} days. (Note: If they subscribe again, Kick Bot wont remove the role!)"
+    "expiration": "The subscriber role will now be removed after {time} days. (Note: If they subscribe again, Kick Bot wont remove the role!)",
+    "notFound": "This streamer does not have a subscriber role!",
+    "deleted": "The subscriber role setup for **{streamer}** has been deleted!",
+    "alreadySetup": "This streamer already have a subscriber role setup!"
   },
   "supportCommand": {
     "commandData": {

@@ -47,7 +47,8 @@
     "noPremium": "Cette commande est uniquement disponible pour les serveurs premium !",
     "streamerLimit": "Hé ! Vous avez atteint le nombre maximal de streamers que vous pouvez suivre sur ce serveur. Vous pouvez passer à la version premium ci-dessous !",
     "counterLimit": "Hé ! Vous avez atteint le nombre maximal de compteurs que vous pouvez suivre sur ce serveur. Vous pouvez passer à la version premium ci-dessous !",
-    "leaderboardLimit": "Hé ! Vous avez atteint le nombre maximal de classements que vous pouvez suivre sur ce serveur. Vous pouvez passer à la version premium ci-dessous !"
+    "leaderboardLimit": "Hé ! Vous avez atteint le nombre maximal de classements que vous pouvez suivre sur ce serveur. Vous pouvez passer à la version premium ci-dessous !",
+    "subscriberRolesLimit": "Hé ! Vous avez atteint le nombre maximum de rôles d'abonnés sur ce serveur. Vous pouvez passer à la version premium ci-dessous !"
   },
   "giftLeaderboard": {
     "title": "Classement des Souscriptions de {streamerId}",
@@ -217,7 +218,8 @@
       "optionRole": "Le rôle que vous souhaitez donner aux abonné.es.",
       "optionMessage": "Un message si vous voulez avoir un message personnalisé.",
       "descriptionExpiration": "Définir le délai d'expiration du rôle d'abonné.",
-      "optionTime": "Délai en jours pendant lequel le rôle d'abonné est supprimé après que l'utilisateur s'est désabonné."
+      "optionTime": "Délai en jours pendant lequel le rôle d'abonné est supprimé après que l'utilisateur s'est désabonné.",
+      "descriptionRemove": "Supprimer une configuration de rôle d'abonné."
     },
     "embed": {
       "title": "Rôle d'abonné.e pour",
@@ -227,7 +229,10 @@
     "error": "Une erreur s'est produite lors de l'envoi de l'encart du rôle d'abonné.e !\n*Erreur : {error}*",
     "button": "Obtenir le rôle d'abonné.e",
     "noPremiumForExpiration": "Vous devez disposer d'une prime pour définir le délai d'expiration du rôle d'abonné.",
-    "expiration": "Le rôle d'abonné sera désormais supprimé après {heure} jours. (Note : S'ils s'abonnent à nouveau, Kick Bot ne supprimera pas le rôle !)"
+    "expiration": "Le rôle d'abonné sera désormais supprimé après {heure} jours. (Note : S'ils s'abonnent à nouveau, Kick Bot ne supprimera pas le rôle !)",
+    "notFound": "Ce streamer n'a pas de rôle d'abonné !",
+    "deleted": "La configuration du rôle d'abonné de **{streamer}** a été supprimée !",
+    "alreadySetup": "Ce streamer a déjà un rôle d'abonné !"
   },
   "supportCommand": {
     "commandData": {
