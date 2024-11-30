@@ -48,7 +48,8 @@
     "streamerLimit": "Hey! Du hast die maximale Anzahl von Streamern erreicht, die du auf diesem Server verfolgen kannst. Du kannst ein Upgrade auf Premium durchführen, um unten weiterzumachen!",
     "counterLimit": "Hey! Du hast die maximale Anzahl von Zählern erreicht, die du auf diesem Server verfolgen kannst. Du kannst ein Upgrade auf Premium durchführen, um unten weiterzumachen!",
     "leaderboardLimit": "Hey! Du hast die maximale Anzahl von Bestenlisten erreicht, die du auf diesem Server verfolgen kannst. Du kannst ein Upgrade auf Premium durchführen, um unten weiterzumachen!",
-    "subscriberRolesLimit": "Hey! Du hast die maximale Anzahl von Abonnentenrollen auf diesem Server erreicht. Sie können unten auf Premium upgraden!"
+    "subscriberRolesLimit": "Hey! Du hast die maximale Anzahl von Abonnentenrollen auf diesem Server erreicht. Sie können unten auf Premium upgraden!",
+    "offlineMessage": "Hey! Sie müssen Premium besitzen, um eine Offline-Nachricht einzustellen!"
   },
   "giftLeaderboard": {
     "title": "Abonnenten Rangliste von {streamerId}",
@@ -219,7 +220,8 @@
       "optionMessage": "Eine Nachricht, wenn Sie eine benutzerdefinierte Nachricht wünschen.",
       "descriptionExpiration": "Legen Sie die Ablaufzeit für die Teilnehmerrolle fest.",
       "optionTime": "Tage bis zur Entfernung der Abonnentenrolle nach Abmeldung.",
-      "descriptionRemove": "Entfernen Sie die Einrichtung einer Teilnehmerrolle."
+      "descriptionRemove": "Entfernen Sie die Einrichtung einer Teilnehmerrolle.",
+      "optionOfflineMessage": "Eine Meldung, wenn der Streamer offline ist."
     },
     "embed": {
       "title": "Abonnentenrolle für ",

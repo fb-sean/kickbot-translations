@@ -48,7 +48,8 @@
     "streamerLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum yayıncı sayısına ulaştınız. Aşağıdaki bağlantıdan Premium'a yükseltebilirsiniz!",
     "counterLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum sayaç sayısına ulaştınız. Aşağıdaki bağlantıdan Premium'a yükseltebilirsiniz!",
     "leaderboardLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum liderlik tablosu sayısına ulaştınız. Aşağıdaki bağlantıdan Premium'a yükseltebilirsiniz!",
-    "subscriberRolesLimit": "Hey! Bu sunucudaki maksimum abone rolü miktarına ulaştınız. Aşağıdan premium'a yükseltebilirsiniz!"
+    "subscriberRolesLimit": "Hey! Bu sunucudaki maksimum abone rolü miktarına ulaştınız. Aşağıdan premium'a yükseltebilirsiniz!",
+    "offlineMessage": "Hey! Çevrimdışı bir mesaj ayarlamak için premium sahibi olmanız gerekir!"
   },
   "giftLeaderboard": {
     "title": "{streamerId} yayıncısı için - Abone Liderlik Tablosu",
@@ -219,7 +220,8 @@
       "optionMessage": "Otomatik embed mesajı yerine kendiniz bir mesaj yazın.",
       "descriptionExpiration": "Abone rolü için sona erme süresini ayarlayın.",
       "optionTime": "Kullanıcı abonelikten çıktıktan sonra abone rolünün kaldırılacağı süreyi gün cinsinden girin.",
-      "descriptionRemove": "Bir abone rolü kurulumunu kaldırın."
+      "descriptionRemove": "Bir abone rolü kurulumunu kaldırın.",
+      "optionOfflineMessage": "Yayıncı çevrimdışıysa bir mesaj."
     },
     "embed": {
       "title": "Şu yayıncı için abonelik rolü: ",

@@ -48,7 +48,8 @@
     "streamerLimit": "嘿！你已达到你可以在这个服务器上跟踪的主播数量上限。你可以升级到下面的高级版！",
     "counterLimit": "嘿！你已达到你可以在这个服务器上跟踪的计数器数量上限。你可以升级到下面的高级版！",
     "leaderboardLimit": "嘿！你已达到你可以在这个服务器上跟踪的排行榜数量上限。你可以升级到下面的高级版！",
-    "subscriberRolesLimit": "嘿！您已达到本服务器的订阅角色上限。您可以升级到以下高级版本！"
+    "subscriberRolesLimit": "嘿！您已达到本服务器的订阅角色上限。您可以升级到以下高级版本！",
+    "offlineMessage": "嘿！你需要拥有高级会员才能设置离线消息！"
   },
   "giftLeaderboard": {
     "title": "{streamerId}的订阅者排行榜",
@@ -219,7 +220,8 @@
       "optionMessage": "如果你想要有一个自定义消息。",
       "descriptionExpiration": "设置订阅者角色的过期时间。",
       "optionTime": "用户取消订阅后，订阅者角色被移除的时间（天数）。",
-      "descriptionRemove": "删除订阅者角色设置。"
+      "descriptionRemove": "删除订阅者角色设置。",
+      "optionOfflineMessage": "如果流媒体处于脱机状态，则会显示一条信息。"
     },
     "embed": {
       "title": "订阅者角色",

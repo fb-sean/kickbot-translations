@@ -48,7 +48,8 @@
     "streamerLimit": "Ei! Você atingiu o limite máximo de streamers que pode acompanhar neste servidor. Você pode fazer upgrade para premium abaixo!",
     "counterLimit": "Ei! Você atingiu o limite máximo de contadores que pode acompanhar neste servidor. Você pode fazer upgrade para premium abaixo!",
     "leaderboardLimit": "Ei! Você atingiu o limite máximo de leaderboards que pode acompanhar neste servidor. Você pode fazer upgrade para premium abaixo!",
-    "subscriberRolesLimit": "Ei! Você atingiu o número máximo de funções de assinante neste servidor. Você pode fazer o upgrade para premium abaixo!"
+    "subscriberRolesLimit": "Ei! Você atingiu o número máximo de funções de assinante neste servidor. Você pode fazer o upgrade para premium abaixo!",
+    "offlineMessage": "Ei! Você precisa ter o plano premium para definir uma mensagem off-line!"
   },
   "giftLeaderboard": {
     "title": "Classificação de Subs do {streamerId}",
@@ -219,7 +220,8 @@
       "optionMessage": "Uma mensagem se você quiser ter uma mensagem personalizada.",
       "descriptionExpiration": "Defina o tempo de expiração da função de assinante.",
       "optionTime": "O tempo em dias em que a função de assinante é removida depois que o usuário cancela a assinatura.",
-      "descriptionRemove": "Remover uma configuração de função de assinante."
+      "descriptionRemove": "Remover uma configuração de função de assinante.",
+      "optionOfflineMessage": "Uma mensagem se o streamer estiver off-line."
     },
     "embed": {
       "title": "Função de assinante para ",

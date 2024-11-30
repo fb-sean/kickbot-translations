@@ -48,7 +48,8 @@
     "streamerLimit": "Hey! You reached the maximum amount of streamers you can track on this server. You can upgrade to premium to below!",
     "counterLimit": "Hey! You reached the maximum amount of counters you can track on this server. You can upgrade to premium to below!",
     "leaderboardLimit": "Hey! You reached the maximum amount of leaderboards you can track on this server. You can upgrade to premium to below!",
-    "subscriberRolesLimit": "Hey! You reached the maximum amount of subscriber roles on this server. You can upgrade to premium to below!"
+    "subscriberRolesLimit": "Hey! You reached the maximum amount of subscriber roles on this server. You can upgrade to premium to below!",
+    "offlineMessage": "Hey! You need to own premium to set a offline message!"
   },
   "giftLeaderboard": {
     "title": "Subs Leaderboard of {streamerId}",
@@ -217,6 +218,7 @@
       "optionStreamer": "The username of the streamer where the subscribers should be able to get the role.",
       "optionRole": "The role you want to give to the subscribers.",
       "optionMessage": "A message if you want to have a custom message.",
+      "optionOfflineMessage": "A message if the streamer is offline.",
       "descriptionExpiration": "Set the expiration time for the subscriber role.",
       "optionTime": "The time in days when the subscriber role get removed after the user unsubscribed.",
       "descriptionRemove": "Remove a subscriber role setup."
