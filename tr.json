@@ -29,7 +29,8 @@
     "modalInfoText": "kick.com üzerinden bulunabilir.",
     "watch": "İzle",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] şimdi canlı yayında!\n<:LinkIcon:1118592789488349325> Buradan izleyebilirsiniz: [[URL]]",
-    "why": "Neden?"
+    "why": "Neden?",
+    "cleanUpAndOfflineMessage": "Aynı anda hem çevrimdışı bir mesaj ayarlayıp hem de temizlemeyi etkinleştiremezsiniz! (Mesajı düzenler ve siler.)"
   },
   "problems": {
     "missingPermissions": "[Görünüşe göre botun neden \"Eksik İzinler\" ile yanıt verdiğini kendinize soruyorsunuz. Bu konuda daha fazla bilgi almak için lütfen buraya tıklayın.](https://kick.bot/guide/permissions)"

@@ -29,7 +29,8 @@
     "modalInfoText": "可以在 kick.com 上找到。",
     "watch": "观看",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] 现在开始直播了！\n<:LinkIcon:1118592789488349325> 在这里观看：[[URL]]",
-    "why": "为什么？"
+    "why": "为什么？",
+    "cleanUpAndOfflineMessage": "您不能同时设置离线信息和启用清理功能！(它会编辑并删除信息）。"
   },
   "problems": {
     "missingPermissions": "[看起来你在问自己为什么机器人回应了\"缺少权限\"。要了解更多信息，请点击这里。](https://kick.bot/guide/permissions)"

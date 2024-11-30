@@ -29,7 +29,8 @@
     "modalInfoText": "Kann auf kick.com gefunden werden.",
     "watch": "Zuschauen",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] ist jetzt live!\n<:LinkIcon:1118592789488349325> Schau es hier an: [[URL]]",
-    "why": "Warum?"
+    "why": "Warum?",
+    "cleanUpAndOfflineMessage": "Sie können nicht gleichzeitig eine Offline-Nachricht einstellen und die Bereinigung aktivieren! (Es würde die Nachricht bearbeiten und löschen.)"
   },
   "problems": {
     "missingPermissions": "[Sie scheinen sich zu fragen, warum der Bot mit \"Missing Permissions\" antwortet. Weitere Informationen dazu finden Sie hier.](https://kick.bot/guide/permissions)"

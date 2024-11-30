@@ -29,7 +29,8 @@
     "modalInfoText": "kick.comで見つけることができます。",
     "watch": "時計",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] が配信を開始しました！\n<:LinkIcon:1118592789488349325> ここで視聴できます: [[URL]]",
-    "why": "なぜ"
+    "why": "なぜ",
+    "cleanUpAndOfflineMessage": "オフラインメッセージを設定し、同時にクリーンアップを有効にすることはできません！(メッセージを編集して削除してしまいます）。"
   },
   "problems": {
     "missingPermissions": "[なぜ \"Missing Permissions \"とボットが応答するのか、自問自答しているようですね。この件に関する詳しい情報は、こちらをクリックしてください](https://kick.bot/guide/permissions)"

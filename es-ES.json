@@ -29,7 +29,8 @@
     "modalInfoText": "Pueden encontrarse en kick.com.",
     "watch": "Reloj",
     "defaultNotification": "<:O_:1118592785642180698> ¡[[STREAMER]] está transmitiendo en vivo ahora!\n<:LinkIcon:1118592789488349325> Míralo aquí: [[URL]]",
-    "why": "¿Por qué?"
+    "why": "¿Por qué?",
+    "cleanUpAndOfflineMessage": "No puedes establecer un mensaje offline y activar la limpieza al mismo tiempo. (Se editaría y borraría el mensaje)."
   },
   "problems": {
     "missingPermissions": "[Parece que te estás preguntando por qué el bot responde con \"Permisos faltantes\". Para encontrar más información sobre esto, por favor haga clic aquí.](https://kick.bot/guide/permissions)"

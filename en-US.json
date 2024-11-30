@@ -16,6 +16,7 @@
     "serverOnly": "This command can only be used in a server!",
     "fetchError": "An error occurred while fetching the streamer! Please try again later.",
     "fetchErrorLeaderboard": "An error occurred while fetching the streamer leaderboard! Please try again later.",
+    "cleanUpAndOfflineMessage": "You can't set a offline message and enable clean up at the same time! (It would edit and delete the message.)",
     "notTracked": "This streamer is not being tracked in this server!",
     "addBot": "Add the Bot",
     "onlyServer": "This command can only be used in a server!",
