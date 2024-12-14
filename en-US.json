@@ -250,6 +250,7 @@
     "header": "Kick Discord Bot Variables",
     "streamer": "The streamer's username.",
     "url": "The streamer's stream URL. (Not available at counters!)",
+    "vodid": "The streamer's VOD ID. (Not available at counters!)",
     "title": "The stream title.",
     "viewers": " The stream viewer count.",
     "language": "The stream language.",

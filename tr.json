@@ -261,7 +261,8 @@
     "category_name": "Yayın kategorisinin resmi.",
     "default_message": "Varsayılan mesaj. (Sayaçlarda mevcut değildir!)",
     "streamer_image": "Yayıncının avatarı. (Sayaçlarda mevcut değildir!)",
-    "slug": "Yayıncının kullanıcı adresi."
+    "slug": "Yayıncının kullanıcı adresi.",
+    "vodid": "Yayıncının VOD kimliği. (Sayaçlarda mevcut değil!)"
   },
   "testCommand": {
     "commandData": {

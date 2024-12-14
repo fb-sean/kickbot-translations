@@ -261,7 +261,8 @@
     "category_name": "直播类别图片。",
     "default_message": "默认消息。（在计数器中不可用！）",
     "streamer_image": "主播的头像。（在计数器中不可用！）",
-    "slug": "主播的slug。"
+    "slug": "主播的slug。",
+    "vodid": "流媒体的 VOD ID。(柜台不提供！）。"
   },
   "testCommand": {
     "commandData": {

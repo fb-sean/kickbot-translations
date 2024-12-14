@@ -261,7 +261,8 @@
     "category_name": "Das Bild der Stream-Kategorie.",
     "default_message": "Die Standardnachricht vom Bot. (Nicht verfügbar bei Zählern!)",
     "streamer_image": "Das Profilbild des Streamers. (Nicht verfügbar bei Zählern!)",
-    "slug": "Der Slug des Streamers."
+    "slug": "Der Slug des Streamers.",
+    "vodid": "Die VOD-ID des Streamers. (An den Schaltern nicht verfügbar!)"
   },
   "testCommand": {
     "commandData": {

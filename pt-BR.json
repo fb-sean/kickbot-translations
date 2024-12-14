@@ -261,7 +261,8 @@
     "category_name": "A imagem da categoria do stream.",
     "default_message": "A mensagem padrão do bot. (Não disponível nos contadores!)",
     "streamer_image": "A imagem do streamer. (Não disponível nos contadores!)",
-    "slug": "O slug do streamer."
+    "slug": "O slug do streamer.",
+    "vodid": "ID de VOD do streamer. (Não disponível em contadores!)"
   },
   "testCommand": {
     "commandData": {
