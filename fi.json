@@ -12,7 +12,7 @@
     "optionChannel": "Kanava, jolle haluat lähettää viestin.",
     "optionMessage": "Viesti, jonka haluat lähettää, kun striimaaja siirtyy suoratoistoon.",
     "optionCleanUp": "Siivoa viesti sen jälkeen, kun streamer poistuu verkosta. (Poistaa vanhan viestin)",
-    "optionFilters": "Suodata live-ilmoitukset otsikon avainsanojen perusteella. Erottele pilkuilla: avainsana1, avainsana2.",
+    "optionFilters": "Suodata ilmoitukset otsikon avainsanoilla, erottele pilkuilla: avainsana1, avainsana2.",
     "serverOnly": "Tätä komentoa voi käyttää vain palvelimessa!",
     "fetchError": "Virhe tapahtui streamerin noutamisessa! Yritä myöhemmin uudelleen.",
     "fetchErrorLeaderboard": "Virhe tapahtui noutaessasi streamer leaderboardia! Yritä myöhemmin uudelleen.",
