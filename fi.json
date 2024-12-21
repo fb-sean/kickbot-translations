@@ -1,0 +1,298 @@
+{
+  "global": {
+    "channelNotFound": "Jokin meni pieleen, enkä saanut kanavaa discordista.",
+    "noBotPermsSend": "Minulla ei ole lupaa lähettää viestejä kyseisellä kanavalla!",
+    "noBotPermsEdit": "Minulla ei ole lupaa muokata tuota kanavaa!",
+    "noUserPerms": "Sinulla ei ole lupaa käyttää tätä komentoa!",
+    "nextPage": "Seuraava sivu",
+    "prevPage": "Edellinen sivu",
+    "streamerNotFound": "Tätä streameria ei ole olemassa!\n\n<:RoleIcon:1118592777454899302> **Huomautus:** Löydät **käyttäjätunnuksen** stream-linkin lopusta.\n*Esimerkki: <https://kick.com/username> <=*",
+    "subLeaderboardNotFound": "Tällä streamerilla ei ole sub leaderboardia!\n\n<:RoleIcon:1118592777454899302> **Huomautus:** Löydät **käyttäjätunnuksen** striimilinkin lopusta.\n*Esimerkki: <https://kick.com/username> <=*",
+    "optionStreamer": "Haluamasi striimaajan käyttäjänimi.",
+    "optionChannel": "Kanava, jolle haluat lähettää viestin.",
+    "optionMessage": "Viesti, jonka haluat lähettää, kun striimaaja siirtyy suoratoistoon.",
+    "optionCleanUp": "Siivoa viesti sen jälkeen, kun streamer poistuu verkosta. (Poistaa vanhan viestin)",
+    "optionFilters": "Suodata live-ilmoitukset otsikon avainsanojen perusteella. Erottele pilkuilla: avainsana1, avainsana2.",
+    "serverOnly": "Tätä komentoa voi käyttää vain palvelimessa!",
+    "fetchError": "Virhe tapahtui streamerin noutamisessa! Yritä myöhemmin uudelleen.",
+    "fetchErrorLeaderboard": "Virhe tapahtui noutaessasi streamer leaderboardia! Yritä myöhemmin uudelleen.",
+    "cleanUpAndOfflineMessage": "Et voi asettaa offline-viestiä ja ottaa siivousta käyttöön samaan aikaan! (Se muokkaisi ja poistaisi viestin.)",
+    "notTracked": "Tätä streameria ei seurata tällä palvelimella!",
+    "addBot": "Lisää Botti",
+    "onlyServer": "Tätä komentoa voi käyttää vain palvelimessa!",
+    "errorOccurred": "Komennon suorittamisessa tapahtui virhe!",
+    "cooldown": "Olet jäähtymässä, odota hetki.",
+    "alreadyHaveSubRole": "Sinulla on jo subrooli!",
+    "reSync": "Uudelleen synkronointi Kick-tili",
+    "invalidSync": "Joko **{streamer}** ei ole enää kelvollinen potkun käyttäjä tai **{kickUser}** ei ole enää kelvollinen potkun käyttäjä!",
+    "notSubscriber": "Et ole {streamer}:n tilaaja!",
+    "byAddingRoleError": "Kun yritin lisätä tilaajan roolia, sain virheen!\n*Error: {error}*",
+    "modalInfoText": "Löytyy osoitteesta kick.com.",
+    "watch": "Katso",
+    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] on nyt suorassa lähetyksessä!\n<:LinkIcon:1118592789488349325> Katso se täältä: [[URL]]",
+    "why": "Miksi?"
+  },
+  "problems": {
+    "missingPermissions": "[Näyttää siltä, että kysyt itseltäsi, miksi botin vastaus on \"Puuttuvat käyttöoikeudet\". Jos haluat lisätietoja tästä, klikkaa tästä.](https://kick.bot/guide/permissions)"
+  },
+  "premiumMessages": {
+    "plans": "Premium-suunnitelmat:",
+    "monthly": "Kuukausittain",
+    "yearly": "Vuosittain",
+    "discordPremium": "Jos haluat peruuttaa Discordista ostetun premium-palvelun, sinun on mentävä Discordin asetuksiin.",
+    "premiumCommandInfo": "Jos haluat ostaa premiumia, käytä komentoa </premium:1164829878626029639>.",
+    "cancelDone": "Premium on peruutettu, eikä sinulta veloiteta enää. Voit edelleen käyttää Premium-ominaisuuksia {cancel_at} asti.",
+    "onlyOwnerCanCancel": "Vain vakuutusmaksun ostanut henkilö voi peruuttaa sen!",
+    "buyPremium": "Osta Premium",
+    "hasPremium": "Sinulla on jo vakuutusmaksu. Voit peruuttaa sen alla olevalla painikkeella.",
+    "noPremium": "Tämä komento on käytettävissä vain premium-palvelimilla!",
+    "streamerLimit": "Hei! Saavutit tällä palvelimella seurattavien striimaajien enimmäismäärän. Voit päivittää premium-tasolle alla olevaan!",
+    "counterLimit": "Hei! Olet saavuttanut tällä palvelimella seurattavien laskureiden enimmäismäärän. Voit päivittää premium-tasolle alla olevaan!",
+    "leaderboardLimit": "Hei! Saavutit tällä palvelimella seurattavien tulostaulujen enimmäismäärän. Voit päivittää premium-tasolle alla olevaan!",
+    "subscriberRolesLimit": "Hei! Olet saavuttanut tämän palvelimen tilaajaroolien enimmäismäärän. Voit päivittää premium-tasolle alla olevaan!",
+    "offlineMessage": "Hei! Sinun täytyy omistaa premium, jotta voit asettaa offline-viestin!"
+  },
+  "giftLeaderboard": {
+    "title": "{streamerId}:n alelaatikkotuloslista",
+    "allTime": "Kaikki aika",
+    "monthly": "Kuukausittain",
+    "weekly": "Viikoittain",
+    "powerBy": "Powered by kick.bot - Viimeksi päivitetty:",
+    "gifts": "lahjat",
+    "infoText": "Avaa uuden välilehden ja {käyttäjätunnus}:n potkuprofiilin.",
+    "noEntries": "Merkintöjä ei löytynyt."
+  },
+  "verificationProcess": {
+    "invalidUsername": "Sinun on annettava käyttäjätunnus! Klikkaa **Tarkista bio** uudelleen ja anna käyttäjätunnus.",
+    "notBio": "Ei biotekstiä, vaan kick.com **käyttäjätunnuksesi**. Klikkaa **Tarkista bio** uudelleen ja anna käyttäjätunnus.",
+    "notDiscord": "Ei discord-tunnuksesi, vaan kick.com **käyttäjätunnuksesi**. Klikkaa **Tarkista bio** uudelleen ja anna käyttäjätunnus.",
+    "invalidUser": "**{käyttäjätunnus}** ei ole kelvollinen potkukäyttäjä! Ole hyvä ja klikkaa **Tarkista Bio** uudelleen ja anna kelvollinen käyttäjänimi.",
+    "noBio": "**{käyttäjätunnus}** ei ole biossa! Ole hyvä ja klikkaa **Tarkista bio** uudestaan ja syötä kelvollinen käyttäjänimi.",
+    "invalidDiscordId": "**{käyttäjätunnus}** ei ole voimassa olevaa discord-tunnusta biossaan! Tee vahvistusprosessi uudelleen.",
+    "noDiscordId": "**{käyttäjätunnus}** ei ole sinun discord-tunnustasi biossaan! Tee vahvistusprosessi uudelleen.",
+    "finished": "Varmennusprosessi suoritettu! Paina painiketta nyt uudelleen lunastaaksesi tilaajaroolisi!"
+  },
+  "verification": {
+    "infoMobile": "Mobiilikäyttäjän tiedot",
+    "infoMobileText": "Jos olet mobiilikäyttäjä. Avaa https://kick.com selaimellasi ja tee vaiheet selaimessa. Kick App ei tällä hetkellä tue profiilimuutoksia.",
+    "checkBio": "Tarkista bio",
+    "intro": "Varmistaaksesi Discord-tilisi Kickin kanssa, noudata alla olevia **vaiheita**:",
+    "step1": "Mene osoitteeseen https://kick.com/ ja napsauta profiilikuvaasi. (Varmista, että olet kirjautunut sisään)",
+    "step2": "Napsauta **Asetukset**.",
+    "step3": "Selaa alaspäin kohtaan **Perustiedot**.",
+    "step4": "Napsauta **Bio**-kohdassa **Muokkaa**-painiketta.",
+    "step5": "Liitä jonnekin tähän kenttään `[KICK.BOT:{userId}]`.",
+    "step6": "Paina **Tallenna muutokset**.",
+    "step7": "Mene takaisin Discordiin ja napsauta alla olevaa **Check Bio**-painiketta ja kirjoita potkunimesi.",
+    "step8": "Jos teit kaiken oikein, sinun pitäisi saada onnistumisviesti botilta.",
+    "step9": "Varmennusprosessin jälkeen voit poistaa `[KICK.BOT:{userId}]` Kick-profiilistasi.",
+    "helpText": "Jos sinulla on kysyttävää, ota rohkeasti yhteyttä botin tukeen Discordissa:",
+    "poweredBy": "Powered by kick.bot"
+  },
+  "addCommand": {
+    "commandData": {
+      "description": "Lisää uusi streamer bottiin!"
+    },
+    "alreadyTracked": "Tätä streameria seurataan jo!",
+    "added": "**{streamer}** on lisätty bottiin!"
+  },
+  "counterCommand": {
+    "commandData": {
+      "description": "lisätä / poistaa tai päivittää seuraajamittarin kanavan striimaajalle.",
+      "addDescription": "lisätä seuraajan laskurikanava streamerille.",
+      "editDescription": "muokata seuraajamittarin kanavaa striimaajalle.",
+      "removeDescription": "poistaa seuraajan laskurikanavan streamerille.",
+      "listDescription": "luetella kaikki tämän palvelimen seuraajalaskurikanavat.",
+      "optionChannel": "Kanava, jolla seuraaja-laskurin pitäisi olla.",
+      "optionChannelRemove": "Kanava, joka on liitetty poistettavaan streameriin.",
+      "optionName": "Laskurin nimi. [Kanavan nimi]"
+    },
+    "alreadyCounter": "Tämä kanava on jo laskuri!",
+    "added": "<#{kanava}> on nyt **{streamer}**:n laskuri!",
+    "noMessageEdit": "Sinun on annettava viesti muokataksesi!",
+    "noCounter": "Tämä kanava ei ole laskuri!",
+    "edited": "Onnistui <#{kanava}>-konfiguraation muokkaaminen!",
+    "removed": "<#{kanava}> on poistettu laskurina!\n*On lisännyt <@{addedById}>.*",
+    "noCounters": "Tällä palvelimella ei ole laskureita!"
+  },
+  "editCommand": {
+    "commandData": {
+      "description": "Muokkaa streamerin kokoonpanoa!"
+    },
+    "noMessageOrChannel": "Sinun on annettava kanava, viesti tai siivousvaihtoehto muokattavaksi!",
+    "edited": "Onnistui **{streamer}**-konfiguraation muokkaaminen!"
+  },
+  "errorsCommand": {
+    "commandData": {
+      "description": "Katso 20 viimeisintä virhettä, jotka tapahtuivat palvelimesi botissa!"
+    },
+    "noErrors": "Virheitä ei ole näkyvissä!",
+    "lastTitle": "Viimeiset 20 tällä palvelimella tapahtunutta virhettä.",
+    "cantExplain": "Jos et voi selittää itse virheitä, liity tukipalvelimeemme: https://discord.gg/ZVERh35."
+  },
+  "guideCommand": {
+    "commandData": {
+      "description": "Hanki linkki Kick Botin verkko-oppaaseen!"
+    },
+    "infoText": "### Kick Discord Bot Guide\n<:wink:1118617302615720138> [Klikkaa tästä päästäksesi botin web-oppaaseen.](<https://guide.kick.bot?utm_source=discord-in-app/> \"Avaa uuden välilehden guide.kick.bot\")"
+  },
+  "helpCommand": {
+    "commandData": {
+      "description": "Hae apua botin kanssa!"
+    },
+    "into": "<:wink:1118617302615720138> [Kick Bot](<https://kick.bot?utm_source=discord-in-app>) on Discord-botti, jonka avulla voit seurata [Kick](<https://kick.com> \"Avaa uuden välilehden kick.com\") striimaajia ja saada ilmoituksen, kun he lähtevät livenä!",
+    "commands": "Komennot",
+    "notifications": "Live-ilmoitukset",
+    "counters": "Seuraajien laskuri",
+    "subLeaderboard": "Tilaajan tulostaulu",
+    "subRole": "Tilaajan rooli",
+    "misc": "Misc",
+    "madeBy": "Tekijä [Sean Sattler](<https://sattler.dev> \"Avautuu uuteen välilehteen osoitteessa sattler.dev\")",
+    "notAffiliated": "*Ei liity <:Kick_Green:1118592781930221648> [Kick](<https://kick.com> \"Avaa uuden välilehden kick.com\")*"
+  },
+  "insightsCommand": {
+    "commandData": {
+      "description": "Katso botin oivallukset!"
+    },
+    "servers": "Palvelimet",
+    "version": "Versio",
+    "streamers": "streamers",
+    "ramUsage": "RAM-muistin käyttö",
+    "liveNotifications": "Aseta live-ilmoitukset",
+    "liveLeaderboards": "Setup Sub Leaderboards\n",
+    "leaderboards": "tulostaulut",
+    "setupCounters": "Aseta laskurit",
+    "counters": "laskurit",
+    "onlineSince": "Verkossa vuodesta"
+  },
+  "inviteCommand": {
+    "commandData": {
+      "description": "Haluatko kutsua botin palvelimellesi? Käytä tätä komentoa!"
+    },
+    "inviteText": "<:PlusIcon:1118592778897719347> **[Klikkaa tästä kutsuaksesi botin palvelimellesi!](https://discord.com/api/oauth2/authorize?client_id=1118578278299611246&permissions=275146828816&redirect_uri=https%3A%2F%2Fkick.bot%3Futm_source%3Ddiscord-app-invite&response_type=code&scope=bot%20applications.commands%20identify \"Avaa uuden välilehden kutsulinkin kanssa!\")**"
+  },
+  "leaderboardCommand": {
+    "commandData": {
+      "description": "lisätä / poistaa tai päivittää striimaajan tulostaulukon.",
+      "optionStreamerRemove": "Sen striimaajan käyttäjänimi, jonka haluat poistaa.",
+      "listDescription": "listaa kaikki tämän palvelimen tulostaulut.",
+      "addDescription": "lisätä streamerin tulostaulun.",
+      "removeDescription": "poistaa streamerin tulostaulun.",
+      "editDescription": "muokata streamerin pistetaulukkoa.",
+      "optionChannel": "Tulostaulukon kanava.",
+      "optionStyle": "Tulostaulun tyyli.",
+      "style3": "Top 3 leaderboard tyyli.",
+      "style5": "Top 5 tulostaulukon tyyliin.",
+      "style10": "Top 10 -listan tyyli."
+    },
+    "alreadyLeaderboard": "Tämä streamer on jo leaderboard!",
+    "sendError": "Kun yritän lähettää tulostaulukon sain virheen!\n*Error: {error}*",
+    "added": "<#{kanava}> on nyt tulostaulukkokanava **{streamerille}**!",
+    "channelOrStyle": "Sinun on annettava kanava tai tyyli muokattavaksi!",
+    "noLeaderboard": "Tällä streamerilla ei ole tulostaulua!",
+    "edited": "Onnistui <#{kanava}>-konfiguraation muokkaaminen!",
+    "removed": "Poistettu **{streamer}** leaderboard!\n*Lisäsi <@{addedById}>.*",
+    "noLeaderboards": "Tällä palvelimella ei ole tulostauluja!"
+  },
+  "linkCommand": {
+    "commandData": {
+      "description": "Yhdistä Kick.com-tilisi Discord-tiliisi!"
+    },
+    "alreadyLinked": "Sinulla on jo Kick.com-tili! Käytä alla olevaa painiketta linkittääksesi sen uudelleen."
+  },
+  "listCommand": {
+    "commandData": {
+      "description": "Näytä kaikki botin seuraamat striimaajat tällä palvelimella!"
+    },
+    "emptyList": "Tällä palvelimella ei ole setup-streamereita!"
+  },
+  "removeCommand": {
+    "commandData": {
+      "description": "Poista streamer botista!",
+      "optionStreamer": "Sen striimaajan käyttäjänimi, jonka haluat poistaa."
+    },
+    "removed": "**{streamer}** on poistettu botista!\n*On lisännyt <@{addedById}>.*"
+  },
+  "subscriberRoleCommand": {
+    "commandData": {
+      "description": "Lisää tilaajarooli streameriin.",
+      "optionStreamer": "Sen striimaajan käyttäjänimi, jonka kautta tilaajien pitäisi saada rooli.",
+      "optionRole": "Rooli, jonka haluat antaa tilaajille.",
+      "optionMessage": "Viesti, jos haluat mukautetun viestin.",
+      "optionOfflineMessage": "Viesti, jos streamer on offline.",
+      "descriptionExpiration": "Aseta tilaajan roolin voimassaoloaika.",
+      "optionTime": "Aika päivinä, jolloin tilaajan rooli poistetaan sen jälkeen, kun käyttäjä on poistanut tilauksen.",
+      "descriptionRemove": "Poista tilaajan rooliasetus."
+    },
+    "embed": {
+      "title": "Tilaajan rooli",
+      "description": "Saadaksesi tilaajan roolin **{streamer}** sinun tarvitsee vain klikata alla olevaa painiketta, jonka nimi on **Tilaajan rooli**."
+    },
+    "added": "Olen lähettänyt tilaajaroolin sulautuksen osoitteeseen <#{kanava}>!\n*Info: Jos haluat poistaa asetuksen, käytä </subscriber role remove:1170402380270014584>.*.",
+    "error": "Kun yritän lähettää tilaajan roolin upottaa sain virheen!\n*Error: {error}*",
+    "button": "Hae tilaajan rooli",
+    "noPremiumForExpiration": "Tarvitset Premium-palvelun määrittääksesi tilaajaroolin voimassaoloajan.",
+    "expiration": "Tilaajan rooli poistetaan nyt {time} päivän kuluttua. (Huom: Jos he tilaavat uudelleen, Kick Bot ei poista roolia!)",
+    "notFound": "Tällä streamerilla ei ole tilaajan roolia!",
+    "deleted": "**{streamer}**:n tilaajarooli on poistettu!",
+    "alreadySetup": "Tällä streamerilla on jo tilaaja-asetus!"
+  },
+  "supportCommand": {
+    "commandData": {
+      "description": "Hanki kutsu tukitilaisuuteen!"
+    },
+    "supportText": "<:QuestionMarkicon:1118592784509698149> Tarvitsetko apua? Liity tukipalvelimeen!\nhttps://discord.gg/ZVERh35"
+  },
+  "variablesCommand": {
+    "commandData": {
+      "description": "Saat luettelon kaikista muuttujista, joita voit käyttää viestissäsi!"
+    },
+    "header": "Kick Discord Bot muuttujat",
+    "streamer": "Streamerin käyttäjänimi.",
+    "url": "Virran välittäjän virran URL-osoite. (Ei saatavilla laskureissa!)",
+    "vodid": "Streamerin VOD-tunnus. (Ei saatavilla tiskeillä!)",
+    "title": "Virran nimi.",
+    "viewers": " Virran katsojien määrä.",
+    "language": "Virran kieli.",
+    "image": "Virran pikkukuva. (Ei saatavilla tiskeillä!)",
+    "new_line": "Uusi linja. (Ei saatavilla tiskeillä!)",
+    "followers": "Streamerin seuraajamäärä.",
+    "created_at": "Virran luontipäivämäärä. (Ei saatavilla laskureissa!)",
+    "category": "Virran luokka.",
+    "category_name": "Virtauskategorian kuva.",
+    "default_message": "Oletusviesti. (Ei käytettävissä laskureissa!)",
+    "streamer_image": "Streamerin avatar. (Ei saatavilla tiskeillä!)",
+    "slug": "Streamerin etana."
+  },
+  "testCommand": {
+    "commandData": {
+      "description": "Testaa live-ilmoitusta.",
+      "optionStreamer": "Sen striimaajan käyttäjänimi, jota haluat testata."
+    },
+    "tested": "Testiviesti **{streamer}** on lähetetty!\nMuista, että botti käyttää tähän aina testidataa.",
+    "error": "Kun yritin lähettää testiviestiä, sain virheen!\n*Error: {error}*"
+  },
+  "ktdCommand": {
+    "commandData": {
+      "description": "Hanki Discord-käyttäjä Kick-käyttäjästä"
+    },
+    "notInOurDatabase": "Tätä Kick-käyttäjää ei ole tietokannassamme!",
+    "notInDiscord": "En löydä Discord-käyttäjää, jolla on tämä Kick-käyttäjä!",
+    "success": "### Kick to Discord\n- Discord-käyttäjä: {käyttäjätunnus} (`{id}`)\n- Discord-käyttäjän avatar: [CLICK](<{avatar}>)"
+  },
+  "dtkCommand": {
+    "commandData": {
+      "description": "Hanki Kick-käyttäjä Discord-käyttäjästä"
+    },
+    "notInOurDatabase": "Tämä Discord-käyttäjä ei ole tietokannassamme!",
+    "notInKick": "En löydä Kick-käyttäjää tämän Discord-käyttäjän kanssa!",
+    "success": "### Discord to Kick\n- Potkaise käyttäjä: {käyttäjätunnus} (`{id}`)\n- Potkaise käyttäjän avatar: [CLICK](<{avatar}>)\n- Kick User Biography:\n>>> {bio}"
+  },
+  "premiumCommand": {
+    "commandData": {
+      "description": "Tällä komennolla voit tilata premium-paketin."
+    },
+    "cancelPremium": "Peruuta Premium",
+    "premiumCheckout": "Klikkaa alla olevaa painiketta päästäksesi kassasivulle. Maksun jälkeen palkkio aktivoidaan palvelimellasi."
+  }
+}
