@@ -294,5 +294,11 @@
     },
     "cancelPremium": "Cancel Premium",
     "premiumCheckout": "Click on the button below to get to the checkout page. After the payment the premium will be activated on your server."
+  },
+  "dmdCommand":  {
+    "commandData": {
+      "description": "Use this command to fully delete your data from the bot."
+    },
+    "deleted": "Your data has been deleted from the bot. If you want to use the bot again, you need to link your account again."
   }
 }

@@ -294,5 +294,11 @@
     },
     "cancelPremium": "取消高级版",
     "premiumCheckout": "点击下面的按钮去结账页面。支付后高级版将在你的服务器上激活。"
+  },
+  "dmdCommand": {
+    "commandData": {
+      "description": "使用此命令从机器人中完全删除数据。"
+    },
+    "deleted": "您的数据已从机器人中删除。如果您想再次使用机器人，需要重新链接您的账户。"
   }
 }

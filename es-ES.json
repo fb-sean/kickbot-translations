@@ -294,5 +294,11 @@
     },
     "cancelPremium": "Cancelar Premium",
     "premiumCheckout": "Haz clic en el botón de abajo para ir a la página de pago. Después del pago, el premium se activará en tu servidor."
+  },
+  "dmdCommand": {
+    "commandData": {
+      "description": "Usa este comando para borrar completamente tus datos del bot."
+    },
+    "deleted": "Tus datos han sido borrados del bot. Si quieres volver a utilizar el bot, tienes que volver a vincular tu cuenta."
   }
 }

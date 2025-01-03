@@ -294,5 +294,11 @@
     },
     "cancelPremium": "Premiumu İptal Et",
     "premiumCheckout": "Ödeme sayfasına gitmek için aşağıdaki butona tıklayın. Ödeme yapıldıktan sonra Premium sunucunuzda etkinleştirilecektir."
+  },
+  "dmdCommand": {
+    "commandData": {
+      "description": "Verilerinizi bottan tamamen silmek için bu komutu kullanın."
+    },
+    "deleted": "Verileriniz bottan silindi. Botu tekrar kullanmak istiyorsanız, hesabınızı tekrar bağlamanız gerekir."
   }
 }

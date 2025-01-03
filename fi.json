@@ -294,5 +294,11 @@
     },
     "cancelPremium": "Peruuta Premium",
     "premiumCheckout": "Klikkaa alla olevaa painiketta päästäksesi kassasivulle. Maksun jälkeen palkkio aktivoidaan palvelimellasi."
+  },
+  "dmdCommand": {
+    "commandData": {
+      "description": "Tällä komennolla voit poistaa tietosi kokonaan botista."
+    },
+    "deleted": "Tietosi on poistettu botista. Jos haluat käyttää bottiasi uudelleen, sinun on yhdistettävä tilisi uudelleen."
   }
 }

@@ -294,5 +294,11 @@
     },
     "cancelPremium": "Premium-Abonnement kündigen",
     "premiumCheckout": "Klicke auf den Button unten, um zur Checkout-Seite zu gelangen. Nach der Zahlung wird das Premium auf deinem Server aktiviert."
+  },
+  "dmdCommand": {
+    "commandData": {
+      "description": "Verwenden Sie diesen Befehl, um Ihre Daten vollständig aus dem Bot zu löschen."
+    },
+    "deleted": "Ihre Daten wurden aus dem Bot gelöscht. Wenn Sie den Bot wieder verwenden möchten, müssen Sie Ihr Konto erneut verknüpfen."
   }
 }

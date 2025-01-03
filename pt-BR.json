@@ -294,5 +294,11 @@
     },
     "cancelPremium": "Cancelar Premium",
     "premiumCheckout": "Clique no botão abaixo para acessar a página de checkout. Após o pagamento, o prêmio será ativado em seu servidor."
+  },
+  "dmdCommand": {
+    "commandData": {
+      "description": "Use esse comando para excluir totalmente seus dados do bot."
+    },
+    "deleted": "Seus dados foram excluídos do bot. Se quiser usar o bot novamente, você precisará vincular sua conta novamente."
   }
 }

@@ -294,5 +294,11 @@
     },
     "cancelPremium": "Annuler Premium",
     "premiumCheckout": "Cliquez sur le bouton ci-dessous pour accéder à la page de paiement. Après le paiement, le statut premium sera activé sur votre serveur."
+  },
+  "dmdCommand": {
+    "commandData": {
+      "description": "Utilisez cette commande pour supprimer complètement vos données du robot."
+    },
+    "deleted": "Vos données ont été supprimées du robot. Si vous souhaitez utiliser à nouveau le robot, vous devez lier à nouveau votre compte."
   }
 }
