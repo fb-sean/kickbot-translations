@@ -50,7 +50,8 @@
     "counterLimit": "Hé ! Vous avez atteint le nombre maximal de compteurs que vous pouvez suivre sur ce serveur. Vous pouvez passer à la version premium ci-dessous !",
     "leaderboardLimit": "Hé ! Vous avez atteint le nombre maximal de classements que vous pouvez suivre sur ce serveur. Vous pouvez passer à la version premium ci-dessous !",
     "subscriberRolesLimit": "Hé ! Vous avez atteint le nombre maximum de rôles d'abonnés sur ce serveur. Vous pouvez passer à la version premium ci-dessous !",
-    "offlineMessage": "Vous devez être titulaire d'une licence premium pour envoyer un message hors ligne !"
+    "offlineMessage": "Vous devez être titulaire d'une licence premium pour envoyer un message hors ligne !",
+    "premiumHint": "Vous appréciez le bot ? Débloquez-en plus avec Premium ! Cliquez sur le bouton ci-dessous pour passer à la version supérieure."
   },
   "giftLeaderboard": {
     "title": "Classement des Souscriptions de {streamerId}",

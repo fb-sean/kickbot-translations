@@ -50,7 +50,8 @@
     "counterLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum sayaç sayısına ulaştınız. Aşağıdaki bağlantıdan Premium'a yükseltebilirsiniz!",
     "leaderboardLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum liderlik tablosu sayısına ulaştınız. Aşağıdaki bağlantıdan Premium'a yükseltebilirsiniz!",
     "subscriberRolesLimit": "Hey! Bu sunucudaki maksimum abone rolü miktarına ulaştınız. Aşağıdan premium'a yükseltebilirsiniz!",
-    "offlineMessage": "Hey! Çevrimdışı bir mesaj ayarlamak için premium sahibi olmanız gerekir!"
+    "offlineMessage": "Hey! Çevrimdışı bir mesaj ayarlamak için premium sahibi olmanız gerekir!",
+    "premiumHint": "Botu beğendiniz mi? Premium ile daha fazlasının kilidini açın! Yükseltmek için aşağıdaki düğmeye tıklayın."
   },
   "giftLeaderboard": {
     "title": "{streamerId} yayıncısı için - Abone Liderlik Tablosu",

@@ -50,7 +50,8 @@
     "counterLimit": "Hey! Du hast die maximale Anzahl von Zählern erreicht, die du auf diesem Server verfolgen kannst. Du kannst ein Upgrade auf Premium durchführen, um unten weiterzumachen!",
     "leaderboardLimit": "Hey! Du hast die maximale Anzahl von Bestenlisten erreicht, die du auf diesem Server verfolgen kannst. Du kannst ein Upgrade auf Premium durchführen, um unten weiterzumachen!",
     "subscriberRolesLimit": "Hey! Du hast die maximale Anzahl von Abonnentenrollen auf diesem Server erreicht. Sie können unten auf Premium upgraden!",
-    "offlineMessage": "Hey! Sie müssen Premium besitzen, um eine Offline-Nachricht einzustellen!"
+    "offlineMessage": "Hey! Sie müssen Premium besitzen, um eine Offline-Nachricht einzustellen!",
+    "premiumHint": "Gefällt dir der Bot? Schalten Sie mit Premium mehr frei! Klicken Sie auf die Schaltfläche unten, um zu aktualisieren."
   },
   "giftLeaderboard": {
     "title": "Abonnenten Rangliste von {streamerId}",

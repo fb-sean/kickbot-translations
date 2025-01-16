@@ -50,7 +50,8 @@
     "counterLimit": "嘿！你已达到你可以在这个服务器上跟踪的计数器数量上限。你可以升级到下面的高级版！",
     "leaderboardLimit": "嘿！你已达到你可以在这个服务器上跟踪的排行榜数量上限。你可以升级到下面的高级版！",
     "subscriberRolesLimit": "嘿！您已达到本服务器的订阅角色上限。您可以升级到以下高级版本！",
-    "offlineMessage": "嘿！你需要拥有高级会员才能设置离线消息！"
+    "offlineMessage": "嘿！你需要拥有高级会员才能设置离线消息！",
+    "premiumHint": "喜欢机器人吗？使用高级版解锁更多！点击下面的按钮进行升级。"
   },
   "giftLeaderboard": {
     "title": "{streamerId}的订阅者排行榜",

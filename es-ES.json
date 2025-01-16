@@ -50,7 +50,8 @@
     "counterLimit": "¡Hey! Has alcanzado el máximo de contadores que puedes seguir en este servidor. ¡Puedes mejorar a premium a continuación!",
     "leaderboardLimit": "¡Hey! Has alcanzado el máximo de clasificaciones que puedes seguir en este servidor. ¡Puedes mejorar a premium a continuación!",
     "subscriberRolesLimit": "¡Hey! Has alcanzado el número máximo de roles de suscriptor en este servidor. ¡Puede actualizar a premium a continuación!",
-    "offlineMessage": "¡Eh! ¡Necesitas tener Premium para poner un mensaje offline!"
+    "offlineMessage": "¡Eh! ¡Necesitas tener Premium para poner un mensaje offline!",
+    "premiumHint": "¿Disfrutas con el bot? ¡Desbloquea más con Premium! Haz clic en el botón de abajo para actualizar."
   },
   "giftLeaderboard": {
     "title": "Tabla de clasificación de suscriptores de {streamerId}",

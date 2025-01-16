@@ -46,6 +46,7 @@
     "buyPremium": "Buy Premium",
     "hasPremium": "You already have premium. You can use the button below to cancel it.",
     "noPremium": "This command is only available for premium servers!",
+    "premiumHint": "Enjoying the bot? Unlock more with Premium! Click the button below to upgrade.",
     "streamerLimit": "Hey! You reached the maximum amount of streamers you can track on this server. You can upgrade to premium to below!",
     "counterLimit": "Hey! You reached the maximum amount of counters you can track on this server. You can upgrade to premium to below!",
     "leaderboardLimit": "Hey! You reached the maximum amount of leaderboards you can track on this server. You can upgrade to premium to below!",

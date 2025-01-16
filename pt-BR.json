@@ -50,7 +50,8 @@
     "counterLimit": "Ei! Você atingiu o limite máximo de contadores que pode acompanhar neste servidor. Você pode fazer upgrade para premium abaixo!",
     "leaderboardLimit": "Ei! Você atingiu o limite máximo de leaderboards que pode acompanhar neste servidor. Você pode fazer upgrade para premium abaixo!",
     "subscriberRolesLimit": "Ei! Você atingiu o número máximo de funções de assinante neste servidor. Você pode fazer o upgrade para premium abaixo!",
-    "offlineMessage": "Ei! Você precisa ter o plano premium para definir uma mensagem off-line!"
+    "offlineMessage": "Ei! Você precisa ter o plano premium para definir uma mensagem off-line!",
+    "premiumHint": "Está gostando do bot? Desbloqueie mais com o Premium! Clique no botão abaixo para fazer o upgrade."
   },
   "giftLeaderboard": {
     "title": "Classificação de Subs do {streamerId}",

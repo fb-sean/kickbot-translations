@@ -50,7 +50,8 @@
     "counterLimit": "Hei! Olet saavuttanut tällä palvelimella seurattavien laskureiden enimmäismäärän. Voit päivittää premium-tasolle alla olevaan!",
     "leaderboardLimit": "Hei! Saavutit tällä palvelimella seurattavien tulostaulujen enimmäismäärän. Voit päivittää premium-tasolle alla olevaan!",
     "subscriberRolesLimit": "Hei! Olet saavuttanut tämän palvelimen tilaajaroolien enimmäismäärän. Voit päivittää premium-tasolle alla olevaan!",
-    "offlineMessage": "Hei! Sinun täytyy omistaa premium, jotta voit asettaa offline-viestin!"
+    "offlineMessage": "Hei! Sinun täytyy omistaa premium, jotta voit asettaa offline-viestin!",
+    "premiumHint": "Nautitko botista? Avaa lisää Premiumilla! Klikkaa alla olevaa painiketta päivittääksesi."
   },
   "giftLeaderboard": {
     "title": "{streamerId}:n alelaatikkotuloslista",
