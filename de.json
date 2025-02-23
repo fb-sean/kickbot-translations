@@ -22,7 +22,6 @@
     "errorOccurred": "Beim Ausführen des Befehls ist ein Fehler aufgetreten!",
     "cooldown": "Du bist im Cooldown, bitte warte einen Moment.",
     "alreadyHaveSubRole": "Du hast bereits die Sub-Rolle!",
-    "reSync": "Kick-Account neu synchronisieren",
     "invalidSync": "Entweder ist **{streamer}** kein gültiger Kick-Benutzer mehr oder **{kickUser}** ist kein gültiger Kick-Benutzer mehr!",
     "notSubscriber": "Du bist kein Abonnent von {streamer}!",
     "byAddingRoleError": "Beim Hinzufügen der Abonnentenrolle ist ein Fehler aufgetreten!\n*Fehler: {error}*",
@@ -30,7 +29,9 @@
     "watch": "Zuschauen",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] ist jetzt live!\n<:LinkIcon:1118592789488349325> Schau es hier an: [[URL]]",
     "why": "Warum?",
-    "cleanUpAndOfflineMessage": "Sie können nicht gleichzeitig eine Offline-Nachricht einstellen und die Bereinigung aktivieren! (Es würde die Nachricht bearbeiten und löschen.)"
+    "cleanUpAndOfflineMessage": "Sie können nicht gleichzeitig eine Offline-Nachricht einstellen und die Bereinigung aktivieren! (Es würde die Nachricht bearbeiten und löschen.)",
+    "reSync": "Sie nicht?",
+    "tryAgain": "Wiederholung"
   },
   "problems": {
     "missingPermissions": "[Sie scheinen sich zu fragen, warum der Bot mit \"Missing Permissions\" antwortet. Weitere Informationen dazu finden Sie hier.](https://kick.bot/guide/permissions)"
@@ -63,32 +64,23 @@
     "infoText": "Öffnet einen neuen Tab und das Kick-Profil von {username}",
     "noEntries": "Keine Einträge gefunden."
   },
-  "verificationProcess": {
-    "invalidUsername": "Du musst einen Benutzernamen angeben! Bitte klicke erneut auf **Bio überprüfen** und gib einen Benutzernamen ein.",
-    "notBio": "Nicht der Biografietext, sondern dein Kick.com **Benutzername**. Bitte klicke erneut auf **Bio überprüfen** und gib einen Benutzernamen ein.",
-    "notDiscord": "Nicht deine Discord-ID, sondern dein Kick.com **Benutzername**. Bitte klicke erneut auf **Bio überprüfen** und gib einen Benutzernamen ein.",
-    "invalidUser": "**{username}** ist kein gültiger Kick-Benutzer! Bitte klicke erneut auf **Bio überprüfen** und gib einen gültigen Benutzernamen ein.",
-    "noBio": "**{username}** hat keine Biografie! Bitte klicke erneut auf **Bio überprüfen** und gib einen gültigen Benutzernamen ein.",
-    "invalidDiscordId": "**{username}** hat keine gültige Discord-ID in seiner Biografie angegeben! Bitte führe den Verifizierungsprozess erneut durch.",
-    "noDiscordId": "**{username}** hat deine Discord-ID nicht in seiner Biografie angegeben! Bitte führe den Verifizierungsprozess erneut durch.",
-    "finished": "Der Verifizierungsprozess ist abgeschlossen! Drücke jetzt erneut den Button, um deine Abonnentenrolle zu erhalten!"
-  },
   "verification": {
-    "infoMobile": "Informationen für Mobilnutzer",
-    "infoMobileText": "Wenn Sie ein Mobilnutzer sind. Bitte öffnen Sie https://kick.com in Ihrem Browser und führen Sie die Schritte im Browser durch. Die Kick App unterstützt derzeit keine Profiländerungen.",
-    "checkBio": "Bio überprüfen",
-    "intro": "Um deinen Discord-Account mit Kick zu verifizieren, befolge bitte die **folgenden Schritte**:",
-    "step1": "Gehe zu https://kick.com/ und klicke auf dein Profilbild. (Stelle sicher, dass du eingeloggt bist)",
-    "step2": "Klicke auf **Einstellungen**.",
-    "step3": "Scrolle nach unten zu **Grundlegende Informationen**.",
-    "step4": "Klicke bei **Bio** auf den **Bearbeiten**-Button.",
-    "step5": "Füge irgendwo in dieses Feld `[KICK.BOT:{userId}]` ein.",
-    "step6": "Klicke auf **Änderungen speichern**.",
-    "step7": "Gehe zurück zu Discord und klicke auf den Button **Bio überprüfen** unten und gib deinen Kick-Benutzernamen ein.",
-    "step8": "Wenn du alles korrekt gemacht hast, solltest du eine Erfolgsmeldung vom Bot erhalten.",
-    "step9": "Nach dem Verifizierungsprozess kannst du `[KICK.BOT:{userId}]` aus deinem Kick-Profil entfernen.",
-    "helpText": "Wenn du Fragen hast, wende dich bitte an den Bot-Support auf Discord:",
-    "poweredBy": "Powered by kick.bot"
+    "title": "Überprüfen Sie Ihr Kick.com-Konto",
+    "verifyDescription": "Um Ihr Kick-Konto zu verifizieren, verbinden Sie sich bitte mit Ihrem Kick-Konto, indem Sie diesen Link aufrufen:\n# {linkToVerify}",
+    "helpText": "Wenn du Fragen hast, kannst du dich gerne an den Bot-Support auf Discord wenden",
+    "poweredBy": "Angetrieben von kick.bot",
+    "verify": "Verbinden Sie",
+    "connect": "Verbinden...",
+    "runningConnect": "Kick.bot sucht jetzt nach Ihrem Kick.com-Konto. Bitte warten Sie einen Moment.",
+    "errored": "Oh nein!",
+    "couldNotFetchTheUser": "Ich konnte Ihren Kick.com-Benutzer nicht abrufen. Bitte versuchen Sie es später noch einmal.",
+    "couldNotFetchTheChannel": "Ich konnte deinen Kick.com-Kanal nicht abrufen. Bitte versuche es später noch einmal.",
+    "connected": "Verbunden!",
+    "connectedTo": "Ihr Discord-Konto ist jetzt mit **{username}** verbunden.",
+    "connectedAndGotSubscriberRole": "Dein Discord-Konto ist jetzt mit **{username}** verbunden und du hast die Abonnentenrolle für **{streamer}** erhalten!",
+    "connectedButNotASubscriber": "Dein Discord-Konto ist jetzt mit **{username}** verbunden, aber du bist kein Abonnent von **{streamer}**, also hast du die Abonnentenrolle nicht erhalten.",
+    "connectedButErrorByAddingRole": "Dein Discord-Konto ist jetzt mit **{username}** verbunden, aber ich habe einen Fehler erhalten, als ich versucht habe, die Abonnentenrolle hinzuzufügen.\nFehler: {error}",
+    "kickWelcomeMessage": "Hallo {username}! Ich bin die #1 Kick x Discord Integration. Du bist jetzt mit deinem Discord-Account {discordUsername} verbunden. Wenn du Fragen hast, kannst du dich gerne an den Support-Server unter https://discord.gg/ZVERh35 wenden!"
   },
   "addCommand": {
     "commandData": {
@@ -199,7 +191,7 @@
     "commandData": {
       "description": "Verknüpfen Sie Ihren Kick.com-Account mit Ihrem Discord-Account!"
     },
-    "alreadyLinked": "Sie sind bereits mit einem Kick.com-Account verknüpft! Verwenden Sie den unten stehenden Button, um ihn erneut zu verknüpfen."
+    "alreadyLinked": "Angemeldet als **{Benutzername}**."
   },
   "listCommand": {
     "commandData": {

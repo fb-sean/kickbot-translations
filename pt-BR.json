@@ -30,7 +30,8 @@
     "watch": "Relógio",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] está ao vivo agora!\n<:LinkIcon:1118592789488349325> Assista aqui: [[URL]]",
     "why": "Por que?",
-    "cleanUpAndOfflineMessage": "Não é possível definir uma mensagem off-line e ativar a limpeza ao mesmo tempo! (Isso editaria e excluiria a mensagem)."
+    "cleanUpAndOfflineMessage": "Não é possível definir uma mensagem off-line e ativar a limpeza ao mesmo tempo! (Isso editaria e excluiria a mensagem).",
+    "tryAgain": "Repetir"
   },
   "problems": {
     "missingPermissions": "[Parece que você está se perguntando por que o bot responde com \"Missing Permissions\" (Permissões ausentes). Para obter mais informações sobre isso, clique aqui.](https://kick.bot/guide/permissions)"
@@ -63,32 +64,23 @@
     "infoText": "Abre uma nova aba e o perfil de expulsão de {username}",
     "noEntries": "Nenhuma entrada encontrada."
   },
-  "verificationProcess": {
-    "invalidUsername": "Você precisa fornecer um nome de usuário! Clique em **Verificar Bio** novamente e insira um nome de usuário.",
-    "notBio": "Não é o texto da bio, mas sim o seu **nome de usuário** do kick.com. Clique em **Verificar Bio** novamente e insira um nome de usuário.",
-    "notDiscord": "Não é o seu ID do Discord, mas sim o seu **nome de usuário** do kick.com. Clique em **Verificar Bio** novamente e insira um nome de usuário.",
-    "invalidUser": "**{username}** não é um usuário válido do Kick! Clique em **Verificar Bio** novamente e insira um nome de usuário válido.",
-    "noBio": "**{username}** não tem uma bio! Clique em **Verificar Bio** novamente e insira um nome de usuário válido.",
-    "invalidDiscordId": "**{username}** não possui um ID do Discord válido em sua bio! Por favor, faça o processo de verificação novamente.",
-    "noDiscordId": "**{username}** não possui o seu ID do Discord em sua bio! Por favor, faça o processo de verificação novamente.",
-    "finished": "Processo de verificação concluído! Pressione o botão novamente para reivindicar a função de assinante!"
-  },
   "verification": {
-    "infoMobile": "Informações para usuário móvel",
-    "infoMobileText": "Se você é um usuário móvel. Por favor, abra https://kick.com no seu navegador e siga os passos no navegador. O aplicativo Kick atualmente não suporta alterações de perfil.",
-    "checkBio": "Verificar Bio",
-    "intro": "Para verificar sua conta do Discord com o Kick, siga as **etapas abaixo**:",
-    "step1": "Acesse https://kick.com/ e clique em sua foto de perfil. (Certifique-se de estar logado)",
-    "step2": "Clique em **Configurações**.",
-    "step3": "Role para baixo até **Detalhes Básicos**.",
-    "step4": "Em **Bio**, clique no botão **Editar**.",
-    "step5": "Cole em algum lugar neste campo `[KICK.BOT:{userId}]`.",
-    "step6": "Clique em **Salvar Alterações**.",
-    "step7": "Volte para o Discord e clique no botão **Verificar Bio** abaixo e insira seu nome de usuário do Kick.",
-    "step8": "Se você fez tudo corretamente, receberá uma mensagem de sucesso do bot.",
-    "step9": "Após o processo de verificação, você pode remover `[KICK.BOT:{userId}]` de seu perfil do Kick.",
-    "helpText": "Se você tiver alguma dúvida, entre em contato com o suporte do bot no Discord:",
-    "poweredBy": "Desenvolvido por kick.bot"
+    "poweredBy": "Desenvolvido por kick.bot",
+    "title": "Verificar sua conta Kick.com",
+    "verifyDescription": "Para verificar sua conta do Kick, conecte sua conta do Kick acessando este link:\n# {linkToVerify}",
+    "helpText": "Se tiver alguma dúvida, fique à vontade para entrar em contato com o suporte do bot no Discord",
+    "verify": "Conectar",
+    "connect": "Conectando...",
+    "runningConnect": "O Kick.bot está verificando a sua conta do Kick.com. Aguarde um momento.",
+    "errored": "Ah, não!",
+    "couldNotFetchTheUser": "Não foi possível obter seu usuário do Kick.com. Por favor, tente novamente mais tarde.",
+    "couldNotFetchTheChannel": "Não foi possível obter seu canal do Kick.com. Por favor, tente novamente mais tarde.",
+    "connected": "Conectado!",
+    "connectedTo": "Sua conta do Discord agora está conectada a **{username}**.",
+    "connectedAndGotSubscriberRole": "Sua conta do Discord agora está conectada a **{username}** e você recebeu a função de assinante de **{streamer}**!",
+    "connectedButNotASubscriber": "Sua conta do Discord agora está conectada a **{username}**, mas você não é assinante de **{streamer}**, portanto, não recebeu a função de assinante.",
+    "connectedButErrorByAddingRole": "Sua conta do Discord agora está conectada a **{username}**, mas recebi um erro ao tentar adicionar a função de assinante.\nErro: {error}",
+    "kickWelcomeMessage": "Olá {username}! Sou a integração número 1 do Kick x Discord. Agora você está vinculado à sua conta do Discord {discordUsername}. Se tiver alguma dúvida, sinta-se à vontade para entrar no servidor de suporte em https://discord.gg/ZVERh35 !"
   },
   "addCommand": {
     "commandData": {

@@ -30,7 +30,8 @@
     "watch": "观看",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] 现在开始直播了！\n<:LinkIcon:1118592789488349325> 在这里观看：[[URL]]",
     "why": "为什么？",
-    "cleanUpAndOfflineMessage": "您不能同时设置离线信息和启用清理功能！(它会编辑并删除信息）。"
+    "cleanUpAndOfflineMessage": "您不能同时设置离线信息和启用清理功能！(它会编辑并删除信息）。",
+    "tryAgain": "重试"
   },
   "problems": {
     "missingPermissions": "[看起来你在问自己为什么机器人回应了\"缺少权限\"。要了解更多信息，请点击这里。](https://kick.bot/guide/permissions)"
@@ -63,32 +64,23 @@
     "infoText": "打开一个新标签页并从{username}的kick资料",
     "noEntries": "没有找到条目。"
   },
-  "verificationProcess": {
-    "invalidUsername": "你需要提供一个用户名！请再次点击**检查简介**并输入一个用户名。",
-    "notBio": "不是简介文本，你的kick.com **用户名**。请再次点击**检查简介**并输入一个用户名。",
-    "notDiscord": "不是你的discord id，你的kick.com **用户名**。请再次点击**检查简介**并输入一个用户名。",
-    "invalidUser": "**{username}**不是一个有效的kick用户！请再次点击**检查简介**并输入一个有效的用户名。",
-    "noBio": "**{username}**没有简介！请再次点击**检查简介**并输入一个有效的用户名。",
-    "invalidDiscordId": "**{username}**在他们的简介中没有一个有效的discord id！请重新进行验证过程。",
-    "noDiscordId": "**{username}**在他们的简介中没有你的discord id！请重新进行验证过程。",
-    "finished": "验证过程完成！现在再次按下按钮来认领你的订阅者角色！"
-  },
   "verification": {
-    "infoMobile": "移动用户信息",
-    "infoMobileText": "如果你是移动用户。请在你的浏览器上打开 https://kick.com 并在浏览器中进行步骤。Kick 应用目前不支持资料更改。",
-    "checkBio": "检查简介",
-    "intro": "要将你的Discord账户与Kick验证，请按照**下面的步骤**：",
-    "step1": "去 https://kick.com/ 并点击你的个人资料图片。（确保你已登录）",
-    "step2": "点击**设置**。",
-    "step3": "滚动到**基本详情**。",
-    "step4": "在**简介**点击**编辑**按钮。",
-    "step5": "在这个字段中的某处粘贴`[KICK.BOT:{userId}]`。",
-    "step6": "点击**保存更改**。",
-    "step7": "回到Discord并点击下面的**检查简介**按钮并输入你的kick用户名。",
-    "step8": "如果你做得正确，你应该会从机器人那里收到一条成功消息。",
-    "step9": "验证过程完成后，你可以从你的Kick资料中移除`[KICK.BOT:{userId}]`。",
-    "helpText": "如果你有任何问题，欢迎在Discord上联系机器人支持：",
-    "poweredBy": "由kick.bot提供"
+    "poweredBy": "由kick.bot提供",
+    "title": "验证您的 Kick.com 账户",
+    "verifyDescription": "为了验证您的 Kick 帐户，请访问此链接连接您的 Kick 帐户：\n# {linkToVerify}",
+    "helpText": "如果您有任何问题，请随时通过 Discord 联系机器人支持人员",
+    "verify": "连接",
+    "connect": "连接...",
+    "runningConnect": "Kick.bot 正在检查您的 Kick.com 账户。请稍等片刻。",
+    "errored": "哦，不",
+    "couldNotFetchTheUser": "我无法获取您的 Kick.com 用户。请稍后再试。",
+    "couldNotFetchTheChannel": "我无法获取您的 Kick.com 频道。请稍后再试。",
+    "connected": "已连接！",
+    "connectedTo": "您的 Discord 帐户已连接到 **{username}** 。",
+    "connectedAndGotSubscriberRole": "您的 Discord 帐户现在连接到**{username}**，并且您获得了**{streamer}**的订阅者角色！",
+    "connectedButNotASubscriber": "您的 Discord 帐户现在连接到**{username}**，但您不是**{streamer}**的订阅者，因此您没有获得订阅者角色。",
+    "connectedButErrorByAddingRole": "您的 Discord 帐户已连接到 **{username}** 但在尝试添加订阅者角色时出现错误。\n错误：{error}",
+    "kickWelcomeMessage": "您好 {username}！我是 #1 Kick x Discord 整合。您现在与您的 Discord 帐户 {discordUsername} 连接。如果您有任何问题，请随时加入支持服务器 https://discord.gg/ZVERh35 ！"
   },
   "addCommand": {
     "commandData": {

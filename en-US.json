@@ -23,14 +23,15 @@
     "errorOccurred": "An error occurred while executing the command!",
     "cooldown": "You are on cooldown please wait a second.",
     "alreadyHaveSubRole": "You already have the sub role!",
-    "reSync": "Resync Kick Account",
+    "reSync": "Not you?",
     "invalidSync": "Either **{streamer}** is no longer a valid kick user or **{kickUser}** is no longer a valid kick user!",
     "notSubscriber": "You are not a subscriber of {streamer}!",
     "byAddingRoleError": "While trying to add the subscriber role I got a error!\n*Error: {error}*",
     "modalInfoText": "Can be found on kick.com.",
     "watch": "Watch",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] is now live!\n<:LinkIcon:1118592789488349325> Watch it here: [[URL]]",
-    "why": "Why?"
+    "why": "Why?",
+    "tryAgain": "Retry"
   },
   "problems": {
     "missingPermissions": "[Seems like you are asking yourself why the bot response with \"Missing Permissions\". To find more information about this, please click here.](https://kick.bot/guide/permissions)"
@@ -63,32 +64,23 @@
     "infoText": "Opens a new tab and the kick profile from {username}",
     "noEntries": "No entries found."
   },
-  "verificationProcess": {
-    "invalidUsername": "You need to provide a username! Please click **Check Bio** again and enter a username.",
-    "notBio": "Not the bio text, your kick.com **username**. Please click **Check Bio** again and enter a username.",
-    "notDiscord": "Not your discord id, your kick.com **username**. Please click **Check Bio** again and enter a username.",
-    "invalidUser": "**{username}** is not a valid kick user! Please click **Check Bio** again and enter a valid username.",
-    "noBio": "**{username}** does not have a bio! Please click **Check Bio** again and enter a valid username.",
-    "invalidDiscordId": "**{username}** does not have a valid discord id in their bio! Please do the verification process again.",
-    "noDiscordId": "**{username}** does not have your discord id in their bio! Please do the verification process again.",
-    "finished": "Verification process completed! Press the button now again to claim your subscriber role!"
-  },
   "verification": {
-    "infoMobile": "Mobile user information",
-    "infoMobileText": "If you are a mobile user. Please open https://kick.com on your browser and do the steps in the Browser. The Kick App currently don't support the profile changes.",
-    "checkBio": "Check Bio",
-    "intro": "To verify your Discord account with Kick, please follow the **steps below**:",
-    "step1": "Go to https://kick.com/ and click on your profile picture. (Make sure you are logged-in)",
-    "step2": "Click on **Settings**.",
-    "step3": "Scroll down to **Basic Details**.",
-    "step4": "At **Bio** click on the **Edit** button.",
-    "step5": "Paste somewhere in this field `[KICK.BOT:{userId}]`.",
-    "step6": "Press on **Save Changes**.",
-    "step7": "Go back to Discord and click the **Check Bio** button below and enter your kick username.",
-    "step8": "If you did everything correctly, you should get a success message from the bot.",
-    "step9": "After the verification process you can remove the `[KICK.BOT:{userId}]` from your Kick profile.",
-    "helpText": "If you have any questions, feel free to contact the bot support on Discord:",
-    "poweredBy": "Powered by kick.bot"
+    "title": "Verify your Kick.com account",
+    "verifyDescription": "In order to verify your Kick account please connect your Kick account by visiting this link: \n# {linkToVerify}",
+    "helpText": "If you have any questions, feel free to contact the bot support on Discord",
+    "poweredBy": "Powered by kick.bot",
+    "verify": "Connect",
+    "connect": "Connecting...",
+    "runningConnect": "Kick.bot is now checking for your Kick.com account. Please wait a moment.",
+    "errored": "Oh no!",
+    "couldNotFetchTheUser": "I could not fetch your Kick.com user. Please try again later.",
+    "couldNotFetchTheChannel": "I could not fetch your Kick.com channel. Please try again later.",
+    "connected": "Connected!",
+    "connectedTo": "Your Discord account is now connected to **{username}**.",
+    "connectedAndGotSubscriberRole": "Your Discord account is now connected to **{username}** and you got the subscriber role for **{streamer}**!",
+    "connectedButNotASubscriber": "Your Discord account is now connected to **{username}** but you are not a subscriber of **{streamer}** so you didn't get the subscriber role.",
+    "connectedButErrorByAddingRole": "Your Discord account is now connected to **{username}** but I got a error while trying to add the subscriber role. \nError: {error}",
+    "kickWelcomeMessage": "Hello {username}! I'm the #1 Kick x Discord Integration. You are now linked with your Discord account {discordUsername}. If you have any questions, feel free to join the support server at https://discord.gg/ZVERh35 !"
   },
   "addCommand": {
     "commandData": {
@@ -199,7 +191,7 @@
     "commandData": {
       "description": "Link your Kick.com account to your Discord account!"
     },
-    "alreadyLinked": "You are already linked to a Kick.com account! Use the button below to relink it."
+    "alreadyLinked": "Signed in as **{username}**."
   },
   "listCommand": {
     "commandData": {
@@ -296,7 +288,7 @@
     "cancelPremium": "Cancel Premium",
     "premiumCheckout": "Click on the button below to get to the checkout page. After the payment the premium will be activated on your server."
   },
-  "dmdCommand":  {
+  "dmdCommand": {
     "commandData": {
       "description": "Use this command to fully delete your data from the bot."
     },

@@ -30,7 +30,8 @@
     "watch": "Montre",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] est en direct maintenant !\n<:LinkIcon:1118592789488349325> Regardez ici: [[URL]]",
     "why": "Pourquoi ?",
-    "cleanUpAndOfflineMessage": "Vous ne pouvez pas définir un message hors ligne et activer le nettoyage en même temps ! (Cela modifierait et supprimerait le message)."
+    "cleanUpAndOfflineMessage": "Vous ne pouvez pas définir un message hors ligne et activer le nettoyage en même temps ! (Cela modifierait et supprimerait le message).",
+    "tryAgain": "Réessayer"
   },
   "problems": {
     "missingPermissions": "[Il semble que vous vous demandiez pourquoi le bot répond par \"Missing Permissions\". Pour plus d'informations à ce sujet, veuillez cliquer ici.](https://kick.bot/guide/permissions)"
@@ -63,32 +64,23 @@
     "infoText": "Ouvre un nouvel onglet et le profil d'expulsion de {username}",
     "noEntries": "Aucune entrée trouvée."
   },
-  "verificationProcess": {
-    "invalidUsername": "Vous devez fournir un nom d'utilisateur ! Veuillez cliquer à nouveau sur **Vérifier la bio** et saisir un nom d'utilisateur.",
-    "notBio": "Pas le texte de la biographie, votre **nom d'utilisateur** Kick.com. Veuillez cliquer à nouveau sur **Vérifier la bio** et saisir un nom d'utilisateur.",
-    "notDiscord": "Pas votre identifiant Discord, votre **nom d'utilisateur** Kick.com. Veuillez cliquer à nouveau sur **Vérifier la bio** et saisir un nom d'utilisateur.",
-    "invalidUser": "**{username}** n'est pas un utilisateur Kick valide! Veuillez cliquer à nouveau sur **Vérifier la bio** et saisir un nom d'utilisateur valide.",
-    "noBio": "**{username}** n'a pas de bio ! Veuillez cliquer à nouveau sur **Vérifier la bio** et saisir un nom d'utilisateur valide.",
-    "invalidDiscordId": "**{username}** n'a pas d'identifiant Discord valide dans sa bio ! Veuillez refaire le processus de vérification.",
-    "noDiscordId": "**{username}** n'a pas votre identifiant Discord dans sa bio ! Veuillez refaire le processus de vérification.",
-    "finished": "Le processus de vérification est terminé ! Appuyez maintenant sur le bouton pour réclamer votre rôle d'abonné.e !"
-  },
   "verification": {
-    "infoMobile": "Informations sur l'utilisateur mobile",
-    "infoMobileText": "Si vous êtes un utilisateur mobile. Veuillez ouvrir https://kick.com sur votre navigateur et suivez les étapes dans le navigateur. L'application Kick ne prend actuellement pas en charge les modifications de profil.",
-    "checkBio": "Vérifier la bio",
-    "intro": "Pour vérifier votre compte Discord avec Kick, veuillez suivre les **étapes ci-dessous** :",
-    "step1": "Rendez-vous sur https://kick.com/ et cliquez sur votre photo de profil. (Assurez-vous d'être connecté)",
-    "step2": "Cliquez sur **Paramètres**.",
-    "step3": "Faites défiler jusqu'à **Détails de base**.",
-    "step4": "Cliquez sur le bouton **Modifier** à côté de **Bio**.",
-    "step5": "Collez quelque part dans ce champ `[KICK.BOT:{userId}]`.",
-    "step6": "Cliquez sur **Enregistrer les modifications**.",
-    "step7": "Revenez sur Discord et cliquez sur le bouton **Vérifier la bio** ci-dessous et saisissez votre nom d'utilisateur Kick.",
-    "step8": "Si vous avez tout fait correctement, vous devriez recevoir un message de succès du bot.",
-    "step9": "Après le processus de vérification, vous pouvez supprimer `[KICK.BOT:{userId}]` de votre profil Kick.",
-    "helpText": "Si vous avez des questions, n'hésitez pas à contacter le support du bot sur Discord :",
-    "poweredBy": "Propulsé par kick.bot"
+    "poweredBy": "Propulsé par kick.bot",
+    "title": "Vérifiez votre compte Kick.com",
+    "verifyDescription": "Afin de vérifier votre compte Kick, veuillez connecter votre compte Kick en visitant ce lien :\n# {linkToVerify}",
+    "helpText": "Si vous avez des questions, n'hésitez pas à contacter le bot support sur Discord",
+    "verify": "Connecter",
+    "connect": "Connexion...",
+    "runningConnect": "Kick.bot est en train de vérifier votre compte Kick.com. Veuillez patienter un instant.",
+    "errored": "Oh non !",
+    "couldNotFetchTheUser": "Je n'ai pas pu récupérer votre utilisateur Kick.com. Veuillez réessayer plus tard.",
+    "couldNotFetchTheChannel": "Je n'ai pas pu récupérer votre chaîne Kick.com. Veuillez réessayer plus tard.",
+    "connected": "Connecté !",
+    "connectedTo": "Votre compte Discord est maintenant connecté à **{username}**.",
+    "connectedAndGotSubscriberRole": "Votre compte Discord est désormais connecté à **{username}** et vous avez obtenu le rôle d'abonné pour **{streamer}** !",
+    "connectedButNotASubscriber": "Votre compte Discord est maintenant connecté à **{username}** mais vous n'êtes pas abonné à **{streamer}** et vous n'avez donc pas reçu le rôle d'abonné.",
+    "connectedButErrorByAddingRole": "Votre compte Discord est maintenant connecté à **{username}** mais j'ai eu une erreur en essayant d'ajouter le rôle d'abonné.\nErreur : {error}",
+    "kickWelcomeMessage": "Bonjour {username} ! Je suis le #1 Kick x Discord Integration. Vous êtes maintenant lié à votre compte Discord {discordUsername}. Si vous avez des questions, n'hésitez pas à rejoindre le serveur de support à https://discord.gg/ZVERh35 !"
   },
   "addCommand": {
     "commandData": {

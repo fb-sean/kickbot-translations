@@ -30,7 +30,8 @@
     "watch": "İzle",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] şimdi canlı yayında!\n<:LinkIcon:1118592789488349325> Buradan izleyebilirsiniz: [[URL]]",
     "why": "Neden?",
-    "cleanUpAndOfflineMessage": "Aynı anda hem çevrimdışı bir mesaj ayarlayıp hem de temizlemeyi etkinleştiremezsiniz! (Mesajı düzenler ve siler.)"
+    "cleanUpAndOfflineMessage": "Aynı anda hem çevrimdışı bir mesaj ayarlayıp hem de temizlemeyi etkinleştiremezsiniz! (Mesajı düzenler ve siler.)",
+    "tryAgain": "Yeniden Dene"
   },
   "problems": {
     "missingPermissions": "[Görünüşe göre botun neden \"Eksik İzinler\" ile yanıt verdiğini kendinize soruyorsunuz. Bu konuda daha fazla bilgi almak için lütfen buraya tıklayın.](https://kick.bot/guide/permissions)"
@@ -63,32 +64,23 @@
     "infoText": "{username} adlı kullanıcının Kick profilini yeni bir sekmede açar.",
     "noEntries": "Hiçbir sonuç bulunamadı."
   },
-  "verificationProcess": {
-    "invalidUsername": "Bir kullanıcı adı belirtmelisiniz. Lütfen **Biyografiyi Kontrol Et** butonuna tekrar tıklayın ve bir kullanıcı adı girin!",
-    "notBio": "Girilen içerik; biyografi metni değil, kick.com adresindeki **kullanıcı adınız** olacaktı. Lütfen **Biyografiyi Kontrol Et** butonuna tekrar tıklayın ve bir kullanıcı adı girin!",
-    "notDiscord": "Girilen içerik; Discord ID'niz değil, kick.com adresindeki **kullanıcı adınız** olacaktı. Lütfen **Biyografiyi Kontrol Et** butonuna tekrar tıklayın ve bir kullanıcı adı girin!",
-    "invalidUser": "**{username}** geçerli bir Kick kullanıcısı değil. Lütfen **Biyografiyi Kontrol Et** butonuna tekrar tıklayın ve geçerli bir kullanıcı adı girin!",
-    "noBio": "**{username}** adlı kullanıcının bir biyografisi yok. Lütfen **Biyografiyi Kontrol Et** butonuna tekrar tıklayın ve geçerli bir kullanıcı adı girin!",
-    "invalidDiscordId": "**{username}** adlı kullanıcının biyografisinde geçerli bir Discord ID'si yok. Lütfen doğrulama sürecini tekrar deneyin!",
-    "noDiscordId": "**{username}** adlı kullanıcının biyografisinde Discord ID'niz bulunmuyor. Lütfen doğrulama sürecini tekrar deneyin!",
-    "finished": "Doğrulama süreci tamamlandı! Şimdi abone rolünüzü alabilmek için butona tekrar basın."
-  },
   "verification": {
-    "infoMobile": "Mobil kullanıcı bilgisi",
-    "infoMobileText": "Eğer bir mobil kullanıcıysanız lütfen tarayıcınızda https://kick.com adresini açın ve tarayıcıdaki adımları uygulayın. Kick Uygulaması profil değişikliklerini desteklememektedir.",
-    "checkBio": "Biyografiyi Kontrol Et",
-    "intro": "Discord hesabınızı Kick ile doğrulamak için lütfen **aşağıdaki adımları** izleyin:",
-    "step1": "https://kick.com/ adresine gidin ve profil resminize tıklayın. (Giriş yaptığınızdan emin olun).",
-    "step2": "**Ayarlar**'a tıklayın.",
-    "step3": "**Temel Bilgiler** kısmını görene kadar aşağıya kaydırın.",
-    "step4": "**Biyografi** kısmındaki **Düzenle** butonuna tıklayın.",
-    "step5": "Bu alandaki herhangi bir yere `[KICK.BOT:{userId}]` metnini yapıştırın.",
-    "step6": "**Değişiklikleri Kaydet** butonuna basın.",
-    "step7": "Discord'a geri dönün ve aşağıdaki **Biyografiyi Kontrol Et** butonuna tıklayın. Daha sonra Kick kullanıcı adınızı girin.",
-    "step8": "Her şeyi doğru yapmışsanız bottan işlemin tamamlandığına dair bir mesajı almalısınız.",
-    "step9": "Doğrulama işleminden sonra `[KICK.BOT:{userId}]` metnini Kick biyografinizden kaldırabilirsiniz.",
-    "helpText": "Herhangi bir sorunuz varsa Discord'daki bot desteği ile iletişime geçmekten çekinmeyin",
-    "poweredBy": "kick.bot tarafından sağlanmıştır"
+    "poweredBy": "kick.bot tarafından sağlanmıştır",
+    "title": "Kick.com hesabınızı doğrulayın",
+    "verifyDescription": "Kick hesabınızı doğrulamak için lütfen bu bağlantıyı ziyaret ederek Kick hesabınızı bağlayın:\n# {linkToVerify}",
+    "helpText": "Herhangi bir sorunuz varsa, Discord'daki bot desteği ile iletişime geçmekten çekinmeyin",
+    "verify": "Bağlan",
+    "connect": "Bağlanıyorum.",
+    "runningConnect": "Kick.bot şimdi Kick.com hesabınızı kontrol ediyor. Lütfen biraz bekleyin.",
+    "errored": "Olamaz!",
+    "couldNotFetchTheUser": "Kick.com kullanıcınızı getiremedim. Lütfen daha sonra tekrar deneyin.",
+    "couldNotFetchTheChannel": "Kick.com kanalınızı getiremedim. Lütfen daha sonra tekrar deneyin.",
+    "connected": "Bağlandı!",
+    "connectedTo": "Discord hesabınız artık **{username}** adresine bağlı.",
+    "connectedAndGotSubscriberRole": "Discord hesabınız artık **{username}** adresine bağlı ve **{streamer}** için abone rolünü aldınız!",
+    "connectedButNotASubscriber": "Discord hesabınız artık **{username}** adresine bağlı ancak **{streamer}** abonesi değilsiniz, bu nedenle abone rolünü almadınız.",
+    "connectedButErrorByAddingRole": "Discord hesabınız şu anda **{username}** adresine bağlı ancak abone rolünü eklemeye çalışırken bir hata aldım.\nHata oluştu: {error}",
+    "kickWelcomeMessage": "Merhaba {username}! Ben 1 numaralı Kick x Discord Entegrasyonuyum. Artık Discord hesabınız {discordUsername} ile bağlantılısınız. Herhangi bir sorunuz varsa, https://discord.gg/ZVERh35 adresindeki destek sunucusuna katılmaktan çekinmeyin!"
   },
   "addCommand": {
     "commandData": {

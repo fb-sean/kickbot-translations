@@ -30,7 +30,8 @@
     "watch": "時計",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] が配信を開始しました！\n<:LinkIcon:1118592789488349325> ここで視聴できます: [[URL]]",
     "why": "なぜ",
-    "cleanUpAndOfflineMessage": "オフラインメッセージを設定し、同時にクリーンアップを有効にすることはできません！(メッセージを編集して削除してしまいます）。"
+    "cleanUpAndOfflineMessage": "オフラインメッセージを設定し、同時にクリーンアップを有効にすることはできません！(メッセージを編集して削除してしまいます）。",
+    "tryAgain": "リトライ"
   },
   "problems": {
     "missingPermissions": "[なぜ \"Missing Permissions \"とボットが応答するのか、自問自答しているようですね。この件に関する詳しい情報は、こちらをクリックしてください](https://kick.bot/guide/permissions)"
@@ -63,32 +64,23 @@
     "infoText": "{username}のキックプロファイルを新しいタブで開きます",
     "noEntries": "エントリーが見つかりませんでした。"
   },
-  "verificationProcess": {
-    "invalidUsername": "ユーザー名を入力する必要があります！「Bioをチェック」ボタンを再度クリックして有効なユーザー名を入力してください。",
-    "notBio": "バイオテキストではなく、Kick.comの**ユーザー名**です。「Bioをチェック」ボタンを再度クリックして有効なユーザー名を入力してください。",
-    "notDiscord": "あなたのDiscordのIDではなく、Kick.comの**ユーザー名**です。「Bioをチェック」ボタンを再度クリックして有効なユーザー名を入力してください。",
-    "invalidUser": "**{username}**は有効なKickユーザーではありません！「Bioをチェック」ボタンを再度クリックして有効なユーザー名を入力してください。",
-    "noBio": "**{username}**にはバイオがありません！「Bioをチェック」ボタンを再度クリックして有効なユーザー名を入力してください。",
-    "invalidDiscordId": "**{username}**には有効なDiscordのIDがバイオにありません！確認プロセスをもう一度実行してください。",
-    "noDiscordId": "**{username}**のバイオにはあなたのDiscordのIDがありません！確認プロセスをもう一度実行してください。",
-    "finished": "確認プロセスが完了しました！ボタンを再度クリックしてサブスクライバーロールを取得してください！"
-  },
   "verification": {
-    "infoMobile": "モバイルユーザー情報",
-    "infoMobileText": "もしあなたがモバイルユーザーの場合、ブラウザでhttps://kick.comを開いて、ブラウザ内の手順を行ってください。現在、Kickアプリはプロフィールの変更をサポートしていません。",
-    "checkBio": "Bioをチェック",
-    "intro": "KickとDiscordアカウントを確認するには、以下の**手順**に従ってください：",
-    "step1": "https://kick.com/ にアクセスし、プロフィール画像をクリックします。 (ログインしていることを確認してください)",
-    "step2": "**設定**をクリックします。",
-    "step3": "**基本情報**までスクロールします。",
-    "step4": "**Bio**で**編集**ボタンをクリックします。",
-    "step5": "このフィールドに `[KICK.BOT:{userId}]` を貼り付けます。",
-    "step6": "**変更を保存**をクリックします。",
-    "step7": "Discordに戻り、「Bioをチェック」ボタンをクリックしてKickのユーザー名を入力します。",
-    "step8": "すべてを正しく行った場合、ボットから成功メッセージが届くはずです。",
-    "step9": "確認プロセスが完了したら、Kickプロフィールから`[KICK.BOT:{userId}]`を削除できます。",
-    "helpText": "質問がある場合は、お気軽に以下のDiscordボットサポートまでお問い合わせください：",
-    "poweredBy": "Powered by kick.bot"
+    "poweredBy": "Powered by kick.bot",
+    "title": "Kick.comアカウントを確認する",
+    "verifyDescription": "Kickアカウントを確認するには、以下のリンクからKickアカウントに接続してください：\n# {linkToVerify}",
+    "helpText": "ご不明な点がございましたら、Discordのボットサポートまでお気軽にお問い合わせください。",
+    "verify": "接続",
+    "connect": "接続...",
+    "runningConnect": "Kick.botがあなたのKick.comアカウントを確認中です。しばらくお待ちください。",
+    "errored": "そんな！",
+    "couldNotFetchTheUser": "Kick.comユーザーを取得できませんでした。後でもう一度お試しください。",
+    "couldNotFetchTheChannel": "Kick.comチャンネルを取得できませんでした。後でもう一度お試しください。",
+    "connected": "つながっている！",
+    "connectedTo": "あなたのDiscordアカウントが**{username}**に接続されました。",
+    "connectedAndGotSubscriberRole": "あなたのDiscordアカウントは**{username}**に接続され、**{streamer}**の加入者ロールを取得しました！",
+    "connectedButNotASubscriber": "あなたのDiscordアカウントは**{username}**に接続されましたが、あなたは**{streamer}**の加入者ではないため、加入者ロールを取得できませんでした。",
+    "connectedButErrorByAddingRole": "あなたのDiscordアカウントは**{username}**に接続されましたが、加入者ロールを追加しようとしてエラーが発生しました。\nエラーが発生しました：{error}",
+    "kickWelcomeMessage": "こんにちは{username}！キック×Discord統合第1号です。Discordアカウント{discordUsername}との連携が完了しました。何か質問があれば、https://discord.gg/ZVERh35 のサポートサーバーに気軽に参加してください！"
   },
   "addCommand": {
     "commandData": {
