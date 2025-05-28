@@ -31,7 +31,11 @@
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] 现在开始直播了！\n<:LinkIcon:1118592789488349325> 在这里观看：[[URL]]",
     "why": "为什么？",
     "cleanUpAndOfflineMessage": "您不能同时设置离线信息和启用清理功能！(它会编辑并删除信息）。",
-    "tryAgain": "重试"
+    "tryAgain": "重试",
+    "optionFilterType": "定义过滤器的工作方式。",
+    "filterTypeExclude": "排除包含关键字的实时通知。",
+    "filterTypeInclude": "只包含包含关键字的实时通知。",
+    "invalidFilterType": "过滤器类型无效！请使用 `exclude` 或 `include`."
   },
   "problems": {
     "missingPermissions": "[看起来你在问自己为什么机器人回应了\"缺少权限\"。要了解更多信息，请点击这里。](https://kick.bot/guide/permissions)"
@@ -52,7 +56,8 @@
     "leaderboardLimit": "嘿！你已达到你可以在这个服务器上跟踪的排行榜数量上限。你可以升级到下面的高级版！",
     "subscriberRolesLimit": "嘿！您已达到本服务器的订阅角色上限。您可以升级到以下高级版本！",
     "offlineMessage": "嘿！你需要拥有高级会员才能设置离线消息！",
-    "premiumHint": "喜欢机器人吗？使用高级版解锁更多！点击下面的按钮进行升级。"
+    "premiumHint": "喜欢机器人吗？使用高级版解锁更多！点击下面的按钮进行升级。",
+    "premiumHintSecond": "喜欢机器人吗？"
   },
   "giftLeaderboard": {
     "title": "{streamerId}的订阅者排行榜",
@@ -271,7 +276,7 @@
     },
     "notInOurDatabase": "这个Kick用户不在我们的数据库中！",
     "notInDiscord": "我找不到这个Kick用户的Discord用户！",
-    "success": "### Kick到Discord\n- Discord用户：{username}（`{id}`）\n- Discord用户头像：[点击] (<{avatar}>)"
+    "success": "### Kick到Discord\n- Discord用户：{username}（`{id}`）\n- Discord用户头像：[点击](<{avatar}>)"
   },
   "dtkCommand": {
     "commandData": {
@@ -279,7 +284,7 @@
     },
     "notInOurDatabase": "这个Discord用户不在我们的数据库中！",
     "notInKick": "我找不到这个Discord用户的Kick用户！",
-    "success": "### Discord到Kick\n- Kick用户：{username}（`{id}`）\n- Kick用户头像：[点击] (<{avatar}>)\n- Kick用户简介：\n>>> {bio}"
+    "success": "### Discord到Kick\n- Kick用户：{username}（`{id}`）\n- Kick用户头像：[点击](<{avatar}>)\n- Kick用户简介：\n>>> {bio}"
   },
   "premiumCommand": {
     "commandData": {
@@ -293,5 +298,12 @@
       "description": "使用此命令从机器人中完全删除数据。"
     },
     "deleted": "您的数据已从机器人中删除。如果您想再次使用机器人，需要重新链接您的账户。"
+  },
+  "ignorePermissionsCommand": {
+    "commandData": {
+      "description": "如果 Kick 机器人只使用 Discord 的权限，则切换该选项。"
+    },
+    "willIgnore": "Kick 机器人现在会将权限检查推迟到 Discord。通过[服务器集成页面](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>)管理命令访问权限。",
+    "willNotIgnore": "Kick 机器人现在将执行自己的权限检查。使用 [Server Integrations Page](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) 管理权限。"
   }
 }

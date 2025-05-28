@@ -31,7 +31,11 @@
     "why": "Warum?",
     "cleanUpAndOfflineMessage": "Sie können nicht gleichzeitig eine Offline-Nachricht einstellen und die Bereinigung aktivieren! (Es würde die Nachricht bearbeiten und löschen.)",
     "reSync": "Sie nicht?",
-    "tryAgain": "Wiederholung"
+    "tryAgain": "Wiederholung",
+    "optionFilterType": "Definieren Sie, wie der Filter funktionieren soll.",
+    "filterTypeExclude": "Live-Benachrichtigungen mit den Schlüsselwörtern ausschließen.",
+    "filterTypeInclude": "Nehmen Sie nur Live-Benachrichtigungen mit den Schlüsselwörtern auf.",
+    "invalidFilterType": "Der Filtertyp ist ungültig! Bitte verwenden Sie entweder `exclude` oder `include`."
   },
   "problems": {
     "missingPermissions": "[Sie scheinen sich zu fragen, warum der Bot mit \"Missing Permissions\" antwortet. Weitere Informationen dazu finden Sie hier.](https://kick.bot/guide/permissions)"
@@ -52,7 +56,8 @@
     "leaderboardLimit": "Hey! Du hast die maximale Anzahl von Bestenlisten erreicht, die du auf diesem Server verfolgen kannst. Du kannst ein Upgrade auf Premium durchführen, um unten weiterzumachen!",
     "subscriberRolesLimit": "Hey! Du hast die maximale Anzahl von Abonnentenrollen auf diesem Server erreicht. Sie können unten auf Premium upgraden!",
     "offlineMessage": "Hey! Sie müssen Premium besitzen, um eine Offline-Nachricht einzustellen!",
-    "premiumHint": "Gefällt dir der Bot? Schalten Sie mit Premium mehr frei! Klicken Sie auf die Schaltfläche unten, um zu aktualisieren."
+    "premiumHint": "Gefällt dir der Bot? Schalten Sie mit Premium mehr frei! Klicken Sie auf die Schaltfläche unten, um zu aktualisieren.",
+    "premiumHintSecond": "Gefällt Ihnen der Bot?"
   },
   "giftLeaderboard": {
     "title": "Abonnenten Rangliste von {streamerId}",
@@ -293,5 +298,12 @@
       "description": "Verwenden Sie diesen Befehl, um Ihre Daten vollständig aus dem Bot zu löschen."
     },
     "deleted": "Ihre Daten wurden aus dem Bot gelöscht. Wenn Sie den Bot wieder verwenden möchten, müssen Sie Ihr Konto erneut verknüpfen."
+  },
+  "ignorePermissionsCommand": {
+    "commandData": {
+      "description": "Umschalten, wenn der Kick-Bot nur die Berechtigungen von Discord verwendet."
+    },
+    "willIgnore": "Der Kick-Bot verschiebt nun die Berechtigungsprüfung auf Discord. Verwalten Sie den Befehlszugriff über die [Server-Integrationsseite](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>).",
+    "willNotIgnore": "Der Kick-Bot führt nun seine eigenen Berechtigungsprüfungen durch. Verwenden Sie die [Server-Integrationsseite](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>), um Berechtigungen zu verwalten."
   }
 }

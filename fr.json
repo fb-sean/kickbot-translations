@@ -31,7 +31,11 @@
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] est en direct maintenant !\n<:LinkIcon:1118592789488349325> Regardez ici: [[URL]]",
     "why": "Pourquoi ?",
     "cleanUpAndOfflineMessage": "Vous ne pouvez pas définir un message hors ligne et activer le nettoyage en même temps ! (Cela modifierait et supprimerait le message).",
-    "tryAgain": "Réessayer"
+    "tryAgain": "Réessayer",
+    "optionFilterType": "Définir le fonctionnement du filtre.",
+    "filterTypeExclude": "Exclure les notifications en direct avec les mots-clés.",
+    "filterTypeInclude": "N'incluez que les notifications en direct avec les mots-clés.",
+    "invalidFilterType": "Le type de filtre n'est pas valide ! Veuillez utiliser `exclude` ou `include`."
   },
   "problems": {
     "missingPermissions": "[Il semble que vous vous demandiez pourquoi le bot répond par \"Missing Permissions\". Pour plus d'informations à ce sujet, veuillez cliquer ici.](https://kick.bot/guide/permissions)"
@@ -52,7 +56,8 @@
     "leaderboardLimit": "Hé ! Vous avez atteint le nombre maximal de classements que vous pouvez suivre sur ce serveur. Vous pouvez passer à la version premium ci-dessous !",
     "subscriberRolesLimit": "Hé ! Vous avez atteint le nombre maximum de rôles d'abonnés sur ce serveur. Vous pouvez passer à la version premium ci-dessous !",
     "offlineMessage": "Vous devez être titulaire d'une licence premium pour envoyer un message hors ligne !",
-    "premiumHint": "Vous appréciez le bot ? Débloquez-en plus avec Premium ! Cliquez sur le bouton ci-dessous pour passer à la version supérieure."
+    "premiumHint": "Vous appréciez le bot ? Débloquez-en plus avec Premium ! Cliquez sur le bouton ci-dessous pour passer à la version supérieure.",
+    "premiumHintSecond": "Vous appréciez le bot ?"
   },
   "giftLeaderboard": {
     "title": "Classement des Souscriptions de {streamerId}",
@@ -293,5 +298,12 @@
       "description": "Utilisez cette commande pour supprimer complètement vos données du robot."
     },
     "deleted": "Vos données ont été supprimées du robot. Si vous souhaitez utiliser à nouveau le robot, vous devez lier à nouveau votre compte."
+  },
+  "ignorePermissionsCommand": {
+    "commandData": {
+      "description": "Bascule si le bot Kick n'utilise que les permissions de Discord."
+    },
+    "willIgnore": "Kick bot reportera désormais les vérifications de permission à Discord. Gestion de l'accès aux commandes via la [Page d'intégration du serveur](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>).",
+    "willNotIgnore": "Kick bot appliquera désormais ses propres contrôles de permission. Utilisez la [Page d'intégration du serveur](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) pour gérer les permissions."
   }
 }

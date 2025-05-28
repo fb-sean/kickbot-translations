@@ -31,7 +31,11 @@
     "watch": "Katso",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] on nyt suorassa lähetyksessä!\n<:LinkIcon:1118592789488349325> Katso se täältä: [[URL]]",
     "why": "Miksi?",
-    "tryAgain": "Uudelleenyritys"
+    "tryAgain": "Uudelleenyritys",
+    "optionFilterType": "Määrittele, miten suodattimen tulisi toimia.",
+    "filterTypeExclude": "Sulje pois live-ilmoitukset avainsanoilla.",
+    "filterTypeInclude": "Sisällytä vain live-ilmoitukset, joissa on avainsanat.",
+    "invalidFilterType": "Suodatintyyppi on virheellinen! Käytä joko `exclude` tai `include`."
   },
   "problems": {
     "missingPermissions": "[Näyttää siltä, että kysyt itseltäsi, miksi botin vastaus on \"Puuttuvat käyttöoikeudet\". Jos haluat lisätietoja tästä, klikkaa tästä.](https://kick.bot/guide/permissions)"
@@ -52,7 +56,8 @@
     "counterLimit": "Hei! Olet saavuttanut tällä palvelimella seurattavien laskureiden enimmäismäärän. Voit päivittää premium-tasolle alla olevaan!",
     "leaderboardLimit": "Hei! Saavutit tällä palvelimella seurattavien tulostaulujen enimmäismäärän. Voit päivittää premium-tasolle alla olevaan!",
     "subscriberRolesLimit": "Hei! Olet saavuttanut tämän palvelimen tilaajaroolien enimmäismäärän. Voit päivittää premium-tasolle alla olevaan!",
-    "offlineMessage": "Hei! Sinun täytyy omistaa premium, jotta voit asettaa offline-viestin!"
+    "offlineMessage": "Hei! Sinun täytyy omistaa premium, jotta voit asettaa offline-viestin!",
+    "premiumHintSecond": "Nautitko botista?"
   },
   "giftLeaderboard": {
     "title": "Subs Leaderboard of {streamerId}",
@@ -293,5 +298,12 @@
       "description": "Tällä komennolla voit poistaa tietosi kokonaan botista."
     },
     "deleted": "Tietosi on poistettu botista. Jos haluat käyttää bottiasi uudelleen, sinun on yhdistettävä tilisi uudelleen."
+  },
+  "ignorePermissionsCommand": {
+    "commandData": {
+      "description": "Vaihda, jos Kick-botti käyttää vain Discordin käyttöoikeuksia."
+    },
+    "willIgnore": "Kick-botti siirtää nyt lupatarkastukset Discordiin. Hallitse komento-oikeuksia [Server Integrations Page](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) -sivun kautta.",
+    "willNotIgnore": "Kick-botti suorittaa nyt omat lupatarkastuksensa. Käytä [Server Integrations Page](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) käyttöoikeuksien hallintaan."
   }
 }

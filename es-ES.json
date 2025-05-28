@@ -31,7 +31,11 @@
     "defaultNotification": "<:O_:1118592785642180698> ¡[[STREAMER]] está transmitiendo en vivo ahora!\n<:LinkIcon:1118592789488349325> Míralo aquí: [[URL]]",
     "why": "¿Por qué?",
     "cleanUpAndOfflineMessage": "No puedes establecer un mensaje offline y activar la limpieza al mismo tiempo. (Se editaría y borraría el mensaje).",
-    "tryAgain": "Reintentar"
+    "tryAgain": "Reintentar",
+    "optionFilterType": "Define cómo debe funcionar el filtro.",
+    "filterTypeExclude": "Excluir notificaciones en directo con las palabras clave.",
+    "filterTypeInclude": "Incluir sólo notificaciones en directo con las palabras clave.",
+    "invalidFilterType": "El tipo de filtro no es válido. Utilice `exclude` o `include`."
   },
   "problems": {
     "missingPermissions": "[Parece que te estás preguntando por qué el bot responde con \"Permisos faltantes\". Para encontrar más información sobre esto, por favor haga clic aquí.](https://kick.bot/guide/permissions)"
@@ -52,7 +56,8 @@
     "leaderboardLimit": "¡Hey! Has alcanzado el máximo de clasificaciones que puedes seguir en este servidor. ¡Puedes mejorar a premium a continuación!",
     "subscriberRolesLimit": "¡Hey! Has alcanzado el número máximo de roles de suscriptor en este servidor. ¡Puede actualizar a premium a continuación!",
     "offlineMessage": "¡Eh! ¡Necesitas tener Premium para poner un mensaje offline!",
-    "premiumHint": "¿Disfrutas con el bot? ¡Desbloquea más con Premium! Haz clic en el botón de abajo para actualizar."
+    "premiumHint": "¿Disfrutas con el bot? ¡Desbloquea más con Premium! Haz clic en el botón de abajo para actualizar.",
+    "premiumHintSecond": "¿Disfrutando del bot?"
   },
   "giftLeaderboard": {
     "title": "Tabla de clasificación de suscriptores de {streamerId}",
@@ -293,5 +298,12 @@
       "description": "Usa este comando para borrar completamente tus datos del bot."
     },
     "deleted": "Tus datos han sido borrados del bot. Si quieres volver a utilizar el bot, tienes que volver a vincular tu cuenta."
+  },
+  "ignorePermissionsCommand": {
+    "commandData": {
+      "description": "Alternar si Kick bot usa sólo los permisos de Discord."
+    },
+    "willIgnore": "Kick bot ahora diferirá las comprobaciones de permisos a Discord. Gestiona el acceso a los comandos a través de la [Página de integraciones del servidor](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>).",
+    "willNotIgnore": "Kick bot ahora aplicará sus propias comprobaciones de permisos. Utilice la [Página de integraciones del servidor](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) para gestionar los permisos."
   }
 }

@@ -31,7 +31,11 @@
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] şimdi canlı yayında!\n<:LinkIcon:1118592789488349325> Buradan izleyebilirsiniz: [[URL]]",
     "why": "Neden?",
     "cleanUpAndOfflineMessage": "Aynı anda hem çevrimdışı bir mesaj ayarlayıp hem de temizlemeyi etkinleştiremezsiniz! (Mesajı düzenler ve siler.)",
-    "tryAgain": "Yeniden Dene"
+    "tryAgain": "Yeniden Dene",
+    "optionFilterType": "Filtrenin nasıl çalışması gerektiğini tanımlayın.",
+    "filterTypeExclude": "Anahtar kelimelerle canlı bildirimleri hariç tutun.",
+    "filterTypeInclude": "Yalnızca anahtar sözcükleri içeren canlı bildirimleri ekleyin.",
+    "invalidFilterType": "Filtre türü geçersiz! Lütfen `exclude` veya `include` kullanın."
   },
   "problems": {
     "missingPermissions": "[Görünüşe göre botun neden \"Eksik İzinler\" ile yanıt verdiğini kendinize soruyorsunuz. Bu konuda daha fazla bilgi almak için lütfen buraya tıklayın.](https://kick.bot/guide/permissions)"
@@ -52,7 +56,8 @@
     "leaderboardLimit": "Hey! Bu sunucuda takip edebileceğiniz maksimum liderlik tablosu sayısına ulaştınız. Aşağıdaki bağlantıdan Premium'a yükseltebilirsiniz!",
     "subscriberRolesLimit": "Hey! Bu sunucudaki maksimum abone rolü miktarına ulaştınız. Aşağıdan premium'a yükseltebilirsiniz!",
     "offlineMessage": "Hey! Çevrimdışı bir mesaj ayarlamak için premium sahibi olmanız gerekir!",
-    "premiumHint": "Botu beğendiniz mi? Premium ile daha fazlasının kilidini açın! Yükseltmek için aşağıdaki düğmeye tıklayın."
+    "premiumHint": "Botu beğendiniz mi? Premium ile daha fazlasının kilidini açın! Yükseltmek için aşağıdaki düğmeye tıklayın.",
+    "premiumHintSecond": "Bot hoşuna gitti mi?"
   },
   "giftLeaderboard": {
     "title": "{streamerId} yayıncısı için - Abone Liderlik Tablosu",
@@ -293,5 +298,12 @@
       "description": "Verilerinizi bottan tamamen silmek için bu komutu kullanın."
     },
     "deleted": "Verileriniz bottan silindi. Botu tekrar kullanmak istiyorsanız, hesabınızı tekrar bağlamanız gerekir."
+  },
+  "ignorePermissionsCommand": {
+    "commandData": {
+      "description": "Kick bot sadece Discord'un izinlerini kullanıyorsa değiştir."
+    },
+    "willIgnore": "Kick bot artık izin kontrollerini Discord'a erteleyecek. Sunucu Entegrasyonları Sayfası](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) üzerinden komut erişimini yönetin.",
+    "willNotIgnore": "Kick bot artık kendi izin kontrollerini uygulayacaktır. İzinleri yönetmek için [Sunucu Entegrasyonları Sayfasını](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) kullanın."
   }
 }

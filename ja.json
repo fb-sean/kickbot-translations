@@ -31,7 +31,11 @@
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] が配信を開始しました！\n<:LinkIcon:1118592789488349325> ここで視聴できます: [[URL]]",
     "why": "なぜ",
     "cleanUpAndOfflineMessage": "オフラインメッセージを設定し、同時にクリーンアップを有効にすることはできません！(メッセージを編集して削除してしまいます）。",
-    "tryAgain": "リトライ"
+    "tryAgain": "リトライ",
+    "optionFilterType": "フィルターがどのように機能するかを定義する。",
+    "filterTypeExclude": "キーワードでライブ通知を除外する。",
+    "filterTypeInclude": "キーワードを含むライブ通知のみを含める。",
+    "invalidFilterType": "フィルタの種類が無効です！exclude`または`include`を使用してください。"
   },
   "problems": {
     "missingPermissions": "[なぜ \"Missing Permissions \"とボットが応答するのか、自問自答しているようですね。この件に関する詳しい情報は、こちらをクリックしてください](https://kick.bot/guide/permissions)"
@@ -52,7 +56,8 @@
     "leaderboardLimit": "おっと！このサーバーで追跡できるリーダーボードの最大数に達しました。プレミアムにアップグレードすると、以下のようになります！",
     "subscriberRolesLimit": "このサーバーの契約者ロールが上限に達しました。以下からプレミアムにアップグレードできます！",
     "offlineMessage": "オフラインメッセージを設定するには、プレミアム会員になる必要があります！",
-    "premiumHint": "ボットを楽しんでいますか？プレミアムでさらにアンロック！下のボタンをクリックしてアップグレードしてください。"
+    "premiumHint": "ボットを楽しんでいますか？プレミアムでさらにアンロック！下のボタンをクリックしてアップグレードしてください。",
+    "premiumHintSecond": "ロボットを楽しんでいますか？"
   },
   "giftLeaderboard": {
     "title": "{streamerId}のサブリーダーボード",
@@ -293,5 +298,12 @@
       "description": "ボットからデータを完全に削除するには、このコマンドを使用します。"
     },
     "deleted": "あなたのデータはボットから削除されました。再びボットを使用したい場合は、アカウントを再度リンクする必要があります。"
+  },
+  "ignorePermissionsCommand": {
+    "commandData": {
+      "description": "キックボットがDiscordのパーミッションのみを使用するかどうかを切り替えます。"
+    },
+    "willIgnore": "キックボットがパーミッションのチェックをDiscordに委ねるようになりました。サーバー統合ページ](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) からコマンドアクセスを管理できるようになりました。",
+    "willNotIgnore": "キックボットが独自の権限チェックを行うようになりました。パーミッションの管理には[Server Integrations Page](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>)を使用してください。"
   }
 }
