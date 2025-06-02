@@ -35,7 +35,8 @@
     "optionFilterType": "Defina como o filtro deve funcionar.",
     "filterTypeExclude": "Excluir notificações ao vivo com as palavras-chave.",
     "filterTypeInclude": "Inclua apenas notificações ao vivo com as palavras-chave.",
-    "invalidFilterType": "O tipo de filtro é inválido! Por favor, use `exclude` ou `include`."
+    "invalidFilterType": "O tipo de filtro é inválido! Por favor, use `exclude` ou `include`.",
+    "optionOfflineMessage": "A mensagem quando o streamer está off-line."
   },
   "problems": {
     "missingPermissions": "[Parece que você está se perguntando por que o bot responde com \"Missing Permissions\" (Permissões ausentes). Para obter mais informações sobre isso, clique aqui.](https://kick.bot/guide/permissions)"
@@ -219,8 +220,7 @@
       "optionMessage": "Uma mensagem se você quiser ter uma mensagem personalizada.",
       "descriptionExpiration": "Defina o tempo de expiração da função de assinante.",
       "optionTime": "O tempo em dias em que a função de assinante é removida depois que o usuário cancela a assinatura.",
-      "descriptionRemove": "Remover uma configuração de função de assinante.",
-      "optionOfflineMessage": "Uma mensagem se o streamer estiver off-line."
+      "descriptionRemove": "Remover uma configuração de função de assinante."
     },
     "embed": {
       "title": "Função de assinante para ",
@@ -260,7 +260,10 @@
     "default_message": "A mensagem padrão do bot. (Não disponível nos contadores!)",
     "streamer_image": "A imagem do streamer. (Não disponível nos contadores!)",
     "slug": "O slug do streamer.",
-    "vodid": "ID de VOD do streamer. (Não disponível em contadores!)"
+    "vodid": "ID de VOD do streamer. (Não disponível em contadores!)",
+    "vod_id": "ID de VOD do streamer. (Disponível somente em mensagens off-line!)",
+    "vod_duration": "A duração do VOD do streamer. (Disponível somente em mensagens off-line!)",
+    "vod_image": "A imagem VOD do streamer. (Disponível somente em mensagens off-line!)"
   },
   "testCommand": {
     "commandData": {

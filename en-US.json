@@ -15,6 +15,7 @@
     "optionFilters": "Filter out live notifications by title keywords. Separate with commas: keyword1, keyword2",
     "optionFilterType": "Define how the filter should work.",
     "filterTypeExclude": "Exclude live notifications with the keywords.",
+    "optionOfflineMessage": "The message when the streamer is offline.",
     "filterTypeInclude": "Only include live notifications with the keywords.",
     "invalidFilterType": "The filter type is invalid! Please use either `exclude` or `include`.",
     "serverOnly": "This command can only be used in a server!",
@@ -217,7 +218,6 @@
       "optionStreamer": "The username of the streamer where the subscribers should be able to get the role.",
       "optionRole": "The role you want to give to the subscribers.",
       "optionMessage": "A message if you want to have a custom message.",
-      "optionOfflineMessage": "A message if the streamer is offline.",
       "descriptionExpiration": "Set the expiration time for the subscriber role.",
       "optionTime": "The time in days when the subscriber role get removed after the user unsubscribed.",
       "descriptionRemove": "Remove a subscriber role setup."
@@ -260,6 +260,9 @@
     "category_name": "The stream category image.",
     "default_message": "The default message. (Not available at counters!)",
     "streamer_image": "The streamer's avatar. (Not available at counters!)",
+    "vod_id": "The streamer's VOD ID. (Only available at offline messages!)",
+    "vod_duration": "The streamer's VOD duration. (Only available at offline messages!)",
+    "vod_image": "The streamer's VOD image. (Only available at offline messages!)",
     "slug": "The streamer's slug."
   },
   "testCommand": {

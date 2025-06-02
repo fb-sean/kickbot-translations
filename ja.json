@@ -35,7 +35,8 @@
     "optionFilterType": "フィルターがどのように機能するかを定義する。",
     "filterTypeExclude": "キーワードでライブ通知を除外する。",
     "filterTypeInclude": "キーワードを含むライブ通知のみを含める。",
-    "invalidFilterType": "フィルタの種類が無効です！exclude`または`include`を使用してください。"
+    "invalidFilterType": "フィルタの種類が無効です！exclude`または`include`を使用してください。",
+    "optionOfflineMessage": "ストリーマがオフラインのときのメッセージ。"
   },
   "problems": {
     "missingPermissions": "[なぜ \"Missing Permissions \"とボットが応答するのか、自問自答しているようですね。この件に関する詳しい情報は、こちらをクリックしてください](https://kick.bot/guide/permissions)"
@@ -219,8 +220,7 @@
       "optionMessage": "カスタムメッセージが必要な場合はメッセージを入力してください。",
       "descriptionExpiration": "サブスクライバ・ロールの有効期限を設定します。",
       "optionTime": "ユーザが購読を解除した後、購読者ロールが削除されるまでの日数。",
-      "descriptionRemove": "加入者の役割設定を削除する。",
-      "optionOfflineMessage": "ストリーマがオフラインの場合のメッセージ。"
+      "descriptionRemove": "加入者の役割設定を削除する。"
     },
     "embed": {
       "title": "ストリーマー {streamer} のサブスクライバーロール",
@@ -260,7 +260,10 @@
     "default_message": "デフォルトのメッセージ。（カウンターでは利用できません！）。",
     "streamer_image": "ストリーマーのプロフィール画像。 （カウンターでは利用できません！）。",
     "slug": "ストリーマーのスラッグ。",
-    "vodid": "ストリーマーのVOD ID。(カウンターではご利用いただけません）"
+    "vodid": "ストリーマーのVOD ID。(カウンターではご利用いただけません）",
+    "vod_id": "ストリーマーのVOD ID。(オフラインメッセージでのみ使用可能）",
+    "vod_duration": "ストリーマーのVOD期間。(オフラインメッセージでのみ利用可能）",
+    "vod_image": "ストリーマーのVOD画像(オフラインメッセージでのみ利用可能）"
   },
   "testCommand": {
     "commandData": {

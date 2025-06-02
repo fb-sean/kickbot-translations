@@ -35,7 +35,8 @@
     "optionFilterType": "Definieren Sie, wie der Filter funktionieren soll.",
     "filterTypeExclude": "Live-Benachrichtigungen mit den Schlüsselwörtern ausschließen.",
     "filterTypeInclude": "Nehmen Sie nur Live-Benachrichtigungen mit den Schlüsselwörtern auf.",
-    "invalidFilterType": "Der Filtertyp ist ungültig! Bitte verwenden Sie entweder `exclude` oder `include`."
+    "invalidFilterType": "Der Filtertyp ist ungültig! Bitte verwenden Sie entweder `exclude` oder `include`.",
+    "optionOfflineMessage": "Die Meldung, wenn der Streamer offline ist."
   },
   "problems": {
     "missingPermissions": "[Sie scheinen sich zu fragen, warum der Bot mit \"Missing Permissions\" antwortet. Weitere Informationen dazu finden Sie hier.](https://kick.bot/guide/permissions)"
@@ -219,8 +220,7 @@
       "optionMessage": "Eine Nachricht, wenn Sie eine benutzerdefinierte Nachricht wünschen.",
       "descriptionExpiration": "Legen Sie die Ablaufzeit für die Teilnehmerrolle fest.",
       "optionTime": "Tage bis zur Entfernung der Abonnentenrolle nach Abmeldung.",
-      "descriptionRemove": "Entfernen Sie die Einrichtung einer Teilnehmerrolle.",
-      "optionOfflineMessage": "Eine Meldung, wenn der Streamer offline ist."
+      "descriptionRemove": "Entfernen Sie die Einrichtung einer Teilnehmerrolle."
     },
     "embed": {
       "title": "Abonnentenrolle für ",
@@ -260,7 +260,10 @@
     "default_message": "Die Standardnachricht vom Bot. (Nicht verfügbar bei Zählern!)",
     "streamer_image": "Das Profilbild des Streamers. (Nicht verfügbar bei Zählern!)",
     "slug": "Der Slug des Streamers.",
-    "vodid": "Die VOD-ID des Streamers. (An den Schaltern nicht verfügbar!)"
+    "vodid": "Die VOD-ID des Streamers. (An den Schaltern nicht verfügbar!)",
+    "vod_id": "Die VOD-ID des Streamers. (Nur bei Offline-Nachrichten verfügbar!)",
+    "vod_duration": "Die VOD-Dauer des Streamers. (Nur bei Offline-Nachrichten verfügbar!)",
+    "vod_image": "Das VOD-Bild des Streamers. (Nur bei Offline-Nachrichten verfügbar!)"
   },
   "testCommand": {
     "commandData": {

@@ -35,7 +35,8 @@
     "optionFilterType": "Filtrenin nasıl çalışması gerektiğini tanımlayın.",
     "filterTypeExclude": "Anahtar kelimelerle canlı bildirimleri hariç tutun.",
     "filterTypeInclude": "Yalnızca anahtar sözcükleri içeren canlı bildirimleri ekleyin.",
-    "invalidFilterType": "Filtre türü geçersiz! Lütfen `exclude` veya `include` kullanın."
+    "invalidFilterType": "Filtre türü geçersiz! Lütfen `exclude` veya `include` kullanın.",
+    "optionOfflineMessage": "Yayıncı çevrimdışı olduğunda mesaj."
   },
   "problems": {
     "missingPermissions": "[Görünüşe göre botun neden \"Eksik İzinler\" ile yanıt verdiğini kendinize soruyorsunuz. Bu konuda daha fazla bilgi almak için lütfen buraya tıklayın.](https://kick.bot/guide/permissions)"
@@ -219,8 +220,7 @@
       "optionMessage": "Otomatik embed mesajı yerine kendiniz bir mesaj yazın.",
       "descriptionExpiration": "Abone rolü için sona erme süresini ayarlayın.",
       "optionTime": "Kullanıcı abonelikten çıktıktan sonra abone rolünün kaldırılacağı süreyi gün cinsinden girin.",
-      "descriptionRemove": "Bir abone rolü kurulumunu kaldırın.",
-      "optionOfflineMessage": "Yayıncı çevrimdışıysa bir mesaj."
+      "descriptionRemove": "Bir abone rolü kurulumunu kaldırın."
     },
     "embed": {
       "title": "Şu yayıncı için abonelik rolü: ",
@@ -260,7 +260,10 @@
     "default_message": "Varsayılan mesaj. (Sayaçlarda mevcut değildir!)",
     "streamer_image": "Yayıncının avatarı. (Sayaçlarda mevcut değildir!)",
     "slug": "Yayıncının kullanıcı adresi.",
-    "vodid": "Yayıncının VOD kimliği. (Sayaçlarda mevcut değil!)"
+    "vodid": "Yayıncının VOD kimliği. (Sayaçlarda mevcut değil!)",
+    "vod_id": "Yayıncının VOD Kimliği. (Yalnızca çevrimdışı mesajlarda kullanılabilir!)",
+    "vod_duration": "Yayıncının VOD süresi. (Yalnızca çevrimdışı mesajlarda kullanılabilir!)",
+    "vod_image": "Yayıncının VOD görüntüsü. (Sadece çevrimdışı mesajlarda mevcuttur!)"
   },
   "testCommand": {
     "commandData": {

@@ -35,7 +35,8 @@
     "optionFilterType": "Määrittele, miten suodattimen tulisi toimia.",
     "filterTypeExclude": "Sulje pois live-ilmoitukset avainsanoilla.",
     "filterTypeInclude": "Sisällytä vain live-ilmoitukset, joissa on avainsanat.",
-    "invalidFilterType": "Suodatintyyppi on virheellinen! Käytä joko `exclude` tai `include`."
+    "invalidFilterType": "Suodatintyyppi on virheellinen! Käytä joko `exclude` tai `include`.",
+    "optionOfflineMessage": "Viesti, kun streamer on offline."
   },
   "problems": {
     "missingPermissions": "[Näyttää siltä, että kysyt itseltäsi, miksi botin vastaus on \"Puuttuvat käyttöoikeudet\". Jos haluat lisätietoja tästä, klikkaa tästä.](https://kick.bot/guide/permissions)"
@@ -217,7 +218,6 @@
       "optionStreamer": "Sen striimaajan käyttäjänimi, jonka kautta tilaajien pitäisi saada rooli.",
       "optionRole": "Rooli, jonka haluat antaa tilaajille.",
       "optionMessage": "Viesti, jos haluat mukautetun viestin.",
-      "optionOfflineMessage": "Viesti, jos streamer on offline.",
       "descriptionExpiration": "Aseta tilaajan roolin voimassaoloaika.",
       "optionTime": "Aika päivinä, jolloin tilaajan rooli poistetaan sen jälkeen, kun käyttäjä on poistanut tilauksen.",
       "descriptionRemove": "Poista tilaajan rooliasetus."
@@ -260,7 +260,10 @@
     "category_name": "Virtauskategorian kuva.",
     "default_message": "Oletusviesti. (Ei käytettävissä laskureissa!)",
     "streamer_image": "Streamerin avatar. (Ei saatavilla tiskeillä!)",
-    "slug": "Streamerin etana."
+    "slug": "Streamerin etana.",
+    "vod_id": "Streamerin VOD-tunnus. (Käytettävissä vain offline-viesteissä!)",
+    "vod_duration": "Suoratoistopalvelun VOD-kesto. (Saatavilla vain offline-viesteissä!)",
+    "vod_image": "Streamerin VOD-kuva. (Saatavilla vain offline-viesteissä!)"
   },
   "testCommand": {
     "commandData": {

@@ -35,7 +35,8 @@
     "optionFilterType": "Définir le fonctionnement du filtre.",
     "filterTypeExclude": "Exclure les notifications en direct avec les mots-clés.",
     "filterTypeInclude": "N'incluez que les notifications en direct avec les mots-clés.",
-    "invalidFilterType": "Le type de filtre n'est pas valide ! Veuillez utiliser `exclude` ou `include`."
+    "invalidFilterType": "Le type de filtre n'est pas valide ! Veuillez utiliser `exclude` ou `include`.",
+    "optionOfflineMessage": "Le message lorsque le streamer est hors ligne."
   },
   "problems": {
     "missingPermissions": "[Il semble que vous vous demandiez pourquoi le bot répond par \"Missing Permissions\". Pour plus d'informations à ce sujet, veuillez cliquer ici.](https://kick.bot/guide/permissions)"
@@ -219,8 +220,7 @@
       "optionMessage": "Un message si vous voulez avoir un message personnalisé.",
       "descriptionExpiration": "Définir le délai d'expiration du rôle d'abonné.",
       "optionTime": "Délai en jours pendant lequel le rôle d'abonné est supprimé après que l'utilisateur s'est désabonné.",
-      "descriptionRemove": "Supprimer une configuration de rôle d'abonné.",
-      "optionOfflineMessage": "Un message si le streamer est hors ligne."
+      "descriptionRemove": "Supprimer une configuration de rôle d'abonné."
     },
     "embed": {
       "title": "Rôle d'abonné.e pour",
@@ -260,7 +260,10 @@
     "default_message": "Le message par défaut. (Non disponible pour les compteurs !)",
     "streamer_image": "L'image du streamer. (Non disponible pour les compteurs !)",
     "slug": "L'identifiant du streamer.",
-    "vodid": "L'identifiant VOD du streamer. (Non disponible aux guichets !)"
+    "vodid": "L'identifiant VOD du streamer. (Non disponible aux guichets !)",
+    "vod_id": "L'identifiant VOD du streamer. (Uniquement disponible pour les messages hors ligne !)",
+    "vod_duration": "La durée de la VOD du streamer. (Uniquement disponible pour les messages hors ligne !)",
+    "vod_image": "L'image VOD du streamer. (Uniquement disponible pour les messages hors ligne !)"
   },
   "testCommand": {
     "commandData": {
