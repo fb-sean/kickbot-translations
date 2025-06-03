@@ -263,7 +263,12 @@
     "vodid": "Die VOD-ID des Streamers. (An den Schaltern nicht verfügbar!)",
     "vod_id": "Die VOD-ID des Streamers. (Nur bei Offline-Nachrichten verfügbar!)",
     "vod_duration": "Die VOD-Dauer des Streamers. (Nur bei Offline-Nachrichten verfügbar!)",
-    "vod_image": "Das VOD-Bild des Streamers. (Nur bei Offline-Nachrichten verfügbar!)"
+    "vod_image": "Das VOD-Bild des Streamers. (Nur bei Offline-Nachrichten verfügbar!)",
+    "created_timestamp": "Das Erstellungsdatum des Streams als Zeitstempel in Sekunden. (Nicht verfügbar bei Zählern!)",
+    "vod_stream_started_at": "Das Startdatum des VOD-Streams. (Nur bei Offline-Nachrichten verfügbar!)",
+    "vod_stream_started_timestamp": "Das Startdatum des VOD-Streams als Zeitstempel in Sekunden. (Nur bei Offline-Meldungen verfügbar!)",
+    "vod_stream_ended_at": "Das Enddatum des VOD-Streams. (Nur bei Offline-Nachrichten verfügbar!)",
+    "vod_stream_ended_timestamp": "Das Enddatum des VOD-Streams als Zeitstempel in Sekunden. (Nur bei Offline-Meldungen verfügbar!)"
   },
   "testCommand": {
     "commandData": {

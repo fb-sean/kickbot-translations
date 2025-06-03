@@ -263,7 +263,12 @@
     "vodid": "ストリーマーのVOD ID。(カウンターではご利用いただけません）",
     "vod_id": "ストリーマーのVOD ID。(オフラインメッセージでのみ使用可能）",
     "vod_duration": "ストリーマーのVOD期間。(オフラインメッセージでのみ利用可能）",
-    "vod_image": "ストリーマーのVOD画像(オフラインメッセージでのみ利用可能）"
+    "vod_image": "ストリーマーのVOD画像(オフラインメッセージでのみ利用可能）",
+    "created_timestamp": "ストリームの作成日時。(カウンタでは使用できません!)",
+    "vod_stream_started_at": "VOD配信開始日(オフラインメッセージでのみ視聴可能）",
+    "vod_stream_started_timestamp": "VODストリームの開始日。(オフラインメッセージでのみ使用可能!)",
+    "vod_stream_ended_at": "VOD配信終了日(オフラインメッセージでのみ視聴可能）",
+    "vod_stream_ended_timestamp": "VOD ストリームの終了日を秒単位のタイムスタンプで表示します。(オフラインメッセージでのみ使用可能!)"
   },
   "testCommand": {
     "commandData": {

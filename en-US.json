@@ -256,6 +256,7 @@
     "new_line": "A new line. (Not available at counters!)",
     "followers": "The streamer's follower count.",
     "created_at": "The stream creation date. (Not available at counters!)",
+    "created_timestamp": "The stream creation date as timestamp in seconds. (Not available at counters!)",
     "category": "The stream category.",
     "category_name": "The stream category image.",
     "default_message": "The default message. (Not available at counters!)",
@@ -263,6 +264,10 @@
     "vod_id": "The streamer's VOD ID. (Only available at offline messages!)",
     "vod_duration": "The streamer's VOD duration. (Only available at offline messages!)",
     "vod_image": "The streamer's VOD image. (Only available at offline messages!)",
+    "vod_stream_started_at": "The VOD stream start date. (Only available at offline messages!)",
+    "vod_stream_started_timestamp": "The VOD stream start date as timestamp in seconds. (Only available at offline messages!)",
+    "vod_stream_ended_at": "The VOD stream end date. (Only available at offline messages!)",
+    "vod_stream_ended_timestamp": "The VOD stream end date as timestamp in seconds. (Only available at offline messages!)",
     "slug": "The streamer's slug."
   },
   "testCommand": {

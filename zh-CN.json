@@ -35,7 +35,8 @@
     "optionFilterType": "定义过滤器的工作方式。",
     "filterTypeExclude": "排除包含关键字的实时通知。",
     "filterTypeInclude": "只包含包含关键字的实时通知。",
-    "invalidFilterType": "过滤器类型无效！请使用 `exclude` 或 `include`."
+    "invalidFilterType": "过滤器类型无效！请使用 `exclude` 或 `include`.",
+    "optionOfflineMessage": "流媒体离线时的信息。"
   },
   "problems": {
     "missingPermissions": "[看起来你在问自己为什么机器人回应了\"缺少权限\"。要了解更多信息，请点击这里。](https://kick.bot/guide/permissions)"
@@ -262,7 +263,12 @@
     "vodid": "流媒体的 VOD ID。(柜台不提供！）。",
     "vod_id": "流媒体的 VOD ID。(仅适用于离线信息）",
     "vod_duration": "流媒体的点播时长。(仅适用于离线信息）",
-    "vod_image": "流媒体的 VOD 图像。(仅适用于离线信息！）。"
+    "vod_image": "流媒体的 VOD 图像。(仅适用于离线信息！）。",
+    "created_timestamp": "以秒为单位的时间戳数据流创建日期。(计数器中没有！）。",
+    "vod_stream_started_at": "点播流开始日期。(仅限离线信息！）。",
+    "vod_stream_started_timestamp": "点播流开始日期（以秒为单位的时间戳）。(仅适用于离线信息）",
+    "vod_stream_ended_at": "点播流结束日期。(仅限离线信息！）。",
+    "vod_stream_ended_timestamp": "点播流结束日期（以秒为单位的时间戳）。(仅适用于离线信息）"
   },
   "testCommand": {
     "commandData": {

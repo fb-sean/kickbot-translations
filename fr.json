@@ -263,7 +263,12 @@
     "vodid": "L'identifiant VOD du streamer. (Non disponible aux guichets !)",
     "vod_id": "L'identifiant VOD du streamer. (Uniquement disponible pour les messages hors ligne !)",
     "vod_duration": "La durée de la VOD du streamer. (Uniquement disponible pour les messages hors ligne !)",
-    "vod_image": "L'image VOD du streamer. (Uniquement disponible pour les messages hors ligne !)"
+    "vod_image": "L'image VOD du streamer. (Uniquement disponible pour les messages hors ligne !)",
+    "created_timestamp": "La date de création du flux sous forme d'horodatage en secondes. (Non disponible pour les compteurs !)",
+    "vod_stream_started_at": "La date de début du flux VOD. (Uniquement disponible pour les messages hors ligne !)",
+    "vod_stream_started_timestamp": "La date de début du flux VOD sous forme d'horodatage en secondes. (Uniquement disponible pour les messages hors ligne !)",
+    "vod_stream_ended_at": "La date de fin du flux VOD. (Uniquement disponible pour les messages hors ligne !)",
+    "vod_stream_ended_timestamp": "La date de fin du flux VOD sous forme d'horodatage en secondes. (Uniquement disponible pour les messages hors ligne !)"
   },
   "testCommand": {
     "commandData": {

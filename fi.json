@@ -263,7 +263,12 @@
     "slug": "Streamerin etana.",
     "vod_id": "Streamerin VOD-tunnus. (Käytettävissä vain offline-viesteissä!)",
     "vod_duration": "Suoratoistopalvelun VOD-kesto. (Saatavilla vain offline-viesteissä!)",
-    "vod_image": "Streamerin VOD-kuva. (Saatavilla vain offline-viesteissä!)"
+    "vod_image": "Streamerin VOD-kuva. (Saatavilla vain offline-viesteissä!)",
+    "created_timestamp": "Virran luontipäivämäärä aikaleimana sekunteina. (Ei käytettävissä laskureissa!)",
+    "vod_stream_started_at": "VOD-striimin alkamispäivä. (Saatavilla vain offline-viesteissä!)",
+    "vod_stream_started_timestamp": "VOD-striimin alkamispäivämäärä aikaleimana sekunteina. (Käytettävissä vain offline-viesteissä!)",
+    "vod_stream_ended_at": "VOD-striimin päättymispäivä. (Saatavilla vain offline-viesteissä!)",
+    "vod_stream_ended_timestamp": "VOD-striimin päättymispäivä aikaleimana sekunteina. (Käytettävissä vain offline-viesteissä!)"
   },
   "testCommand": {
     "commandData": {

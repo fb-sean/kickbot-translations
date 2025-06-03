@@ -263,7 +263,12 @@
     "vodid": "Yayıncının VOD kimliği. (Sayaçlarda mevcut değil!)",
     "vod_id": "Yayıncının VOD Kimliği. (Yalnızca çevrimdışı mesajlarda kullanılabilir!)",
     "vod_duration": "Yayıncının VOD süresi. (Yalnızca çevrimdışı mesajlarda kullanılabilir!)",
-    "vod_image": "Yayıncının VOD görüntüsü. (Sadece çevrimdışı mesajlarda mevcuttur!)"
+    "vod_image": "Yayıncının VOD görüntüsü. (Sadece çevrimdışı mesajlarda mevcuttur!)",
+    "created_timestamp": "Saniye cinsinden zaman damgası olarak akış oluşturma tarihi. (Sayaçlarda mevcut değil!)",
+    "vod_stream_started_at": "VOD yayını başlangıç tarihi. (Sadece çevrimdışı mesajlarda mevcuttur!)",
+    "vod_stream_started_timestamp": "Saniye cinsinden zaman damgası olarak VOD akışı başlangıç tarihi. (Yalnızca çevrimdışı mesajlarda kullanılabilir!)",
+    "vod_stream_ended_at": "VOD yayını bitiş tarihi. (Sadece çevrimdışı mesajlarda mevcuttur!)",
+    "vod_stream_ended_timestamp": "Saniye cinsinden zaman damgası olarak VOD akış bitiş tarihi. (Yalnızca çevrimdışı mesajlarda kullanılabilir!)"
   },
   "testCommand": {
     "commandData": {

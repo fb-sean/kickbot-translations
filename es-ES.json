@@ -263,7 +263,12 @@
     "vodid": "ID VOD del streamer. (¡No disponible en los mostradores!)",
     "vod_id": "ID VOD del streamer. (¡Sólo disponible en mensajes offline!)",
     "vod_duration": "La duración del VOD del streamer. (¡Sólo disponible en mensajes offline!)",
-    "vod_image": "La imagen VOD del streamer. (¡Sólo disponible en mensajes offline!)"
+    "vod_image": "La imagen VOD del streamer. (¡Sólo disponible en mensajes offline!)",
+    "created_timestamp": "La fecha de creación del flujo como marca de tiempo en segundos. (¡No disponible en los contadores!)",
+    "vod_stream_started_at": "La fecha de inicio del streaming VOD. (¡Sólo disponible en mensajes sin conexión!)",
+    "vod_stream_started_timestamp": "La fecha de inicio del flujo VOD como marca de tiempo en segundos. (¡Sólo disponible en mensajes sin conexión!)",
+    "vod_stream_ended_at": "La fecha de finalización del streaming VOD. (¡Sólo disponible en mensajes offline!)",
+    "vod_stream_ended_timestamp": "La fecha de finalización del flujo VOD como marca de tiempo en segundos. (¡Sólo disponible en mensajes sin conexión!)"
   },
   "testCommand": {
     "commandData": {
