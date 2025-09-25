@@ -36,7 +36,8 @@
     "watch": "Watch",
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] is now live!\n<:LinkIcon:1118592789488349325> Watch it here: [[URL]]",
     "why": "Why?",
-    "tryAgain": "Retry"
+    "tryAgain": "Retry",
+    "default": "Default"
   },
   "problems": {
     "missingPermissions": "[Seems like you are asking yourself why the bot response with \"Missing Permissions\". To find more information about this, please click here.](https://kick.bot/guide/permissions)"
@@ -53,6 +54,7 @@
     "hasPremium": "You already have premium. You can use the button below to cancel it.",
     "noPremium": "This command is only available for premium servers!",
     "premiumHint": "Enjoying the bot? Unlock more with Premium! Click the button below to upgrade.",
+    "premiumHint2": "Want to support {streamer} and the bot? Click the button below get extra perks! (Or get it for your own server.)",
     "premiumHintSecond": "Enjoying the bot?",
     "streamerLimit": "Hey! You reached the maximum amount of streamers you can track on this server. You can upgrade to premium to below!",
     "counterLimit": "Hey! You reached the maximum amount of counters you can track on this server. You can upgrade to premium to below!",
@@ -86,7 +88,10 @@
     "connectedAndGotSubscriberRole": "Your Discord account is now connected to **{username}** and you got the subscriber role for **{streamer}**!",
     "connectedButNotASubscriber": "Your Discord account is now connected to **{username}** but you are not a subscriber of **{streamer}** so you didn't get the subscriber role.",
     "connectedButErrorByAddingRole": "Your Discord account is now connected to **{username}** but I got a error while trying to add the subscriber role. \nError: {error}",
-    "kickWelcomeMessage": "Hello {username}! I'm the #1 Kick x Discord Integration. You are now linked with your Discord account {discordUsername}. If you have any questions, feel free to join the support server at https://discord.gg/ZVERh35 !"
+    "kickWelcomeMessage": "Hello {username}! I'm the #1 Kick x Discord Integration. You are now linked with your Discord account {discordUsername}. If you have any questions, feel free to join the support server at https://discord.gg/ZVERh35 !",
+    "loggedInAs": "Signed in as {username}",
+    "notYou": "Not you?",
+    "alreadySyncedKickAccount": "{username} is already linked to a Discord account that has claimed the subscriber role for {streamer}."
   },
   "addCommand": {
     "commandData": {
@@ -313,5 +318,35 @@
     },
     "willIgnore": "Kick bot will now defer permission checks to Discord. Manage command access via the [Server Integrations Page](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>).",
     "willNotIgnore": "Kick bot will now enforce its own permission checks. Use the [Server Integrations Page](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) to manage permissions."
+  },
+  "designCommand": {
+    "commandData": {
+      "description": "Design the bot as you like.",
+      "avatarOption": "Set a new avatar. (This overwrites the current.)",
+      "bannerOption": "Set a new banner. (This overwrites the current.)"
+    },
+    "noPremium": "You need to own \"Premium Advance\" to customize your bot’s design.",
+    "invalidAvatar": "Invalid avatar image type, please use a .png, .jpg, .webp or .gif.",
+    "fetchAvatarErrored": "Fetching your provided avatar failed. Please contact the support.",
+    "invalidBanner": "Invalid banner image type, please use a .png, .jpg, .webp or .gif.",
+    "fetchBannerErrored": "Fetching your provided avatar failed. Please contact the support.",
+    "updateError": "I couldn't update my design. Please contact the support.",
+    "cooldown": "Designing your bot is on cooldown. Please wait up to 10 minutes to update the bot again.",
+    "message": {
+      "username": "Username",
+      "avatar": "Avatar",
+      "banner": "Banner",
+      "aboutMe": "About Me"
+    },
+    "descriptions": {
+      "username": "Leaving this empty will reset the username.",
+      "aboutMe": "Leaving this empty will reset the about me."
+    },
+    "buttons": {
+      "editAboutMeOrUsername": "Edit About Me or Username",
+      "resetAvatar": "Reset Avatar",
+      "resetBanner": "Reset Banner",
+      "resetAll": "Reset All"
+    }
   }
 }

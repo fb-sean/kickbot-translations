@@ -36,7 +36,8 @@
     "filterTypeExclude": "استبعاد الإشعارات المباشرة بالكلمات الرئيسية.",
     "filterTypeInclude": "تضمين الإشعارات المباشرة فقط مع الكلمات الرئيسية.",
     "invalidFilterType": "نوع المرشح غير صالح! يرجى استخدام إما \"استبعاد\" أو \"تضمين\".",
-    "optionOfflineMessage": "الرسالة عندما يكون جهاز البث غير متصل بالإنترنت."
+    "optionOfflineMessage": "الرسالة عندما يكون جهاز البث غير متصل بالإنترنت.",
+    "default": "افتراضي"
   },
   "problems": {
     "missingPermissions": "[يبدو أنك تسأل نفسك لماذا يستجيب الروبوت بـ \"أذونات مفقودة\". للعثور على مزيد من المعلومات حول هذا الأمر، يُرجى النقر هنا.](https://kick.bot/guide/permissions)"
@@ -58,7 +59,8 @@
     "leaderboardLimit": "لقد وصلت إلى الحد الأقصى من لوحات المتصدرين التي يمكنك تتبعها على هذا الخادم. يمكنك الترقية إلى بريميوم إلى الأسفل!",
     "subscriberRolesLimit": "لقد وصلت إلى الحد الأقصى لعدد أدوار المشتركين على هذا الخادم. يمكنك الترقية إلى بريميوم إلى أدناه!",
     "offlineMessage": "تحتاج إلى امتلاك قسط لتعيين رسالة غير متصلة بالإنترنت!",
-    "premiumHintSecond": "هل تستمتع بالروبوت؟"
+    "premiumHintSecond": "هل تستمتع بالروبوت؟",
+    "premiumHint2": "هل تريد دعم {streamer} والبوت؟ انقر على الزر أدناه للحصول على مزايا إضافية! (أو احصل عليه لخادمك الخاص)."
   },
   "giftLeaderboard": {
     "title": "لوحة المتصدرين الغواصات في {streamerId}",
@@ -86,7 +88,10 @@
     "connectedAndGotSubscriberRole": "حسابك على ديسكورد متصل الآن بـ **{username}** وقد حصلت على دور المشترك في **{streamer}**!",
     "connectedButNotASubscriber": "حسابك على ديسكورد متصل الآن بـ **{username}** لكنك لست مشتركًا في **{streamer}** لذا لم تحصل على دور المشترك.",
     "connectedButErrorByAddingRole": "حساب ديسكورد الخاص بك متصل الآن بـ **{username}** ولكن حصلت على خطأ أثناء محاولة إضافة دور المشترك.\nخطأ: {error}",
-    "kickWelcomeMessage": "مرحبًا {username}! أنا #1 Kick x Discord Integration. أنت الآن مرتبط بحسابك على ديسكورد {discordUsername}. إذا كانت لديك أي أسئلة، فلا تتردد في الانضمام إلى خادم الدعم على https://discord.gg/ZVERh35 !"
+    "kickWelcomeMessage": "مرحبًا {username}! أنا #1 Kick x Discord Integration. أنت الآن مرتبط بحسابك على ديسكورد {discordUsername}. إذا كانت لديك أي أسئلة، فلا تتردد في الانضمام إلى خادم الدعم على https://discord.gg/ZVERh35 !",
+    "loggedInAs": "تم تسجيل الدخول باسم {username}",
+    "notYou": "ليس أنت؟",
+    "alreadySyncedKickAccount": "{username} مرتبط بالفعل بحساب على موقع ديسكورد الذي ادعى دور المشترك في {streamer}."
   },
   "addCommand": {
     "commandData": {
@@ -313,5 +318,35 @@
     },
     "willIgnore": "سيقوم روبوت الركلة الآن بتأجيل عمليات التحقق من الأذونات إلى Discord. إدارة الوصول إلى الأوامر عبر [صفحة تكامل الخادم](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>).",
     "willNotIgnore": "سيفرض Kick bot الآن عمليات التحقق من الأذونات الخاصة به. استخدم [صفحة تكامل الخادم](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) لإدارة الأذونات."
+  },
+  "designCommand": {
+    "commandData": {
+      "description": "صمم الروبوت كما تريد.",
+      "avatarOption": "تعيين صورة رمزية جديدة. (هذا يستبدل الصورة الرمزية الحالية).",
+      "bannerOption": "تعيين شعار جديد. (هذا يحل محل الحالي)."
+    },
+    "message": {
+      "username": "اسم المستخدم",
+      "avatar": "الصورة الرمزية",
+      "banner": "اللافتة",
+      "aboutMe": "نبذة عني"
+    },
+    "descriptions": {
+      "username": "سيؤدي تركها فارغة إلى إعادة تعيين اسم المستخدم.",
+      "aboutMe": "سيؤدي ترك هذا فارغاً إلى إعادة تعيين نبذة عني."
+    },
+    "buttons": {
+      "editAboutMeOrUsername": "تحرير نبذة عني أو اسم المستخدم",
+      "resetAvatar": "إعادة تعيين الصورة الرمزية",
+      "resetBanner": "إعادة تعيين الشعار",
+      "resetAll": "إعادة تعيين الكل"
+    },
+    "noPremium": "تحتاج إلى امتلاك \"Premium Advance\" لتخصيص تصميم الروبوت الخاص بك.",
+    "invalidAvatar": "نوع الصورة الرمزية غير صالح، يُرجى استخدام .png أو .jpg أو .webp أو .gif.",
+    "fetchAvatarErrored": "فشل جلب الصورة الرمزية التي قدمتها. يرجى الاتصال بالدعم.",
+    "invalidBanner": "نوع صورة الشعار غير صالح، يُرجى استخدام .png أو .jpg أو .webp أو .gif.",
+    "fetchBannerErrored": "فشل جلب الصورة الرمزية التي قدمتها. يرجى الاتصال بالدعم.",
+    "updateError": "لم أتمكن من تحديث تصميمي. يرجى الاتصال بالدعم.",
+    "cooldown": "تصميم الروبوت الخاص بك في وضع التهدئة. يرجى الانتظار لمدة تصل إلى 10 دقائق لتحديث الروبوت مرة أخرى."
   }
 }

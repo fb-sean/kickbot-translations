@@ -36,7 +36,8 @@
     "filterTypeExclude": "キーワードでライブ通知を除外する。",
     "filterTypeInclude": "キーワードを含むライブ通知のみを含める。",
     "invalidFilterType": "フィルタの種類が無効です！exclude`または`include`を使用してください。",
-    "optionOfflineMessage": "ストリーマがオフラインのときのメッセージ。"
+    "optionOfflineMessage": "ストリーマがオフラインのときのメッセージ。",
+    "default": "デフォルト"
   },
   "problems": {
     "missingPermissions": "[なぜ \"Missing Permissions \"とボットが応答するのか、自問自答しているようですね。この件に関する詳しい情報は、こちらをクリックしてください](https://kick.bot/guide/permissions)"
@@ -58,7 +59,8 @@
     "subscriberRolesLimit": "このサーバーの契約者ロールが上限に達しました。以下からプレミアムにアップグレードできます！",
     "offlineMessage": "オフラインメッセージを設定するには、プレミアム会員になる必要があります！",
     "premiumHint": "ボットを楽しんでいますか？プレミアムでさらにアンロック！下のボタンをクリックしてアップグレードしてください。",
-    "premiumHintSecond": "ロボットを楽しんでいますか？"
+    "premiumHintSecond": "ロボットを楽しんでいますか？",
+    "premiumHint2": "603631148]]とボットをサポートしたいですか？下のボタンをクリックして特典をゲットしてください！(または、ご自分のサーバー用に入手してください)。"
   },
   "giftLeaderboard": {
     "title": "{streamerId}のサブリーダーボード",
@@ -86,7 +88,10 @@
     "connectedAndGotSubscriberRole": "あなたのDiscordアカウントは**{username}**に接続され、**{streamer}**の加入者ロールを取得しました！",
     "connectedButNotASubscriber": "あなたのDiscordアカウントは**{username}**に接続されましたが、あなたは**{streamer}**の加入者ではないため、加入者ロールを取得できませんでした。",
     "connectedButErrorByAddingRole": "あなたのDiscordアカウントは**{username}**に接続されましたが、加入者ロールを追加しようとしてエラーが発生しました。\nエラーが発生しました：{error}",
-    "kickWelcomeMessage": "こんにちは{username}！キック×Discord統合第1号です。Discordアカウント{discordUsername}との連携が完了しました。何か質問があれば、https://discord.gg/ZVERh35 のサポートサーバーに気軽に参加してください！"
+    "kickWelcomeMessage": "こんにちは{username}！キック×Discord統合第1号です。Discordアカウント{discordUsername}との連携が完了しました。何か質問があれば、https://discord.gg/ZVERh35 のサポートサーバーに気軽に参加してください！",
+    "loggedInAs": "756755626]]としてサインイン。",
+    "notYou": "君は違うのか？",
+    "alreadySyncedKickAccount": "[70545734]]はすでにundefinedの加入者ロールを主張したDiscordアカウントにリンクされています。"
   },
   "addCommand": {
     "commandData": {
@@ -313,5 +318,35 @@
     },
     "willIgnore": "キックボットがパーミッションのチェックをDiscordに委ねるようになりました。サーバー統合ページ](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) からコマンドアクセスを管理できるようになりました。",
     "willNotIgnore": "キックボットが独自の権限チェックを行うようになりました。パーミッションの管理には[Server Integrations Page](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>)を使用してください。"
+  },
+  "designCommand": {
+    "commandData": {
+      "description": "好きなようにボットをデザインしてください。",
+      "avatarOption": "新しいアバターを設定します。(現在のアバターは上書きされます。）",
+      "bannerOption": "新しいバナーを設定する。(これは現在のものを上書きする）。"
+    },
+    "message": {
+      "username": "ユーザー名",
+      "avatar": "アバター",
+      "banner": "バナー",
+      "aboutMe": "私について"
+    },
+    "descriptions": {
+      "username": "これを空にすると、ユーザー名はリセットされる。",
+      "aboutMe": "ここを空にしておくと、自分についてがリセットされる。"
+    },
+    "buttons": {
+      "editAboutMeOrUsername": "自己紹介またはユーザー名の編集",
+      "resetAvatar": "アバターのリセット",
+      "resetBanner": "リセットバナー",
+      "resetAll": "すべてリセット"
+    },
+    "noPremium": "ボットのデザインをカスタマイズするには、「プレミアム・アドバンス」を所有する必要があります。",
+    "invalidAvatar": "アバターの画像タイプが無効です。.png、.jpg、.webp、または.gifを使用してください。",
+    "fetchAvatarErrored": "アバターの取得に失敗しました。サポートまでご連絡ください。",
+    "invalidBanner": "バナー画像の種類が無効です。.png、.jpg、.webp、または.gifを使用してください。",
+    "fetchBannerErrored": "アバターの取得に失敗しました。サポートまでご連絡ください。",
+    "updateError": "デザインを更新できませんでした。サポートに連絡してください。",
+    "cooldown": "ボットがクールダウン中です。再度ボットを更新するには、最大10分お待ちください。"
   }
 }

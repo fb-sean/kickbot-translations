@@ -36,7 +36,8 @@
     "filterTypeExclude": "Anahtar kelimelerle canlı bildirimleri hariç tutun.",
     "filterTypeInclude": "Yalnızca anahtar sözcükleri içeren canlı bildirimleri ekleyin.",
     "invalidFilterType": "Filtre türü geçersiz! Lütfen `exclude` veya `include` kullanın.",
-    "optionOfflineMessage": "Yayıncı çevrimdışı olduğunda mesaj."
+    "optionOfflineMessage": "Yayıncı çevrimdışı olduğunda mesaj.",
+    "default": "Varsayılan"
   },
   "problems": {
     "missingPermissions": "[Görünüşe göre botun neden \"Eksik İzinler\" ile yanıt verdiğini kendinize soruyorsunuz. Bu konuda daha fazla bilgi almak için lütfen buraya tıklayın.](https://kick.bot/guide/permissions)"
@@ -58,7 +59,8 @@
     "subscriberRolesLimit": "Hey! Bu sunucudaki maksimum abone rolü miktarına ulaştınız. Aşağıdan premium'a yükseltebilirsiniz!",
     "offlineMessage": "Hey! Çevrimdışı bir mesaj ayarlamak için premium sahibi olmanız gerekir!",
     "premiumHint": "Botu beğendiniz mi? Premium ile daha fazlasının kilidini açın! Yükseltmek için aşağıdaki düğmeye tıklayın.",
-    "premiumHintSecond": "Bot hoşuna gitti mi?"
+    "premiumHintSecond": "Bot hoşuna gitti mi?",
+    "premiumHint2": "{streamer} ve botu desteklemek ister misiniz? Ekstra avantajlar elde etmek için aşağıdaki düğmeye tıklayın! (Veya kendi sunucunuz için alın.)"
   },
   "giftLeaderboard": {
     "title": "{streamerId} yayıncısı için - Abone Liderlik Tablosu",
@@ -86,7 +88,10 @@
     "connectedAndGotSubscriberRole": "Discord hesabınız artık **{username}** adresine bağlı ve **{streamer}** için abone rolünü aldınız!",
     "connectedButNotASubscriber": "Discord hesabınız artık **{username}** adresine bağlı ancak **{streamer}** abonesi değilsiniz, bu nedenle abone rolünü almadınız.",
     "connectedButErrorByAddingRole": "Discord hesabınız şu anda **{username}** adresine bağlı ancak abone rolünü eklemeye çalışırken bir hata aldım.\nHata oluştu: {error}",
-    "kickWelcomeMessage": "Merhaba {username}! Ben 1 numaralı Kick x Discord Entegrasyonuyum. Artık Discord hesabınız {discordUsername} ile bağlantılısınız. Herhangi bir sorunuz varsa, https://discord.gg/ZVERh35 adresindeki destek sunucusuna katılmaktan çekinmeyin!"
+    "kickWelcomeMessage": "Merhaba {username}! Ben 1 numaralı Kick x Discord Entegrasyonuyum. Artık Discord hesabınız {discordUsername} ile bağlantılısınız. Herhangi bir sorunuz varsa, https://discord.gg/ZVERh35 adresindeki destek sunucusuna katılmaktan çekinmeyin!",
+    "loggedInAs": "{username} olarak oturum açıldı",
+    "notYou": "Sen değil misin?",
+    "alreadySyncedKickAccount": "{username} zaten {streamer} için abone rolü talep eden bir Discord hesabına bağlı."
   },
   "addCommand": {
     "commandData": {
@@ -313,5 +318,35 @@
     },
     "willIgnore": "Kick bot artık izin kontrollerini Discord'a erteleyecek. Sunucu Entegrasyonları Sayfası](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) üzerinden komut erişimini yönetin.",
     "willNotIgnore": "Kick bot artık kendi izin kontrollerini uygulayacaktır. İzinleri yönetmek için [Sunucu Entegrasyonları Sayfasını](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) kullanın."
+  },
+  "designCommand": {
+    "commandData": {
+      "description": "Botu istediğiniz gibi tasarlayın.",
+      "avatarOption": "Yeni bir avatar ayarlayın. (Bu mevcut olanın üzerine yazar.)",
+      "bannerOption": "Yeni bir afiş ayarlayın. (Bu, geçerli olanın üzerine yazar.)"
+    },
+    "message": {
+      "username": "Kullanıcı Adı",
+      "avatar": "Avatar",
+      "banner": "Banner",
+      "aboutMe": "Benim hakkımda"
+    },
+    "descriptions": {
+      "username": "Bunu boş bırakmak kullanıcı adını sıfırlayacaktır.",
+      "aboutMe": "Bunu boş bırakmak hakkımda bölümünü sıfırlayacaktır."
+    },
+    "buttons": {
+      "editAboutMeOrUsername": "Hakkımda veya Kullanıcı Adını Düzenle",
+      "resetAvatar": "Avatarı sıfırla",
+      "resetBanner": "Afişi sıfırla",
+      "resetAll": "Tümünü Sıfırla"
+    },
+    "noPremium": "Botunuzun tasarımını özelleştirmek için \"Premium Advance\" sahibi olmanız gerekir.",
+    "invalidAvatar": "Geçersiz avatar resmi türü, lütfen .png, .jpg, .webp veya .gif kullanın.",
+    "fetchAvatarErrored": "Sağladığınız avatarın getirilmesi başarısız oldu. Lütfen destek ekibiyle iletişime geçin.",
+    "invalidBanner": "Geçersiz afiş resmi türü, lütfen .png, .jpg, .webp veya .gif kullanın.",
+    "fetchBannerErrored": "Sağladığınız avatarın getirilmesi başarısız oldu. Lütfen destek ekibiyle iletişime geçin.",
+    "updateError": "Tasarımımı güncelleyemedim. Lütfen destek ile iletişime geçin.",
+    "cooldown": "Botunuzun tasarımı bekleme süresinde. Botu tekrar güncellemek için lütfen 10 dakika kadar bekleyin."
   }
 }

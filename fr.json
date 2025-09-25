@@ -36,7 +36,8 @@
     "filterTypeExclude": "Exclure les notifications en direct avec les mots-clés.",
     "filterTypeInclude": "N'incluez que les notifications en direct avec les mots-clés.",
     "invalidFilterType": "Le type de filtre n'est pas valide ! Veuillez utiliser `exclude` ou `include`.",
-    "optionOfflineMessage": "Le message lorsque le streamer est hors ligne."
+    "optionOfflineMessage": "Le message lorsque le streamer est hors ligne.",
+    "default": "Défaut"
   },
   "problems": {
     "missingPermissions": "[Il semble que vous vous demandiez pourquoi le bot répond par \"Missing Permissions\". Pour plus d'informations à ce sujet, veuillez cliquer ici.](https://kick.bot/guide/permissions)"
@@ -58,7 +59,8 @@
     "subscriberRolesLimit": "Hé ! Vous avez atteint le nombre maximum de rôles d'abonnés sur ce serveur. Vous pouvez passer à la version premium ci-dessous !",
     "offlineMessage": "Vous devez être titulaire d'une licence premium pour envoyer un message hors ligne !",
     "premiumHint": "Vous appréciez le bot ? Débloquez-en plus avec Premium ! Cliquez sur le bouton ci-dessous pour passer à la version supérieure.",
-    "premiumHintSecond": "Vous appréciez le bot ?"
+    "premiumHintSecond": "Vous appréciez le bot ?",
+    "premiumHint2": "Vous voulez soutenir {streamer} et le bot ? Cliquez sur le bouton ci-dessous pour obtenir des avantages supplémentaires ! (Ou obtenez-le pour votre propre serveur.)"
   },
   "giftLeaderboard": {
     "title": "Classement des Souscriptions de {streamerId}",
@@ -86,7 +88,10 @@
     "connectedAndGotSubscriberRole": "Votre compte Discord est désormais connecté à **{username}** et vous avez obtenu le rôle d'abonné pour **{streamer}** !",
     "connectedButNotASubscriber": "Votre compte Discord est maintenant connecté à **{username}** mais vous n'êtes pas abonné à **{streamer}** et vous n'avez donc pas reçu le rôle d'abonné.",
     "connectedButErrorByAddingRole": "Votre compte Discord est maintenant connecté à **{username}** mais j'ai eu une erreur en essayant d'ajouter le rôle d'abonné.\nErreur : {error}",
-    "kickWelcomeMessage": "Bonjour {username} ! Je suis le #1 Kick x Discord Integration. Vous êtes maintenant lié à votre compte Discord {discordUsername}. Si vous avez des questions, n'hésitez pas à rejoindre le serveur de support à https://discord.gg/ZVERh35 !"
+    "kickWelcomeMessage": "Bonjour {username} ! Je suis le #1 Kick x Discord Integration. Vous êtes maintenant lié à votre compte Discord {discordUsername}. Si vous avez des questions, n'hésitez pas à rejoindre le serveur de support à https://discord.gg/ZVERh35 !",
+    "loggedInAs": "Inscrit en tant que {username}",
+    "notYou": "Pas vous ?",
+    "alreadySyncedKickAccount": "{username} est déjà lié à un compte Discord qui a revendiqué le rôle d'abonné de {streamer}."
   },
   "addCommand": {
     "commandData": {
@@ -313,5 +318,35 @@
     },
     "willIgnore": "Kick bot reportera désormais les vérifications de permission à Discord. Gestion de l'accès aux commandes via la [Page d'intégration du serveur](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>).",
     "willNotIgnore": "Kick bot appliquera désormais ses propres contrôles de permission. Utilisez la [Page d'intégration du serveur](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) pour gérer les permissions."
+  },
+  "designCommand": {
+    "commandData": {
+      "description": "Concevez le robot comme vous le souhaitez.",
+      "avatarOption": "Définir un nouvel avatar. (Cela écrase l'avatar actuel).",
+      "bannerOption": "Définir une nouvelle bannière. (Cela écrase la bannière actuelle.)"
+    },
+    "message": {
+      "username": "Nom d'utilisateur",
+      "avatar": "Avatar",
+      "banner": "Bannière",
+      "aboutMe": "À propos de moi"
+    },
+    "descriptions": {
+      "username": "Si vous laissez ce champ vide, le nom d'utilisateur sera réinitialisé.",
+      "aboutMe": "Le fait de laisser ce champ vide réinitialisera la rubrique \"À propos de moi\"."
+    },
+    "buttons": {
+      "editAboutMeOrUsername": "Modifier mon profil ou mon nom d'utilisateur",
+      "resetAvatar": "Réinitialiser l'avatar",
+      "resetBanner": "Réinitialisation de la bannière",
+      "resetAll": "Réinitialiser tout"
+    },
+    "noPremium": "Vous devez posséder \"Premium Advance\" pour personnaliser le design de votre robot.",
+    "invalidAvatar": "Type d'image d'avatar non valide, veuillez utiliser un .png, .jpg, .webp ou .gif.",
+    "fetchAvatarErrored": "La récupération de l'avatar que vous avez fourni a échoué. Veuillez contacter l'assistance.",
+    "invalidBanner": "Type d'image de bannière non valide, veuillez utiliser un .png, .jpg, .webp ou .gif.",
+    "fetchBannerErrored": "La récupération de l'avatar que vous avez fourni a échoué. Veuillez contacter l'assistance.",
+    "updateError": "Je n'ai pas pu mettre à jour mon dessin ou modèle. Veuillez contacter le service d'assistance.",
+    "cooldown": "La conception de votre robot est en cours de refroidissement. Veuillez attendre jusqu'à 10 minutes avant de mettre à nouveau le robot à jour."
   }
 }

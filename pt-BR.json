@@ -36,7 +36,8 @@
     "filterTypeExclude": "Excluir notificações ao vivo com as palavras-chave.",
     "filterTypeInclude": "Inclua apenas notificações ao vivo com as palavras-chave.",
     "invalidFilterType": "O tipo de filtro é inválido! Por favor, use `exclude` ou `include`.",
-    "optionOfflineMessage": "A mensagem quando o streamer está off-line."
+    "optionOfflineMessage": "A mensagem quando o streamer está off-line.",
+    "default": "Padrão"
   },
   "problems": {
     "missingPermissions": "[Parece que você está se perguntando por que o bot responde com \"Missing Permissions\" (Permissões ausentes). Para obter mais informações sobre isso, clique aqui.](https://kick.bot/guide/permissions)"
@@ -58,7 +59,8 @@
     "subscriberRolesLimit": "Ei! Você atingiu o número máximo de funções de assinante neste servidor. Você pode fazer o upgrade para premium abaixo!",
     "offlineMessage": "Ei! Você precisa ter o plano premium para definir uma mensagem off-line!",
     "premiumHint": "Está gostando do bot? Desbloqueie mais com o Premium! Clique no botão abaixo para fazer o upgrade.",
-    "premiumHintSecond": "Está gostando do bot?"
+    "premiumHintSecond": "Está gostando do bot?",
+    "premiumHint2": "Quer apoiar o {streamer} e o bot? Clique no botão abaixo para obter vantagens extras! (Ou adquira-o para seu próprio servidor)."
   },
   "giftLeaderboard": {
     "title": "Classificação de Subs do {streamerId}",
@@ -86,7 +88,10 @@
     "connectedAndGotSubscriberRole": "Sua conta do Discord agora está conectada a **{username}** e você recebeu a função de assinante de **{streamer}**!",
     "connectedButNotASubscriber": "Sua conta do Discord agora está conectada a **{username}**, mas você não é assinante de **{streamer}**, portanto, não recebeu a função de assinante.",
     "connectedButErrorByAddingRole": "Sua conta do Discord agora está conectada a **{username}**, mas recebi um erro ao tentar adicionar a função de assinante.\nErro: {error}",
-    "kickWelcomeMessage": "Olá {username}! Sou a integração número 1 do Kick x Discord. Agora você está vinculado à sua conta do Discord {discordUsername}. Se tiver alguma dúvida, sinta-se à vontade para entrar no servidor de suporte em https://discord.gg/ZVERh35 !"
+    "kickWelcomeMessage": "Olá {username}! Sou a integração número 1 do Kick x Discord. Agora você está vinculado à sua conta do Discord {discordUsername}. Se tiver alguma dúvida, sinta-se à vontade para entrar no servidor de suporte em https://discord.gg/ZVERh35 !",
+    "loggedInAs": "Conectado como {username}",
+    "notYou": "Você não?",
+    "alreadySyncedKickAccount": "O {username} já está vinculado a uma conta do Discord que reivindicou a função de assinante do {streamer}."
   },
   "addCommand": {
     "commandData": {
@@ -313,5 +318,35 @@
     },
     "willIgnore": "O Kick bot agora adiará as verificações de permissão para o Discord. Gerencie o acesso ao comando por meio da [Página de integrações do servidor](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>).",
     "willNotIgnore": "O Kick bot agora aplicará suas próprias verificações de permissão. Use a [Página de integrações do servidor](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) para gerenciar as permissões."
+  },
+  "designCommand": {
+    "commandData": {
+      "description": "Projete o bot como quiser.",
+      "avatarOption": "Definir um novo avatar. (Isso substitui o atual).",
+      "bannerOption": "Define um novo banner. (Isso substitui o atual)."
+    },
+    "message": {
+      "username": "Nome de usuário",
+      "avatar": "Avatar",
+      "banner": "Estandarte",
+      "aboutMe": "Sobre mim"
+    },
+    "descriptions": {
+      "username": "Deixar essa opção em branco redefinirá o nome de usuário.",
+      "aboutMe": "Deixar esse campo vazio redefinirá o about me."
+    },
+    "buttons": {
+      "editAboutMeOrUsername": "Editar sobre mim ou nome de usuário",
+      "resetAvatar": "Redefinir avatar",
+      "resetBanner": "Redefinir o banner",
+      "resetAll": "Redefinir tudo"
+    },
+    "noPremium": "Você precisa ter o \"Premium Advance\" para personalizar o design do seu bot.",
+    "invalidAvatar": "Tipo de imagem de avatar inválido, use um .png, .jpg, .webp ou .gif.",
+    "fetchAvatarErrored": "A obtenção do avatar fornecido falhou. Entre em contato com o suporte.",
+    "invalidBanner": "Tipo de imagem de banner inválido. Use um .png, .jpg, .webp ou .gif.",
+    "fetchBannerErrored": "A obtenção do avatar fornecido falhou. Entre em contato com o suporte.",
+    "updateError": "Não foi possível atualizar meu design. Entre em contato com o suporte.",
+    "cooldown": "O design do seu bot está em espera. Aguarde até 10 minutos para atualizar o bot novamente."
   }
 }

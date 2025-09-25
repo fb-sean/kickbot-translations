@@ -30,13 +30,14 @@
     "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] ist jetzt live!\n<:LinkIcon:1118592789488349325> Schau es hier an: [[URL]]",
     "why": "Warum?",
     "cleanUpAndOfflineMessage": "Sie können nicht gleichzeitig eine Offline-Nachricht einstellen und die Bereinigung aktivieren! (Es würde die Nachricht bearbeiten und löschen.)",
-    "reSync": "Sie nicht?",
+    "reSync": "Nicht Sie?",
     "tryAgain": "Wiederholung",
     "optionFilterType": "Definieren Sie, wie der Filter funktionieren soll.",
     "filterTypeExclude": "Live-Benachrichtigungen mit den Schlüsselwörtern ausschließen.",
     "filterTypeInclude": "Nehmen Sie nur Live-Benachrichtigungen mit den Schlüsselwörtern auf.",
     "invalidFilterType": "Der Filtertyp ist ungültig! Bitte verwenden Sie entweder `exclude` oder `include`.",
-    "optionOfflineMessage": "Die Meldung, wenn der Streamer offline ist."
+    "optionOfflineMessage": "Die Meldung, wenn der Streamer offline ist.",
+    "default": "Standard"
   },
   "problems": {
     "missingPermissions": "[Sie scheinen sich zu fragen, warum der Bot mit \"Missing Permissions\" antwortet. Weitere Informationen dazu finden Sie hier.](https://kick.bot/guide/permissions)"
@@ -58,7 +59,8 @@
     "subscriberRolesLimit": "Hey! Du hast die maximale Anzahl von Abonnentenrollen auf diesem Server erreicht. Sie können unten auf Premium upgraden!",
     "offlineMessage": "Hey! Sie müssen Premium besitzen, um eine Offline-Nachricht einzustellen!",
     "premiumHint": "Gefällt dir der Bot? Schalten Sie mit Premium mehr frei! Klicken Sie auf die Schaltfläche unten, um zu aktualisieren.",
-    "premiumHintSecond": "Gefällt Ihnen der Bot?"
+    "premiumHintSecond": "Gefällt Ihnen der Bot?",
+    "premiumHint2": "Möchten Sie {streamer} und den Bot unterstützen? Klicken Sie auf die Schaltfläche unten, um zusätzliche Vergünstigungen zu erhalten! (Oder hol ihn dir für deinen eigenen Server.)"
   },
   "giftLeaderboard": {
     "title": "Abonnenten Rangliste von {streamerId}",
@@ -86,7 +88,10 @@
     "connectedAndGotSubscriberRole": "Dein Discord-Konto ist jetzt mit **{username}** verbunden und du hast die Abonnentenrolle für **{streamer}** erhalten!",
     "connectedButNotASubscriber": "Dein Discord-Konto ist jetzt mit **{username}** verbunden, aber du bist kein Abonnent von **{streamer}**, also hast du die Abonnentenrolle nicht erhalten.",
     "connectedButErrorByAddingRole": "Dein Discord-Konto ist jetzt mit **{username}** verbunden, aber ich habe einen Fehler erhalten, als ich versucht habe, die Abonnentenrolle hinzuzufügen.\nFehler: {error}",
-    "kickWelcomeMessage": "Hallo {username}! Ich bin die #1 Kick x Discord Integration. Du bist jetzt mit deinem Discord-Account {discordUsername} verbunden. Wenn du Fragen hast, kannst du dich gerne an den Support-Server unter https://discord.gg/ZVERh35 wenden!"
+    "kickWelcomeMessage": "Hallo {username}! Ich bin die #1 Kick x Discord Integration. Du bist jetzt mit deinem Discord-Account {discordUsername} verbunden. Wenn du Fragen hast, kannst du dich gerne an den Support-Server unter https://discord.gg/ZVERh35 wenden!",
+    "loggedInAs": "Eingetragen als {username}",
+    "notYou": "Nicht Sie?",
+    "alreadySyncedKickAccount": "{username} ist bereits mit einem Discord-Account verbunden, der die Teilnehmerrolle für {streamer} beansprucht hat."
   },
   "addCommand": {
     "commandData": {
@@ -313,5 +318,35 @@
     },
     "willIgnore": "Der Kick-Bot verschiebt nun die Berechtigungsprüfung auf Discord. Verwalten Sie den Befehlszugriff über die [Server-Integrationsseite](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>).",
     "willNotIgnore": "Der Kick-Bot führt nun seine eigenen Berechtigungsprüfungen durch. Verwenden Sie die [Server-Integrationsseite](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>), um Berechtigungen zu verwalten."
+  },
+  "designCommand": {
+    "commandData": {
+      "description": "Gestalten Sie den Bot so, wie Sie möchten.",
+      "avatarOption": "Legen Sie einen neuen Avatar fest. (Dadurch wird der aktuelle überschrieben.)",
+      "bannerOption": "Setzen Sie ein neues Banner. (Damit wird das aktuelle überschrieben.)"
+    },
+    "message": {
+      "username": "Username",
+      "avatar": "Avatar",
+      "banner": "Banner",
+      "aboutMe": "Über mich"
+    },
+    "descriptions": {
+      "username": "Wenn Sie dieses Feld leer lassen, wird der Benutzername zurückgesetzt.",
+      "aboutMe": "Wenn Sie dieses Feld leer lassen, werden die Informationen über mich zurückgesetzt."
+    },
+    "buttons": {
+      "editAboutMeOrUsername": "Über mich oder Benutzername bearbeiten",
+      "resetAvatar": "Avatar zurücksetzen",
+      "resetBanner": "Banner zurücksetzen",
+      "resetAll": "Alle zurücksetzen"
+    },
+    "noPremium": "Sie müssen \"Premium Advance\" besitzen, um das Design Ihres Bots anpassen zu können.",
+    "invalidAvatar": "Ungültiger Avatar-Bildtyp, bitte verwenden Sie ein .png, .jpg, .webp oder .gif.",
+    "fetchAvatarErrored": "Das Abrufen des von Ihnen angegebenen Avatars ist fehlgeschlagen. Bitte kontaktieren Sie den Support.",
+    "invalidBanner": "Ungültiger Bannertyp, bitte verwenden Sie ein .png, .jpg, .webp oder .gif.",
+    "fetchBannerErrored": "Das Abrufen des von Ihnen angegebenen Avatars ist fehlgeschlagen. Bitte kontaktieren Sie den Support.",
+    "updateError": "Ich konnte meinen Entwurf nicht aktualisieren. Bitte kontaktieren Sie den Support.",
+    "cooldown": "Ihr Bot befindet sich in der Abkühlphase. Bitte warten Sie bis zu 10 Minuten, um den Bot wieder zu aktualisieren."
   }
 }

@@ -36,7 +36,8 @@
     "filterTypeExclude": "Sulje pois live-ilmoitukset avainsanoilla.",
     "filterTypeInclude": "Sisällytä vain live-ilmoitukset, joissa on avainsanat.",
     "invalidFilterType": "Suodatintyyppi on virheellinen! Käytä joko `exclude` tai `include`.",
-    "optionOfflineMessage": "Viesti, kun streamer on offline."
+    "optionOfflineMessage": "Viesti, kun streamer on offline.",
+    "default": "Oletusarvo"
   },
   "problems": {
     "missingPermissions": "[Näyttää siltä, että kysyt itseltäsi, miksi botin vastaus on \"Puuttuvat käyttöoikeudet\". Jos haluat lisätietoja tästä, klikkaa tästä.](https://kick.bot/guide/permissions)"
@@ -58,7 +59,8 @@
     "leaderboardLimit": "Hei! Saavutit tällä palvelimella seurattavien tulostaulujen enimmäismäärän. Voit päivittää premium-tasolle alla olevaan!",
     "subscriberRolesLimit": "Hei! Olet saavuttanut tämän palvelimen tilaajaroolien enimmäismäärän. Voit päivittää premium-tasolle alla olevaan!",
     "offlineMessage": "Hei! Sinun täytyy omistaa premium, jotta voit asettaa offline-viestin!",
-    "premiumHintSecond": "Nautitko botista?"
+    "premiumHintSecond": "Nautitko botista?",
+    "premiumHint2": "Haluatko tukea {streamer} ja botin toimintaa? Klikkaa alla olevaa painiketta ja saat lisäetuja! (Tai hanki se omalle palvelimellesi.)"
   },
   "giftLeaderboard": {
     "title": "Subs Leaderboard of {streamerId}",
@@ -86,7 +88,10 @@
     "connectedAndGotSubscriberRole": "Discord-tilisi on nyt yhdistetty **{username}** ja sait tilaajaroolin **{streamer}**!",
     "connectedButNotASubscriber": "Discord-tilisi on nyt yhdistetty **{username}**, mutta et ole **{streamer}**:n tilaaja, joten et saanut tilaajan roolia.",
     "connectedButErrorByAddingRole": "Discord-tilisi on nyt yhdistetty **{username}**, mutta sain virheilmoituksen yrittäessäni lisätä tilaajan roolia.\nVirhe: {error}",
-    "kickWelcomeMessage": "Hei {username}! Olen #1 Kick x Discord integraatio. Olet nyt yhdistetty Discord-tilillesi {discordUsername}. Jos sinulla on kysyttävää, voit liittyä tukipalvelimeen osoitteessa https://discord.gg/ZVERh35 !"
+    "kickWelcomeMessage": "Hei {username}! Olen #1 Kick x Discord integraatio. Olet nyt yhdistetty Discord-tilillesi {discordUsername}. Jos sinulla on kysyttävää, voit liittyä tukipalvelimeen osoitteessa https://discord.gg/ZVERh35 !",
+    "loggedInAs": "Kirjaudu sisään nimellä {username}",
+    "notYou": "Etkö sinä?",
+    "alreadySyncedKickAccount": "{username} on jo linkitetty Discord-tiliin, joka on lunastanut {streamer} tilaajan roolin."
   },
   "addCommand": {
     "commandData": {
@@ -313,5 +318,35 @@
     },
     "willIgnore": "Kick-botti siirtää nyt lupatarkastukset Discordiin. Hallitse komento-oikeuksia [Server Integrations Page](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) -sivun kautta.",
     "willNotIgnore": "Kick-botti suorittaa nyt omat lupatarkastuksensa. Käytä [Server Integrations Page](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) käyttöoikeuksien hallintaan."
+  },
+  "designCommand": {
+    "commandData": {
+      "description": "Suunnittele robotti haluamallasi tavalla.",
+      "avatarOption": "Aseta uusi avatar. (Tämä korvaa nykyisen.)",
+      "bannerOption": "Aseta uusi banneri. (Tämä korvaa nykyisen.)"
+    },
+    "message": {
+      "username": "Käyttäjätunnus",
+      "avatar": "Avatar",
+      "banner": "Banneri",
+      "aboutMe": "Minusta"
+    },
+    "descriptions": {
+      "username": "Tämän tyhjäksi jättäminen nollaa käyttäjänimen.",
+      "aboutMe": "Tämän tyhjäksi jättäminen nollaa tiedot minusta."
+    },
+    "buttons": {
+      "editAboutMeOrUsername": "Muokkaa Tietoja minusta tai käyttäjätunnusta",
+      "resetAvatar": "Nollaa avatar",
+      "resetBanner": "Nollaa banneri",
+      "resetAll": "Nollaa kaikki"
+    },
+    "noPremium": "Sinun täytyy omistaa \"Premium Advance\", jotta voit muokata botin suunnittelua.",
+    "invalidAvatar": "Virheellinen avatar-kuvatyyppi, käytä .png, .jpg, .webp tai .gif.",
+    "fetchAvatarErrored": "Annetun avatarisi hakeminen epäonnistui. Ota yhteyttä tukeen.",
+    "invalidBanner": "Virheellinen bannerin kuvatyyppi, käytä .png, .jpg, .webp tai .gif.",
+    "fetchBannerErrored": "Annetun avatarisi hakeminen epäonnistui. Ota yhteyttä tukeen.",
+    "updateError": "En pystynyt päivittämään muotoiluani. Ota yhteyttä tukeen.",
+    "cooldown": "Botin suunnittelu on jäähtymässä. Odota enintään 10 minuuttia, ennen kuin voit päivittää botin uudelleen."
   }
 }

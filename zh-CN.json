@@ -36,7 +36,8 @@
     "filterTypeExclude": "排除包含关键字的实时通知。",
     "filterTypeInclude": "只包含包含关键字的实时通知。",
     "invalidFilterType": "过滤器类型无效！请使用 `exclude` 或 `include`.",
-    "optionOfflineMessage": "流媒体离线时的信息。"
+    "optionOfflineMessage": "流媒体离线时的信息。",
+    "default": "默认值"
   },
   "problems": {
     "missingPermissions": "[看起来你在问自己为什么机器人回应了\"缺少权限\"。要了解更多信息，请点击这里。](https://kick.bot/guide/permissions)"
@@ -58,7 +59,8 @@
     "subscriberRolesLimit": "嘿！您已达到本服务器的订阅角色上限。您可以升级到以下高级版本！",
     "offlineMessage": "嘿！你需要拥有高级会员才能设置离线消息！",
     "premiumHint": "喜欢机器人吗？使用高级版解锁更多！点击下面的按钮进行升级。",
-    "premiumHintSecond": "喜欢机器人吗？"
+    "premiumHintSecond": "喜欢机器人吗？",
+    "premiumHint2": "想要支持 {streamer} 和机器人？点击下面的按钮获取额外福利！(或者为你自己的服务器获取）。"
   },
   "giftLeaderboard": {
     "title": "{streamerId}的订阅者排行榜",
@@ -86,7 +88,10 @@
     "connectedAndGotSubscriberRole": "您的 Discord 帐户现在连接到**{username}**，并且您获得了**{streamer}**的订阅者角色！",
     "connectedButNotASubscriber": "您的 Discord 帐户现在连接到**{username}**，但您不是**{streamer}**的订阅者，因此您没有获得订阅者角色。",
     "connectedButErrorByAddingRole": "您的 Discord 帐户已连接到 **{username}** 但在尝试添加订阅者角色时出现错误。\n错误：{error}",
-    "kickWelcomeMessage": "您好 {username}！我是 #1 Kick x Discord 整合。您现在与您的 Discord 帐户 {discordUsername} 连接。如果您有任何问题，请随时加入支持服务器 https://discord.gg/ZVERh35 ！"
+    "kickWelcomeMessage": "您好 {username}！我是 #1 Kick x Discord 整合。您现在与您的 Discord 帐户 {discordUsername} 连接。如果您有任何问题，请随时加入支持服务器 https://discord.gg/ZVERh35 ！",
+    "loggedInAs": "以 {username} 的身份登录",
+    "notYou": "不是你吗？",
+    "alreadySyncedKickAccount": "{username}已经链接到一个声称拥有 {streamer}用户角色的 Discord 帐户。"
   },
   "addCommand": {
     "commandData": {
@@ -313,5 +318,35 @@
     },
     "willIgnore": "Kick 机器人现在会将权限检查推迟到 Discord。通过[服务器集成页面](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>)管理命令访问权限。",
     "willNotIgnore": "Kick 机器人现在将执行自己的权限检查。使用 [Server Integrations Page](<https://support.discord.com/hc/en-us/articles/360045093012-Server-Integrations-Page>) 管理权限。"
+  },
+  "designCommand": {
+    "commandData": {
+      "description": "随心所欲地设计机器人",
+      "avatarOption": "设置新头像。(这会覆盖当前头像）。",
+      "bannerOption": "设置新的标语。(这将覆盖当前旗帜）。"
+    },
+    "message": {
+      "username": "用户名",
+      "avatar": "阿凡达",
+      "banner": "旗帜",
+      "aboutMe": "关于我"
+    },
+    "descriptions": {
+      "username": "留空将重置用户名。",
+      "aboutMe": "将此留空将重置 \"关于我\"。"
+    },
+    "buttons": {
+      "editAboutMeOrUsername": "编辑关于我或用户名",
+      "resetAvatar": "重置头像",
+      "resetBanner": "重置横幅",
+      "resetAll": "全部重置"
+    },
+    "noPremium": "您需要拥有 \"高级进阶版 \"才能自定义机器人的设计。",
+    "invalidAvatar": "头像类型无效，请使用 .png、.jpg、.webp 或 .gif。",
+    "fetchAvatarErrored": "获取您提供的头像失败。请联系技术支持。",
+    "invalidBanner": "横幅图片类型无效，请使用 .png、.jpg、.webp 或 .gif。",
+    "fetchBannerErrored": "获取您提供的头像失败。请联系技术支持。",
+    "updateError": "我无法更新我的设计。请联系技术支持。",
+    "cooldown": "正在设计您的机器人。请等待 10 分钟后再更新机器人。"
   }
 }
