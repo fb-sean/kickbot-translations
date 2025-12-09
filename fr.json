@@ -37,7 +37,8 @@
     "filterTypeInclude": "N'incluez que les notifications en direct avec les mots-clés.",
     "invalidFilterType": "Le type de filtre n'est pas valide ! Veuillez utiliser `exclude` ou `include`.",
     "optionOfflineMessage": "Le message lorsque le streamer est hors ligne.",
-    "default": "Défaut"
+    "default": "Défaut",
+    "missingPermissions": "Il me manque des permissions pour envoyer des messages dans {channel} !\n**Permissions manquantes:** {permissions}"
   },
   "problems": {
     "missingPermissions": "[Il semble que vous vous demandiez pourquoi le bot répond par \"Missing Permissions\". Pour plus d'informations à ce sujet, veuillez cliquer ici.](https://kick.bot/guide/permissions)"
@@ -91,7 +92,10 @@
     "kickWelcomeMessage": "Bonjour {username} ! Je suis le #1 Kick x Discord Integration. Vous êtes maintenant lié à votre compte Discord {discordUsername}. Si vous avez des questions, n'hésitez pas à rejoindre le serveur de support à https://discord.gg/ZVERh35 !",
     "loggedInAs": "Inscrit en tant que {username}",
     "notYou": "Pas vous ?",
-    "alreadySyncedKickAccount": "{username} est déjà lié à un compte Discord qui a revendiqué le rôle d'abonné de {streamer}."
+    "alreadySyncedKickAccount": "{username} est déjà connecté à un compte Discord. Veuillez déconnecter le compte actuel avant d'en connecter un nouveau.",
+    "unLickAll": "Déconnecter tous les comptes",
+    "unLinkAllDone": "Tous les comptes liés à l'utilisateur Kick.com {username} ont été dissociés. Vous pouvez maintenant essayer de lier un nouveau compte.",
+    "unLinkAllUncached": "Cette demande de déconnexion a dépassé le temps imparti. Veuillez recommencer."
   },
   "addCommand": {
     "commandData": {
@@ -348,5 +352,58 @@
     "fetchBannerErrored": "La récupération de l'avatar que vous avez fourni a échoué. Veuillez contacter l'assistance.",
     "updateError": "Je n'ai pas pu mettre à jour mon dessin ou modèle. Veuillez contacter le service d'assistance.",
     "cooldown": "La conception de votre robot est en cours de refroidissement. Veuillez attendre jusqu'à 10 minutes avant de mettre à nouveau le robot à jour."
+  },
+  "permissions": {
+    "CREATE_INSTANT_INVITE": "Créer une invitation instantanée",
+    "KICK_MEMBERS": "Membres Kick",
+    "BAN_MEMBERS": "Membres du ban",
+    "ADMINISTRATOR": "Administrateur",
+    "MANAGE_CHANNELS": "Manage Channels",
+    "MANAGE_GUILD": "Gérer la guilde",
+    "ADD_REACTIONS": "Ajouter des réactions",
+    "VIEW_AUDIT_LOG": "View Audit Log",
+    "PRIORITY_SPEAKER": "Haut-parleur prioritaire",
+    "STREAM": "Flux",
+    "VIEW_CHANNEL": "Voir la chaîne",
+    "SEND_MESSAGES": "Envoyer des messages",
+    "SEND_TTS_MESSAGES": "Send TTS Messages",
+    "MANAGE_MESSAGES": "Manage Messages",
+    "EMBED_LINKS": "Embed Links",
+    "ATTACH_FILES": "Joindre des fichiers",
+    "READ_MESSAGE_HISTORY": "Lire l'historique des messages",
+    "MENTION_EVERYONE": "Mentionner tout le monde",
+    "USE_EXTERNAL_EMOJIS": "Utiliser des Emojis externes",
+    "VIEW_GUILD_INSIGHTS": "Voir Guild Insights",
+    "CONNECT": "Connecter",
+    "SPEAK": "Parler",
+    "MUTE_MEMBERS": "Mute Members",
+    "DEAFEN_MEMBERS": "Deafen Members",
+    "MOVE_MEMBERS": "Déplacer les membres",
+    "USE_VAD": "Utiliser l'activité vocale",
+    "CHANGE_NICKNAME": "Changer de pseudo",
+    "MANAGE_NICKNAMES": "Gérer les surnoms",
+    "MANAGE_ROLES": "Gérer les rôles",
+    "MANAGE_WEBHOOKS": "Gérer les Webhooks",
+    "MANAGE_GUILD_EXPRESSIONS": "Gérer les expressions de la guilde",
+    "USE_APPLICATION_COMMANDS": "Utiliser les commandes de l'application",
+    "REQUEST_TO_SPEAK": "Demande d'intervention",
+    "MANAGE_EVENTS": "Gérer les événements",
+    "MANAGE_THREADS": "Gérer les fils de discussion",
+    "CREATE_PUBLIC_THREADS": "Créer des fils de discussion publics",
+    "CREATE_PRIVATE_THREADS": "Créer des fils de discussion privés",
+    "USE_EXTERNAL_STICKERS": "Utiliser des autocollants externes",
+    "SEND_MESSAGES_IN_THREADS": "Envoyer des messages dans les fils de discussion",
+    "USE_EMBEDDED_ACTIVITIES": "Utiliser des activités intégrées",
+    "MODERATE_MEMBERS": "Membres modérés",
+    "VIEW_CREATOR_MONETIZATION_ANALYTICS": "Voir les analyses de monétisation des créateurs",
+    "USE_SOUNDBOARD": "Utiliser le Soundboard",
+    "CREATE_GUILD_EXPRESSIONS": "Créer des expressions de la Guilde",
+    "CREATE_EVENTS": "Créer des événements",
+    "USE_EXTERNAL_SOUNDS": "Utiliser des sons externes",
+    "SEND_VOICE_MESSAGES": "Send Voice Messages",
+    "SEND_POLLS": "Envoyer des sondages",
+    "USE_EXTERNAL_APPS": "Utiliser des applications externes",
+    "PIN_MESSAGES": "Pin Messages",
+    "BYPASS_SLOWMODE": "Bypass Mode lent"
   }
 }

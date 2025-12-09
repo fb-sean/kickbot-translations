@@ -37,7 +37,8 @@
     "filterTypeInclude": "キーワードを含むライブ通知のみを含める。",
     "invalidFilterType": "フィルタの種類が無効です！exclude`または`include`を使用してください。",
     "optionOfflineMessage": "ストリーマがオフラインのときのメッセージ。",
-    "default": "デフォルト"
+    "default": "デフォルト",
+    "missingPermissions": "414210562]]でメッセージを送信するためのパーミッションが不足しています！\n**パーミッションが足りません。"
   },
   "problems": {
     "missingPermissions": "[なぜ \"Missing Permissions \"とボットが応答するのか、自問自答しているようですね。この件に関する詳しい情報は、こちらをクリックしてください](https://kick.bot/guide/permissions)"
@@ -91,7 +92,10 @@
     "kickWelcomeMessage": "こんにちは{username}！キック×Discord統合第1号です。Discordアカウント{discordUsername}との連携が完了しました。何か質問があれば、https://discord.gg/ZVERh35 のサポートサーバーに気軽に参加してください！",
     "loggedInAs": "756755626]]としてサインイン。",
     "notYou": "君は違うのか？",
-    "alreadySyncedKickAccount": "[70545734]]はすでにundefinedの加入者ロールを主張したDiscordアカウントにリンクされています。"
+    "alreadySyncedKickAccount": "[737083284]]はすでにDiscordアカウントに接続されています。新しいアカウントをリンクする前に、現在のアカウントのリンクを解除してください。",
+    "unLickAll": "すべてのアカウントのリンクを解除する",
+    "unLinkAllDone": "Kick.comユーザー{username}にリンクされたアカウントはすべてリンク解除されました。新しいアカウントをリンクすることができます。",
+    "unLinkAllUncached": "このリンク解除のリクエストはタイムアウトしました。もう一度やり直してください。"
   },
   "addCommand": {
     "commandData": {
@@ -348,5 +352,58 @@
     "fetchBannerErrored": "アバターの取得に失敗しました。サポートまでご連絡ください。",
     "updateError": "デザインを更新できませんでした。サポートに連絡してください。",
     "cooldown": "ボットがクールダウン中です。再度ボットを更新するには、最大10分お待ちください。"
+  },
+  "permissions": {
+    "CREATE_INSTANT_INVITE": "インスタント招待状を作成する",
+    "KICK_MEMBERS": "キックメンバー",
+    "BAN_MEMBERS": "禁止メンバー",
+    "ADMINISTRATOR": "管理者",
+    "MANAGE_CHANNELS": "チャンネルの管理",
+    "MANAGE_GUILD": "ギルドの管理",
+    "ADD_REACTIONS": "リアクションの追加",
+    "VIEW_AUDIT_LOG": "監査ログの表示",
+    "PRIORITY_SPEAKER": "優先スピーカー",
+    "STREAM": "ストリーム",
+    "VIEW_CHANNEL": "チャンネルを見る",
+    "SEND_MESSAGES": "メッセージを送る",
+    "SEND_TTS_MESSAGES": "TTSメッセージの送信",
+    "MANAGE_MESSAGES": "メッセージの管理",
+    "EMBED_LINKS": "リンクの埋め込み",
+    "ATTACH_FILES": "ファイルを添付する",
+    "READ_MESSAGE_HISTORY": "メッセージ履歴を読む",
+    "MENTION_EVERYONE": "全員について",
+    "USE_EXTERNAL_EMOJIS": "外部絵文字の使用",
+    "VIEW_GUILD_INSIGHTS": "ギルドの洞察を見る",
+    "CONNECT": "接続",
+    "SPEAK": "話す",
+    "MUTE_MEMBERS": "ミュートメンバー",
+    "DEAFEN_MEMBERS": "Deafenメンバー",
+    "MOVE_MEMBERS": "メンバーの移動",
+    "USE_VAD": "ボイス・アクティビティを利用する",
+    "CHANGE_NICKNAME": "ニックネームの変更",
+    "MANAGE_NICKNAMES": "ニックネームの管理",
+    "MANAGE_ROLES": "役割の管理",
+    "MANAGE_WEBHOOKS": "ウェブフックの管理",
+    "MANAGE_GUILD_EXPRESSIONS": "ギルド・エクスプレッションの管理",
+    "USE_APPLICATION_COMMANDS": "アプリケーション・コマンドを使う",
+    "REQUEST_TO_SPEAK": "講演依頼",
+    "MANAGE_EVENTS": "イベントの管理",
+    "MANAGE_THREADS": "スレッドの管理",
+    "CREATE_PUBLIC_THREADS": "公開スレッドの作成",
+    "CREATE_PRIVATE_THREADS": "プライベートスレッドの作成",
+    "USE_EXTERNAL_STICKERS": "社外ステッカーの使用",
+    "SEND_MESSAGES_IN_THREADS": "スレッドにメッセージを送る",
+    "USE_EMBEDDED_ACTIVITIES": "埋め込みアクティビティを利用する",
+    "MODERATE_MEMBERS": "穏健派メンバー",
+    "VIEW_CREATOR_MONETIZATION_ANALYTICS": "クリエイターの収益化分析を見る",
+    "USE_SOUNDBOARD": "サウンドボードを使う",
+    "CREATE_GUILD_EXPRESSIONS": "ギルド・エクスプレッションの作成",
+    "CREATE_EVENTS": "イベントの作成",
+    "USE_EXTERNAL_SOUNDS": "外部サウンドの使用",
+    "SEND_VOICE_MESSAGES": "ボイスメッセージの送信",
+    "SEND_POLLS": "投票の送信",
+    "USE_EXTERNAL_APPS": "外部アプリの利用",
+    "PIN_MESSAGES": "ピンメッセージ",
+    "BYPASS_SLOWMODE": "バイパス・スローモード"
   }
 }

@@ -37,7 +37,8 @@
     "filterTypeInclude": "Inclua apenas notificações ao vivo com as palavras-chave.",
     "invalidFilterType": "O tipo de filtro é inválido! Por favor, use `exclude` ou `include`.",
     "optionOfflineMessage": "A mensagem quando o streamer está off-line.",
-    "default": "Padrão"
+    "default": "Padrão",
+    "missingPermissions": "Estou sem permissões para enviar mensagens em {channel}!\n**Permissões ausentes:** {permissions}"
   },
   "problems": {
     "missingPermissions": "[Parece que você está se perguntando por que o bot responde com \"Missing Permissions\" (Permissões ausentes). Para obter mais informações sobre isso, clique aqui.](https://kick.bot/guide/permissions)"
@@ -91,7 +92,10 @@
     "kickWelcomeMessage": "Olá {username}! Sou a integração número 1 do Kick x Discord. Agora você está vinculado à sua conta do Discord {discordUsername}. Se tiver alguma dúvida, sinta-se à vontade para entrar no servidor de suporte em https://discord.gg/ZVERh35 !",
     "loggedInAs": "Conectado como {username}",
     "notYou": "Você não?",
-    "alreadySyncedKickAccount": "O {username} já está vinculado a uma conta do Discord que reivindicou a função de assinante do {streamer}."
+    "alreadySyncedKickAccount": "O {username} já está conectado a uma conta do Discord. Desvincule a conta atual antes de vincular uma nova.",
+    "unLickAll": "Desvincular todas as contas",
+    "unLinkAllDone": "Todas as contas vinculadas ao usuário do Kick.com {username} foram desvinculadas. Agora você pode tentar vincular uma nova conta.",
+    "unLinkAllUncached": "Esta solicitação de desvinculação expirou. Por favor, inicie novamente."
   },
   "addCommand": {
     "commandData": {
@@ -348,5 +352,58 @@
     "fetchBannerErrored": "A obtenção do avatar fornecido falhou. Entre em contato com o suporte.",
     "updateError": "Não foi possível atualizar meu design. Entre em contato com o suporte.",
     "cooldown": "O design do seu bot está em espera. Aguarde até 10 minutos para atualizar o bot novamente."
+  },
+  "permissions": {
+    "CREATE_INSTANT_INVITE": "Criar convite instantâneo",
+    "KICK_MEMBERS": "Membros do Kick",
+    "BAN_MEMBERS": "Banir membros",
+    "ADMINISTRATOR": "Administrador",
+    "MANAGE_CHANNELS": "Gerenciar canais",
+    "MANAGE_GUILD": "Gerenciar a guilda",
+    "ADD_REACTIONS": "Adicionar reações",
+    "VIEW_AUDIT_LOG": "Exibir registro de auditoria",
+    "PRIORITY_SPEAKER": "Alto-falante prioritário",
+    "STREAM": "Fluxo",
+    "VIEW_CHANNEL": "Exibir canal",
+    "SEND_MESSAGES": "Enviar mensagens",
+    "SEND_TTS_MESSAGES": "Enviar mensagens TTS",
+    "MANAGE_MESSAGES": "Gerenciar mensagens",
+    "EMBED_LINKS": "Incorporar links",
+    "ATTACH_FILES": "Anexar arquivos",
+    "READ_MESSAGE_HISTORY": "Ler histórico de mensagens",
+    "MENTION_EVERYONE": "Mencionar todos",
+    "USE_EXTERNAL_EMOJIS": "Usar emojis externos",
+    "VIEW_GUILD_INSIGHTS": "Exibir percepções da guilda",
+    "CONNECT": "Conectar",
+    "SPEAK": "Fale",
+    "MUTE_MEMBERS": "Membros mudos",
+    "DEAFEN_MEMBERS": "Membros do Deafen",
+    "MOVE_MEMBERS": "Mover membros",
+    "USE_VAD": "Usar atividade de voz",
+    "CHANGE_NICKNAME": "Alterar apelido",
+    "MANAGE_NICKNAMES": "Gerenciar apelidos",
+    "MANAGE_ROLES": "Gerenciar funções",
+    "MANAGE_WEBHOOKS": "Gerenciar Webhooks",
+    "MANAGE_GUILD_EXPRESSIONS": "Gerenciar expressões de guilda",
+    "USE_APPLICATION_COMMANDS": "Usar comandos do aplicativo",
+    "REQUEST_TO_SPEAK": "Solicitação para falar",
+    "MANAGE_EVENTS": "Gerenciar eventos",
+    "MANAGE_THREADS": "Gerenciar tópicos",
+    "CREATE_PUBLIC_THREADS": "Criar tópicos públicos",
+    "CREATE_PRIVATE_THREADS": "Criar tópicos privados",
+    "USE_EXTERNAL_STICKERS": "Use adesivos externos",
+    "SEND_MESSAGES_IN_THREADS": "Enviar mensagens em tópicos",
+    "USE_EMBEDDED_ACTIVITIES": "Use atividades incorporadas",
+    "MODERATE_MEMBERS": "Membros moderados",
+    "VIEW_CREATOR_MONETIZATION_ANALYTICS": "Exibir a análise de monetização do criador",
+    "USE_SOUNDBOARD": "Use a mesa de som",
+    "CREATE_GUILD_EXPRESSIONS": "Criar expressões de guilda",
+    "CREATE_EVENTS": "Criar eventos",
+    "USE_EXTERNAL_SOUNDS": "Usar sons externos",
+    "SEND_VOICE_MESSAGES": "Enviar mensagens de voz",
+    "SEND_POLLS": "Enviar pesquisas",
+    "USE_EXTERNAL_APPS": "Use aplicativos externos",
+    "PIN_MESSAGES": "Mensagens de pinos",
+    "BYPASS_SLOWMODE": "Bypass Slowmode"
   }
 }

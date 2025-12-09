@@ -37,7 +37,8 @@
     "filterTypeInclude": "تضمين الإشعارات المباشرة فقط مع الكلمات الرئيسية.",
     "invalidFilterType": "نوع المرشح غير صالح! يرجى استخدام إما \"استبعاد\" أو \"تضمين\".",
     "optionOfflineMessage": "الرسالة عندما يكون جهاز البث غير متصل بالإنترنت.",
-    "default": "افتراضي"
+    "default": "افتراضي",
+    "missingPermissions": "تنقصني أذونات إرسال الرسائل في {channel}!\n**الأذونات المفقودة:** {permissions}"
   },
   "problems": {
     "missingPermissions": "[يبدو أنك تسأل نفسك لماذا يستجيب الروبوت بـ \"أذونات مفقودة\". للعثور على مزيد من المعلومات حول هذا الأمر، يُرجى النقر هنا.](https://kick.bot/guide/permissions)"
@@ -91,7 +92,10 @@
     "kickWelcomeMessage": "مرحبًا {username}! أنا #1 Kick x Discord Integration. أنت الآن مرتبط بحسابك على ديسكورد {discordUsername}. إذا كانت لديك أي أسئلة، فلا تتردد في الانضمام إلى خادم الدعم على https://discord.gg/ZVERh35 !",
     "loggedInAs": "تم تسجيل الدخول باسم {username}",
     "notYou": "ليس أنت؟",
-    "alreadySyncedKickAccount": "{username} مرتبط بالفعل بحساب على موقع ديسكورد الذي ادعى دور المشترك في {streamer}."
+    "alreadySyncedKickAccount": "{username} متصل بالفعل بحساب على Discord. يرجى إلغاء ربط الحساب الحالي قبل ربط حساب جديد.",
+    "unLickAll": "إلغاء ربط جميع الحسابات",
+    "unLinkAllDone": "تم إلغاء ربط جميع الحسابات المرتبطة بمستخدم Kick.com {username}. يمكنك الآن محاولة ربط حساب جديد.",
+    "unLinkAllUncached": "انتهت مهلة طلب إلغاء الربط هذا. يرجى البدء من جديد."
   },
   "addCommand": {
     "commandData": {
@@ -348,5 +352,58 @@
     "fetchBannerErrored": "فشل جلب الصورة الرمزية التي قدمتها. يرجى الاتصال بالدعم.",
     "updateError": "لم أتمكن من تحديث تصميمي. يرجى الاتصال بالدعم.",
     "cooldown": "تصميم الروبوت الخاص بك في وضع التهدئة. يرجى الانتظار لمدة تصل إلى 10 دقائق لتحديث الروبوت مرة أخرى."
+  },
+  "permissions": {
+    "CREATE_INSTANT_INVITE": "إنشاء دعوة فورية",
+    "KICK_MEMBERS": "ركلة الأعضاء",
+    "BAN_MEMBERS": "حظر الأعضاء",
+    "ADMINISTRATOR": "المدير",
+    "MANAGE_CHANNELS": "إدارة القنوات",
+    "MANAGE_GUILD": "إدارة النقابة",
+    "ADD_REACTIONS": "إضافة ردود فعل",
+    "VIEW_AUDIT_LOG": "عرض سجل التدقيق",
+    "PRIORITY_SPEAKER": "المتحدث ذو الأولوية",
+    "STREAM": "الدفق",
+    "VIEW_CHANNEL": "عرض القناة",
+    "SEND_MESSAGES": "إرسال الرسائل",
+    "SEND_TTS_MESSAGES": "إرسال رسائل TTS",
+    "MANAGE_MESSAGES": "إدارة الرسائل",
+    "EMBED_LINKS": "تضمين الروابط",
+    "ATTACH_FILES": "إرفاق الملفات",
+    "READ_MESSAGE_HISTORY": "قراءة سجل الرسائل",
+    "MENTION_EVERYONE": "اذكر الجميع",
+    "USE_EXTERNAL_EMOJIS": "استخدام الرموز التعبيرية الخارجية",
+    "VIEW_GUILD_INSIGHTS": "عرض رؤى النقابة",
+    "CONNECT": "الاتصال",
+    "SPEAK": "تحدث",
+    "MUTE_MEMBERS": "الأعضاء الصامتون",
+    "DEAFEN_MEMBERS": "الأعضاء الصم",
+    "MOVE_MEMBERS": "نقل الأعضاء",
+    "USE_VAD": "استخدام النشاط الصوتي",
+    "CHANGE_NICKNAME": "تغيير اللقب",
+    "MANAGE_NICKNAMES": "إدارة الألقاب",
+    "MANAGE_ROLES": "إدارة الأدوار",
+    "MANAGE_WEBHOOKS": "إدارة خطافات الويب",
+    "MANAGE_GUILD_EXPRESSIONS": "إدارة تعبيرات النقابة",
+    "USE_APPLICATION_COMMANDS": "استخدام أوامر التطبيق",
+    "REQUEST_TO_SPEAK": "طلب التحدث",
+    "MANAGE_EVENTS": "إدارة الفعاليات",
+    "MANAGE_THREADS": "إدارة الخيوط",
+    "CREATE_PUBLIC_THREADS": "إنشاء المواضيع العامة",
+    "CREATE_PRIVATE_THREADS": "إنشاء المواضيع الخاصة",
+    "USE_EXTERNAL_STICKERS": "استخدام الملصقات الخارجية",
+    "SEND_MESSAGES_IN_THREADS": "إرسال الرسائل في المواضيع",
+    "USE_EMBEDDED_ACTIVITIES": "استخدام الأنشطة المضمنة",
+    "MODERATE_MEMBERS": "الأعضاء المعتدلون",
+    "VIEW_CREATOR_MONETIZATION_ANALYTICS": "عرض تحليلات تحقيق الدخل لمنشئي المحتوى",
+    "USE_SOUNDBOARD": "استخدام لوحة الصوت",
+    "CREATE_GUILD_EXPRESSIONS": "إنشاء تعبيرات النقابة",
+    "CREATE_EVENTS": "إنشاء الأحداث",
+    "USE_EXTERNAL_SOUNDS": "استخدام الأصوات الخارجية",
+    "SEND_VOICE_MESSAGES": "إرسال الرسائل الصوتية",
+    "SEND_POLLS": "إرسال استطلاعات الرأي",
+    "USE_EXTERNAL_APPS": "استخدام تطبيقات خارجية",
+    "PIN_MESSAGES": "رسائل الدبوس",
+    "BYPASS_SLOWMODE": "تجاوز الوضع البطيء"
   }
 }

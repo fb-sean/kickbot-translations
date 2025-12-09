@@ -37,7 +37,8 @@
     "filterTypeInclude": "只包含包含关键字的实时通知。",
     "invalidFilterType": "过滤器类型无效！请使用 `exclude` 或 `include`.",
     "optionOfflineMessage": "流媒体离线时的信息。",
-    "default": "默认值"
+    "default": "默认值",
+    "missingPermissions": "我缺少在 {channel} 中发送信息的权限！\n**缺少权限：** {permissions}"
   },
   "problems": {
     "missingPermissions": "[看起来你在问自己为什么机器人回应了\"缺少权限\"。要了解更多信息，请点击这里。](https://kick.bot/guide/permissions)"
@@ -91,7 +92,10 @@
     "kickWelcomeMessage": "您好 {username}！我是 #1 Kick x Discord 整合。您现在与您的 Discord 帐户 {discordUsername} 连接。如果您有任何问题，请随时加入支持服务器 https://discord.gg/ZVERh35 ！",
     "loggedInAs": "以 {username} 的身份登录",
     "notYou": "不是你吗？",
-    "alreadySyncedKickAccount": "{username}已经链接到一个声称拥有 {streamer}用户角色的 Discord 帐户。"
+    "alreadySyncedKickAccount": "{username} 已经连接到一个 Discord 帐户。请在链接新账户前取消当前账户的链接。",
+    "unLickAll": "解除所有账户的链接",
+    "unLinkAllDone": "与 Kick.com 用户 {username} 链接的所有帐户已解除链接。您现在可以尝试链接一个新账户。",
+    "unLinkAllUncached": "取消链接的请求超时。请重新开始。"
   },
   "addCommand": {
     "commandData": {
@@ -348,5 +352,58 @@
     "fetchBannerErrored": "获取您提供的头像失败。请联系技术支持。",
     "updateError": "我无法更新我的设计。请联系技术支持。",
     "cooldown": "正在设计您的机器人。请等待 10 分钟后再更新机器人。"
+  },
+  "permissions": {
+    "CREATE_INSTANT_INVITE": "创建即时邀请",
+    "KICK_MEMBERS": "踢球队员",
+    "BAN_MEMBERS": "禁止成员",
+    "ADMINISTRATOR": "管理员",
+    "MANAGE_CHANNELS": "管理频道",
+    "MANAGE_GUILD": "管理公会",
+    "ADD_REACTIONS": "添加反应",
+    "VIEW_AUDIT_LOG": "查看审计日志",
+    "PRIORITY_SPEAKER": "优先发言人",
+    "STREAM": "流",
+    "VIEW_CHANNEL": "查看频道",
+    "SEND_MESSAGES": "发送信息",
+    "SEND_TTS_MESSAGES": "发送 TTS 信息",
+    "MANAGE_MESSAGES": "管理信息",
+    "EMBED_LINKS": "嵌入链接",
+    "ATTACH_FILES": "附加文件",
+    "READ_MESSAGE_HISTORY": "阅读留言历史",
+    "MENTION_EVERYONE": "提到每个人",
+    "USE_EXTERNAL_EMOJIS": "使用外部表情符号",
+    "VIEW_GUILD_INSIGHTS": "查看公会观察",
+    "CONNECT": "连接",
+    "SPEAK": "说",
+    "MUTE_MEMBERS": "静音成员",
+    "DEAFEN_MEMBERS": "Deafen 成员",
+    "MOVE_MEMBERS": "调动成员",
+    "USE_VAD": "使用语音活动",
+    "CHANGE_NICKNAME": "更改昵称",
+    "MANAGE_NICKNAMES": "管理昵称",
+    "MANAGE_ROLES": "管理角色",
+    "MANAGE_WEBHOOKS": "管理网络钩子",
+    "MANAGE_GUILD_EXPRESSIONS": "管理公会表达",
+    "USE_APPLICATION_COMMANDS": "使用应用程序命令",
+    "REQUEST_TO_SPEAK": "请求发言",
+    "MANAGE_EVENTS": "管理活动",
+    "MANAGE_THREADS": "管理主题",
+    "CREATE_PUBLIC_THREADS": "创建公共主题",
+    "CREATE_PRIVATE_THREADS": "创建私人主题",
+    "USE_EXTERNAL_STICKERS": "使用外部贴纸",
+    "SEND_MESSAGES_IN_THREADS": "在主题中发送消息",
+    "USE_EMBEDDED_ACTIVITIES": "使用嵌入式活动",
+    "MODERATE_MEMBERS": "温和派成员",
+    "VIEW_CREATOR_MONETIZATION_ANALYTICS": "查看创作者货币化分析",
+    "USE_SOUNDBOARD": "使用音板",
+    "CREATE_GUILD_EXPRESSIONS": "创建公会表情",
+    "CREATE_EVENTS": "创建活动",
+    "USE_EXTERNAL_SOUNDS": "使用外部声音",
+    "SEND_VOICE_MESSAGES": "发送语音信息",
+    "SEND_POLLS": "发送民意调查",
+    "USE_EXTERNAL_APPS": "使用外部应用程序",
+    "PIN_MESSAGES": "图钉信息",
+    "BYPASS_SLOWMODE": "旁路慢速模式"
   }
 }

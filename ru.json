@@ -37,7 +37,8 @@
     "filterTypeInclude": "Включите только уведомления с ключевыми словами.",
     "invalidFilterType": "Тип фильтра недействителен! Пожалуйста, используйте `exclude` или `include`.",
     "optionOfflineMessage": "Сообщение, когда стример находится в автономном режиме.",
-    "default": "По умолчанию"
+    "default": "По умолчанию",
+    "missingPermissions": "Мне не хватает прав на отправку сообщений в {channel}!\n**Не хватает прав:** {permissions}"
   },
   "problems": {
     "missingPermissions": "[Похоже, вы спрашиваете себя, почему бот отвечает сообщением \"Отсутствуют разрешения\". Для получения дополнительной информации, пожалуйста, нажмите здесь.](https://kick.bot/guide/permissions)"
@@ -91,7 +92,10 @@
     "kickWelcomeMessage": "Привет {username}! Я - #1 Kick x Discord Integration. Теперь вы связаны с аккаунтом Discord {discordUsername}. Если у вас есть вопросы, присоединяйтесь к серверу поддержки по адресу https://discord.gg/ZVERh35!",
     "loggedInAs": "Зарегистрировался как {username}.",
     "notYou": "Не ты?",
-    "alreadySyncedKickAccount": "{username} уже связан с учетной записью Discord, которая претендует на роль подписчика {streamer}."
+    "alreadySyncedKickAccount": "{username} уже подключен к учетной записи Discord. Пожалуйста, отвяжите текущую учетную запись, прежде чем привязывать новую.",
+    "unLickAll": "Разблокируйте все учетные записи",
+    "unLinkAllDone": "Все аккаунты, привязанные к пользователю {username} на Kick.com, были отвязаны. Теперь вы можете попробовать привязать новую учетную запись.",
+    "unLinkAllUncached": "Запрос на отсоединение завершился. Пожалуйста, начните снова."
   },
   "addCommand": {
     "commandData": {
@@ -348,5 +352,58 @@
     "fetchBannerErrored": "Не удалось получить предоставленный вами аватар. Пожалуйста, обратитесь в службу поддержки.",
     "updateError": "Я не смог обновить свой дизайн. Пожалуйста, обратитесь в службу поддержки.",
     "cooldown": "Разработка вашего бота находится в режиме ожидания. Пожалуйста, подождите до 10 минут, чтобы обновить бота снова."
+  },
+  "permissions": {
+    "CREATE_INSTANT_INVITE": "Создайте мгновенное приглашение",
+    "KICK_MEMBERS": "Члены клуба",
+    "BAN_MEMBERS": "Члены бан",
+    "ADMINISTRATOR": "Администратор",
+    "MANAGE_CHANNELS": "Управление каналами",
+    "MANAGE_GUILD": "Управление гильдией",
+    "ADD_REACTIONS": "Добавить реакцию",
+    "VIEW_AUDIT_LOG": "Просмотр журнала аудита",
+    "PRIORITY_SPEAKER": "Приоритетный спикер",
+    "STREAM": "Поток",
+    "VIEW_CHANNEL": "Просмотр канала",
+    "SEND_MESSAGES": "Отправлять сообщения",
+    "SEND_TTS_MESSAGES": "Отправка сообщений TTS",
+    "MANAGE_MESSAGES": "Управление сообщениями",
+    "EMBED_LINKS": "Ссылки для встраивания",
+    "ATTACH_FILES": "Прикрепить файлы",
+    "READ_MESSAGE_HISTORY": "Прочитать историю сообщений",
+    "MENTION_EVERYONE": "Упомянуть всех",
+    "USE_EXTERNAL_EMOJIS": "Используйте внешние Emojis",
+    "VIEW_GUILD_INSIGHTS": "Просмотреть информацию о гильдии",
+    "CONNECT": "Подключайтесь",
+    "SPEAK": "Говорите",
+    "MUTE_MEMBERS": "Немые члены",
+    "DEAFEN_MEMBERS": "Оглохшие члены",
+    "MOVE_MEMBERS": "Переместить членов",
+    "USE_VAD": "Используйте голосовую активность",
+    "CHANGE_NICKNAME": "Изменить прозвище",
+    "MANAGE_NICKNAMES": "Управление прозвищами",
+    "MANAGE_ROLES": "Управление ролями",
+    "MANAGE_WEBHOOKS": "Управление крючками Webhooks",
+    "MANAGE_GUILD_EXPRESSIONS": "Управление выражениями гильдии",
+    "USE_APPLICATION_COMMANDS": "Использование команд приложения",
+    "REQUEST_TO_SPEAK": "Заявка на выступление",
+    "MANAGE_EVENTS": "Управление событиями",
+    "MANAGE_THREADS": "Управление нитями",
+    "CREATE_PUBLIC_THREADS": "Создание публичных потоков",
+    "CREATE_PRIVATE_THREADS": "Создание приватных потоков",
+    "USE_EXTERNAL_STICKERS": "Используйте внешние наклейки",
+    "SEND_MESSAGES_IN_THREADS": "Отправка сообщений в потоках",
+    "USE_EMBEDDED_ACTIVITIES": "Используйте встроенные мероприятия",
+    "MODERATE_MEMBERS": "Умеренные члены",
+    "VIEW_CREATOR_MONETIZATION_ANALYTICS": "Просмотр аналитики монетизации создателей",
+    "USE_SOUNDBOARD": "Используйте звуковую панель",
+    "CREATE_GUILD_EXPRESSIONS": "Создавайте выражения гильдий",
+    "CREATE_EVENTS": "Создавайте события",
+    "USE_EXTERNAL_SOUNDS": "Используйте внешние звуки",
+    "SEND_VOICE_MESSAGES": "Отправляйте голосовые сообщения",
+    "SEND_POLLS": "Отправить опрос",
+    "USE_EXTERNAL_APPS": "Используйте внешние приложения",
+    "PIN_MESSAGES": "Pin Messages",
+    "BYPASS_SLOWMODE": "Обходной медленный режим"
   }
 }

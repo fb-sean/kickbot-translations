@@ -37,7 +37,8 @@
     "filterTypeInclude": "Yalnızca anahtar sözcükleri içeren canlı bildirimleri ekleyin.",
     "invalidFilterType": "Filtre türü geçersiz! Lütfen `exclude` veya `include` kullanın.",
     "optionOfflineMessage": "Yayıncı çevrimdışı olduğunda mesaj.",
-    "default": "Varsayılan"
+    "default": "Varsayılan",
+    "missingPermissions": "{channel}'da mesaj göndermek için eksik izinlerim var!\n**Eksik İzinler:** {permissions}"
   },
   "problems": {
     "missingPermissions": "[Görünüşe göre botun neden \"Eksik İzinler\" ile yanıt verdiğini kendinize soruyorsunuz. Bu konuda daha fazla bilgi almak için lütfen buraya tıklayın.](https://kick.bot/guide/permissions)"
@@ -91,7 +92,10 @@
     "kickWelcomeMessage": "Merhaba {username}! Ben 1 numaralı Kick x Discord Entegrasyonuyum. Artık Discord hesabınız {discordUsername} ile bağlantılısınız. Herhangi bir sorunuz varsa, https://discord.gg/ZVERh35 adresindeki destek sunucusuna katılmaktan çekinmeyin!",
     "loggedInAs": "{username} olarak oturum açıldı",
     "notYou": "Sen değil misin?",
-    "alreadySyncedKickAccount": "{username} zaten {streamer} için abone rolü talep eden bir Discord hesabına bağlı."
+    "alreadySyncedKickAccount": "{username} zaten bir Discord hesabına bağlı. Lütfen yeni bir hesap bağlamadan önce mevcut hesabın bağlantısını kaldırın.",
+    "unLickAll": "Tüm hesapların bağlantısını kaldırın",
+    "unLinkAllDone": "Kick.com kullanıcısı {username}'a bağlı tüm hesapların bağlantısı kaldırıldı. Şimdi yeni bir hesap bağlamayı deneyebilirsiniz.",
+    "unLinkAllUncached": "Bu bağlantı kaldırma isteği zaman aşımına uğradı. Lütfen tekrar başlatın."
   },
   "addCommand": {
     "commandData": {
@@ -348,5 +352,58 @@
     "fetchBannerErrored": "Sağladığınız avatarın getirilmesi başarısız oldu. Lütfen destek ekibiyle iletişime geçin.",
     "updateError": "Tasarımımı güncelleyemedim. Lütfen destek ile iletişime geçin.",
     "cooldown": "Botunuzun tasarımı bekleme süresinde. Botu tekrar güncellemek için lütfen 10 dakika kadar bekleyin."
+  },
+  "permissions": {
+    "CREATE_INSTANT_INVITE": "Anında Davetiye Oluşturun",
+    "KICK_MEMBERS": "Kick Üyeleri",
+    "BAN_MEMBERS": "Yasaklı Üyeler",
+    "ADMINISTRATOR": "Yönetici",
+    "MANAGE_CHANNELS": "Kanalları Yönet",
+    "MANAGE_GUILD": "Loncayı Yönet",
+    "ADD_REACTIONS": "Tepki Ekleme",
+    "VIEW_AUDIT_LOG": "Denetim Günlüğünü Görüntüle",
+    "PRIORITY_SPEAKER": "Öncelikli Konuşmacı",
+    "STREAM": "Akış",
+    "VIEW_CHANNEL": "Kanalı Görüntüle",
+    "SEND_MESSAGES": "Mesaj gönder",
+    "SEND_TTS_MESSAGES": "TTS Mesajları Gönderme",
+    "MANAGE_MESSAGES": "Mesajları Yönet",
+    "EMBED_LINKS": "Bağlantıları Yerleştir",
+    "ATTACH_FILES": "Dosya Ekleme",
+    "READ_MESSAGE_HISTORY": "Mesaj Geçmişini Oku",
+    "MENTION_EVERYONE": "Herkesten Bahsedin",
+    "USE_EXTERNAL_EMOJIS": "Harici Emojileri Kullanın",
+    "VIEW_GUILD_INSIGHTS": "Guild Insights'ı Görüntüleyin",
+    "CONNECT": "Bağlan",
+    "SPEAK": "Konuşmak",
+    "MUTE_MEMBERS": "Sessiz Üyeler",
+    "DEAFEN_MEMBERS": "Deafen Üyeleri",
+    "MOVE_MEMBERS": "Üyeleri Taşıyın",
+    "USE_VAD": "Ses Etkinliğini Kullanın",
+    "CHANGE_NICKNAME": "Takma Adınızı Değiştirin",
+    "MANAGE_NICKNAMES": "Takma Adları Yönet",
+    "MANAGE_ROLES": "Rolleri Yönet",
+    "MANAGE_WEBHOOKS": "Web Kancalarını Yönetme",
+    "MANAGE_GUILD_EXPRESSIONS": "Lonca İfadelerini Yönetme",
+    "USE_APPLICATION_COMMANDS": "Uygulama Komutlarını Kullanma",
+    "REQUEST_TO_SPEAK": "Konuşma Talebi",
+    "MANAGE_EVENTS": "Etkinlikleri Yönet",
+    "MANAGE_THREADS": "Konuları Yönet",
+    "CREATE_PUBLIC_THREADS": "Herkese Açık Konu Oluşturma",
+    "CREATE_PRIVATE_THREADS": "Özel Konu Oluşturma",
+    "USE_EXTERNAL_STICKERS": "Harici Çıkartmalar Kullanın",
+    "SEND_MESSAGES_IN_THREADS": "Konularda Mesaj Gönderme",
+    "USE_EMBEDDED_ACTIVITIES": "Gömülü Faaliyetleri Kullanın",
+    "MODERATE_MEMBERS": "Ilımlı Üyeler",
+    "VIEW_CREATOR_MONETIZATION_ANALYTICS": "İçerik Oluşturucudan Para Kazanma Analizlerini Görüntüle",
+    "USE_SOUNDBOARD": "Ses Panosu Kullanın",
+    "CREATE_GUILD_EXPRESSIONS": "Lonca İfadeleri Oluşturun",
+    "CREATE_EVENTS": "Etkinlik Oluşturma",
+    "USE_EXTERNAL_SOUNDS": "Harici Sesleri Kullanın",
+    "SEND_VOICE_MESSAGES": "Sesli Mesaj Gönderme",
+    "SEND_POLLS": "Anket Gönder",
+    "USE_EXTERNAL_APPS": "Harici Uygulamaları Kullanın",
+    "PIN_MESSAGES": "Pin Mesajları",
+    "BYPASS_SLOWMODE": "Bypass Yavaş Modu"
   }
 }

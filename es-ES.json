@@ -37,7 +37,8 @@
     "filterTypeInclude": "Incluir sólo notificaciones en directo con las palabras clave.",
     "invalidFilterType": "El tipo de filtro no es válido. Utilice `exclude` o `include`.",
     "optionOfflineMessage": "El mensaje cuando el streamer está desconectado.",
-    "default": "Por defecto"
+    "default": "Por defecto",
+    "missingPermissions": "¡Me faltan permisos para enviar mensajes en {channel}!\n**Faltan permisos:** {permissions}"
   },
   "problems": {
     "missingPermissions": "[Parece que te estás preguntando por qué el bot responde con \"Permisos faltantes\". Para encontrar más información sobre esto, por favor haga clic aquí.](https://kick.bot/guide/permissions)"
@@ -91,7 +92,10 @@
     "kickWelcomeMessage": "¡Hola {username}! Soy el #1 Kick x Discord Integración. Ahora estás vinculado con tu cuenta de Discord {discordUsername}. ¡Si tienes alguna pregunta, no dudes en unirte al servidor de soporte en https://discord.gg/ZVERh35 !",
     "loggedInAs": "Conectado como {username}",
     "notYou": "¿Tú no?",
-    "alreadySyncedKickAccount": "{username} ya está vinculada a una cuenta de Discord que ha reclamado el rol de suscriptor para {streamer}."
+    "alreadySyncedKickAccount": "{username} ya está conectado a una cuenta de Discord. Por favor, desvincula la cuenta actual antes de vincular una nueva.",
+    "unLickAll": "Desvincular todas las cuentas",
+    "unLinkAllDone": "Todas las cuentas vinculadas al usuario de Kick.com {username} han sido desvinculadas. Ahora puedes intentar vincular una nueva cuenta.",
+    "unLinkAllUncached": "Esta solicitud de desvinculación ha expirado. Por favor, empiece de nuevo."
   },
   "addCommand": {
     "commandData": {
@@ -348,5 +352,58 @@
     "fetchBannerErrored": "No se ha podido recuperar el avatar proporcionado. Póngase en contacto con el servicio de asistencia.",
     "updateError": "No he podido actualizar mi diseño. Póngase en contacto con el servicio de asistencia.",
     "cooldown": "Diseñando tu bot está en cooldown. Espera hasta 10 minutos para volver a actualizar el bot."
+  },
+  "permissions": {
+    "CREATE_INSTANT_INVITE": "Crear invitación instantánea",
+    "KICK_MEMBERS": "Miembros Kick",
+    "BAN_MEMBERS": "Prohibir miembros",
+    "ADMINISTRATOR": "Administrador",
+    "MANAGE_CHANNELS": "Gestionar canales",
+    "MANAGE_GUILD": "Gestionar gremio",
+    "ADD_REACTIONS": "Añadir reacciones",
+    "VIEW_AUDIT_LOG": "Ver registro de auditoría",
+    "PRIORITY_SPEAKER": "Altavoz prioritario",
+    "STREAM": "Corriente",
+    "VIEW_CHANNEL": "Ver Canal",
+    "SEND_MESSAGES": "Enviar mensajes",
+    "SEND_TTS_MESSAGES": "Enviar mensajes TTS",
+    "MANAGE_MESSAGES": "Gestionar mensajes",
+    "EMBED_LINKS": "Incrustar enlaces",
+    "ATTACH_FILES": "Adjuntar archivos",
+    "READ_MESSAGE_HISTORY": "Leer el historial de mensajes",
+    "MENTION_EVERYONE": "Mencionar a todos",
+    "USE_EXTERNAL_EMOJIS": "Utilizar emojis externos",
+    "VIEW_GUILD_INSIGHTS": "Ver Guild Insights",
+    "CONNECT": "Conectar",
+    "SPEAK": "Habla",
+    "MUTE_MEMBERS": "Miembros mudos",
+    "DEAFEN_MEMBERS": "Miembros sordos",
+    "MOVE_MEMBERS": "Mover miembros",
+    "USE_VAD": "Utilizar la actividad vocal",
+    "CHANGE_NICKNAME": "Cambiar apodo",
+    "MANAGE_NICKNAMES": "Gestionar apodos",
+    "MANAGE_ROLES": "Gestionar funciones",
+    "MANAGE_WEBHOOKS": "Gestionar Webhooks",
+    "MANAGE_GUILD_EXPRESSIONS": "Gestionar expresiones gremiales",
+    "USE_APPLICATION_COMMANDS": "Utilizar comandos de aplicación",
+    "REQUEST_TO_SPEAK": "Solicitud de intervención",
+    "MANAGE_EVENTS": "Gestionar eventos",
+    "MANAGE_THREADS": "Gestionar temas",
+    "CREATE_PUBLIC_THREADS": "Crear temas públicos",
+    "CREATE_PRIVATE_THREADS": "Crear hilos privados",
+    "USE_EXTERNAL_STICKERS": "Utilizar adhesivos externos",
+    "SEND_MESSAGES_IN_THREADS": "Enviar mensajes en hilos",
+    "USE_EMBEDDED_ACTIVITIES": "Utilizar actividades integradas",
+    "MODERATE_MEMBERS": "Miembros moderados",
+    "VIEW_CREATOR_MONETIZATION_ANALYTICS": "Ver análisis de monetización de creadores",
+    "USE_SOUNDBOARD": "Utilizar la caja de resonancia",
+    "CREATE_GUILD_EXPRESSIONS": "Crear expresiones gremiales",
+    "CREATE_EVENTS": "Crear eventos",
+    "USE_EXTERNAL_SOUNDS": "Utilizar sonidos externos",
+    "SEND_VOICE_MESSAGES": "Enviar mensajes de voz",
+    "SEND_POLLS": "Enviar encuestas",
+    "USE_EXTERNAL_APPS": "Utilizar aplicaciones externas",
+    "PIN_MESSAGES": "Pin Mensajes",
+    "BYPASS_SLOWMODE": "Bypass Slowmode"
   }
 }

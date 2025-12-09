@@ -37,7 +37,8 @@
     "filterTypeInclude": "Sisällytä vain live-ilmoitukset, joissa on avainsanat.",
     "invalidFilterType": "Suodatintyyppi on virheellinen! Käytä joko `exclude` tai `include`.",
     "optionOfflineMessage": "Viesti, kun streamer on offline.",
-    "default": "Oletusarvo"
+    "default": "Oletusarvo",
+    "missingPermissions": "Minulta puuttuvat oikeudet lähettää viestejä {channel}!\n**Puuttuvat oikeudet:** {permissions}"
   },
   "problems": {
     "missingPermissions": "[Näyttää siltä, että kysyt itseltäsi, miksi botin vastaus on \"Puuttuvat käyttöoikeudet\". Jos haluat lisätietoja tästä, klikkaa tästä.](https://kick.bot/guide/permissions)"
@@ -91,7 +92,10 @@
     "kickWelcomeMessage": "Hei {username}! Olen #1 Kick x Discord integraatio. Olet nyt yhdistetty Discord-tilillesi {discordUsername}. Jos sinulla on kysyttävää, voit liittyä tukipalvelimeen osoitteessa https://discord.gg/ZVERh35 !",
     "loggedInAs": "Kirjaudu sisään nimellä {username}",
     "notYou": "Etkö sinä?",
-    "alreadySyncedKickAccount": "{username} on jo linkitetty Discord-tiliin, joka on lunastanut {streamer} tilaajan roolin."
+    "alreadySyncedKickAccount": "{username} on jo yhdistetty Discord-tiliin. Ole hyvä ja poista nykyinen tili ennen uuden tilin liittämistä.",
+    "unLickAll": "Poista kaikkien tilien linkit",
+    "unLinkAllDone": "Kaikki Kick.com-käyttäjään {username} liittyvät tilit on poistettu. Voit nyt yrittää yhdistää uuden tilin.",
+    "unLinkAllUncached": "Tämä linkityksen poistopyyntö on päättynyt. Aloita uudelleen."
   },
   "addCommand": {
     "commandData": {
@@ -348,5 +352,58 @@
     "fetchBannerErrored": "Annetun avatarisi hakeminen epäonnistui. Ota yhteyttä tukeen.",
     "updateError": "En pystynyt päivittämään muotoiluani. Ota yhteyttä tukeen.",
     "cooldown": "Botin suunnittelu on jäähtymässä. Odota enintään 10 minuuttia, ennen kuin voit päivittää botin uudelleen."
+  },
+  "permissions": {
+    "CREATE_INSTANT_INVITE": "Luo välitön kutsu",
+    "KICK_MEMBERS": "Kick Jäsenet",
+    "BAN_MEMBERS": "Kielto Jäsenet",
+    "ADMINISTRATOR": "Ylläpitäjä",
+    "MANAGE_CHANNELS": "Hallitse kanavia",
+    "MANAGE_GUILD": "Hallitse kiltaa",
+    "ADD_REACTIONS": "Lisää reaktioita",
+    "VIEW_AUDIT_LOG": "Näytä tarkastusloki",
+    "PRIORITY_SPEAKER": "Ensisijainen puhuja",
+    "STREAM": "Stream",
+    "VIEW_CHANNEL": "Näytä kanava",
+    "SEND_MESSAGES": "Lähetä viestejä",
+    "SEND_TTS_MESSAGES": "Lähetä TTS-viestejä",
+    "MANAGE_MESSAGES": "Hallitse viestejä",
+    "EMBED_LINKS": "Upota linkit",
+    "ATTACH_FILES": "Liitä tiedostoja",
+    "READ_MESSAGE_HISTORY": "Lue viestin historia",
+    "MENTION_EVERYONE": "Mainitse kaikki",
+    "USE_EXTERNAL_EMOJIS": "Ulkoisten emojien käyttö",
+    "VIEW_GUILD_INSIGHTS": "Katso Guild Insights",
+    "CONNECT": "Yhdistä",
+    "SPEAK": "Puhu",
+    "MUTE_MEMBERS": "Mykistää jäsenet",
+    "DEAFEN_MEMBERS": "Deafen jäsenet",
+    "MOVE_MEMBERS": "Siirrä jäseniä",
+    "USE_VAD": "Käytä äänitoimintoa",
+    "CHANGE_NICKNAME": "Vaihda lempinimi",
+    "MANAGE_NICKNAMES": "Hallitse lempinimiä",
+    "MANAGE_ROLES": "Hallitse rooleja",
+    "MANAGE_WEBHOOKS": "Hallitse verkkokoukkuja",
+    "MANAGE_GUILD_EXPRESSIONS": "Hallitse killan ilmaisuja",
+    "USE_APPLICATION_COMMANDS": "Käytä sovelluskomentoja",
+    "REQUEST_TO_SPEAK": "Pyyntö päästä puhumaan",
+    "MANAGE_EVENTS": "Hallitse tapahtumia",
+    "MANAGE_THREADS": "Hallitse säikeitä",
+    "CREATE_PUBLIC_THREADS": "Luo julkisia säikeitä",
+    "CREATE_PRIVATE_THREADS": "Luo yksityisiä säikeitä",
+    "USE_EXTERNAL_STICKERS": "Käytä ulkoisia tarroja",
+    "SEND_MESSAGES_IN_THREADS": "Lähetä viestejä säikeissä",
+    "USE_EMBEDDED_ACTIVITIES": "Käytä upotettuja toimintoja",
+    "MODERATE_MEMBERS": "Maltilliset jäsenet",
+    "VIEW_CREATOR_MONETIZATION_ANALYTICS": "Näytä Creator Monetization Analytics -analyysit",
+    "USE_SOUNDBOARD": "Käytä Soundboardia",
+    "CREATE_GUILD_EXPRESSIONS": "Luo killan ilmaisuja",
+    "CREATE_EVENTS": "Luo tapahtumia",
+    "USE_EXTERNAL_SOUNDS": "Käytä ulkoisia ääniä",
+    "SEND_VOICE_MESSAGES": "Lähetä ääniviestejä",
+    "SEND_POLLS": "Lähetä kyselyt",
+    "USE_EXTERNAL_APPS": "Käytä ulkoisia sovelluksia",
+    "PIN_MESSAGES": "Pin-viestit",
+    "BYPASS_SLOWMODE": "Ohitus Slowmode"
   }
 }
