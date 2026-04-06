@@ -38,7 +38,9 @@
     "invalidFilterType": "Der Filtertyp ist ungültig! Bitte verwenden Sie entweder `exclude` oder `include`.",
     "optionOfflineMessage": "Die Meldung, wenn der Streamer offline ist.",
     "default": "Standard",
-    "missingPermissions": "Mir fehlt die Berechtigung zum Senden von Nachrichten in {channel}!\n**Fehlende Berechtigungen:** {permissions}"
+    "missingPermissions": "Mir fehlt die Berechtigung zum Senden von Nachrichten in {channel}!\n**Fehlende Berechtigungen:** {permissions}",
+    "premiumButtonNotWorkingInfo": "Die Schaltflächen oben funktionieren nicht? Versuchen Sie es stattdessen mit diesen:",
+    "missingPermissionsRole": "Mir fehlen die Berechtigungen zum Verwalten von Rollen!\n**Fehlende Berechtigungen:** {permissions}"
   },
   "problems": {
     "missingPermissions": "[Sie scheinen sich zu fragen, warum der Bot mit \"Missing Permissions\" antwortet. Weitere Informationen dazu finden Sie hier.](https://kick.bot/guide/permissions)"
@@ -114,7 +116,15 @@
     "offlineMessage": "Hey! Sie müssen Premium besitzen, um eine Offline-Nachricht einzustellen!",
     "premiumHint": "Gefällt dir der Bot? Schalten Sie mit Premium mehr frei! Klicken Sie auf die Schaltfläche unten, um zu aktualisieren.",
     "premiumHintSecond": "Gefällt Ihnen der Bot?",
-    "premiumHint2": "Möchten Sie {streamer} und den Bot unterstützen? Klicken Sie auf die Schaltfläche unten, um zusätzliche Vergünstigungen zu erhalten! (Oder hol ihn dir für deinen eigenen Server.)"
+    "premiumHint2": "Möchten Sie {streamer} und den Bot unterstützen? Klicken Sie auf die Schaltfläche unten, um zusätzliche Vergünstigungen zu erhalten! (Oder hol ihn dir für deinen eigenen Server.)",
+    "embed": {
+      "title": "## <:sunglasses:1118596937160085534>  Premium\nVerbessere dein Kick.bot-Erlebnis mit Premium! ",
+      "premiumBasic": "### Premium Basic\n**🚀 Vorrangige Benachrichtigungen**\n-# Deine Benachrichtigungen werden vorrangig versendet.\n\n**⏲️ Eigenes Ablaufdatum für Abonnentenrollen**\n-# Lege selbst fest, wie lange Abonnenten ihre Rolle behalten sollen, auch nachdem sie ihr Abonnement gekündigt haben.\n\n**📈 Unbegrenzte Anzahl an Streamern**\n-# Füge deinem Server mehr als 50 Streamer hinzu! (Unbegrenzt)\n\n**🫡 Unbegrenzte Anzahl an Zählern**\n-# Füge deinem Server mehr als 20 Zähler hinzu! (Unbegrenzt)\n\n**👑 Unbegrenzte Anzahl an Ranglisten**\n-# Füge deinem Server mehr als 10 Live-Geschenk-Ranglisten hinzu! (Unbegrenzt)\n\n**✏️ Offline-Nachricht**\n-# Lege deine eigene Offline-Nachricht bei Kick.bot fest!",
+      "premiumAdvance": "### Premium Advance\n**👑 Beinhaltet Basic Premium**\n-# Du erhältst alle Funktionen des Basic-Premium-Tarifs!\n\n**😀Individuelles Profilbild, Banner, „Über mich“-Text und Name**\n-# Verleihe dem Bot eine persönliche Note mit deinem eigenen Profilbild, Banner, „Über mich“-Text und Namen!",
+      "buyViaDiscord": "-# Über Discord kaufen",
+      "buyViaStripe": "-# Über Stripe kaufen (mit Jahresabo)",
+      "legalText": "-# Für Käufe gelten unsere [Nutzungsbedingungen](https://kick.bot/legal/terms-of-service) und [Rückerstattungsrichtlinien](https://sattler.dev/legal/refund-policy). Für lebenslange Lizenzen gelten [zusätzliche Bedingungen](https://sattler.dev/legal/lifetime)."
+    }
   },
   "giftLeaderboard": {
     "title": "Abonnenten Rangliste von {streamerId}",

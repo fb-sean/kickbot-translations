@@ -38,7 +38,9 @@
     "invalidFilterType": "Suodatintyyppi on virheellinen! Käytä joko `exclude` tai `include`.",
     "optionOfflineMessage": "Viesti, kun streamer on offline.",
     "default": "Oletusarvo",
-    "missingPermissions": "Minulta puuttuvat oikeudet lähettää viestejä {channel}!\n**Puuttuvat oikeudet:** {permissions}"
+    "missingPermissions": "Minulta puuttuvat oikeudet lähettää viestejä {channel}!\n**Puuttuvat oikeudet:** {permissions}",
+    "premiumButtonNotWorkingInfo": "Eivätkö yllä olevat painikkeet toimi? Kokeile näitä sen sijaan:",
+    "missingPermissionsRole": "Minulla ei ole oikeuksia hallita rooleja!\n**Puuttuvat oikeudet:** {permissions}"
   },
   "problems": {
     "missingPermissions": "[Näyttää siltä, että kysyt itseltäsi, miksi botin vastaus on \"Puuttuvat käyttöoikeudet\". Jos haluat lisätietoja tästä, klikkaa tästä.](https://kick.bot/guide/permissions)"
@@ -61,7 +63,15 @@
     "subscriberRolesLimit": "Hei! Olet saavuttanut tämän palvelimen tilaajaroolien enimmäismäärän. Voit päivittää premium-tasolle alla olevaan!",
     "offlineMessage": "Hei! Sinun täytyy omistaa premium, jotta voit asettaa offline-viestin!",
     "premiumHintSecond": "Nautitko botista?",
-    "premiumHint2": "Haluatko tukea {streamer} ja botin toimintaa? Klikkaa alla olevaa painiketta ja saat lisäetuja! (Tai hanki se omalle palvelimellesi.)"
+    "premiumHint2": "Haluatko tukea {streamer} ja botin toimintaa? Klikkaa alla olevaa painiketta ja saat lisäetuja! (Tai hanki se omalle palvelimellesi.)",
+    "embed": {
+      "title": "## <:sunglasses:1118596937160085534>  Premium\nParanna Kick.bot-kokemustasi Premium-palvelulla! ",
+      "premiumBasic": "### Premium Basic\n**🚀 Prioriteettilmoitukset**\n-# Ilmoituksesi lähetetään etusijalla.\n\n**⏲️ Tilaajan roolin voimassaoloaika**\n-# Määritä itse, kuinka kauan tilaajien tulisi säilyttää roolinsa tilauksen päättymisen jälkeen.\n\n**📈Rajoittamaton määrä striimareita**\n-# Lisää palvelimellesi yli 50 striimaria! (Rajoittamaton määrä)\n\n**🫡 Rajoittamaton määrä laskureita**\n-# Lisää palvelimellesi yli 20 laskuria! (Rajoittamaton määrä)\n\n**👑 Rajoittamaton määrä tulostaulukoita**\n-# Lisää palvelimellesi yli 10 live-lahjojen tulostaulukkoa! (Rajoittamaton määrä)\n\n**✏️ Offline-viesti**\n-# Aseta oma offline-viestisi Kick.botissa!",
+      "premiumAdvance": "### Premium Advance\n**👑 Sisältää Basic Premium -paketin**\n-# Saat kaikki Basic Premium -paketin ominaisuudet!\n\n**😀Mukautettu profiilikuva, banneri, esittelyteksti ja nimi**\n-# Anna botille henkilökohtainen leimasi omalla profiilikuvallasi, bannerillasi, esittelytekstilläsi ja nimelläsi!",
+      "buyViaDiscord": "-# Osta Discordin kautta",
+      "buyViaStripe": "-# Osta Stripen kautta (vuosiliittymällä)",
+      "legalText": "-# Ostoksiin sovelletaan [käyttöehtojamme](https://kick.bot/legal/terms-of-service) ja [palautuskäytäntöämme](https://sattler.dev/legal/refund-policy). Elinikäisiin ostoksiin sovelletaan [lisäehtoja](https://sattler.dev/legal/lifetime)."
+    }
   },
   "giftLeaderboard": {
     "title": "Subs Leaderboard of {streamerId}",

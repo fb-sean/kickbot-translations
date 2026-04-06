@@ -38,7 +38,9 @@
     "invalidFilterType": "Filtre türü geçersiz! Lütfen `exclude` veya `include` kullanın.",
     "optionOfflineMessage": "Yayıncı çevrimdışı olduğunda mesaj.",
     "default": "Varsayılan",
-    "missingPermissions": "{channel}'da mesaj göndermek için eksik izinlerim var!\n**Eksik İzinler:** {permissions}"
+    "missingPermissions": "{channel}'da mesaj göndermek için eksik izinlerim var!\n**Eksik İzinler:** {permissions}",
+    "premiumButtonNotWorkingInfo": "Yukarıdaki düğmeler çalışmıyor mu? Bunun yerine şunları deneyin:",
+    "missingPermissionsRole": "Rol yönetme izinlerim eksik!\n**Eksik İzinler:** {permissions}"
   },
   "problems": {
     "missingPermissions": "[Görünüşe göre botun neden \"Eksik İzinler\" ile yanıt verdiğini kendinize soruyorsunuz. Bu konuda daha fazla bilgi almak için lütfen buraya tıklayın.](https://kick.bot/guide/permissions)"
@@ -61,7 +63,15 @@
     "offlineMessage": "Hey! Çevrimdışı bir mesaj ayarlamak için premium sahibi olmanız gerekir!",
     "premiumHint": "Botu beğendiniz mi? Premium ile daha fazlasının kilidini açın! Yükseltmek için aşağıdaki düğmeye tıklayın.",
     "premiumHintSecond": "Bot hoşuna gitti mi?",
-    "premiumHint2": "{streamer} ve botu desteklemek ister misiniz? Ekstra avantajlar elde etmek için aşağıdaki düğmeye tıklayın! (Veya kendi sunucunuz için alın.)"
+    "premiumHint2": "{streamer} ve botu desteklemek ister misiniz? Ekstra avantajlar elde etmek için aşağıdaki düğmeye tıklayın! (Veya kendi sunucunuz için alın.)",
+    "embed": {
+      "title": "## <:sunglasses:1118596937160085534>  Premium\nPremium ile Kick.bot deneyiminizi bir üst seviyeye taşıyın! ",
+      "premiumBasic": "### Premium Basic\n**🚀 Öncelikli Bildirimler**\n-# Bildirimleriniz öncelikli olarak gönderilecektir.\n\n**⏲️ Abone rolünün geçerlilik süresi**\n-# Abonelikleri sona erdikten sonra bile abonelerin bu rolü ne kadar süreyle elinde tutacağını kendiniz belirleyin.\n\n**📈 Sınırsız Yayıncı**\n-# Sunucunuza 50'den fazla yayıncı ekleyin! (Sınırsız)\n\n**🫡 Sınırsız Sayaç**\n-# Sunucunuza 20'den fazla sayaç ekleyin! (Sınırsız)\n\n**👑 Sınırsız Liderlik Tablosu**\n-# Sunucunuza 10'dan fazla canlı hediye liderlik tablosu ekleyin! (Sınırsız)\n\n**✏️ Çevrimdışı Mesaj**\n-# Kick.bot'ta kendi çevrimdışı mesajınızı ayarlayın!",
+      "premiumAdvance": "### Premium Advance\n**👑 Basic Premium'u içerir**\n-# Basic Premium planındaki tüm özelliklere sahip olursunuz!\n\n**😀Özel Profil Resmi, Afiş, Hakkımda ve İsim**\n-# Kendi profil resminiz, afişiniz, \"Hakkımda\" bölümünüz ve adınızla bota kişisel bir dokunuş katın!",
+      "buyViaDiscord": "-# Discord üzerinden satın al",
+      "buyViaStripe": "-# Stripe üzerinden satın al (yıllık plan ile)",
+      "legalText": "-# Satın alımlar, [Hizmet Şartlarımız](https://kick.bot/legal/terms-of-service) ve [İade Politikamız](https://sattler.dev/legal/refund-policy) hükümlerine tabidir. Ömür boyu lisans satın alımları için [ek şartlar](https://sattler.dev/legal/lifetime) geçerlidir."
+    }
   },
   "giftLeaderboard": {
     "title": "{streamerId} yayıncısı için - Abone Liderlik Tablosu",

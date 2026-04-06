@@ -116,7 +116,15 @@
     "counterLimit": "Hey! You reached the maximum amount of counters you can track on this server. You can upgrade to premium to below!",
     "leaderboardLimit": "Hey! You reached the maximum amount of leaderboards you can track on this server. You can upgrade to premium to below!",
     "subscriberRolesLimit": "Hey! You reached the maximum amount of subscriber roles on this server. You can upgrade to premium to below!",
-    "offlineMessage": "Hey! You need to own premium to set a offline message!"
+    "offlineMessage": "Hey! You need to own premium to set a offline message!",
+    "embed": {
+      "title": "## <:sunglasses:1118596937160085534>  Premium\nBoost your Kick.bot experience with premium! ",
+      "premiumBasic": "### Premium Basic\n**🚀 Priority Notifications**\n-# Your notifications will be sent with priority.\n\n**⏲️ Own subscriber role expiration**\n-# Set your own time, for how long subscribers should keep the role even after they lose the subscription.\n\n**📈Unlimited Streamers**\n-# Add more than 50 streamers to your server! (Unlimited)\n\n**🫡 Unlimited Counters**\n-# Add more than 20 counters to your server! (Unlimited)\n\n**👑 Unlimited Leaderboards**\n-# Add more than 10 live gift leaderboards to your server! (Unlimited)\n\n**✏️ Offline Message**\n-# Set your own offline message at Kick.bot!",
+      "premiumAdvance": "### Premium Advance\n**👑 Includes Basic Premium**\n-# You gain every feature from the basic premium plan!\n\n**😀Custom Profile Picture, Banner, About Me and Name**\n-# Give the bot your personal touch with your own profile picture, banner, about me and name!",
+      "buyViaDiscord": "-# Buy via Discord",
+      "buyViaStripe": "-# Buy via Stripe (with yearly plan)",
+      "legalText": "-# Purchases are subject to our [Terms of Service](https://kick.bot/legal/terms-of-service) and [Refund Policy](https://sattler.dev/legal/refund-policy). Lifetime purchases have [additional Terms](https://sattler.dev/legal/lifetime)."
+    }
   },
   "giftLeaderboard": {
     "title": "Subs Leaderboard of {streamerId}",

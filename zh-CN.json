@@ -38,7 +38,9 @@
     "invalidFilterType": "过滤器类型无效！请使用 `exclude` 或 `include`.",
     "optionOfflineMessage": "流媒体离线时的信息。",
     "default": "默认值",
-    "missingPermissions": "我缺少在 {channel} 中发送信息的权限！\n**缺少权限：** {permissions}"
+    "missingPermissions": "我缺少在 {channel} 中发送信息的权限！\n**缺少权限：** {permissions}",
+    "premiumButtonNotWorkingInfo": "上面的按钮无法使用？请尝试以下这些：",
+    "missingPermissionsRole": "我缺少管理角色的权限！\n**缺少权限：** {permissions}"
   },
   "problems": {
     "missingPermissions": "[看起来你在问自己为什么机器人回应了\"缺少权限\"。要了解更多信息，请点击这里。](https://kick.bot/guide/permissions)"
@@ -61,7 +63,15 @@
     "offlineMessage": "嘿！你需要拥有高级会员才能设置离线消息！",
     "premiumHint": "喜欢机器人吗？使用高级版解锁更多！点击下面的按钮进行升级。",
     "premiumHintSecond": "喜欢机器人吗？",
-    "premiumHint2": "想要支持 {streamer} 和机器人？点击下面的按钮获取额外福利！(或者为你自己的服务器获取）。"
+    "premiumHint2": "想要支持 {streamer} 和机器人？点击下面的按钮获取额外福利！(或者为你自己的服务器获取）。",
+    "embed": {
+      "title": "## <:sunglasses:1118596937160085534>  高级版\n升级至高级版，提升您的 Kick.bot 使用体验！",
+      "premiumBasic": "### 高级基础版\n**🚀 优先通知**\n-# 您的通知将优先发送。\n\n**⏲️ 自定义订阅者角色有效期**\n-# 自行设定时间，决定订阅者即使取消订阅后，该角色仍可保留多长时间。\n\n**📈 无限主播**\n-# 向您的服务器添加超过 50 位主播！ (无限制)\n\n**🫡 无限计数器**\n-# 在服务器中添加超过 20 个计数器！(无限制)\n\n**👑 无限排行榜**\n-# 在服务器中添加超过 10 个实时礼物排行榜！(无限制)\n\n**✏️ 离线消息**\n-# 在 Kick.bot 上设置您自己的离线消息！",
+      "premiumAdvance": "### 高级版\n**👑 包含基础高级版**\n-# 您将获得基础高级版的所有功能！\n\n**😀自定义头像、封面、个人简介和昵称**\n-# 通过自定义头像、封面、个人简介和昵称，为机器人增添个人风格！",
+      "buyViaDiscord": "-# 通过 Discord 购买",
+      "buyViaStripe": "-# 通过 Stripe 购买（年付方案）",
+      "legalText": "-# 购买行为受我们的[服务条款](https://kick.bot/legal/terms-of-service)和[退款政策](https://sattler.dev/legal/refund-policy)约束。终身版购买还适用[附加条款](https://sattler.dev/legal/lifetime)。"
+    }
   },
   "giftLeaderboard": {
     "title": "{streamerId}的订阅者排行榜",

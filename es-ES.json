@@ -38,7 +38,9 @@
     "invalidFilterType": "El tipo de filtro no es válido. Utilice `exclude` o `include`.",
     "optionOfflineMessage": "El mensaje cuando el streamer está desconectado.",
     "default": "Por defecto",
-    "missingPermissions": "¡Me faltan permisos para enviar mensajes en {channel}!\n**Faltan permisos:** {permissions}"
+    "missingPermissions": "¡Me faltan permisos para enviar mensajes en {channel}!\n**Faltan permisos:** {permissions}",
+    "premiumButtonNotWorkingInfo": "¿No funcionan los botones de arriba? Prueba con estos:",
+    "missingPermissionsRole": "¡Me faltan permisos para gestionar roles!\n**Permisos que faltan:** {permissions}"
   },
   "problems": {
     "missingPermissions": "[Parece que te estás preguntando por qué el bot responde con \"Permisos faltantes\". Para encontrar más información sobre esto, por favor haga clic aquí.](https://kick.bot/guide/permissions)"
@@ -61,7 +63,15 @@
     "offlineMessage": "¡Eh! ¡Necesitas tener Premium para poner un mensaje offline!",
     "premiumHint": "¿Disfrutas con el bot? ¡Desbloquea más con Premium! Haz clic en el botón de abajo para actualizar.",
     "premiumHintSecond": "¿Disfrutando del bot?",
-    "premiumHint2": "¿Quieres apoyar a {streamer} y al bot? ¡Haz clic en el botón de abajo para obtener ventajas adicionales! (O consíguelo para tu propio servidor)."
+    "premiumHint2": "¿Quieres apoyar a {streamer} y al bot? ¡Haz clic en el botón de abajo para obtener ventajas adicionales! (O consíguelo para tu propio servidor).",
+    "embed": {
+      "title": "## <:sunglasses:1118596937160085534>  Premium\n¡Mejora tu experiencia con Kick.bot con la versión Premium! ",
+      "premiumBasic": "### Premium Básico\n**🚀 Notificaciones prioritarias**\n-# Tus notificaciones se enviarán con prioridad.\n\n**⏲️ Caducidad personalizada del rol de suscriptor**\n-# Establece el tiempo que los suscriptores deben conservar el rol incluso después de perder la suscripción.\n\n**📈 Streamers ilimitados**\n-# ¡Añade más de 50 streamers a tu servidor! (Ilimitado)\n\n**🫡 Contadores ilimitados**\n-# ¡Añade más de 20 contadores a tu servidor! (Ilimitado)\n\n**👑 Tablas de clasificación ilimitadas**\n-# ¡Añade más de 10 tablas de clasificación de regalos en directo a tu servidor! (Ilimitado)\n\n**✏️ Mensaje de desconectado**\n-# ¡Configura tu propio mensaje de desconectado en Kick.bot!",
+      "premiumAdvance": "### Premium Avanzado\n**👑 Incluye el plan Premium Básico**\n-# ¡Disfrutarás de todas las funciones del plan Premium Básico!\n\n**😀Foto de perfil personalizada, banner, «Acerca de mí» y nombre**\n-# ¡Dale al bot tu toque personal con tu propia foto de perfil, banner, «Acerca de mí» y nombre!",
+      "buyViaDiscord": "-# Comprar a través de Discord",
+      "buyViaStripe": "-# Comprar a través de Stripe (con plan anual)",
+      "legalText": "-# Las compras están sujetas a nuestras [Condiciones de servicio](https://kick.bot/legal/terms-of-service) y a nuestra [Política de reembolso](https://sattler.dev/legal/refund-policy). Las compras de por vida tienen [condiciones adicionales](https://sattler.dev/legal/lifetime)."
+    }
   },
   "giftLeaderboard": {
     "title": "Tabla de clasificación de suscriptores de {streamerId}",
